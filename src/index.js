@@ -25,16 +25,14 @@ if (!mongoURI) {
   process.exit(1);
 }
 
+console.log("🔄 Connecting to MongoDB...");
 mongoose
-  .connect(mongoURI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(mongoURI)
   .then(() => {
-    console.log("✅ Connected to MongoDB");
+    console.log("✅ Connected to MongoDB successfully!");
   })
   .catch((error) => {
-    console.error("❌ MongoDB connection error:", error);
+    console.error("❌ MongoDB connection error:", error.message);
     process.exit(1);
   });
 

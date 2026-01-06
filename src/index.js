@@ -17,8 +17,16 @@ app.use(express.json()); // Parse JSON request bodies
 app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
 
 // Connect to MongoDB
+const mongoURI = process.env.MONGODB_URI;
+
+if (!mongoURI) {
+  console.error("❌ MONGODB_URI environment variable is not set!");
+  console.error("Please set MONGODB_URI in Railway Variables");
+  process.exit(1);
+}
+
 mongoose
-  .connect(process.env.MONGODB_URI || "mongodb://localhost:27017/smart-quiz", {
+  .connect(mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

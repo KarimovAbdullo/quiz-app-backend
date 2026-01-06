@@ -81,28 +81,21 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Connect to MongoDB and start server
-console.log("🔄 Connecting to MongoDB...");
-mongoose
-  .connect(mongoURI)
-  .then(() => {
-    console.log("✅ Connected to MongoDB successfully!");
+// Start server first (Railway needs server to be listening immediately)
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`🚀 Server is running on port ${PORT}`);
+  console.log(`📍 API available at http://0.0.0.0:${PORT}`);
 
-    // Start server after MongoDB connection
-    const PORT = process.env.PORT || 3000;
-    app.listen(PORT, "0.0.0.0", () => {
-      console.log(`🚀 Server is running on port ${PORT}`);
-      console.log(`📍 API available at http://localhost:${PORT}`);
+  // Connect to MongoDB after server starts
+  console.log("🔄 Connecting to MongoDB...");
+  mongoose
+    .connect(mongoURI)
+    .then(() => {
+      console.log("✅ Connected to MongoDB successfully!");
+    })
+    .catch((error) => {
+      console.error("❌ MongoDB connection error:", error.message);
+      // Server continues running even if MongoDB fails
     });
-  })
-  .catch((error) => {
-    console.error("❌ MongoDB connection error:", error.message);
-    // Don't exit, let server start anyway for health checks
-    const PORT = process.env.PORT || 3000;
-    app.listen(PORT, "0.0.0.0", () => {
-      console.log(
-        `🚀 Server is running on port ${PORT} (MongoDB not connected)`
-      );
-      console.log(`📍 API available at http://localhost:${PORT}`);
-    });
-  });
+});

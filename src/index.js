@@ -126,12 +126,12 @@ async function seedIfNeeded() {
 async function runSeedScript() {
   try {
     const categoriesData = [
-      { name: "Movies" },
-      { name: "Science" },
-      { name: "Game" },
-      { name: "Football" },
-      { name: "MMA" },
-      { name: "Music" },
+      { name: "Movies", order: 1 },
+      { name: "Science", order: 2 },
+      { name: "Game", order: 3 },
+      { name: "Football", order: 4 },
+      { name: "MMA", order: 5 },
+      { name: "Music", order: 6 },
     ];
 
     const questionsData = {
@@ -421,15 +421,28 @@ async function runSeedScript() {
       ],
     };
 
-    // Create categories
+    // Create or update categories
     const createdCategories = {};
     for (const catData of categoriesData) {
       let category = await Category.findOne({ name: catData.name });
       if (!category) {
         category = await Category.create(catData);
-        console.log(`✅ Created category: ${category.name}`);
+        console.log(
+          `✅ Created category: ${category.name} (order: ${catData.order})`
+        );
       } else {
-        console.log(`ℹ️  Category already exists: ${category.name}`);
+        // Update order if it's missing or different
+        if (category.order !== catData.order) {
+          category.order = catData.order;
+          await category.save();
+          console.log(
+            `🔄 Updated category: ${category.name} (order: ${catData.order})`
+          );
+        } else {
+          console.log(
+            `ℹ️  Category already exists: ${category.name} (order: ${catData.order})`
+          );
+        }
       }
       createdCategories[category.name] = category;
     }

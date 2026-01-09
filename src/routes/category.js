@@ -13,8 +13,8 @@ const router = express.Router();
  */
 router.get("/", async (req, res) => {
   try {
-    // Get all categories
-    const categories = await Category.find().sort({ name: 1 });
+    // Get all categories sorted by order (1, 2, 3, 4, 5, 6)
+    const categories = await Category.find().sort({ order: 1 });
 
     // Get user if token is provided
     let userId = null;

@@ -46,6 +46,21 @@ npm run dev
 
 The server will start on `http://localhost:3000`
 
+## 🌱 Seed Database
+
+To populate the database with initial categories and questions:
+
+```bash
+npm run seed
+```
+
+This will create:
+
+- 6 categories: Movies, Science, Game, Football, MMA, Music
+- 5 questions for each category (30 questions total)
+
+**Note:** The seed script will not duplicate existing categories or questions. You can run it multiple times safely.
+
 ## 📡 API Endpoints
 
 ### Authentication
@@ -148,6 +163,7 @@ Authorization: Bearer YOUR_JWT_TOKEN
 
 ```
 GET /categories
+Authorization: Bearer YOUR_JWT_TOKEN (optional)
 ```
 
 **Response:**
@@ -155,17 +171,24 @@ GET /categories
 ```json
 {
   "success": true,
-  "count": 3,
+  "count": 6,
   "categories": [
     {
-      "_id": "507f1f77bcf86cd799439011",
-      "name": "Science",
+      "id": "507f1f77bcf86cd799439011",
+      "name": "Movies",
+      "questionsCount": 5,
+      "completedCount": 2,
       "createdAt": "2024-01-01T00:00:00.000Z",
       "updatedAt": "2024-01-01T00:00:00.000Z"
     }
   ]
 }
 ```
+
+**Fields:**
+
+- `questionsCount` - Total number of questions in this category
+- `completedCount` - Number of questions the user has correctly answered in this category (only shown if token is provided)
 
 ### Questions
 
@@ -269,7 +292,8 @@ smart-quiz-backend/
 - `email` (String, unique, required)
 - `password` (String, hashed, required)
 - `nickname` (String, required)
-- `solvedQuestions` (Array of Question IDs)
+- `solvedQuestions` (Array of Question IDs) - All questions user has answered
+- `correctlySolvedQuestions` (Array of Question IDs) - Only correctly answered questions
 - `status` (String, enum: "boshlang'ich", "super", "super daxo", default: "boshlang'ich")
 - `mode` (String, enum: "oddiy", "premium", default: "oddiy")
 - `correctAnswers` (Number, default: 0)

@@ -52,11 +52,12 @@ router.post("/answer", authMiddleware, async (req, res) => {
       });
     }
 
-    // Add questionId to solvedQuestions array
+    // Add questionId to solvedQuestions array (all answered questions)
     user.solvedQuestions.push(questionId);
 
-    // If answer is correct, increment correctAnswers
+    // If answer is correct, add to correctlySolvedQuestions and increment correctAnswers
     if (answerIsCorrect) {
+      user.correctlySolvedQuestions.push(questionId);
       user.correctAnswers = (user.correctAnswers || 0) + 1;
 
       // Update status based on correctAnswers count

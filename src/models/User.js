@@ -24,6 +24,11 @@ const userSchema = new mongoose.Schema(
       ref: "Question",
       default: [],
     },
+    correctlySolvedQuestions: {
+      type: [mongoose.Schema.Types.ObjectId],
+      ref: "Question",
+      default: [],
+    },
     status: {
       type: String,
       enum: ["boshlang'ich", "super", "super daxo"],

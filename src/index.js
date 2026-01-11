@@ -7,6 +7,7 @@ require("dotenv").config();
 const authRoutes = require("./routes/auth");
 const categoryRoutes = require("./routes/category");
 const questionRoutes = require("./routes/question");
+const adminRoutes = require("./routes/admin");
 
 // Import models for seed check
 const Category = require("./models/Category");
@@ -19,6 +20,10 @@ const app = express();
 app.use(cors()); // Enable CORS for all routes
 app.use(express.json()); // Parse JSON request bodies
 app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
+
+// Serve static files (uploaded images)
+const path = require("path");
+app.use("/uploads", express.static(path.join(__dirname, "../uploads")));
 
 // Connect to MongoDB
 const mongoURI = process.env.MONGODB_URI;
@@ -33,6 +38,7 @@ if (!mongoURI) {
 app.use("/auth", authRoutes);
 app.use("/categories", categoryRoutes);
 app.use("/questions", questionRoutes);
+app.use("/admin", adminRoutes);
 
 // Health check endpoint (for Railway/deployment monitoring)
 app.get("/health", (req, res) => {
@@ -55,13 +61,20 @@ app.get("/", (req, res) => {
         register: "POST /auth/register",
         login: "POST /auth/login",
         profile: "GET /auth/profile",
+        updateLanguage: "PATCH /auth/profile/language",
+        adminLogin: "POST /auth/admin/login",
       },
       categories: {
         getAll: "GET /categories",
       },
       questions: {
-        getByCategory: "GET /questions/:categoryId",
+        getByCategory: "GET /questions/:categoryId?language=uzb|rus|eng",
         submitAnswer: "POST /questions/answer",
+      },
+      admin: {
+        getCategories: "GET /admin/categories",
+        addQuestion: "POST /admin/questions (multipart/form-data)",
+        getQuestions: "GET /admin/questions",
       },
     },
   });
@@ -107,13 +120,14 @@ app.listen(PORT, "0.0.0.0", () => {
 });
 
 // Auto-seed function (runs only if database is empty)
+// Creates only categories, questions should be added via admin panel
 async function seedIfNeeded() {
   try {
     const categoryCount = await Category.countDocuments();
 
     if (categoryCount === 0) {
-      console.log("🔄 Database is empty. Running seed script...");
-      await runSeedScript();
+      console.log("🔄 Database is empty. Creating categories...");
+      await createCategoriesOnly();
     } else {
       console.log(`✅ Database already has ${categoryCount} categories`);
     }
@@ -122,8 +136,43 @@ async function seedIfNeeded() {
   }
 }
 
-// Seed script function
-async function runSeedScript() {
+// Create only categories (questions should be added via admin panel)
+async function createCategoriesOnly() {
+  try {
+    const categoriesData = [
+      { name: "Movies", order: 1 },
+      { name: "Science", order: 2 },
+      { name: "Game", order: 3 },
+      { name: "Football", order: 4 },
+      { name: "MMA", order: 5 },
+      { name: "Music", order: 6 },
+    ];
+
+    // Create categories
+    for (const catData of categoriesData) {
+      let category = await Category.findOne({ name: catData.name });
+      if (!category) {
+        category = await Category.create(catData);
+        console.log(`✅ Created category: ${category.name} (order: ${catData.order})`);
+      } else {
+        // Update order if it's missing or different
+        if (category.order !== catData.order) {
+          category.order = catData.order;
+          await category.save();
+          console.log(`🔄 Updated category: ${category.name} (order: ${catData.order})`);
+        }
+      }
+    }
+
+    console.log("✅ Categories created. Use admin panel to add questions.");
+  } catch (error) {
+    console.error("❌ Error creating categories:", error.message);
+  }
+}
+
+// Old seed script removed - use admin panel to add questions
+// This function is kept for reference but not used
+async function runSeedScript_DEPRECATED() {
   try {
     const categoriesData = [
       { name: "Movies", order: 1 },

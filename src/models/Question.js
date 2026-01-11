@@ -1,11 +1,13 @@
 const mongoose = require("mongoose");
 
-// Option Schema (embedded in Question)
+// Option Schema (embedded in Question) - Multi-language support
+// Uzbek (uz) is the base language, automatically translated to Russian (ru) and English (en)
 const optionSchema = new mongoose.Schema(
   {
     text: {
-      type: String,
-      required: true,
+      uz: { type: String, required: true }, // Uzbek (base language)
+      ru: { type: String, required: true }, // Russian (translated)
+      en: { type: String, required: true }, // English (translated)
     },
     isCorrect: {
       type: Boolean,
@@ -16,7 +18,8 @@ const optionSchema = new mongoose.Schema(
   { _id: false }
 );
 
-// Question Schema
+// Question Schema - Multi-language support
+// Uzbek (uz) is the base language, automatically translated to Russian (ru) and English (en)
 const questionSchema = new mongoose.Schema(
   {
     categoryId: {
@@ -25,9 +28,13 @@ const questionSchema = new mongoose.Schema(
       required: true,
     },
     question: {
-      type: String,
-      required: true,
-      trim: true,
+      uz: { type: String, required: true, trim: true }, // Uzbek (base language)
+      ru: { type: String, required: true, trim: true }, // Russian (translated)
+      en: { type: String, required: true, trim: true }, // English (translated)
+    },
+    image: {
+      type: String, // URL to image (optional)
+      default: null,
     },
     options: {
       type: [optionSchema],

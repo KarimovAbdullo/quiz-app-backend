@@ -43,6 +43,11 @@ const userSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
+    language: {
+      type: String,
+      enum: ["uz", "ru", "en", "uzb", "rus", "eng"], // Support both formats for backward compatibility
+      default: "uz", // Default to "uz" (Uzbek)
+    },
   },
   {
     timestamps: true,

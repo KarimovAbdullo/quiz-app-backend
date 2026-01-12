@@ -84,13 +84,24 @@ router.get("/", async (req, res) => {
         let categoryName = "Unknown";
         let originName = "Unknown";
 
+        // Debug: Log category structure (only in development)
+        if (process.env.NODE_ENV === "development") {
+          console.log("🔍 Category Debug:", {
+            id: category._id.toString().substring(0, 8),
+            name: category.name,
+            nameType: typeof category.name,
+            selectedLanguage,
+          });
+        }
+
         // Check if category.name exists
         if (category.name) {
           // Check if category.name is an object (new multi-language format)
           if (
             typeof category.name === "object" &&
             category.name !== null &&
-            !Array.isArray(category.name)
+            !Array.isArray(category.name) &&
+            category.name.uz !== undefined
           ) {
             // Multi-language format: { uz: "...", ru: "...", en: "..." }
             categoryName =
@@ -101,18 +112,14 @@ router.get("/", async (req, res) => {
               "Unknown";
 
             // origin_name always English
-            originName =
-              category.name.en ||
-              category.name.uz ||
-              category.name.ru ||
-              "Unknown";
+            originName = category.name.en || "Unknown";
           } else if (typeof category.name === "string") {
-            // Old format (string) - fallback
-            // Try to find translation
+            // Old format (string) - fallback with translations
             const categoryTranslations = {
               Movies: { uz: "Kinolar", ru: "Фильмы", en: "Movies" },
               Science: { uz: "Fan", ru: "Наука", en: "Science" },
               Game: { uz: "O'yinlar", ru: "Игры", en: "Games" },
+              Games: { uz: "O'yinlar", ru: "Игры", en: "Games" }, // Also handle "Games"
               Football: { uz: "Futbol", ru: "Футбол", en: "Football" },
               MMA: { uz: "MMA", ru: "ММА", en: "MMA" },
               Music: { uz: "Musiqa", ru: "Музыка", en: "Music" },
@@ -123,13 +130,26 @@ router.get("/", async (req, res) => {
               categoryName =
                 translations[selectedLanguage] ||
                 translations.uz ||
-                translations.en;
+                translations.en ||
+                category.name;
               originName = translations.en || category.name;
             } else {
+              // No translation found, use original name
               categoryName = category.name;
               originName = category.name;
             }
           }
+        }
+
+        // Final fallback - if still Unknown, log error
+        if (categoryName === "Unknown" || originName === "Unknown") {
+          console.error("⚠️ Category name issue:", {
+            categoryId: category._id,
+            name: category.name,
+            nameType: typeof category.name,
+            categoryName,
+            originName,
+          });
         }
 
         return {

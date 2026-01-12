@@ -254,6 +254,12 @@ async function updateCategoriesToMultiLanguage() {
         ru: "Игры",
         en: "Games",
       },
+      Games: {
+        // Also handle "Games" (plural)
+        uz: "O'yinlar",
+        ru: "Игры",
+        en: "Games",
+      },
       Football: {
         uz: "Futbol",
         ru: "Футбол",
@@ -279,9 +285,20 @@ async function updateCategoriesToMultiLanguage() {
       if (
         typeof category.name === "object" &&
         category.name !== null &&
-        category.name.uz
+        !Array.isArray(category.name) &&
+        category.name.uz !== undefined &&
+        category.name.ru !== undefined &&
+        category.name.en !== undefined
       ) {
-        continue; // Already in multi-language format
+        // Already in multi-language format, but check if all fields are present
+        if (!category.name.uz || !category.name.ru || !category.name.en) {
+          console.log(
+            `⚠️  Category ${category._id} has incomplete multi-language format, updating...`
+          );
+          // Will fall through to update
+        } else {
+          continue; // Already in multi-language format
+        }
       }
 
       // If category.name is a string (old format), convert it
@@ -306,7 +323,25 @@ async function updateCategoriesToMultiLanguage() {
           await category.save();
           updatedCount++;
           console.log(
-            `✅ Updated category: "${oldName}" → using same name for all languages`
+            `⚠️  Updated category: "${oldName}" → using same name for all languages (no translation found)`
+          );
+        }
+      } else if (
+        typeof category.name === "object" &&
+        category.name !== null &&
+        (!category.name.uz || !category.name.ru || !category.name.en)
+      ) {
+        // Partial object - complete it
+        const oldName =
+          category.name.uz || category.name.en || category.name.ru || "Unknown";
+        const translations = categoryTranslations[oldName];
+
+        if (translations) {
+          category.name = translations;
+          await category.save();
+          updatedCount++;
+          console.log(
+            `✅ Completed category: "${oldName}" → uz: "${translations.uz}", ru: "${translations.ru}", en: "${translations.en}"`
           );
         }
       }

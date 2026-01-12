@@ -1,13 +1,12 @@
 const mongoose = require("mongoose");
 
-// Category Schema
+// Category Schema - Multi-language support
 const categorySchema = new mongoose.Schema(
   {
     name: {
-      type: String,
-      required: true,
-      trim: true,
-      unique: true,
+      uz: { type: String, required: true, trim: true }, // Uzbek
+      ru: { type: String, required: true, trim: true }, // Russian
+      en: { type: String, required: true, trim: true }, // English
     },
     order: {
       type: Number,

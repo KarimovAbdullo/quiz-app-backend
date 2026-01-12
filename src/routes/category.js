@@ -10,15 +10,20 @@ const router = express.Router();
  * Get all categories with questionsCount and completedCount
  * If token provided, returns user-specific completedCount
  * Public endpoint (token optional)
+ * Query param: ?language=uz (optional, default: uz or user's language)
  */
 router.get("/", async (req, res) => {
   try {
+    // Get language from query param
+    const { language } = req.query;
+
     // Get all categories sorted by order (1, 2, 3, 4, 5, 6)
     const categories = await Category.find().sort({ order: 1 });
 
     // Get user if token is provided
     let userId = null;
     let userCorrectlySolvedQuestions = [];
+    let userLanguage = null;
 
     const authHeader = req.headers.authorization;
     if (authHeader && authHeader.startsWith("Bearer ")) {
@@ -30,10 +35,30 @@ router.get("/", async (req, res) => {
         const user = await User.findById(userId);
         if (user) {
           userCorrectlySolvedQuestions = user.correctlySolvedQuestions || [];
+          userLanguage = user.language;
         }
       } catch (error) {
         // Token invalid, continue without user data
       }
+    }
+
+    // Map language codes: uzb → uz, rus → ru, eng → en
+    const languageMap = {
+      "uzb": "uz",
+      "rus": "ru",
+      "eng": "en",
+      "uz": "uz",
+      "ru": "ru",
+      "en": "en",
+    };
+
+    // Determine language: query param > user preference > default (uz)
+    let selectedLanguage = language || userLanguage || "uz";
+    selectedLanguage = languageMap[selectedLanguage] || selectedLanguage;
+
+    // Validate language
+    if (!["uz", "ru", "en"].includes(selectedLanguage)) {
+      selectedLanguage = "uz"; // Fallback to Uzbek
     }
 
     // Get questions count and completed count for each category
@@ -55,9 +80,17 @@ router.get("/", async (req, res) => {
           completedCount = correctlyAnsweredInCategory;
         }
 
+        // Get category name in selected language
+        let categoryName = category.name[selectedLanguage] || category.name.uz;
+        
+        // Fallback: if category.name is still a string (old format), use it
+        if (typeof category.name === "string") {
+          categoryName = category.name;
+        }
+
         return {
           id: category._id,
-          name: category.name,
+          name: categoryName,
           questionsCount,
           completedCount,
           createdAt: category.createdAt,
@@ -69,6 +102,7 @@ router.get("/", async (req, res) => {
     res.status(200).json({
       success: true,
       count: categoriesWithCounts.length,
+      language: selectedLanguage,
       categories: categoriesWithCounts,
     });
   } catch (error) {

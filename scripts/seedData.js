@@ -34,35 +34,92 @@ async function seedData() {
     // await Question.deleteMany({});
 
     // Categories (with order: 1=Movies, 2=Science, 3=Game, 4=Football, 5=MMA, 6=Music)
+    // Multi-language support: uz, ru, en
     const categoriesData = [
-      { name: "Movies", order: 1 },
-      { name: "Science", order: 2 },
-      { name: "Game", order: 3 },
-      { name: "Football", order: 4 },
-      { name: "MMA", order: 5 },
-      { name: "Music", order: 6 },
+      {
+        name: {
+          uz: "Kinolar",
+          ru: "Фильмы",
+          en: "Movies",
+        },
+        order: 1,
+      },
+      {
+        name: {
+          uz: "Fan",
+          ru: "Наука",
+          en: "Science",
+        },
+        order: 2,
+      },
+      {
+        name: {
+          uz: "O'yinlar",
+          ru: "Игры",
+          en: "Games",
+        },
+        order: 3,
+      },
+      {
+        name: {
+          uz: "Futbol",
+          ru: "Футбол",
+          en: "Football",
+        },
+        order: 4,
+      },
+      {
+        name: {
+          uz: "MMA",
+          ru: "ММА",
+          en: "MMA",
+        },
+        order: 5,
+      },
+      {
+        name: {
+          uz: "Musiqa",
+          ru: "Музыка",
+          en: "Music",
+        },
+        order: 6,
+      },
     ];
 
     // Create or update categories
     const categories = [];
     for (const catData of categoriesData) {
-      let category = await Category.findOne({ name: catData.name });
+      // Find by order (since name is now an object)
+      let category = await Category.findOne({ order: catData.order });
+      
       if (!category) {
         category = await Category.create(catData);
         console.log(
-          `✅ Created category: ${category.name} (order: ${catData.order})`
+          `✅ Created category: ${category.name.uz} / ${category.name.ru} / ${category.name.en} (order: ${catData.order})`
         );
       } else {
-        // Update order if it's missing or different
+        // Update name and order if needed
+        let updated = false;
+        if (
+          category.name.uz !== catData.name.uz ||
+          category.name.ru !== catData.name.ru ||
+          category.name.en !== catData.name.en
+        ) {
+          category.name = catData.name;
+          updated = true;
+        }
         if (category.order !== catData.order) {
           category.order = catData.order;
+          updated = true;
+        }
+        if (updated) {
           await category.save();
           console.log(
-            `🔄 Updated category: ${category.name} (order: ${catData.order})`
+            `🔄 Updated category: ${category.name.uz} / ${category.name.ru} / ${category.name.en} (order: ${catData.order})`
           );
         } else {
           console.log(
-            `ℹ️  Category already exists: ${category.name} (order: ${catData.order})`
+            `ℹ️  Category already exists: ${category.name.uz} / ${category.name.ru} / ${category.name.en} (order: ${catData.order})`
           );
         }
       }
@@ -358,8 +415,20 @@ async function seedData() {
     };
 
     // Create questions for each category
+    // Map category names (old format) to new format
+    const categoryNameMap = {
+      "Movies": "Movies",
+      "Science": "Science",
+      "Game": "Game",
+      "Football": "Football",
+      "MMA": "MMA",
+      "Music": "Music",
+    };
+
     for (const category of categories) {
-      const categoryQuestions = questionsData[category.name] || [];
+      // Find questions by category name in English (for backward compatibility)
+      const categoryNameEn = category.name.en || category.name;
+      const categoryQuestions = questionsData[categoryNameMap[categoryNameEn] || categoryNameEn] || [];
 
       for (const questionData of categoryQuestions) {
         // Check if question already exists

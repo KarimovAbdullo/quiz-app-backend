@@ -31,8 +31,12 @@ build/
 # Railway
 .railway/
 
-# Documentation files (except README.md)
+# Documentation files - Ignore all .md files except README.md
 *.md
+!README.md
+
+# Ignore all markdown files in root and subdirectories
+**/*.md
 !README.md
 
 .

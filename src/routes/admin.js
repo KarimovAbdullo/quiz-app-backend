@@ -5,6 +5,7 @@ const fs = require("fs");
 const adminMiddleware = require("../middleware/adminMiddleware");
 const Category = require("../models/Category");
 const Question = require("../models/Question");
+const User = require("../models/User");
 const { translateQuestion } = require("../utils/translate");
 const router = express.Router();
 
@@ -157,12 +158,13 @@ router.post(
       // Get image URL if file was uploaded
       let imageUrl = null;
       if (req.file) {
-        // For Railway/deployment, you might want to use a cloud storage service
-        // For now, we'll use a relative path or full URL
-        // In production, consider using AWS S3, Cloudinary, or similar
-        imageUrl = `/uploads/questions/${req.file.filename}`;
-        // If you have a base URL, use it:
-        // imageUrl = `${process.env.BASE_URL || 'http://localhost:3000'}/uploads/questions/${req.file.filename}`;
+        // Use BASE_URL if available (for Railway/deployment), otherwise relative path
+        const baseUrl = process.env.BASE_URL || process.env.RAILWAY_PUBLIC_DOMAIN 
+          ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}` 
+          : '';
+        imageUrl = baseUrl 
+          ? `${baseUrl}/uploads/questions/${req.file.filename}`
+          : `/uploads/questions/${req.file.filename}`;
       }
 
       // Create question
@@ -222,6 +224,7 @@ router.post(
 /**
  * GET /admin/questions
  * Get all questions (Admin only, for management)
+ * Query params: categoryId (optional) - filter by category
  */
 router.get("/questions", adminMiddleware, async (req, res) => {
   try {
@@ -252,6 +255,299 @@ router.get("/questions", adminMiddleware, async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Error fetching questions",
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * PUT /admin/questions/:id
+ * Update a question (Admin only)
+ * Body: { categoryId, question (Uzbek), options: [{text: string, isCorrect: boolean}] }
+ * Optional: image file (multipart/form-data)
+ */
+router.put(
+  "/questions/:id",
+  adminMiddleware,
+  upload.single("image"),
+  async (req, res) => {
+    try {
+      const { id } = req.params;
+      const { categoryId, question, options } = req.body;
+
+      // Find question
+      const existingQuestion = await Question.findById(id);
+      if (!existingQuestion) {
+        if (req.file) {
+          fs.unlinkSync(req.file.path);
+        }
+        return res.status(404).json({
+          success: false,
+          message: "Question not found",
+        });
+      }
+
+      // Validate input
+      if (!categoryId || !question || !options) {
+        if (req.file) {
+          fs.unlinkSync(req.file.path);
+        }
+        return res.status(400).json({
+          success: false,
+          message: "Please provide categoryId, question (in Uzbek), and options (in Uzbek)",
+        });
+      }
+
+      // Parse options
+      let optionsArray;
+      try {
+        optionsArray = typeof options === "string" ? JSON.parse(options) : options;
+      } catch (error) {
+        if (req.file) {
+          fs.unlinkSync(req.file.path);
+        }
+        return res.status(400).json({
+          success: false,
+          message: "Invalid options format. Must be a valid JSON array",
+        });
+      }
+
+      // Validate options
+      if (!Array.isArray(optionsArray) || optionsArray.length !== 4) {
+        if (req.file) {
+          fs.unlinkSync(req.file.path);
+        }
+        return res.status(400).json({
+          success: false,
+          message: "Question must have exactly 4 options",
+        });
+      }
+
+      // Validate that exactly one option is correct
+      const correctCount = optionsArray.filter((opt) => opt.isCorrect === true).length;
+      if (correctCount !== 1) {
+        if (req.file) {
+          fs.unlinkSync(req.file.path);
+        }
+        return res.status(400).json({
+          success: false,
+          message: "Exactly one option must be marked as correct",
+        });
+      }
+
+      // Check if category exists
+      const category = await Category.findById(categoryId);
+      if (!category) {
+        if (req.file) {
+          fs.unlinkSync(req.file.path);
+        }
+        return res.status(404).json({
+          success: false,
+          message: "Category not found",
+        });
+      }
+
+      // Translate question and options
+      console.log("🔄 Translating updated question and options...");
+      const translated = await translateQuestion(question, optionsArray);
+
+      // Handle image
+      let imageUrl = existingQuestion.image; // Keep existing image by default
+      if (req.file) {
+        // Delete old image if exists
+        if (existingQuestion.image) {
+          const oldImagePath = path.join(
+            __dirname,
+            "../../uploads/questions",
+            path.basename(existingQuestion.image)
+          );
+          try {
+            if (fs.existsSync(oldImagePath)) {
+              fs.unlinkSync(oldImagePath);
+            }
+          } catch (unlinkError) {
+            console.error("Error deleting old image:", unlinkError);
+          }
+        }
+        // Use BASE_URL if available (for Railway/deployment), otherwise relative path
+        const baseUrl = process.env.BASE_URL || process.env.RAILWAY_PUBLIC_DOMAIN 
+          ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}` 
+          : '';
+        imageUrl = baseUrl 
+          ? `${baseUrl}/uploads/questions/${req.file.filename}`
+          : `/uploads/questions/${req.file.filename}`;
+      }
+
+      // Update question
+      existingQuestion.categoryId = categoryId;
+      existingQuestion.question = translated.question;
+      existingQuestion.options = translated.options;
+      existingQuestion.image = imageUrl;
+
+      await existingQuestion.save();
+
+      console.log("✅ Question updated successfully");
+
+      res.status(200).json({
+        success: true,
+        message: "Question updated successfully",
+        question: {
+          id: existingQuestion._id,
+          categoryId: existingQuestion.categoryId,
+          question: existingQuestion.question,
+          options: existingQuestion.options,
+          image: existingQuestion.image,
+          updatedAt: existingQuestion.updatedAt,
+        },
+      });
+    } catch (error) {
+      if (req.file) {
+        try {
+          fs.unlinkSync(req.file.path);
+        } catch (unlinkError) {
+          console.error("Error deleting uploaded file:", unlinkError);
+        }
+      }
+
+      res.status(500).json({
+        success: false,
+        message: "Error updating question",
+        error: error.message,
+      });
+    }
+  }
+);
+
+/**
+ * DELETE /admin/questions/:id
+ * Delete a question (Admin only)
+ */
+router.delete("/questions/:id", adminMiddleware, async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const question = await Question.findById(id);
+    if (!question) {
+      return res.status(404).json({
+        success: false,
+        message: "Question not found",
+      });
+    }
+
+    // Delete image file if exists
+    if (question.image) {
+      const imagePath = path.join(
+        __dirname,
+        "../../uploads/questions",
+        path.basename(question.image)
+      );
+      try {
+        if (fs.existsSync(imagePath)) {
+          fs.unlinkSync(imagePath);
+        }
+      } catch (unlinkError) {
+        console.error("Error deleting image file:", unlinkError);
+      }
+    }
+
+    // Delete question
+    await Question.findByIdAndDelete(id);
+
+    console.log("✅ Question deleted successfully");
+
+    res.status(200).json({
+      success: true,
+      message: "Question deleted successfully",
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error deleting question",
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * GET /admin/users/:id
+ * Get user by ID (Admin only)
+ */
+router.get("/users/:id", adminMiddleware, async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const user = await User.findById(id).select("-password");
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: "User not found",
+      });
+    }
+
+    res.status(200).json({
+      success: true,
+      user: {
+        id: user._id,
+        email: user.email,
+        nickname: user.nickname,
+        status: user.status,
+        mode: user.mode,
+        correctAnswers: user.correctAnswers,
+        language: user.language,
+        createdAt: user.createdAt,
+      },
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error fetching user",
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * PUT /admin/users/:id/mode
+ * Update user mode (Admin only)
+ * Body: { mode: "oddiy" | "premium" }
+ */
+router.put("/users/:id/mode", adminMiddleware, async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { mode } = req.body;
+
+    // Validate mode
+    if (!mode || !["oddiy", "premium"].includes(mode)) {
+      return res.status(400).json({
+        success: false,
+        message: "Mode must be either 'oddiy' or 'premium'",
+      });
+    }
+
+    const user = await User.findById(id);
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: "User not found",
+      });
+    }
+
+    user.mode = mode;
+    await user.save();
+
+    res.status(200).json({
+      success: true,
+      message: `User mode updated to ${mode}`,
+      user: {
+        id: user._id,
+        nickname: user.nickname,
+        mode: user.mode,
+      },
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error updating user mode",
       error: error.message,
     });
   }

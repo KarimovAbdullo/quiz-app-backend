@@ -284,6 +284,70 @@ router.get("/profile", authMiddleware, async (req, res) => {
 });
 
 /**
+ * PUT /auth/language
+ * Update user's language preference (Alternative endpoint)
+ * Protected route (JWT required)
+ * Body: { language: "uz" | "ru" | "en" | "uzb" | "rus" | "eng" }
+ */
+router.put("/language", authMiddleware, async (req, res) => {
+  try {
+    const { language } = req.body;
+    const userId = req.user._id;
+
+    // Map language codes: uzb → uz, rus → ru, eng → en (for backward compatibility)
+    const languageMap = {
+      "uzb": "uz",
+      "rus": "ru",
+      "eng": "en",
+      "uz": "uz",
+      "ru": "ru",
+      "en": "en",
+    };
+
+    if (!language) {
+      return res.status(400).json({
+        success: false,
+        message: "Please provide a language: uz, ru, en (or uzb, rus, eng)",
+      });
+    }
+
+    const normalizedLanguage = languageMap[language] || language;
+
+    // Validate language
+    if (!["uz", "ru", "en"].includes(normalizedLanguage)) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid language. Must be: uz, ru, en (or uzb, rus, eng)",
+      });
+    }
+
+    // Update user's language
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: "User not found",
+      });
+    }
+
+    user.language = normalizedLanguage;
+    await user.save();
+
+    res.status(200).json({
+      success: true,
+      message: "Language updated successfully",
+      language: user.language,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error updating language",
+      error: error.message,
+    });
+  }
+});
+
+/**
  * PATCH /auth/profile/language
  * Update user's language preference
  * Protected route (JWT required)

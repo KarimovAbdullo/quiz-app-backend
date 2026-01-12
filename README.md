@@ -256,6 +256,42 @@ Content-Type: application/json
 - 11-50 correct answers → `"super"`
 - 51+ correct answers → `"super daxo"`
 
+#### Update Language
+
+```
+PUT /auth/language
+Authorization: Bearer YOUR_JWT_TOKEN
+Content-Type: application/json
+
+{
+  "language": "uz"  // "uz", "ru", "en" (or "uzb", "rus", "eng")
+}
+```
+
+**Response:**
+
+```json
+{
+  "success": true,
+  "message": "Language updated successfully",
+  "language": "uz"
+}
+```
+
+**Alternative endpoint:**
+
+```
+PATCH /auth/profile/language
+Authorization: Bearer YOUR_JWT_TOKEN
+Content-Type: application/json
+
+{
+  "language": "uz"  // "uz", "ru", "en" (or "uzb", "rus", "eng")
+}
+```
+
+**Note:** Language preference affects which language version of questions are returned. Questions are stored in all three languages (uz, ru, en) in the database.
+
 ## 🔒 Authentication
 
 Most endpoints require JWT authentication. Include the token in the Authorization header:

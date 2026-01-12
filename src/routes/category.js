@@ -44,12 +44,12 @@ router.get("/", async (req, res) => {
 
     // Map language codes: uzb → uz, rus → ru, eng → en
     const languageMap = {
-      "uzb": "uz",
-      "rus": "ru",
-      "eng": "en",
-      "uz": "uz",
-      "ru": "ru",
-      "en": "en",
+      uzb: "uz",
+      rus: "ru",
+      eng: "en",
+      uz: "uz",
+      ru: "ru",
+      en: "en",
     };
 
     // Determine language: query param > user preference > default (uz)
@@ -81,16 +81,27 @@ router.get("/", async (req, res) => {
         }
 
         // Get category name in selected language
-        let categoryName = category.name[selectedLanguage] || category.name.uz;
-        
-        // Fallback: if category.name is still a string (old format), use it
-        if (typeof category.name === "string") {
-          categoryName = category.name;
+        let categoryName;
+        let originName;
+
+        // Check if category.name is an object (new multi-language format)
+        if (typeof category.name === "object" && category.name !== null) {
+          // Multi-language format
+          categoryName =
+            category.name[selectedLanguage] ||
+            category.name.uz ||
+            category.name.en;
+          originName = category.name.en || categoryName; // Always English for origin_name
+        } else {
+          // Old format (string) - fallback
+          categoryName = category.name || "Unknown";
+          originName = category.name || "Unknown";
         }
 
         return {
           id: category._id,
           name: categoryName,
+          origin_name: originName, // Always English name
           questionsCount,
           completedCount,
           createdAt: category.createdAt,

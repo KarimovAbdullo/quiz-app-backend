@@ -84,72 +84,108 @@ router.get("/", async (req, res) => {
         let categoryName = "Unknown";
         let originName = "Unknown";
 
-        // Debug: Log category structure (only in development)
-        if (process.env.NODE_ENV === "development") {
-          console.log("🔍 Category Debug:", {
-            id: category._id.toString().substring(0, 8),
-            name: category.name,
-            nameType: typeof category.name,
-            selectedLanguage,
-          });
-        }
+        // Category translations mapping
+        const categoryTranslations = {
+          Movies: { uz: "Kinolar", ru: "Фильмы", en: "Movies" },
+          Science: { uz: "Fan", ru: "Наука", en: "Science" },
+          Game: { uz: "O'yinlar", ru: "Игры", en: "Games" },
+          Games: { uz: "O'yinlar", ru: "Игры", en: "Games" },
+          Football: { uz: "Futbol", ru: "Футбол", en: "Football" },
+          MMA: { uz: "MMA", ru: "ММА", en: "MMA" },
+          Music: { uz: "Musiqa", ru: "Музыка", en: "Music" },
+        };
+
+        // Convert Mongoose document to plain object to access nested properties correctly
+        const categoryPlain = category.toObject
+          ? category.toObject()
+          : category;
+        const categoryNameValue = categoryPlain.name;
 
         // Check if category.name exists
-        if (category.name) {
-          // Check if category.name is an object (new multi-language format)
+        if (categoryNameValue) {
+          // Check if category.name is an object with uz, ru, en properties (new multi-language format)
           if (
-            typeof category.name === "object" &&
-            category.name !== null &&
-            !Array.isArray(category.name) &&
-            category.name.uz !== undefined
+            typeof categoryNameValue === "object" &&
+            categoryNameValue !== null &&
+            !Array.isArray(categoryNameValue) &&
+            (categoryNameValue.uz !== undefined ||
+              categoryNameValue.ru !== undefined ||
+              categoryNameValue.en !== undefined)
           ) {
             // Multi-language format: { uz: "...", ru: "...", en: "..." }
             categoryName =
-              category.name[selectedLanguage] ||
-              category.name.uz ||
-              category.name.ru ||
-              category.name.en ||
+              categoryNameValue[selectedLanguage] ||
+              categoryNameValue.uz ||
+              categoryNameValue.ru ||
+              categoryNameValue.en ||
               "Unknown";
 
             // origin_name always English
-            originName = category.name.en || "Unknown";
-          } else if (typeof category.name === "string") {
-            // Old format (string) - fallback with translations
-            const categoryTranslations = {
-              Movies: { uz: "Kinolar", ru: "Фильмы", en: "Movies" },
-              Science: { uz: "Fan", ru: "Наука", en: "Science" },
-              Game: { uz: "O'yinlar", ru: "Игры", en: "Games" },
-              Games: { uz: "O'yinlar", ru: "Игры", en: "Games" }, // Also handle "Games"
-              Football: { uz: "Futbol", ru: "Футбол", en: "Football" },
-              MMA: { uz: "MMA", ru: "ММА", en: "MMA" },
-              Music: { uz: "Musiqa", ru: "Музыка", en: "Music" },
-            };
-
-            const translations = categoryTranslations[category.name];
+            originName =
+              categoryNameValue.en ||
+              categoryNameValue.uz ||
+              categoryNameValue.ru ||
+              "Unknown";
+          } else if (typeof categoryNameValue === "string") {
+            // Old format (string) - use translations
+            const translations = categoryTranslations[categoryNameValue];
             if (translations) {
               categoryName =
                 translations[selectedLanguage] ||
                 translations.uz ||
                 translations.en ||
-                category.name;
-              originName = translations.en || category.name;
+                categoryNameValue;
+              originName = translations.en || categoryNameValue;
             } else {
               // No translation found, use original name
-              categoryName = category.name;
-              originName = category.name;
+              categoryName = categoryNameValue;
+              originName = categoryNameValue;
+            }
+          } else {
+            // Last resort: use order to determine category name
+            const orderToName = {
+              1: "Movies",
+              2: "Science",
+              3: "Game",
+              4: "Football",
+              5: "MMA",
+              6: "Music",
+            };
+
+            const defaultName = orderToName[category.order];
+            if (defaultName) {
+              const translations = categoryTranslations[defaultName];
+              if (translations) {
+                categoryName =
+                  translations[selectedLanguage] ||
+                  translations.uz ||
+                  translations.en;
+                originName = translations.en;
+              }
             }
           }
-        }
+        } else {
+          // If name is completely missing, use order
+          const orderToName = {
+            1: "Movies",
+            2: "Science",
+            3: "Game",
+            4: "Football",
+            5: "MMA",
+            6: "Music",
+          };
 
-        // Final fallback - if still Unknown, log error
-        if (categoryName === "Unknown" || originName === "Unknown") {
-          console.error("⚠️ Category name issue:", {
-            categoryId: category._id,
-            name: category.name,
-            nameType: typeof category.name,
-            categoryName,
-            originName,
-          });
+          const defaultName = orderToName[category.order];
+          if (defaultName) {
+            const translations = categoryTranslations[defaultName];
+            if (translations) {
+              categoryName =
+                translations[selectedLanguage] ||
+                translations.uz ||
+                translations.en;
+              originName = translations.en;
+            }
+          }
         }
 
         return {

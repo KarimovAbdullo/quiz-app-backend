@@ -7,7 +7,8 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "seed": "node scripts/seedData.js",
-    "update-categories": "node scripts/updateCategoriesToMultiLanguage.js"
+    "update-categories": "node scripts/updateCategoriesToMultiLanguage.js",
+    "delete-questions": "node scripts/deleteAllQuestions.js"
   },
   "keywords": [
     "quiz",

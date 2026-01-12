@@ -81,27 +81,61 @@ router.get("/", async (req, res) => {
         }
 
         // Get category name in selected language
-        let categoryName;
-        let originName;
+        let categoryName = "Unknown";
+        let originName = "Unknown";
 
-        // Check if category.name is an object (new multi-language format)
-        if (typeof category.name === "object" && category.name !== null) {
-          // Multi-language format
-          categoryName =
-            category.name[selectedLanguage] ||
-            category.name.uz ||
-            category.name.en;
-          originName = category.name.en || categoryName; // Always English for origin_name
-        } else {
-          // Old format (string) - fallback
-          categoryName = category.name || "Unknown";
-          originName = category.name || "Unknown";
+        // Check if category.name exists
+        if (category.name) {
+          // Check if category.name is an object (new multi-language format)
+          if (
+            typeof category.name === "object" &&
+            category.name !== null &&
+            !Array.isArray(category.name)
+          ) {
+            // Multi-language format: { uz: "...", ru: "...", en: "..." }
+            categoryName =
+              category.name[selectedLanguage] ||
+              category.name.uz ||
+              category.name.ru ||
+              category.name.en ||
+              "Unknown";
+
+            // origin_name always English
+            originName =
+              category.name.en ||
+              category.name.uz ||
+              category.name.ru ||
+              "Unknown";
+          } else if (typeof category.name === "string") {
+            // Old format (string) - fallback
+            // Try to find translation
+            const categoryTranslations = {
+              Movies: { uz: "Kinolar", ru: "Фильмы", en: "Movies" },
+              Science: { uz: "Fan", ru: "Наука", en: "Science" },
+              Game: { uz: "O'yinlar", ru: "Игры", en: "Games" },
+              Football: { uz: "Futbol", ru: "Футбол", en: "Football" },
+              MMA: { uz: "MMA", ru: "ММА", en: "MMA" },
+              Music: { uz: "Musiqa", ru: "Музыка", en: "Music" },
+            };
+
+            const translations = categoryTranslations[category.name];
+            if (translations) {
+              categoryName =
+                translations[selectedLanguage] ||
+                translations.uz ||
+                translations.en;
+              originName = translations.en || category.name;
+            } else {
+              categoryName = category.name;
+              originName = category.name;
+            }
+          }
         }
 
         return {
           id: category._id,
           name: categoryName,
-          origin_name: originName, // Always English name
+          origin_name: originName,
           questionsCount,
           completedCount,
           createdAt: category.createdAt,

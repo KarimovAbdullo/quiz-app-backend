@@ -121,6 +121,7 @@ app.listen(PORT, "0.0.0.0", () => {
 
 // Auto-seed function (runs only if database is empty)
 // Creates only categories, questions should be added via admin panel
+// Also updates existing categories to multi-language format if needed
 async function seedIfNeeded() {
   try {
     const categoryCount = await Category.countDocuments();
@@ -130,6 +131,8 @@ async function seedIfNeeded() {
       await createCategoriesOnly();
     } else {
       console.log(`✅ Database already has ${categoryCount} categories`);
+      // Update existing categories to multi-language format if needed
+      await updateCategoriesToMultiLanguage();
     }
   } catch (error) {
     console.error("❌ Error checking categories:", error.message);
@@ -137,29 +140,91 @@ async function seedIfNeeded() {
 }
 
 // Create only categories (questions should be added via admin panel)
+// Categories are created in multi-language format
 async function createCategoriesOnly() {
   try {
     const categoriesData = [
-      { name: "Movies", order: 1 },
-      { name: "Science", order: 2 },
-      { name: "Game", order: 3 },
-      { name: "Football", order: 4 },
-      { name: "MMA", order: 5 },
-      { name: "Music", order: 6 },
+      {
+        name: {
+          uz: "Kinolar",
+          ru: "Фильмы",
+          en: "Movies",
+        },
+        order: 1,
+      },
+      {
+        name: {
+          uz: "Fan",
+          ru: "Наука",
+          en: "Science",
+        },
+        order: 2,
+      },
+      {
+        name: {
+          uz: "O'yinlar",
+          ru: "Игры",
+          en: "Games",
+        },
+        order: 3,
+      },
+      {
+        name: {
+          uz: "Futbol",
+          ru: "Футбол",
+          en: "Football",
+        },
+        order: 4,
+      },
+      {
+        name: {
+          uz: "MMA",
+          ru: "ММА",
+          en: "MMA",
+        },
+        order: 5,
+      },
+      {
+        name: {
+          uz: "Musiqa",
+          ru: "Музыка",
+          en: "Music",
+        },
+        order: 6,
+      },
     ];
 
     // Create categories
     for (const catData of categoriesData) {
-      let category = await Category.findOne({ name: catData.name });
+      // Find by order (since name is now an object)
+      let category = await Category.findOne({ order: catData.order });
+
       if (!category) {
         category = await Category.create(catData);
-        console.log(`✅ Created category: ${category.name} (order: ${catData.order})`);
+        console.log(
+          `✅ Created category: ${category.name.uz} / ${category.name.ru} / ${category.name.en} (order: ${catData.order})`
+        );
       } else {
-        // Update order if it's missing or different
+        // Update name and order if needed
+        let updated = false;
+        if (
+          typeof category.name !== "object" ||
+          category.name.uz !== catData.name.uz ||
+          category.name.ru !== catData.name.ru ||
+          category.name.en !== catData.name.en
+        ) {
+          category.name = catData.name;
+          updated = true;
+        }
         if (category.order !== catData.order) {
           category.order = catData.order;
+          updated = true;
+        }
+        if (updated) {
           await category.save();
-          console.log(`🔄 Updated category: ${category.name} (order: ${catData.order})`);
+          console.log(
+            `🔄 Updated category: ${category.name.uz} / ${category.name.ru} / ${category.name.en} (order: ${catData.order})`
+          );
         }
       }
     }
@@ -167,6 +232,95 @@ async function createCategoriesOnly() {
     console.log("✅ Categories created. Use admin panel to add questions.");
   } catch (error) {
     console.error("❌ Error creating categories:", error.message);
+  }
+}
+
+// Update existing categories to multi-language format
+async function updateCategoriesToMultiLanguage() {
+  try {
+    const categoryTranslations = {
+      Movies: {
+        uz: "Kinolar",
+        ru: "Фильмы",
+        en: "Movies",
+      },
+      Science: {
+        uz: "Fan",
+        ru: "Наука",
+        en: "Science",
+      },
+      Game: {
+        uz: "O'yinlar",
+        ru: "Игры",
+        en: "Games",
+      },
+      Football: {
+        uz: "Futbol",
+        ru: "Футбол",
+        en: "Football",
+      },
+      MMA: {
+        uz: "MMA",
+        ru: "ММА",
+        en: "MMA",
+      },
+      Music: {
+        uz: "Musiqa",
+        ru: "Музыка",
+        en: "Music",
+      },
+    };
+
+    const categories = await Category.find();
+    let updatedCount = 0;
+
+    for (const category of categories) {
+      // Check if category.name is already an object (new format)
+      if (
+        typeof category.name === "object" &&
+        category.name !== null &&
+        category.name.uz
+      ) {
+        continue; // Already in multi-language format
+      }
+
+      // If category.name is a string (old format), convert it
+      if (typeof category.name === "string") {
+        const oldName = category.name;
+        const translations = categoryTranslations[oldName];
+
+        if (translations) {
+          category.name = translations;
+          await category.save();
+          updatedCount++;
+          console.log(
+            `✅ Updated category: "${oldName}" → uz: "${translations.uz}", ru: "${translations.ru}", en: "${translations.en}"`
+          );
+        } else {
+          // No translation found, convert to multi-language with same name
+          category.name = {
+            uz: oldName,
+            ru: oldName,
+            en: oldName,
+          };
+          await category.save();
+          updatedCount++;
+          console.log(
+            `✅ Updated category: "${oldName}" → using same name for all languages`
+          );
+        }
+      }
+    }
+
+    if (updatedCount > 0) {
+      console.log(
+        `✅ Updated ${updatedCount} categories to multi-language format`
+      );
+    } else {
+      console.log("✅ All categories are already in multi-language format");
+    }
+  } catch (error) {
+    console.error("❌ Error updating categories:", error.message);
   }
 }
 

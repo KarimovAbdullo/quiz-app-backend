@@ -411,4 +411,24 @@ router.patch("/profile/language", authMiddleware, async (req, res) => {
   }
 });
 
+/**
+ * POST /auth/logout
+ * Logout user (invalidate token on server side if needed)
+ * Protected route (JWT required)
+ */
+router.post("/logout", authMiddleware, async (req, res) => {
+  try {
+    res.status(200).json({
+      success: true,
+      message: "Logout successful",
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error logging out",
+      error: error.message,
+    });
+  }
+});
+
 module.exports = router;

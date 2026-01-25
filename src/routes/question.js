@@ -16,7 +16,7 @@ const router = express.Router();
  */
 router.post("/answer", authMiddleware, async (req, res) => {
   try {
-    const { questionId, isCorrect } = req.body;
+    const { questionId, selectedOptionIndex } = req.body;
     const userId = req.user._id;
 
     // Validate input
@@ -27,8 +27,12 @@ router.post("/answer", authMiddleware, async (req, res) => {
       });
     }
 
-    // isCorrect is optional, default to false if not provided
-    const answerIsCorrect = isCorrect === true;
+    if (selectedOptionIndex === undefined || selectedOptionIndex === null) {
+      return res.status(400).json({
+        success: false,
+        message: "Please provide selectedOptionIndex",
+      });
+    }
 
     // Check if question exists
     const question = await Question.findById(questionId);
@@ -39,6 +43,18 @@ router.post("/answer", authMiddleware, async (req, res) => {
       });
     }
 
+    // Check if selectedOptionIndex is valid
+    if (selectedOptionIndex < 0 || selectedOptionIndex >= question.options.length) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid selectedOptionIndex",
+      });
+    }
+
+    // Check if the selected option is correct
+    const selectedOption = question.options[selectedOptionIndex];
+    const answerIsCorrect = selectedOption.isCorrect === true;
+
     // Get user
     const user = await User.findById(userId);
 
@@ -47,8 +63,10 @@ router.post("/answer", authMiddleware, async (req, res) => {
       return res.status(200).json({
         success: true,
         message: "Question already marked as solved",
+        isCorrect: answerIsCorrect,
         solvedQuestions: user.solvedQuestions,
         correctAnswers: user.correctAnswers,
+        status: user.status,
       });
     }
 
@@ -75,6 +93,7 @@ router.post("/answer", authMiddleware, async (req, res) => {
     res.status(200).json({
       success: true,
       message: "Question marked as solved",
+      isCorrect: answerIsCorrect,
       solvedQuestions: user.solvedQuestions,
       correctAnswers: user.correctAnswers,
       status: user.status,

@@ -121,9 +121,9 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
     const { language } = req.query; // Optional language override from query param
     const userId = req.user._id;
 
-    // Get user's solved questions and language preference
+    // Get user's correctly solved questions and language preference
     const user = await User.findById(userId);
-    const solvedQuestionIds = user.solvedQuestions || [];
+    const correctlySolvedQuestionIds = user.correctlySolvedQuestions || [];
     
     // Map language codes: uzb → uz, rus → ru, eng → en
     const languageMap = {
@@ -149,10 +149,11 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
       });
     }
 
-    // Find questions in this category that user hasn't solved
+    // Find questions in this category that user hasn't correctly solved
+    // Only exclude questions that were answered correctly (not all answered questions)
     const questions = await Question.find({
       categoryId: categoryId,
-      _id: { $nin: solvedQuestionIds },
+      _id: { $nin: correctlySolvedQuestionIds },
     });
 
     // Format questions for user's language (from database, NO translation here)

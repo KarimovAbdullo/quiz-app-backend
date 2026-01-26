@@ -58,33 +58,43 @@ router.post("/answer", authMiddleware, async (req, res) => {
     // Get user
     const user = await User.findById(userId);
 
-    // Check if question is already solved
-    if (user.solvedQuestions.includes(questionId)) {
+    // Check if question is already correctly solved (don't allow re-submission of correct answers)
+    const isAlreadyCorrectlySolved = user.correctlySolvedQuestions.includes(questionId);
+    if (isAlreadyCorrectlySolved) {
       return res.status(200).json({
         success: true,
-        message: "Question already marked as solved",
-        isCorrect: answerIsCorrect,
+        message: "Question already correctly solved",
+        isCorrect: true,
         solvedQuestions: user.solvedQuestions,
         correctAnswers: user.correctAnswers,
         status: user.status,
       });
     }
 
-    // Add questionId to solvedQuestions array (all answered questions)
-    user.solvedQuestions.push(questionId);
+    // Check if question was answered incorrectly before
+    const wasAnsweredBefore = user.solvedQuestions.includes(questionId);
+    const wasIncorrectlyAnswered = wasAnsweredBefore && !isAlreadyCorrectlySolved;
 
-    // If answer is correct, add to correctlySolvedQuestions and increment correctAnswers
-    if (answerIsCorrect) {
-      user.correctlySolvedQuestions.push(questionId);
-      user.correctAnswers = (user.correctAnswers || 0) + 1;
+    // Add questionId to solvedQuestions array if not already there (track all answered questions)
+    if (!wasAnsweredBefore) {
+      user.solvedQuestions.push(questionId);
+    }
 
-      // Update status based on correctAnswers count
-      if (user.correctAnswers >= 51) {
-        user.status = "super daxo";
-      } else if (user.correctAnswers >= 11) {
-        user.status = "super";
-      } else {
-        user.status = "boshlang'ich";
+    // If answer is correct and wasn't correctly solved before, add to correctlySolvedQuestions
+    if (answerIsCorrect && !isAlreadyCorrectlySolved) {
+      // Only add if not already in the array (prevent duplicates)
+      if (!user.correctlySolvedQuestions.includes(questionId)) {
+        user.correctlySolvedQuestions.push(questionId);
+        user.correctAnswers = (user.correctAnswers || 0) + 1;
+
+        // Update status based on correctAnswers count
+        if (user.correctAnswers >= 51) {
+          user.status = "super daxo";
+        } else if (user.correctAnswers >= 11) {
+          user.status = "super";
+        } else {
+          user.status = "boshlang'ich";
+        }
       }
     }
 

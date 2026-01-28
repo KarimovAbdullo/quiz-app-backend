@@ -1,0 +1,1850 @@
+[
+  {
+    "question": {
+      "uz": "Titanic filmida qaysi aktrisa bosh rolni o'ynagan?",
+      "ru": "Какая актриса сыграла главную роль в фильме Титаник?",
+      "en": "Which actress played the lead role in Titanic?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Angelina Jolie",
+          "ru": "Анджелина Джоли",
+          "en": "Angelina Jolie"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kate Winslet",
+          "ru": "Кейт Уинслет",
+          "en": "Kate Winslet"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Scarlett Johansson",
+          "ru": "Скарлетт Йоханссон",
+          "en": "Scarlett Johansson"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jennifer Lawrence",
+          "ru": "Дженнифер Лоуренс",
+          "en": "Jennifer Lawrence"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Avengers: Endgame filmi qachon chiqgan?",
+      "ru": "Когда вышел фильм Мстители: Финал?",
+      "en": "When was Avengers: Endgame released?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2018",
+          "ru": "2018",
+          "en": "2018"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2019",
+          "ru": "2019",
+          "en": "2019"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2020",
+          "ru": "2020",
+          "en": "2020"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2021",
+          "ru": "2021",
+          "en": "2021"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi film qaysi?",
+      "ru": "Какой фильм показан на изображении ниже?",
+      "en": "What movie is shown in the image below?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Matrix",
+          "ru": "Матрица",
+          "en": "The Matrix"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Inception",
+          "ru": "Начало",
+          "en": "Inception"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Blade Runner",
+          "ru": "Бегущий по лезвию",
+          "en": "Blade Runner"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Terminator",
+          "ru": "Терминатор",
+          "en": "The Terminator"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=800"
+  },
+  {
+    "question": {
+      "uz": "Harry Potter filmida qaysi aktrisa Hermione rolini o'ynagan?",
+      "ru": "Какая актриса сыграла роль Гермионы в фильме Гарри Поттер?",
+      "en": "Which actress played Hermione in Harry Potter?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Emma Watson",
+          "ru": "Эмма Уотсон",
+          "en": "Emma Watson"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Emma Stone",
+          "ru": "Эмма Стоун",
+          "en": "Emma Stone"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Natalie Portman",
+          "ru": "Натали Портман",
+          "en": "Natalie Portman"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Keira Knightley",
+          "ru": "Кира Найтли",
+          "en": "Keira Knightley"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda bosh rol o'ynagan?",
+      "ru": "В каких фильмах играл главную роль актёр на изображении ниже?",
+      "en": "In which movies did the actor in the image below play the lead role?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pirates of the Caribbean, Edward Scissorhands",
+          "ru": "Пираты Карибского моря, Эдвард Руки-ножницы",
+          "en": "Pirates of the Caribbean, Edward Scissorhands"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Dark Knight, Inception",
+          "ru": "Тёмный рыцарь, Начало",
+          "en": "The Dark Knight, Inception"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Iron Man, The Avengers",
+          "ru": "Железный человек, Мстители",
+          "en": "Iron Man, The Avengers"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Titanic, The Revenant",
+          "ru": "Титаник, Выживший",
+          "en": "Titanic, The Revenant"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800"
+  },
+  {
+    "question": {
+      "uz": "The Lord of the Rings filmida Frodo rolini kim o'ynagan?",
+      "ru": "Кто сыграл роль Фродо в фильме Властелин колец?",
+      "en": "Who played Frodo in The Lord of the Rings?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Elijah Wood",
+          "ru": "Элайджа Вуд",
+          "en": "Elijah Wood"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Orlando Bloom",
+          "ru": "Орландо Блум",
+          "en": "Orlando Bloom"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sean Astin",
+          "ru": "Шон Астин",
+          "en": "Sean Astin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Viggo Mortensen",
+          "ru": "Вигго Мортенсен",
+          "en": "Viggo Mortensen"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Inception filmida 'Yaqinroq bo'ling, men sizga bir sirni aytaman' degan gap kim aytgan?",
+      "ru": "Кто сказал фразу 'Подойдите ближе, я расскажу вам секрет' в фильме Начало?",
+      "en": "Who said 'Come closer, I'll tell you a secret' in Inception?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Cobb",
+          "ru": "Кобб",
+          "en": "Cobb"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mal",
+          "ru": "Мал",
+          "en": "Mal"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Ariadne",
+          "ru": "Ариадна",
+          "en": "Ariadne"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arthur",
+          "ru": "Артур",
+          "en": "Arthur"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "The Dark Knight filmida Joker rolini kim o'ynagan?",
+      "ru": "Кто сыграл роль Джокера в фильме Тёмный рыцарь?",
+      "en": "Who played the Joker in The Dark Knight?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Heath Ledger",
+          "ru": "Хит Леджер",
+          "en": "Heath Ledger"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Joaquin Phoenix",
+          "ru": "Хоакин Феникс",
+          "en": "Joaquin Phoenix"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jack Nicholson",
+          "ru": "Джек Николсон",
+          "en": "Jack Nicholson"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jared Leto",
+          "ru": "Джаред Лето",
+          "en": "Jared Leto"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi film qaysi?",
+      "ru": "Какой фильм показан на изображении ниже?",
+      "en": "What movie is shown in the image below?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pulp Fiction",
+          "ru": "Криминальное чтиво",
+          "en": "Pulp Fiction"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Reservoir Dogs",
+          "ru": "Бешеные псы",
+          "en": "Reservoir Dogs"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kill Bill",
+          "ru": "Убить Билла",
+          "en": "Kill Bill"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Django Unchained",
+          "ru": "Джанго освобождённый",
+          "en": "Django Unchained"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800"
+  },
+  {
+    "question": {
+      "uz": "Forrest Gump filmida Forrest qaysi kompaniyani yaratgan?",
+      "ru": "Какую компанию создал Форрест в фильме Форрест Гамп?",
+      "en": "What company did Forrest create in Forrest Gump?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Apple",
+          "ru": "Эппл",
+          "en": "Apple"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bubba Gump Shrimp Company",
+          "ru": "Компания креветок Бабба Гамп",
+          "en": "Bubba Gump Shrimp Company"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Microsoft",
+          "ru": "Майкрософт",
+          "en": "Microsoft"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Amazon",
+          "ru": "Амазон",
+          "en": "Amazon"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "The Godfather filmida 'Men unga taklif qilaman, u rad etolmaydi' degan gap kim aytgan?",
+      "ru": "Кто сказал фразу 'Я сделаю ему предложение, от которого он не сможет отказаться' в фильме Крёстный отец?",
+      "en": "Who said 'I'll make him an offer he can't refuse' in The Godfather?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Don Vito Corleone",
+          "ru": "Дон Вито Корлеоне",
+          "en": "Don Vito Corleone"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Michael Corleone",
+          "ru": "Майкл Корлеоне",
+          "en": "Michael Corleone"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sonny Corleone",
+          "ru": "Сонни Корлеоне",
+          "en": "Sonny Corleone"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tom Hagen",
+          "ru": "Том Хейген",
+          "en": "Tom Hagen"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktrisa qaysi filmlarda bosh rol o'ynagan?",
+      "ru": "В каких фильмах сыграла главную роль актриса на изображении ниже?",
+      "en": "In which movies did the actress in the image below play the lead role?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Black Widow, Lucy, The Avengers",
+          "ru": "Чёрная вдова, Люси, Мстители",
+          "en": "Black Widow, Lucy, The Avengers"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Titanic, The Revenant, Inception",
+          "ru": "Титаник, Выживший, Начало",
+          "en": "Titanic, The Revenant, Inception"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hunger Games, X-Men, Silver Linings Playbook",
+          "ru": "Голодные игры, Люди Икс, Мой парень - псих",
+          "en": "Hunger Games, X-Men, Silver Linings Playbook"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Wonder Woman, Fast & Furious, Monster",
+          "ru": "Чудо-женщина, Форсаж, Монстр",
+          "en": "Wonder Woman, Fast & Furious, Monster"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800"
+  },
+  {
+    "question": {
+      "uz": "Interstellar filmida 'Biz qo'rqmasligimiz kerak, biz qo'rquvni qabul qilishimiz kerak' degan gap kim aytgan?",
+      "ru": "Кто сказал фразу 'Мы не должны бояться, мы должны принять страх' в фильме Интерстеллар?",
+      "en": "Who said 'We must not fear, we must accept fear' in Interstellar?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Cooper",
+          "ru": "Купер",
+          "en": "Cooper"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Brand",
+          "ru": "Брэнд",
+          "en": "Brand"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Murph",
+          "ru": "Мёрф",
+          "en": "Murph"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Mann",
+          "ru": "Манн",
+          "en": "Mann"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "The Shawshank Redemption filmida Andy Dufresne qancha yil qamoqda o'tkazgan?",
+      "ru": "Сколько лет провёл в тюрьме Энди Дюфрейн в фильме Побег из Шоушенка?",
+      "en": "How many years did Andy Dufresne spend in prison in The Shawshank Redemption?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "15 yil",
+          "ru": "15 лет",
+          "en": "15 years"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "19 yil",
+          "ru": "19 лет",
+          "en": "19 years"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "25 yil",
+          "ru": "25 лет",
+          "en": "25 years"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "30 yil",
+          "ru": "30 лет",
+          "en": "30 years"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi film qaysi?",
+      "ru": "Какой фильм показан на изображении ниже?",
+      "en": "What movie is shown in the image below?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fight Club",
+          "ru": "Бойцовский клуб",
+          "en": "Fight Club"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Matrix",
+          "ru": "Матрица",
+          "en": "The Matrix"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Inception",
+          "ru": "Начало",
+          "en": "Inception"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Se7en",
+          "ru": "Семь",
+          "en": "Se7en"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800"
+  },
+  {
+    "question": {
+      "uz": "Goodfellas filmida 'Men ko'proq gangster bo'lishni xohlayman' degan gap kim aytgan?",
+      "ru": "Кто сказал фразу 'Я хочу быть больше гангстером' в фильме Славные парни?",
+      "en": "Who said 'I want to be more of a gangster' in Goodfellas?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Henry Hill",
+          "ru": "Генри Хилл",
+          "en": "Henry Hill"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Tommy DeVito",
+          "ru": "Томми ДеВито",
+          "en": "Tommy DeVito"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jimmy Conway",
+          "ru": "Джимми Конвей",
+          "en": "Jimmy Conway"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Paul Cicero",
+          "ru": "Пол Чичеро",
+          "en": "Paul Cicero"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "The Silence of the Lambs filmida Hannibal Lecter qaysi shifokor?",
+      "ru": "Каким врачом был Ганнибал Лектер в фильме Молчание ягнят?",
+      "en": "What kind of doctor was Hannibal Lecter in The Silence of the Lambs?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Psixiatr",
+          "ru": "Психиатр",
+          "en": "Psychiatrist"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Xirurg",
+          "ru": "Хирург",
+          "en": "Surgeon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kardiolog",
+          "ru": "Кардиолог",
+          "en": "Cardiologist"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nevropatolog",
+          "ru": "Невропатолог",
+          "en": "Neurologist"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda bosh rol o'ynagan?",
+      "ru": "В каких фильмах сыграл главную роль актёр на изображении ниже?",
+      "en": "In which movies did the actor in the image below play the lead role?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Revenant, The Wolf of Wall Street, Inception",
+          "ru": "Выживший, Волк с Уолл-стрит, Начало",
+          "en": "The Revenant, The Wolf of Wall Street, Inception"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Titanic, Avatar, Shutter Island",
+          "ru": "Титаник, Аватар, Остров проклятых",
+          "en": "Titanic, Avatar, Shutter Island"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Iron Man, The Avengers, Sherlock Holmes",
+          "ru": "Железный человек, Мстители, Шерлок Холмс",
+          "en": "Iron Man, The Avengers, Sherlock Holmes"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pirates of the Caribbean, Edward Scissorhands, Charlie and the Chocolate Factory",
+          "ru": "Пираты Карибского моря, Эдвард Руки-ножницы, Чарли и шоколадная фабрика",
+          "en": "Pirates of the Caribbean, Edward Scissorhands, Charlie and the Chocolate Factory"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800"
+  },
+  {
+    "question": {
+      "uz": "The Prestige filmida 'Har bir sehrgar o'zining sirini yashirishga harakat qiladi' degan gap kim aytgan?",
+      "ru": "Кто сказал фразу 'Каждый фокусник пытается скрыть свой секрет' в фильме Престиж?",
+      "en": "Who said 'Every magician tries to hide his secret' in The Prestige?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Alfred Borden",
+          "ru": "Альфред Борден",
+          "en": "Alfred Borden"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Robert Angier",
+          "ru": "Роберт Энджир",
+          "en": "Robert Angier"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Cutter",
+          "ru": "Каттер",
+          "en": "Cutter"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nikola Tesla",
+          "ru": "Никола Тесла",
+          "en": "Nikola Tesla"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi film qaysi?",
+      "ru": "Какой фильм показан на изображении ниже?",
+      "en": "What movie is shown in the image below?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Blade Runner 2049",
+          "ru": "Бегущий по лезвию 2049",
+          "en": "Blade Runner 2049"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Matrix",
+          "ru": "Матрица",
+          "en": "The Matrix"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Dune",
+          "ru": "Дюна",
+          "en": "Dune"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mad Max: Fury Road",
+          "ru": "Безумный Макс: Дорога ярости",
+          "en": "Mad Max: Fury Road"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800"
+  },
+  {
+    "question": {
+      "uz": "The Departed filmida 'Men sizga haqiqatni aytaman, lekin siz uni qabul qilmayapsiz' degan gap kim aytgan?",
+      "ru": "Кто сказал фразу 'Я говорю вам правду, но вы её не принимаете' в фильме Отступники?",
+      "en": "Who said 'I'm telling you the truth, but you're not accepting it' in The Departed?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Billy Costigan",
+          "ru": "Билли Костиган",
+          "en": "Billy Costigan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Colin Sullivan",
+          "ru": "Колин Салливан",
+          "en": "Colin Sullivan"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Frank Costello",
+          "ru": "Фрэнк Костелло",
+          "en": "Frank Costello"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sean Dignam",
+          "ru": "Шон Дигнам",
+          "en": "Sean Dignam"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktrisa qaysi filmlarda bosh rol o'ynagan?",
+      "ru": "В каких фильмах сыграла главную роль актриса на изображении ниже?",
+      "en": "In which movies did the actress in the image below play the lead role?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "La La Land, The Favourite, Black Swan",
+          "ru": "Ла-Ла Ленд, Фаворитка, Чёрный лебедь",
+          "en": "La La Land, The Favourite, Black Swan"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Titanic, Revolutionary Road, The Reader",
+          "ru": "Титаник, Дорога перемен, Чтец",
+          "en": "Titanic, Revolutionary Road, The Reader"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Hunger Games, X-Men, Silver Linings Playbook",
+          "ru": "Голодные игры, Люди Икс, Мой парень - псих",
+          "en": "The Hunger Games, X-Men, Silver Linings Playbook"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Wonder Woman, Fast & Furious, Monster",
+          "ru": "Чудо-женщина, Форсаж, Монстр",
+          "en": "Wonder Woman, Fast & Furious, Monster"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800"
+  },
+  {
+    "question": {
+      "uz": "No Country for Old Men filmida Anton Chigurh qanday qurol ishlatgan?",
+      "ru": "Какое оружие использовал Антон Чигурх в фильме Старикам тут не место?",
+      "en": "What weapon did Anton Chigurh use in No Country for Old Men?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pistolet",
+          "ru": "Пистолет",
+          "en": "Pistol"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pnevmatik silindr",
+          "ru": "Пневматический цилиндр",
+          "en": "Pneumatic cylinder"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Pichoq",
+          "ru": "Нож",
+          "en": "Knife"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Avtomat",
+          "ru": "Автомат",
+          "en": "Assault rifle"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi film qaysi?",
+      "ru": "Какой фильм показан на изображении ниже?",
+      "en": "What movie is shown in the image below?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Shining",
+          "ru": "Сияние",
+          "en": "The Shining"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Exorcist",
+          "ru": "Изгоняющий дьявола",
+          "en": "The Exorcist"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Psycho",
+          "ru": "Психо",
+          "en": "Psycho"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Halloween",
+          "ru": "Хэллоуин",
+          "en": "Halloween"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800"
+  },
+  {
+    "question": {
+      "uz": "There Will Be Blood filmida Daniel Plainview qanday biznes bilan shug'ullangan?",
+      "ru": "Каким бизнесом занимался Дэниел Плейнвью в фильме Нефть?",
+      "en": "What business did Daniel Plainview run in There Will Be Blood?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Neft biznesi",
+          "ru": "Нефтяной бизнес",
+          "en": "Oil business"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Oltin qidirish",
+          "ru": "Поиск золота",
+          "en": "Gold mining"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ko'mir biznesi",
+          "ru": "Угольный бизнес",
+          "en": "Coal business"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gaz biznesi",
+          "ru": "Газовый бизнес",
+          "en": "Gas business"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda bosh rol o'ynagan?",
+      "ru": "В каких фильмах сыграл главную роль актёр на изображении ниже?",
+      "en": "In which movies did the actor in the image below play the lead role?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "There Will Be Blood, Phantom Thread, The Master",
+          "ru": "Нефть, Призрачная нить, Мастер",
+          "en": "There Will Be Blood, Phantom Thread, The Master"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Revenant, The Wolf of Wall Street, Inception",
+          "ru": "Выживший, Волк с Уолл-стрит, Начало",
+          "en": "The Revenant, The Wolf of Wall Street, Inception"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Titanic, Avatar, Shutter Island",
+          "ru": "Титаник, Аватар, Остров проклятых",
+          "en": "Titanic, Avatar, Shutter Island"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Iron Man, The Avengers, Sherlock Holmes",
+          "ru": "Железный человек, Мстители, Шерлок Холмс",
+          "en": "Iron Man, The Avengers, Sherlock Holmes"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800"
+  },
+  {
+    "question": {
+      "uz": "The Big Lebowski filmida 'Bu bowling emas, bu hayot' degan gap kim aytgan?",
+      "ru": "Кто сказал фразу 'Это не боулинг, это жизнь' в фильме Большой Лебовски?",
+      "en": "Who said 'This isn't bowling, this is life' in The Big Lebowski?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Dude",
+          "ru": "Чувак",
+          "en": "The Dude"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Walter Sobchak",
+          "ru": "Уолтер Собчак",
+          "en": "Walter Sobchak"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Donny",
+          "ru": "Донни",
+          "en": "Donny"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jeffrey Lebowski",
+          "ru": "Джеффри Лебовски",
+          "en": "Jeffrey Lebowski"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi film qaysi?",
+      "ru": "Какой фильм показан на изображении ниже?",
+      "en": "What movie is shown in the image below?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2001: A Space Odyssey",
+          "ru": "2001: Космическая одиссея",
+          "en": "2001: A Space Odyssey"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Interstellar",
+          "ru": "Интерстеллар",
+          "en": "Interstellar"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gravity",
+          "ru": "Гравитация",
+          "en": "Gravity"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Martian",
+          "ru": "Марсианин",
+          "en": "The Martian"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800"
+  },
+  {
+    "question": {
+      "uz": "Mulholland Drive filmida 'Bu orzu emas, bu haqiqat' degan gap kim aytgan?",
+      "ru": "Кто сказал фразу 'Это не сон, это реальность' в фильме Малхолланд Драйв?",
+      "en": "Who said 'This isn't a dream, this is reality' in Mulholland Drive?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Betty Elms",
+          "ru": "Бетти Элмс",
+          "en": "Betty Elms"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rita",
+          "ru": "Рита",
+          "en": "Rita"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Adam Kesher",
+          "ru": "Адам Кешер",
+          "en": "Adam Kesher"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Coco",
+          "ru": "Коко",
+          "en": "Coco"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktrisa qaysi filmlarda bosh rol o'ynagan?",
+      "ru": "В каких фильмах сыграла главную роль актриса на изображении ниже?",
+      "en": "In which movies did the actress in the image below play the lead role?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Mulholland Drive, Blue Velvet, Twin Peaks",
+          "ru": "Малхолланд Драйв, Синий бархат, Твин Пикс",
+          "en": "Mulholland Drive, Blue Velvet, Twin Peaks"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "La La Land, The Favourite, Black Swan",
+          "ru": "Ла-Ла Ленд, Фаворитка, Чёрный лебедь",
+          "en": "La La Land, The Favourite, Black Swan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Titanic, Revolutionary Road, The Reader",
+          "ru": "Титаник, Дорога перемен, Чтец",
+          "en": "Titanic, Revolutionary Road, The Reader"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Hunger Games, X-Men, Silver Linings Playbook",
+          "ru": "Голодные игры, Люди Икс, Мой парень - псих",
+          "en": "The Hunger Games, X-Men, Silver Linings Playbook"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800"
+  },
+  {
+    "question": {
+      "uz": "Eternal Sunshine of the Spotless Mind filmida Joel va Clementine qanday xizmatdan foydalangan?",
+      "ru": "Какой услугой воспользовались Джоэл и Клементина в фильме Вечное сияние чистого разума?",
+      "en": "What service did Joel and Clementine use in Eternal Sunshine of the Spotless Mind?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Xotira o'chirish xizmati",
+          "ru": "Услуга удаления памяти",
+          "en": "Memory erasure service"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Terapiya",
+          "ru": "Терапия",
+          "en": "Therapy"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yuridik maslahat",
+          "ru": "Юридическая консультация",
+          "en": "Legal advice"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Psixologik maslahat",
+          "ru": "Психологическая консультация",
+          "en": "Psychological counseling"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi film qaysi?",
+      "ru": "Какой фильм показан на изображении ниже?",
+      "en": "What movie is shown in the image below?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Birdman",
+          "ru": "Бёрдмэн",
+          "en": "Birdman"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Black Swan",
+          "ru": "Чёрный лебедь",
+          "en": "Black Swan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Whiplash",
+          "ru": "Одержимость",
+          "en": "Whiplash"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Wrestler",
+          "ru": "Рестлер",
+          "en": "The Wrestler"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800"
+  },
+  {
+    "question": {
+      "uz": "The Grand Budapest Hotel filmida M. Gustave qanday mehmonxonada ishlagan?",
+      "ru": "В каком отеле работал М. Густав в фильме Отель Гранд Будапешт?",
+      "en": "What hotel did M. Gustave work at in The Grand Budapest Hotel?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Grand Budapest Hotel",
+          "ru": "Отель Гранд Будапешт",
+          "en": "Grand Budapest Hotel"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Ritz Hotel",
+          "ru": "Отель Ритц",
+          "en": "Ritz Hotel"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Plaza Hotel",
+          "ru": "Отель Плаза",
+          "en": "Plaza Hotel"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Savoy Hotel",
+          "ru": "Отель Савой",
+          "en": "Savoy Hotel"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda bosh rol o'ynagan?",
+      "ru": "В каких фильмах сыграл главную роль актёр на изображении ниже?",
+      "en": "In which movies did the actor in the image below play the lead role?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Grand Budapest Hotel, The French Dispatch, Moonrise Kingdom",
+          "ru": "Отель Гранд Будапешт, Французский вестник, Королевство полной луны",
+          "en": "The Grand Budapest Hotel, The French Dispatch, Moonrise Kingdom"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "There Will Be Blood, Phantom Thread, The Master",
+          "ru": "Нефть, Призрачная нить, Мастер",
+          "en": "There Will Be Blood, Phantom Thread, The Master"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Revenant, The Wolf of Wall Street, Inception",
+          "ru": "Выживший, Волк с Уолл-стрит, Начало",
+          "en": "The Revenant, The Wolf of Wall Street, Inception"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Titanic, Avatar, Shutter Island",
+          "ru": "Титаник, Аватар, Остров проклятых",
+          "en": "Titanic, Avatar, Shutter Island"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800"
+  },
+  {
+    "question": {
+      "uz": "Her filmida Theodore Twombly qanday ish bilan shug'ullangan?",
+      "ru": "Чем занимался Теодор Твомбли в фильме Она?",
+      "en": "What did Theodore Twombly do for a living in Her?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Xat yozuvchi",
+          "ru": "Писатель писем",
+          "en": "Letter writer"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Dasturchi",
+          "ru": "Программист",
+          "en": "Programmer"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jurnalist",
+          "ru": "Журналист",
+          "en": "Journalist"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Muharrir",
+          "ru": "Редактор",
+          "en": "Editor"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi film qaysi?",
+      "ru": "Какой фильм показан на изображении ниже?",
+      "en": "What movie is shown in the image below?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Parasite",
+          "ru": "Паразиты",
+          "en": "Parasite"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Oldboy",
+          "ru": "Олдбой",
+          "en": "Oldboy"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Memories of Murder",
+          "ru": "Воспоминания об убийстве",
+          "en": "Memories of Murder"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Handmaiden",
+          "ru": "Служанка",
+          "en": "The Handmaiden"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800"
+  },
+  {
+    "question": {
+      "uz": "Under the Skin filmida qahramon qanday mavjudot?",
+      "ru": "Какое существо было главным героем в фильме Под кожей?",
+      "en": "What creature was the main character in Under the Skin?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Inson ko'rinishidagi alien",
+          "ru": "Инопланетянин в облике человека",
+          "en": "Alien in human form"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Vampir",
+          "ru": "Вампир",
+          "en": "Vampire"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Robot",
+          "ru": "Робот",
+          "en": "Robot"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mutant",
+          "ru": "Мутант",
+          "en": "Mutant"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktrisa qaysi filmlarda bosh rol o'ynagan?",
+      "ru": "В каких фильмах сыграла главную роль актриса на изображении ниже?",
+      "en": "In which movies did the actress in the image below play the lead role?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Under the Skin, Black Widow, Lucy",
+          "ru": "Под кожей, Чёрная вдова, Люси",
+          "en": "Under the Skin, Black Widow, Lucy"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Mulholland Drive, Blue Velvet, Twin Peaks",
+          "ru": "Малхолланд Драйв, Синий бархат, Твин Пикс",
+          "en": "Mulholland Drive, Blue Velvet, Twin Peaks"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "La La Land, The Favourite, Black Swan",
+          "ru": "Ла-Ла Ленд, Фаворитка, Чёрный лебедь",
+          "en": "La La Land, The Favourite, Black Swan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Titanic, Revolutionary Road, The Reader",
+          "ru": "Титаник, Дорога перемен, Чтец",
+          "en": "Titanic, Revolutionary Road, The Reader"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800"
+  },
+  {
+    "question": {
+      "uz": "The Lighthouse filmida Thomas va Ephraim qaysi joyda yashagan?",
+      "ru": "Где жили Томас и Эфраим в фильме Маяк?",
+      "en": "Where did Thomas and Ephraim live in The Lighthouse?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Mayakda",
+          "ru": "На маяке",
+          "en": "In a lighthouse"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Qirg'oqda",
+          "ru": "На берегу",
+          "en": "On the shore"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kemada",
+          "ru": "На корабле",
+          "en": "On a ship"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Orolda",
+          "ru": "На острове",
+          "en": "On an island"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi film qaysi?",
+      "ru": "Какой фильм показан на изображении ниже?",
+      "en": "What movie is shown in the image below?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Lighthouse",
+          "ru": "Маяк",
+          "en": "The Lighthouse"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Shining",
+          "ru": "Сияние",
+          "en": "The Shining"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Witch",
+          "ru": "Ведьма",
+          "en": "The Witch"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Midsommar",
+          "ru": "Середина лета",
+          "en": "Midsommar"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800"
+  },
+  {
+    "question": {
+      "uz": "Synecdoche, New York filmida Caden Cotard qanday loyiha ustida ishlagan?",
+      "ru": "Над каким проектом работал Каден Котард в фильме Синекдоха, Нью-Йорк?",
+      "en": "What project did Caden Cotard work on in Synecdoche, New York?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Hayotni takrorlash loyihasi",
+          "ru": "Проект воссоздания жизни",
+          "en": "Life recreation project"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Teatr spektakli",
+          "ru": "Театральная постановка",
+          "en": "Theater production"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Film suratga olish",
+          "ru": "Съёмка фильма",
+          "en": "Film shooting"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kitob yozish",
+          "ru": "Написание книги",
+          "en": "Writing a book"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda bosh rol o'ynagan?",
+      "ru": "В каких фильмах сыграл главную роль актёр на изображении ниже?",
+      "en": "In which movies did the actor in the image below play the lead role?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Synecdoche New York, Adaptation, Being John Malkovich",
+          "ru": "Синекдоха Нью-Йорк, Адаптация, Быть Джоном Малковичем",
+          "en": "Synecdoche New York, Adaptation, Being John Malkovich"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Grand Budapest Hotel, The French Dispatch, Moonrise Kingdom",
+          "ru": "Отель Гранд Будапешт, Французский вестник, Королевство полной луны",
+          "en": "The Grand Budapest Hotel, The French Dispatch, Moonrise Kingdom"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "There Will Be Blood, Phantom Thread, The Master",
+          "ru": "Нефть, Призрачная нить, Мастер",
+          "en": "There Will Be Blood, Phantom Thread, The Master"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Revenant, The Wolf of Wall Street, Inception",
+          "ru": "Выживший, Волк с Уолл-стрит, Начало",
+          "en": "The Revenant, The Wolf of Wall Street, Inception"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800"
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi film qaysi?",
+      "ru": "Какой фильм показан на изображении ниже?",
+      "en": "What movie is shown in the image below?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Tree of Life",
+          "ru": "Древо жизни",
+          "en": "The Tree of Life"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2001: A Space Odyssey",
+          "ru": "2001: Космическая одиссея",
+          "en": "2001: A Space Odyssey"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Interstellar",
+          "ru": "Интерстеллар",
+          "en": "Interstellar"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arrival",
+          "ru": "Прибытие",
+          "en": "Arrival"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800"
+  },
+  {
+    "question": {
+      "uz": "The Tree of Life filmida rejissyor qanday mavzuni ko'rib chiqgan?",
+      "ru": "Какую тему исследовал режиссёр в фильме Древо жизни?",
+      "en": "What theme did the director explore in The Tree of Life?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Hayotning ma'nosi va koinot",
+          "ru": "Смысл жизни и вселенная",
+          "en": "Meaning of life and the universe"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Romantika",
+          "ru": "Романтика",
+          "en": "Romance"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jangari film",
+          "ru": "Боевик",
+          "en": "Action movie"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Detektiv",
+          "ru": "Детектив",
+          "en": "Detective"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  }
+]

@@ -1,0 +1,1724 @@
+[
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this scene from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Godfather",
+          "ru": "Крёстный отец",
+          "en": "The Godfather"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Goodfellas",
+          "ru": "Славные парни",
+          "en": "Goodfellas"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Scarface",
+          "ru": "Лицо со шрамом",
+          "en": "Scarface"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Casino",
+          "ru": "Казино",
+          "en": "Casino"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800"
+  },
+  {
+    "question": {
+      "uz": "'I'll be back' degan gapni qaysi filmda Arnold Schwarzenegger aytgan?",
+      "ru": "В каком фильме Арнольд Шварценеггер сказал фразу 'Я вернусь'?",
+      "en": "In which movie did Arnold Schwarzenegger say 'I'll be back'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Terminator",
+          "ru": "Терминатор",
+          "en": "Terminator"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Predator",
+          "ru": "Хищник",
+          "en": "Predator"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Commando",
+          "ru": "Коммандо",
+          "en": "Commando"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Total Recall",
+          "ru": "Вспомнить всё",
+          "en": "Total Recall"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "'Here's looking at you, kid' degan gapni qaysi filmda Humphrey Bogart aytgan?",
+      "ru": "В каком фильме Хамфри Богарт сказал фразу 'За твоё здоровье, малышка'?",
+      "en": "In which movie did Humphrey Bogart say 'Here's looking at you, kid'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Casablanca",
+          "ru": "Касабланка",
+          "en": "Casablanca"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Maltese Falcon",
+          "ru": "Мальтийский сокол",
+          "en": "The Maltese Falcon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Big Sleep",
+          "ru": "Глубокий сон",
+          "en": "The Big Sleep"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Key Largo",
+          "ru": "Ки-Ларго",
+          "en": "Key Largo"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda ishtirok etgan?",
+      "ru": "В каких фильмах снимался актёр на изображении?",
+      "en": "Which movies did the actor in the image appear in?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pulp Fiction, Django Unchained, Kill Bill",
+          "ru": "Криминальное чтиво, Джанго освобождённый, Убить Билла",
+          "en": "Pulp Fiction, Django Unchained, Kill Bill"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Godfather, Goodfellas, Casino",
+          "ru": "Крёстный отец, Славные парни, Казино",
+          "en": "The Godfather, Goodfellas, Casino"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Inception, Interstellar, The Dark Knight",
+          "ru": "Начало, Интерстеллар, Тёмный рыцарь",
+          "en": "Inception, Interstellar, The Dark Knight"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Titanic, Revolutionary Road, The Reader",
+          "ru": "Титаник, Дорога перемен, Чтец",
+          "en": "Titanic, Revolutionary Road, The Reader"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800"
+  },
+  {
+    "question": {
+      "uz": "'You can't handle the truth!' degan gapni qaysi filmda Jack Nicholson aytgan?",
+      "ru": "В каком фильме Джек Николсон сказал фразу 'Вы не выдержите правды!'?",
+      "en": "In which movie did Jack Nicholson say 'You can't handle the truth!'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "A Few Good Men",
+          "ru": "Несколько хороших парней",
+          "en": "A Few Good Men"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Shining",
+          "ru": "Сияние",
+          "en": "The Shining"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "One Flew Over the Cuckoo's Nest",
+          "ru": "Пролетая над гнездом кукушки",
+          "en": "One Flew Over the Cuckoo's Nest"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Chinatown",
+          "ru": "Китайский квартал",
+          "en": "Chinatown"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "'Life is like a box of chocolates' degan gapni qaysi filmda Tom Hanks aytgan?",
+      "ru": "В каком фильме Том Хэнкс сказал фразу 'Жизнь как коробка шоколадных конфет'?",
+      "en": "In which movie did Tom Hanks say 'Life is like a box of chocolates'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Forrest Gump",
+          "ru": "Форрест Гамп",
+          "en": "Forrest Gump"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Cast Away",
+          "ru": "Изгой",
+          "en": "Cast Away"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Green Mile",
+          "ru": "Зелёная миля",
+          "en": "The Green Mile"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Saving Private Ryan",
+          "ru": "Спасти рядового Райана",
+          "en": "Saving Private Ryan"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "'Why so serious?' degan gapni qaysi filmda Joker aytgan?",
+      "ru": "В каком фильме Джокер сказал фразу 'Почему так серьёзно?'?",
+      "en": "In which movie did the Joker say 'Why so serious?'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Dark Knight",
+          "ru": "Тёмный рыцарь",
+          "en": "The Dark Knight"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Batman Begins",
+          "ru": "Бэтмен: Начало",
+          "en": "Batman Begins"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Joker",
+          "ru": "Джокер",
+          "en": "Joker"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Suicide Squad",
+          "ru": "Отряд самоубийц",
+          "en": "Suicide Squad"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this scene from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Shawshank Redemption",
+          "ru": "Побег из Шоушенка",
+          "en": "The Shawshank Redemption"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Green Mile",
+          "ru": "Зелёная миля",
+          "en": "The Green Mile"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Cool Hand Luke",
+          "ru": "Беспечный ездок",
+          "en": "Cool Hand Luke"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Escape from Alcatraz",
+          "ru": "Побег из Алькатраса",
+          "en": "Escape from Alcatraz"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800"
+  },
+  {
+    "question": {
+      "uz": "'Houston, we have a problem' degan gapni qaysi filmda aytilgan?",
+      "ru": "В каком фильме была сказана фраза 'Хьюстон, у нас проблема'?",
+      "en": "In which movie was the phrase 'Houston, we have a problem' said?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Apollo 13",
+          "ru": "Аполлон-13",
+          "en": "Apollo 13"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Right Stuff",
+          "ru": "Парни что надо",
+          "en": "The Right Stuff"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gravity",
+          "ru": "Гравитация",
+          "en": "Gravity"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Interstellar",
+          "ru": "Интерстеллар",
+          "en": "Interstellar"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "'Say hello to my little friend!' degan gapni qaysi filmda aytilgan?",
+      "ru": "В каком фильме была сказана фраза 'Поздоровайся с моим маленьким другом!'?",
+      "en": "In which movie was the phrase 'Say hello to my little friend!' said?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Scarface",
+          "ru": "Лицо со шрамом",
+          "en": "Scarface"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Godfather",
+          "ru": "Крёстный отец",
+          "en": "The Godfather"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Goodfellas",
+          "ru": "Славные парни",
+          "en": "Goodfellas"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Departed",
+          "ru": "Отступники",
+          "en": "The Departed"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda ishtirok etgan?",
+      "ru": "В каких фильмах снимался актёр на изображении?",
+      "en": "Which movies did the actor in the image appear in?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Godfather, Apocalypse Now, The Conversation",
+          "ru": "Крёстный отец, Апокалипсис сегодня, Разговор",
+          "en": "The Godfather, Apocalypse Now, The Conversation"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Goodfellas, Casino, The Irishman",
+          "ru": "Славные парни, Казино, Ирландец",
+          "en": "Goodfellas, Casino, The Irishman"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Heat, The Insider, Collateral",
+          "ru": "Жара, Свой человек, Соучастник",
+          "en": "Heat, The Insider, Collateral"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Taxi Driver, Raging Bull, The King of Comedy",
+          "ru": "Таксист, Бешеный бык, Король комедии",
+          "en": "Taxi Driver, Raging Bull, The King of Comedy"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800"
+  },
+  {
+    "question": {
+      "uz": "'I see dead people' degan gapni qaysi filmda aytilgan?",
+      "ru": "В каком фильме была сказана фраза 'Я вижу мёртвых людей'?",
+      "en": "In which movie was the phrase 'I see dead people' said?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Sixth Sense",
+          "ru": "Шестое чувство",
+          "en": "The Sixth Sense"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Others",
+          "ru": "Другие",
+          "en": "The Others"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Ring",
+          "ru": "Звонок",
+          "en": "The Ring"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Exorcist",
+          "ru": "Изгоняющий дьявола",
+          "en": "The Exorcist"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this scene from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fight Club",
+          "ru": "Бойцовский клуб",
+          "en": "Fight Club"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Se7en",
+          "ru": "Семь",
+          "en": "Se7en"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gone Girl",
+          "ru": "Исчезнувшая",
+          "en": "Gone Girl"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Social Network",
+          "ru": "Социальная сеть",
+          "en": "The Social Network"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1534809027769-b00d750a6bac?w=800"
+  },
+  {
+    "question": {
+      "uz": "'You talking to me?' degan gapni qaysi filmda Robert De Niro aytgan?",
+      "ru": "В каком фильме Роберт Де Ниро сказал фразу 'Ты со мной разговариваешь?'?",
+      "en": "In which movie did Robert De Niro say 'You talking to me?'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Taxi Driver",
+          "ru": "Таксист",
+          "en": "Taxi Driver"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Raging Bull",
+          "ru": "Бешеный бык",
+          "en": "Raging Bull"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Goodfellas",
+          "ru": "Славные парни",
+          "en": "Goodfellas"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Deer Hunter",
+          "ru": "Охотник на оленей",
+          "en": "The Deer Hunter"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "'I am your father' degan gapni qaysi filmda Darth Vader aytgan?",
+      "ru": "В каком фильме Дарт Вейдер сказал фразу 'Я твой отец'?",
+      "en": "In which movie did Darth Vader say 'I am your father'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Empire Strikes Back",
+          "ru": "Империя наносит ответный удар",
+          "en": "The Empire Strikes Back"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "A New Hope",
+          "ru": "Новая надежда",
+          "en": "A New Hope"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Return of the Jedi",
+          "ru": "Возвращение джедая",
+          "en": "Return of the Jedi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Revenge of the Sith",
+          "ru": "Месть ситхов",
+          "en": "Revenge of the Sith"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda ishtirok etgan?",
+      "ru": "В каких фильмах снимался актёр на изображении?",
+      "en": "Which movies did the actor in the image appear in?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Inception, Interstellar, The Dark Knight, Dunkirk",
+          "ru": "Начало, Интерстеллар, Тёмный рыцарь, Дюнкерк",
+          "en": "Inception, Interstellar, The Dark Knight, Dunkirk"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Godfather, Apocalypse Now, The Conversation",
+          "ru": "Крёстный отец, Апокалипсис сегодня, Разговор",
+          "en": "The Godfather, Apocalypse Now, The Conversation"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pulp Fiction, Django Unchained, Kill Bill",
+          "ru": "Криминальное чтиво, Джанго освобождённый, Убить Билла",
+          "en": "Pulp Fiction, Django Unchained, Kill Bill"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Goodfellas, Casino, The Irishman",
+          "ru": "Славные парни, Казино, Ирландец",
+          "en": "Goodfellas, Casino, The Irishman"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800"
+  },
+  {
+    "question": {
+      "uz": "'Rosebud' so'zi qaysi filmda muhim rol o'ynaydi?",
+      "ru": "В каком фильме слово 'Розовый бутон' играет важную роль?",
+      "en": "In which movie does the word 'Rosebud' play an important role?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Citizen Kane",
+          "ru": "Гражданин Кейн",
+          "en": "Citizen Kane"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Casablanca",
+          "ru": "Касабланка",
+          "en": "Casablanca"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gone with the Wind",
+          "ru": "Унесённые ветром",
+          "en": "Gone with the Wind"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Wizard of Oz",
+          "ru": "Волшебник страны Оз",
+          "en": "The Wizard of Oz"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this scene from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Matrix",
+          "ru": "Матрица",
+          "en": "The Matrix"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Inception",
+          "ru": "Начало",
+          "en": "Inception"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Blade Runner",
+          "ru": "Бегущий по лезвию",
+          "en": "Blade Runner"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Terminator",
+          "ru": "Терминатор",
+          "en": "The Terminator"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800"
+  },
+  {
+    "question": {
+      "uz": "'I'm the king of the world!' degan gapni qaysi filmda Leonardo DiCaprio aytgan?",
+      "ru": "В каком фильме Леонардо Ди Каприо сказал фразу 'Я король мира!'?",
+      "en": "In which movie did Leonardo DiCaprio say 'I'm the king of the world!'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Titanic",
+          "ru": "Титаник",
+          "en": "Titanic"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Revenant",
+          "ru": "Выживший",
+          "en": "The Revenant"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Wolf of Wall Street",
+          "ru": "Волк с Уолл-стрит",
+          "en": "The Wolf of Wall Street"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Inception",
+          "ru": "Начало",
+          "en": "Inception"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "'Hasta la vista, baby' degan gapni qaysi filmda Arnold Schwarzenegger aytgan?",
+      "ru": "В каком фильме Арнольд Шварценеггер сказал фразу 'Увидимся, детка'?",
+      "en": "In which movie did Arnold Schwarzenegger say 'Hasta la vista, baby'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Terminator 2: Judgment Day",
+          "ru": "Терминатор 2: Судный день",
+          "en": "Terminator 2: Judgment Day"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Terminator",
+          "ru": "Терминатор",
+          "en": "Terminator"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Total Recall",
+          "ru": "Вспомнить всё",
+          "en": "Total Recall"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "True Lies",
+          "ru": "Правдивая ложь",
+          "en": "True Lies"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda ishtirok etgan?",
+      "ru": "В каких фильмах снимался актёр на изображении?",
+      "en": "Which movies did the actor in the image appear in?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Goodfellas, Casino, The Irishman, The Departed",
+          "ru": "Славные парни, Казино, Ирландец, Отступники",
+          "en": "Goodfellas, Casino, The Irishman, The Departed"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Godfather, Apocalypse Now, The Conversation",
+          "ru": "Крёстный отец, Апокалипсис сегодня, Разговор",
+          "en": "The Godfather, Apocalypse Now, The Conversation"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Taxi Driver, Raging Bull, The King of Comedy",
+          "ru": "Таксист, Бешеный бык, Король комедии",
+          "en": "Taxi Driver, Raging Bull, The King of Comedy"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Heat, The Insider, Collateral",
+          "ru": "Жара, Свой человек, Соучастник",
+          "en": "Heat, The Insider, Collateral"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800"
+  },
+  {
+    "question": {
+      "uz": "'Frankly, my dear, I don't give a damn' degan gapni qaysi filmda Clark Gable aytgan?",
+      "ru": "В каком фильме Кларк Гейбл сказал фразу 'Честно говоря, дорогая, мне всё равно'?",
+      "en": "In which movie did Clark Gable say 'Frankly, my dear, I don't give a damn'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Gone with the Wind",
+          "ru": "Унесённые ветром",
+          "en": "Gone with the Wind"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "It Happened One Night",
+          "ru": "Это случилось однажды ночью",
+          "en": "It Happened One Night"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mutiny on the Bounty",
+          "ru": "Мятеж на Баунти",
+          "en": "Mutiny on the Bounty"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Misfits",
+          "ru": "Неприкаянные",
+          "en": "The Misfits"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this scene from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pulp Fiction",
+          "ru": "Криминальное чтиво",
+          "en": "Pulp Fiction"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Reservoir Dogs",
+          "ru": "Бешеные псы",
+          "en": "Reservoir Dogs"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kill Bill",
+          "ru": "Убить Билла",
+          "en": "Kill Bill"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Django Unchained",
+          "ru": "Джанго освобождённый",
+          "en": "Django Unchained"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1534809027769-b00d750a6bac?w=800"
+  },
+  {
+    "question": {
+      "uz": "'I'll make him an offer he can't refuse' degan gapni qaysi filmda Marlon Brando aytgan?",
+      "ru": "В каком фильме Марлон Брандо сказал фразу 'Я сделаю ему предложение, от которого он не сможет отказаться'?",
+      "en": "In which movie did Marlon Brando say 'I'll make him an offer he can't refuse'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Godfather",
+          "ru": "Крёстный отец",
+          "en": "The Godfather"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "On the Waterfront",
+          "ru": "В порту",
+          "en": "On the Waterfront"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "A Streetcar Named Desire",
+          "ru": "Трамвай Желание",
+          "en": "A Streetcar Named Desire"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Apocalypse Now",
+          "ru": "Апокалипсис сегодня",
+          "en": "Apocalypse Now"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "'To infinity and beyond!' degan gapni qaysi filmda Buzz Lightyear aytgan?",
+      "ru": "В каком фильме Базз Лайтер сказал фразу 'До бесконечности и дальше!'?",
+      "en": "In which movie did Buzz Lightyear say 'To infinity and beyond!'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Toy Story",
+          "ru": "История игрушек",
+          "en": "Toy Story"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Monsters, Inc.",
+          "ru": "Корпорация монстров",
+          "en": "Monsters, Inc."
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Finding Nemo",
+          "ru": "В поисках Немо",
+          "en": "Finding Nemo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Incredibles",
+          "ru": "Суперсемейка",
+          "en": "The Incredibles"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda ishtirok etgan?",
+      "ru": "В каких фильмах снимался актёр на изображении?",
+      "en": "Which movies did the actor in the image appear in?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Taxi Driver, Raging Bull, The King of Comedy, The Last Temptation of Christ",
+          "ru": "Таксист, Бешеный бык, Король комедии, Последнее искушение Христа",
+          "en": "Taxi Driver, Raging Bull, The King of Comedy, The Last Temptation of Christ"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Goodfellas, Casino, The Irishman",
+          "ru": "Славные парни, Казино, Ирландец",
+          "en": "Goodfellas, Casino, The Irishman"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Godfather, Apocalypse Now, The Conversation",
+          "ru": "Крёстный отец, Апокалипсис сегодня, Разговор",
+          "en": "The Godfather, Apocalypse Now, The Conversation"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Heat, The Insider, Collateral",
+          "ru": "Жара, Свой человек, Соучастник",
+          "en": "Heat, The Insider, Collateral"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800"
+  },
+  {
+    "question": {
+      "uz": "'I'm walking here!' degan gapni qaysi filmda Dustin Hoffman aytgan?",
+      "ru": "В каком фильме Дастин Хоффман сказал фразу 'Я иду здесь!'?",
+      "en": "In which movie did Dustin Hoffman say 'I'm walking here!'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Midnight Cowboy",
+          "ru": "Полуночный ковбой",
+          "en": "Midnight Cowboy"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Graduate",
+          "ru": "Выпускник",
+          "en": "The Graduate"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rain Man",
+          "ru": "Человек дождя",
+          "en": "Rain Man"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tootsie",
+          "ru": "Тутси",
+          "en": "Tootsie"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this scene from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Blade Runner",
+          "ru": "Бегущий по лезвию",
+          "en": "Blade Runner"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Matrix",
+          "ru": "Матрица",
+          "en": "The Matrix"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Total Recall",
+          "ru": "Вспомнить всё",
+          "en": "Total Recall"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Minority Report",
+          "ru": "Особое мнение",
+          "en": "Minority Report"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800"
+  },
+  {
+    "question": {
+      "uz": "'What we've got here is failure to communicate' degan gapni qaysi filmda aytilgan?",
+      "ru": "В каком фильме была сказана фраза 'То, что у нас здесь, это неспособность общаться'?",
+      "en": "In which movie was the phrase 'What we've got here is failure to communicate' said?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Cool Hand Luke",
+          "ru": "Беспечный ездок",
+          "en": "Cool Hand Luke"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Shawshank Redemption",
+          "ru": "Побег из Шоушенка",
+          "en": "The Shawshank Redemption"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Escape from Alcatraz",
+          "ru": "Побег из Алькатраса",
+          "en": "Escape from Alcatraz"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Papillon",
+          "ru": "Мотылёк",
+          "en": "Papillon"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "'I am Groot' degan gapni qaysi filmda Groot aytgan?",
+      "ru": "В каком фильме Грут сказал фразу 'Я Грут'?",
+      "en": "In which movie did Groot say 'I am Groot'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Guardians of the Galaxy",
+          "ru": "Стражи Галактики",
+          "en": "Guardians of the Galaxy"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Avengers",
+          "ru": "Мстители",
+          "en": "Avengers"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Thor",
+          "ru": "Тор",
+          "en": "Thor"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Captain Marvel",
+          "ru": "Капитан Марвел",
+          "en": "Captain Marvel"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda ishtirok etgan?",
+      "ru": "В каких фильмах снимался актёр на изображении?",
+      "en": "Which movies did the actor in the image appear in?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Heat, The Insider, Collateral, Public Enemies",
+          "ru": "Жара, Свой человек, Соучастник, Враги общества",
+          "en": "Heat, The Insider, Collateral, Public Enemies"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Goodfellas, Casino, The Irishman",
+          "ru": "Славные парни, Казино, Ирландец",
+          "en": "Goodfellas, Casino, The Irishman"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Godfather, Apocalypse Now, The Conversation",
+          "ru": "Крёстный отец, Апокалипсис сегодня, Разговор",
+          "en": "The Godfather, Apocalypse Now, The Conversation"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Taxi Driver, Raging Bull, The King of Comedy",
+          "ru": "Таксист, Бешеный бык, Король комедии",
+          "en": "Taxi Driver, Raging Bull, The King of Comedy"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800"
+  },
+  {
+    "question": {
+      "uz": "'I'm going to make him an offer he can't refuse' degan gapni qaysi filmda aytilgan?",
+      "ru": "В каком фильме была сказана фраза 'Я сделаю ему предложение, от которого он не сможет отказаться'?",
+      "en": "In which movie was the phrase 'I'm going to make him an offer he can't refuse' said?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Godfather",
+          "ru": "Крёстный отец",
+          "en": "The Godfather"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Goodfellas",
+          "ru": "Славные парни",
+          "en": "Goodfellas"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Casino",
+          "ru": "Казино",
+          "en": "Casino"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Departed",
+          "ru": "Отступники",
+          "en": "The Departed"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this scene from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2001: A Space Odyssey",
+          "ru": "2001: Космическая одиссея",
+          "en": "2001: A Space Odyssey"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Interstellar",
+          "ru": "Интерстеллар",
+          "en": "Interstellar"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gravity",
+          "ru": "Гравитация",
+          "en": "Gravity"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Martian",
+          "ru": "Марсианин",
+          "en": "The Martian"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800"
+  },
+  {
+    "question": {
+      "uz": "'I'll be back' degan gapni qaysi filmda aytilgan va nima uchun aytilgan?",
+      "ru": "В каком фильме была сказана фраза 'Я вернусь' и почему она была сказана?",
+      "en": "In which movie was the phrase 'I'll be back' said and why was it said?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Terminator - politsiya stantsiyasiga kirish uchun",
+          "ru": "Терминатор - чтобы войти в полицейский участок",
+          "en": "Terminator - to enter the police station"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Terminator 2 - Sarah Connor'ni qutqarish uchun",
+          "ru": "Терминатор 2 - чтобы спасти Сару Коннор",
+          "en": "Terminator 2 - to save Sarah Connor"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Commando - qasos olish uchun",
+          "ru": "Коммандо - чтобы отомстить",
+          "en": "Commando - to take revenge"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Predator - yashirinish uchun",
+          "ru": "Хищник - чтобы спрятаться",
+          "en": "Predator - to hide"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda ishtirok etgan?",
+      "ru": "В каких фильмах снимался актёр на изображении?",
+      "en": "Which movies did the actor in the image appear in?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Godfather Part II, Raging Bull, Goodfellas, Casino",
+          "ru": "Крёстный отец 2, Бешеный бык, Славные парни, Казино",
+          "en": "The Godfather Part II, Raging Bull, Goodfellas, Casino"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Taxi Driver, The King of Comedy, The Last Temptation of Christ",
+          "ru": "Таксист, Король комедии, Последнее искушение Христа",
+          "en": "Taxi Driver, The King of Comedy, The Last Temptation of Christ"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Heat, The Insider, Collateral",
+          "ru": "Жара, Свой человек, Соучастник",
+          "en": "Heat, The Insider, Collateral"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Inception, Interstellar, The Dark Knight",
+          "ru": "Начало, Интерстеллар, Тёмный рыцарь",
+          "en": "Inception, Interstellar, The Dark Knight"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800"
+  },
+  {
+    "question": {
+      "uz": "'The first rule of Fight Club is: you do not talk about Fight Club' - bu gapni kim aytgan va nima uchun?",
+      "ru": "'Первое правило Бойцовского клуба: ты не говоришь о Бойцовском клубе' - кто сказал эту фразу и почему?",
+      "en": "'The first rule of Fight Club is: you do not talk about Fight Club' - who said this and why?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Tyler Durden - klubning maxfiyligini saqlash uchun",
+          "ru": "Тайлер Дёрден - чтобы сохранить секретность клуба",
+          "en": "Tyler Durden - to maintain the club's secrecy"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Narrator - qoidani tushuntirish uchun",
+          "ru": "Рассказчик - чтобы объяснить правило",
+          "en": "Narrator - to explain the rule"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Marla Singer - xavfsizlik uchun",
+          "ru": "Марла Сингер - для безопасности",
+          "en": "Marla Singer - for safety"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Robert Paulson - qoidani eslatish uchun",
+          "ru": "Роберт Полсон - чтобы напомнить правило",
+          "en": "Robert Paulson - to remind the rule"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this scene from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Shining",
+          "ru": "Сияние",
+          "en": "The Shining"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Exorcist",
+          "ru": "Изгоняющий дьявола",
+          "en": "The Exorcist"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Psycho",
+          "ru": "Психо",
+          "en": "Psycho"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Halloween",
+          "ru": "Хэллоуин",
+          "en": "Halloween"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1534809027769-b00d750a6bac?w=800"
+  },
+  {
+    "question": {
+      "uz": "'I'm going to need a bigger boat' degan gapni qaysi filmda Roy Scheider aytgan va nima uchun?",
+      "ru": "В каком фильме Рой Шайдер сказал фразу 'Мне понадобится лодка побольше' и почему?",
+      "en": "In which movie did Roy Scheider say 'I'm going to need a bigger boat' and why?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Jaws - katta akulani ko'rganda",
+          "ru": "Челюсти - когда увидел большую акулу",
+          "en": "Jaws - when he saw the large shark"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Jaws 2 - yangi akulani ko'rganda",
+          "ru": "Челюсти 2 - когда увидел новую акулу",
+          "en": "Jaws 2 - when he saw the new shark"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The French Connection - quvib olishda",
+          "ru": "Французский связной - во время погони",
+          "en": "The French Connection - during the chase"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "All That Jazz - raqsda",
+          "ru": "Весь этот джаз - во время танца",
+          "en": "All That Jazz - during the dance"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi aktor qaysi filmlarda ishtirok etgan?",
+      "ru": "В каких фильмах снимался актёр на изображении?",
+      "en": "Which movies did the actor in the image appear in?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pulp Fiction, Django Unchained, Kill Bill, Inglourious Basterds",
+          "ru": "Криминальное чтиво, Джанго освобождённый, Убить Билла, Бесславные ублюдки",
+          "en": "Pulp Fiction, Django Unchained, Kill Bill, Inglourious Basterds"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Godfather, Apocalypse Now, The Conversation",
+          "ru": "Крёстный отец, Апокалипсис сегодня, Разговор",
+          "en": "The Godfather, Apocalypse Now, The Conversation"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Goodfellas, Casino, The Irishman",
+          "ru": "Славные парни, Казино, Ирландец",
+          "en": "Goodfellas, Casino, The Irishman"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Taxi Driver, Raging Bull, The King of Comedy",
+          "ru": "Таксист, Бешеный бык, Король комедии",
+          "en": "Taxi Driver, Raging Bull, The King of Comedy"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800"
+  },
+  {
+    "question": {
+      "uz": "'I am Iron Man' degan gapni qaysi filmda Tony Stark aytgan va nima uchun?",
+      "ru": "В каком фильме Тони Старк сказал фразу 'Я Железный человек' и почему?",
+      "en": "In which movie did Tony Stark say 'I am Iron Man' and why?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Iron Man - o'zining identitetini oshkor qilish uchun",
+          "ru": "Железный человек - чтобы раскрыть свою личность",
+          "en": "Iron Man - to reveal his identity"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Avengers - jamoaga qo'shilish uchun",
+          "ru": "Мстители - чтобы присоединиться к команде",
+          "en": "The Avengers - to join the team"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Iron Man 2 - yangi kostyumni ko'rsatish uchun",
+          "ru": "Железный человек 2 - чтобы показать новый костюм",
+          "en": "Iron Man 2 - to show the new suit"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Captain America: Civil War - qarama-qarshilikda",
+          "ru": "Капитан Америка: Гражданская война - во время конфликта",
+          "en": "Captain America: Civil War - during the conflict"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmdagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this scene from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Silence of the Lambs",
+          "ru": "Молчание ягнят",
+          "en": "The Silence of the Lambs"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Hannibal",
+          "ru": "Ганнибал",
+          "en": "Hannibal"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Red Dragon",
+          "ru": "Красный дракон",
+          "en": "Red Dragon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Manhunter",
+          "ru": "Охотник на людей",
+          "en": "Manhunter"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800"
+  }
+]

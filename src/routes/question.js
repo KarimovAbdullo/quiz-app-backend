@@ -16,7 +16,7 @@ const router = express.Router();
  */
 router.post("/answer", authMiddleware, async (req, res) => {
   try {
-    const { questionId, isCorrect } = req.body;
+    const { questionId, selectedOptionIndex } = req.body;
     const userId = req.user._id;
 
     // Validate input
@@ -27,8 +27,12 @@ router.post("/answer", authMiddleware, async (req, res) => {
       });
     }
 
-    // isCorrect is optional, default to false if not provided
-    const answerIsCorrect = isCorrect === true;
+    if (selectedOptionIndex === undefined || selectedOptionIndex === null) {
+      return res.status(400).json({
+        success: false,
+        message: "Please provide selectedOptionIndex",
+      });
+    }
 
     // Check if question exists
     const question = await Question.findById(questionId);
@@ -39,34 +43,58 @@ router.post("/answer", authMiddleware, async (req, res) => {
       });
     }
 
-    // Get user
-    const user = await User.findById(userId);
-
-    // Check if question is already solved
-    if (user.solvedQuestions.includes(questionId)) {
-      return res.status(200).json({
-        success: true,
-        message: "Question already marked as solved",
-        solvedQuestions: user.solvedQuestions,
-        correctAnswers: user.correctAnswers,
+    // Check if selectedOptionIndex is valid
+    if (selectedOptionIndex < 0 || selectedOptionIndex >= question.options.length) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid selectedOptionIndex",
       });
     }
 
-    // Add questionId to solvedQuestions array (all answered questions)
-    user.solvedQuestions.push(questionId);
+    // Check if the selected option is correct
+    const selectedOption = question.options[selectedOptionIndex];
+    const answerIsCorrect = selectedOption.isCorrect === true;
 
-    // If answer is correct, add to correctlySolvedQuestions and increment correctAnswers
-    if (answerIsCorrect) {
-      user.correctlySolvedQuestions.push(questionId);
-      user.correctAnswers = (user.correctAnswers || 0) + 1;
+    // Get user
+    const user = await User.findById(userId);
 
-      // Update status based on correctAnswers count
-      if (user.correctAnswers >= 51) {
-        user.status = "super daxo";
-      } else if (user.correctAnswers >= 11) {
-        user.status = "super";
-      } else {
-        user.status = "boshlang'ich";
+    // Check if question is already correctly solved (don't allow re-submission of correct answers)
+    const isAlreadyCorrectlySolved = user.correctlySolvedQuestions.includes(questionId);
+    if (isAlreadyCorrectlySolved) {
+      return res.status(200).json({
+        success: true,
+        message: "Question already correctly solved",
+        isCorrect: true,
+        solvedQuestions: user.solvedQuestions,
+        correctAnswers: user.correctAnswers,
+        status: user.status,
+      });
+    }
+
+    // Check if question was answered incorrectly before
+    const wasAnsweredBefore = user.solvedQuestions.includes(questionId);
+    const wasIncorrectlyAnswered = wasAnsweredBefore && !isAlreadyCorrectlySolved;
+
+    // Add questionId to solvedQuestions array if not already there (track all answered questions)
+    if (!wasAnsweredBefore) {
+      user.solvedQuestions.push(questionId);
+    }
+
+    // If answer is correct and wasn't correctly solved before, add to correctlySolvedQuestions
+    if (answerIsCorrect && !isAlreadyCorrectlySolved) {
+      // Only add if not already in the array (prevent duplicates)
+      if (!user.correctlySolvedQuestions.includes(questionId)) {
+        user.correctlySolvedQuestions.push(questionId);
+        user.correctAnswers = (user.correctAnswers || 0) + 1;
+
+        // Update status based on correctAnswers count
+        if (user.correctAnswers >= 51) {
+          user.status = "super daxo";
+        } else if (user.correctAnswers >= 11) {
+          user.status = "super";
+        } else {
+          user.status = "boshlang'ich";
+        }
       }
     }
 
@@ -75,6 +103,7 @@ router.post("/answer", authMiddleware, async (req, res) => {
     res.status(200).json({
       success: true,
       message: "Question marked as solved",
+      isCorrect: answerIsCorrect,
       solvedQuestions: user.solvedQuestions,
       correctAnswers: user.correctAnswers,
       status: user.status,
@@ -102,9 +131,9 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
     const { language } = req.query; // Optional language override from query param
     const userId = req.user._id;
 
-    // Get user's solved questions and language preference
+    // Get user's correctly solved questions and language preference
     const user = await User.findById(userId);
-    const solvedQuestionIds = user.solvedQuestions || [];
+    const correctlySolvedQuestionIds = user.correctlySolvedQuestions || [];
     
     // Map language codes: uzb → uz, rus → ru, eng → en
     const languageMap = {
@@ -130,10 +159,11 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
       });
     }
 
-    // Find questions in this category that user hasn't solved
+    // Find questions in this category that user hasn't correctly solved
+    // Only exclude questions that were answered correctly (not all answered questions)
     const questions = await Question.find({
       categoryId: categoryId,
-      _id: { $nin: solvedQuestionIds },
+      _id: { $nin: correctlySolvedQuestionIds },
     });
 
     // Format questions for user's language (from database, NO translation here)

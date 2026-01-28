@@ -70,17 +70,14 @@ async function importQuestions() {
       console.log(`   ${idx + 1}. ${name} (ID: ${cat._id})`);
     });
 
-    // Kategoriya ID ni so'rash yoki argumentdan olish
-    let categoryId = process.argv[3]; // 3-chi argument kategoriya ID
+    let categoryId = process.argv[3];
     
     if (!categoryId) {
-      // Agar argument berilmagan bo'lsa, fayl nomiga qarab kategoriya topish
+      
       const fileName = path.basename(jsonFilePath, '.json');
       let categoryName = null;
       
-      // Fayl nomiga qarab kategoriya nomini aniqlash
       if (fileName.includes('games') || fileName.includes('game')) {
-        // Avval "Games" ni topishga harakat qilish, keyin "Game"
         let foundCategory = await Category.findOne({ "name.en": "Games" });
         if (!foundCategory) {
           foundCategory = await Category.findOne({ "name.en": "Game" });

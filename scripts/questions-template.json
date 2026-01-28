@@ -1,0 +1,86 @@
+[
+  {
+    "question": {
+      "uz": "Qaysi filmda 'May the Force be with you' degan gap aytiladi?",
+      "ru": "В каком фильме говорится 'Да пребудет с тобой Сила'?",
+      "en": "In which movie is the phrase 'May the Force be with you' said?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Harry Potter",
+          "ru": "Гарри Поттер",
+          "en": "Harry Potter"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Star Wars",
+          "ru": "Звёздные войны",
+          "en": "Star Wars"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Lord of the Rings",
+          "ru": "Властелин колец",
+          "en": "Lord of the Rings"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Avengers",
+          "ru": "Мстители",
+          "en": "Avengers"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Titanic filmida qaysi aktrisa bosh rolni o'ynagan?",
+      "ru": "Какая актриса сыграла главную роль в фильме Титаник?",
+      "en": "Which actress played the lead role in Titanic?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Angelina Jolie",
+          "ru": "Анджелина Джоли",
+          "en": "Angelina Jolie"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kate Winslet",
+          "ru": "Кейт Уинслет",
+          "en": "Kate Winslet"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Scarlett Johansson",
+          "ru": "Скарлетт Йоханссон",
+          "en": "Scarlett Johansson"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jennifer Lawrence",
+          "ru": "Дженнифер Лоуренс",
+          "en": "Jennifer Lawrence"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  }
+]

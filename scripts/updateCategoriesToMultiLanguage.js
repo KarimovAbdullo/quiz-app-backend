@@ -108,3 +108,4 @@ async function updateCategories() {
     process.exit(1);
   }
 }
+

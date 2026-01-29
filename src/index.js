@@ -23,7 +23,39 @@ app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
 
 // Serve static files (uploaded images)
 const path = require("path");
-app.use("/uploads", express.static(path.join(__dirname, "../uploads")));
+const fs = require("fs");
+
+// Ensure uploads directory exists
+const uploadsDir = path.join(__dirname, "../uploads");
+const uploadsQuestionsDir = path.join(__dirname, "../uploads/questions");
+
+if (!fs.existsSync(uploadsDir)) {
+  fs.mkdirSync(uploadsDir, { recursive: true });
+  console.log("✅ Created uploads directory");
+}
+
+if (!fs.existsSync(uploadsQuestionsDir)) {
+  fs.mkdirSync(uploadsQuestionsDir, { recursive: true });
+  console.log("✅ Created uploads/questions directory");
+}
+
+// Serve static files with proper headers
+app.use("/uploads", express.static(path.join(__dirname, "../uploads"), {
+  setHeaders: (res, filePath) => {
+    // Set proper content-type for images
+    if (filePath.endsWith('.jpg') || filePath.endsWith('.jpeg')) {
+      res.setHeader('Content-Type', 'image/jpeg');
+    } else if (filePath.endsWith('.png')) {
+      res.setHeader('Content-Type', 'image/png');
+    } else if (filePath.endsWith('.gif')) {
+      res.setHeader('Content-Type', 'image/gif');
+    } else if (filePath.endsWith('.webp')) {
+      res.setHeader('Content-Type', 'image/webp');
+    }
+    // Enable CORS for images
+    res.setHeader('Access-Control-Allow-Origin', '*');
+  }
+}));
 
 // Connect to MongoDB
 const mongoURI = process.env.MONGODB_URI;
@@ -80,11 +112,18 @@ app.get("/", (req, res) => {
   });
 });
 
-// 404 handler
-app.use((req, res) => {
+// 404 handler (must be after all routes, but before error handler)
+// Don't return 404 for static file requests - let express.static handle it
+app.use((req, res, next) => {
+  // Skip 404 for /uploads routes - let express.static handle it
+  if (req.path.startsWith('/uploads')) {
+    return next();
+  }
+  
   res.status(404).json({
     success: false,
     message: "Route not found",
+    path: req.path,
   });
 });
 

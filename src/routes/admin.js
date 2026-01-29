@@ -158,13 +158,23 @@ router.post(
       // Get image URL if file was uploaded
       let imageUrl = null;
       if (req.file) {
-        // Use BASE_URL if available (for Railway/deployment), otherwise relative path
-        const baseUrl = process.env.BASE_URL || process.env.RAILWAY_PUBLIC_DOMAIN 
-          ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}` 
-          : '';
-        imageUrl = baseUrl 
-          ? `${baseUrl}/uploads/questions/${req.file.filename}`
-          : `/uploads/questions/${req.file.filename}`;
+        // Construct full URL for image
+        // Priority: BASE_URL > RAILWAY_PUBLIC_DOMAIN > hardcoded Railway URL
+        let baseUrl = process.env.BASE_URL;
+        
+        if (!baseUrl && process.env.RAILWAY_PUBLIC_DOMAIN) {
+          baseUrl = `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`;
+        }
+        
+        if (!baseUrl) {
+          baseUrl = 'https://quiz-app-backend-production-cd1c.up.railway.app';
+        }
+        
+        // Ensure baseUrl doesn't end with /
+        baseUrl = baseUrl.replace(/\/$/, '');
+        
+        imageUrl = `${baseUrl}/uploads/questions/${req.file.filename}`;
+        console.log(`📸 Image saved: ${imageUrl}`);
       }
 
       // Create question
@@ -369,13 +379,22 @@ router.put(
             console.error("Error deleting old image:", unlinkError);
           }
         }
-        // Use BASE_URL if available (for Railway/deployment), otherwise relative path
-        const baseUrl = process.env.BASE_URL || process.env.RAILWAY_PUBLIC_DOMAIN 
-          ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}` 
-          : '';
-        imageUrl = baseUrl 
-          ? `${baseUrl}/uploads/questions/${req.file.filename}`
-          : `/uploads/questions/${req.file.filename}`;
+        // Construct full URL for image
+        let baseUrl = process.env.BASE_URL;
+        
+        if (!baseUrl && process.env.RAILWAY_PUBLIC_DOMAIN) {
+          baseUrl = `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`;
+        }
+        
+        if (!baseUrl) {
+          baseUrl = 'https://quiz-app-backend-production-cd1c.up.railway.app';
+        }
+        
+        // Ensure baseUrl doesn't end with /
+        baseUrl = baseUrl.replace(/\/$/, '');
+        
+        imageUrl = `${baseUrl}/uploads/questions/${req.file.filename}`;
+        console.log(`📸 Image updated: ${imageUrl}`);
       }
 
       // Update question

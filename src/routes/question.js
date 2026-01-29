@@ -169,6 +169,18 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
     // Format questions for user's language (from database, NO translation here)
     // Translations are already saved in database when question was created
     const formattedQuestions = questions.map((question) => {
+      // Ensure image URL is full URL if it's relative
+      let imageUrl = question.image || null;
+      if (imageUrl && !imageUrl.startsWith('http://') && !imageUrl.startsWith('https://')) {
+        // Convert relative URL to full URL
+        const baseUrl = process.env.BASE_URL || 
+          (process.env.RAILWAY_PUBLIC_DOMAIN ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}` : null) ||
+          'https://quiz-app-backend-production-cd1c.up.railway.app';
+        imageUrl = imageUrl.startsWith('/') 
+          ? `${baseUrl}${imageUrl}`
+          : `${baseUrl}/${imageUrl}`;
+      }
+      
       return {
         id: question._id,
         categoryId: question.categoryId,
@@ -178,7 +190,7 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
           text: option.text[userLanguage] || option.text.uz, // Fallback to Uzbek
           // Don't include isCorrect in response (security)
         })),
-        image: question.image || null,
+        image: imageUrl,
         createdAt: question.createdAt,
       };
     });

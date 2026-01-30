@@ -1,0 +1,1682 @@
+[
+  {
+    "question": {
+      "uz": "Dunyodagi eng baland tog' qaysi?",
+      "ru": "Какая гора самая высокая в мире?",
+      "en": "What is the highest mountain in the world?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "K2",
+          "ru": "К2",
+          "en": "K2"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Elbrus",
+          "ru": "Эльбрус",
+          "en": "Elbrus"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Everest",
+          "ru": "Эверест",
+          "en": "Everest"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Kilimanjaro",
+          "ru": "Килиманджаро",
+          "en": "Kilimanjaro"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Aholisi eng kam bo'lgan davlat qaysi?",
+      "ru": "Какая страна имеет наименьшее население?",
+      "en": "Which country has the smallest population?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Vatikan",
+          "ru": "Ватикан",
+          "en": "Vatican City"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Monako",
+          "ru": "Монако",
+          "en": "Monaco"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "San-Marino",
+          "ru": "Сан-Марино",
+          "en": "San Marino"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lixtenshteyn",
+          "ru": "Лихтенштейн",
+          "en": "Liechtenstein"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta okean qaysi?",
+      "ru": "Какой океан самый большой?",
+      "en": "Which is the largest ocean?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Hind okeani",
+          "ru": "Индийский океан",
+          "en": "Indian Ocean"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Atlantika okeani",
+          "ru": "Атлантический океан",
+          "en": "Atlantic Ocean"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Shimoliy Muz okeani",
+          "ru": "Северный Ледовитый океан",
+          "en": "Arctic Ocean"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tinch okeani",
+          "ru": "Тихий океан",
+          "en": "Pacific Ocean"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Yer yuzasida nechta qit'a bor?",
+      "ru": "Сколько континентов на Земле?",
+      "en": "How many continents are there on Earth?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "5",
+          "ru": "5",
+          "en": "5"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "6",
+          "ru": "6",
+          "en": "6"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "7",
+          "ru": "7",
+          "en": "7"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "8",
+          "ru": "8",
+          "en": "8"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmda qaysi davlat bayrog'i tasvirlangan?",
+      "ru": "Флаг какой страны изображён на картинке?",
+      "en": "Which country's flag is shown in the image?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Indoneziya",
+          "ru": "Индонезия",
+          "en": "Indonesia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yaponiya",
+          "ru": "Япония",
+          "en": "Japan"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Polsha",
+          "ru": "Польша",
+          "en": "Poland"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Avstriya",
+          "ru": "Австрия",
+          "en": "Austria"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1502920514313-52581002a659?w=800"
+  },
+  {
+    "question": {
+      "uz": "Avstraliya poytaxti qaysi shahar?",
+      "ru": "Столица Австралии?",
+      "en": "What is the capital of Australia?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sydney",
+          "ru": "Сидней",
+          "en": "Sydney"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Melburn",
+          "ru": "Мельбурн",
+          "en": "Melbourne"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Perth",
+          "ru": "Перт",
+          "en": "Perth"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kanberra",
+          "ru": "Канберра",
+          "en": "Canberra"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Kanada poytaxti qaysi shahar?",
+      "ru": "Столица Канады?",
+      "en": "What is the capital of Canada?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ottava",
+          "ru": "Оттава",
+          "en": "Ottawa"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Toronto",
+          "ru": "Торонто",
+          "en": "Toronto"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Vankuver",
+          "ru": "Ванкувер",
+          "en": "Vancouver"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Montreal",
+          "ru": "Монреаль",
+          "en": "Montreal"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Braziliya poytaxti qaysi shahar?",
+      "ru": "Столица Бразилии?",
+      "en": "What is the capital of Brazil?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "San-Paulu",
+          "ru": "Сан-Паулу",
+          "en": "São Paulo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rio-de-Janeyro",
+          "ru": "Рио-де-Жанейро",
+          "en": "Rio de Janeiro"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Brasiliya",
+          "ru": "Бразилиа",
+          "en": "Brasília"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Salvador",
+          "ru": "Салвадор",
+          "en": "Salvador"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng uzun daryo qaysi?",
+      "ru": "Какая река самая длинная в мире?",
+      "en": "What is the longest river in the world?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Amazonka",
+          "ru": "Амазонка",
+          "en": "Amazon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yansi",
+          "ru": "Янцзы",
+          "en": "Yangtze"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mississippi",
+          "ru": "Миссисипи",
+          "en": "Mississippi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nil",
+          "ru": "Нил",
+          "en": "Nile"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmda qaysi mashhur joy tasvirlangan?",
+      "ru": "Какое известное место изображено на картинке?",
+      "en": "Which famous place is shown in the image?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Big Ben",
+          "ru": "Биг-Бен",
+          "en": "Big Ben"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kolizey",
+          "ru": "Колизей",
+          "en": "Colosseum"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Eyfel minorasi",
+          "ru": "Эйфелева башня",
+          "en": "Eiffel Tower"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Ozodlik haykali",
+          "ru": "Статуя Свободы",
+          "en": "Statue of Liberty"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800"
+  },
+  {
+    "question": {
+      "uz": "Yer yuzasi bo'yicha eng katta davlat qaysi?",
+      "ru": "Какая страна самая большая по площади?",
+      "en": "Which country is the largest by area?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kanada",
+          "ru": "Канада",
+          "en": "Canada"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rossiya",
+          "ru": "Россия",
+          "en": "Russia"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "AQSh",
+          "ru": "США",
+          "en": "USA"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Xitoy",
+          "ru": "Китай",
+          "en": "China"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Misr poytaxti qaysi shahar?",
+      "ru": "Столица Египта?",
+      "en": "What is the capital of Egypt?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Qohira",
+          "ru": "Каир",
+          "en": "Cairo"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Iskandariya",
+          "ru": "Александрия",
+          "en": "Alexandria"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Giza",
+          "ru": "Гиза",
+          "en": "Giza"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Luxor",
+          "ru": "Луксор",
+          "en": "Luxor"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Hindiston poytaxti qaysi shahar?",
+      "ru": "Столица Индии?",
+      "en": "What is the capital of India?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Yangi Dehli",
+          "ru": "Нью-Дели",
+          "en": "New Delhi"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Mumbay",
+          "ru": "Мумбаи",
+          "en": "Mumbai"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kalkutta",
+          "ru": "Калькутта",
+          "en": "Kolkata"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bangalor",
+          "ru": "Бангалор",
+          "en": "Bangalore"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi dengiz dunyoda eng chuchuk?",
+      "ru": "Какое море самое пресное в мире?",
+      "en": "Which sea is the least salty in the world?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "O'rta yer dengizi",
+          "ru": "Средиземное море",
+          "en": "Mediterranean Sea"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qizil dengiz",
+          "ru": "Красное море",
+          "en": "Red Sea"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Boltiq dengizi",
+          "ru": "Балтийское море",
+          "en": "Baltic Sea"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Qora dengiz",
+          "ru": "Чёрное море",
+          "en": "Black Sea"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmda qaysi diqqatga sazovor joy?",
+      "ru": "Какая достопримечательность на картинке?",
+      "en": "Which landmark is shown in the image?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Eyfel minorasi",
+          "ru": "Эйфелева башня",
+          "en": "Eiffel Tower"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pisa minorasi",
+          "ru": "Пизанская башня",
+          "en": "Leaning Tower of Pisa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ozodlik haykali",
+          "ru": "Статуя Свободы",
+          "en": "Statue of Liberty"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Big Ben",
+          "ru": "Биг-Бен",
+          "en": "Big Ben"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800"
+  },
+  {
+    "question": {
+      "uz": "Sahara cho'li qaysi qit'ada joylashgan?",
+      "ru": "На каком континенте находится пустыня Сахара?",
+      "en": "On which continent is the Sahara Desert located?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Osiyo",
+          "ru": "Азия",
+          "en": "Asia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Afrika",
+          "ru": "Африка",
+          "en": "Africa"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Avstraliya",
+          "ru": "Австралия",
+          "en": "Australia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Janubiy Amerika",
+          "ru": "Южная Америка",
+          "en": "South America"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "AQSh poytaxti qaysi shahar?",
+      "ru": "Столица США?",
+      "en": "What is the capital of the USA?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Nyu-York",
+          "ru": "Нью-Йорк",
+          "en": "New York"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Los-Anjeles",
+          "ru": "Лос-Анджелес",
+          "en": "Los Angeles"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Vashington",
+          "ru": "Вашингтон",
+          "en": "Washington D.C."
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Chikago",
+          "ru": "Чикаго",
+          "en": "Chicago"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Fransiya poytaxti qaysi shahar?",
+      "ru": "Столица Франции?",
+      "en": "What is the capital of France?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Lion",
+          "ru": "Лион",
+          "en": "Lyon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Parij",
+          "ru": "Париж",
+          "en": "Paris"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Marsey",
+          "ru": "Марсель",
+          "en": "Marseille"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bordo",
+          "ru": "Бордо",
+          "en": "Bordeaux"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Buyuk Britaniya poytaxti qaysi shahar?",
+      "ru": "Столица Великобритании?",
+      "en": "What is the capital of the United Kingdom?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "London",
+          "ru": "Лондон",
+          "en": "London"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Manchester",
+          "ru": "Манчестер",
+          "en": "Manchester"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Birmingem",
+          "ru": "Бирмингем",
+          "en": "Birmingham"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Liverpul",
+          "ru": "Ливерпуль",
+          "en": "Liverpool"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmda qaysi taniqli inshoot?",
+      "ru": "Какое известное сооружение на картинке?",
+      "en": "Which famous structure is shown in the image?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Partenon",
+          "ru": "Парфенон",
+          "en": "Parthenon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Petra",
+          "ru": "Петра",
+          "en": "Petra"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Taj Mahal",
+          "ru": "Тадж-Махал",
+          "en": "Taj Mahal"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kolizey",
+          "ru": "Колизей",
+          "en": "Colosseum"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800"
+  },
+  {
+    "question": {
+      "uz": "Germaniya poytaxti qaysi shahar?",
+      "ru": "Столица Германии?",
+      "en": "What is the capital of Germany?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Myunxen",
+          "ru": "Мюнхен",
+          "en": "Munich"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Berlin",
+          "ru": "Берлин",
+          "en": "Berlin"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Gamburg",
+          "ru": "Гамбург",
+          "en": "Hamburg"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Frankfurt",
+          "ru": "Франкфурт",
+          "en": "Frankfurt"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Italiya poytaxti qaysi shahar?",
+      "ru": "Столица Италии?",
+      "en": "What is the capital of Italy?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Rim",
+          "ru": "Рим",
+          "en": "Rome"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Milan",
+          "ru": "Милан",
+          "en": "Milan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Neapol",
+          "ru": "Неаполь",
+          "en": "Naples"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Venesiya",
+          "ru": "Венеция",
+          "en": "Venice"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Ispaniya poytaxti qaysi shahar?",
+      "ru": "Столица Испании?",
+      "en": "What is the capital of Spain?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Barselona",
+          "ru": "Барселона",
+          "en": "Barcelona"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Valensiya",
+          "ru": "Валенсия",
+          "en": "Valencia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Madrid",
+          "ru": "Мадрид",
+          "en": "Madrid"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Sevilya",
+          "ru": "Севилья",
+          "en": "Seville"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Rossiya poytaxti qaysi shahar?",
+      "ru": "Столица России?",
+      "en": "What is the capital of Russia?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sankt-Peterburg",
+          "ru": "Санкт-Петербург",
+          "en": "Saint Petersburg"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Novosibirsk",
+          "ru": "Новосибирск",
+          "en": "Novosibirsk"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yekaterinburg",
+          "ru": "Екатеринбург",
+          "en": "Yekaterinburg"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Moskva",
+          "ru": "Москва",
+          "en": "Moscow"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng kichik davlat (yuzasi) qaysi?",
+      "ru": "Какое государство самое маленькое по площади?",
+      "en": "Which is the smallest country by area?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Monako",
+          "ru": "Монако",
+          "en": "Monaco"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "San-Marino",
+          "ru": "Сан-Марино",
+          "en": "San Marino"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lixtenshteyn",
+          "ru": "Лихтенштейн",
+          "en": "Liechtenstein"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Vatikan",
+          "ru": "Ватикан",
+          "en": "Vatican City"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=800"
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmda qaysi davlat yoki joy?",
+      "ru": "Какая страна или место на картинке?",
+      "en": "Which country or place is shown in the image?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Misr",
+          "ru": "Египет",
+          "en": "Egypt"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Gretsiya",
+          "ru": "Греция",
+          "en": "Greece"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hindiston",
+          "ru": "Индия",
+          "en": "India"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Iordaniya",
+          "ru": "Иордания",
+          "en": "Jordan"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Amazon daryosi asosan qaysi qit'ada?",
+      "ru": "В какой части света протекает река Амазонка?",
+      "en": "On which continent is the Amazon River mainly located?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Afrika",
+          "ru": "Африка",
+          "en": "Africa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Janubiy Amerika",
+          "ru": "Южная Америка",
+          "en": "South America"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Osiyo",
+          "ru": "Азия",
+          "en": "Asia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Avstraliya",
+          "ru": "Австралия",
+          "en": "Australia"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Everest cho'qqisi qaysi davlat(lar)da?",
+      "ru": "В какой стране находится вершина Эверест?",
+      "en": "In which country is Mount Everest located?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Hindiston va Xitoy",
+          "ru": "Индия и Китай",
+          "en": "India and China"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Butan",
+          "ru": "Бутан",
+          "en": "Bhutan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nepal va Xitoy",
+          "ru": "Непал и Китай",
+          "en": "Nepal and China"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Tibet",
+          "ru": "Тибет",
+          "en": "Tibet"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Xitoy poytaxti qaysi shahar?",
+      "ru": "Столица Китая?",
+      "en": "What is the capital of China?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pekin",
+          "ru": "Пекин",
+          "en": "Beijing"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Shanxay",
+          "ru": "Шанхай",
+          "en": "Shanghai"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gonkong",
+          "ru": "Гонконг",
+          "en": "Hong Kong"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Guanchjou",
+          "ru": "Гуанчжоу",
+          "en": "Guangzhou"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Yaponiya poytaxti qaysi shahar?",
+      "ru": "Столица Японии?",
+      "en": "What is the capital of Japan?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Osaka",
+          "ru": "Осака",
+          "en": "Osaka"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kioto",
+          "ru": "Киото",
+          "en": "Kyoto"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yokogama",
+          "ru": "Иокогама",
+          "en": "Yokohama"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tokio",
+          "ru": "Токио",
+          "en": "Tokyo"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800"
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmda qaysi diqqatga sazovor joy?",
+      "ru": "Какая достопримечательность на картинке?",
+      "en": "Which landmark is shown in the image?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Eyfel minorasi",
+          "ru": "Эйфелева башня",
+          "en": "Eiffel Tower"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Big Ben",
+          "ru": "Биг-Бен",
+          "en": "Big Ben"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ozodlik haykali",
+          "ru": "Статуя Свободы",
+          "en": "Statue of Liberty"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Kristus haykali",
+          "ru": "Статуя Христа",
+          "en": "Christ the Redeemer"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'rta yer dengizi qaysi qit'alar orasida joylashgan?",
+      "ru": "Между какими континентами расположено Средиземное море?",
+      "en": "Between which continents is the Mediterranean Sea located?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Amerika va Yevropa",
+          "ru": "Америка и Европа",
+          "en": "Americas and Europe"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yevropa, Afrika, Osiyo",
+          "ru": "Европа, Африка, Азия",
+          "en": "Europe, Africa, Asia"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Osiyo va Avstraliya",
+          "ru": "Азия и Австралия",
+          "en": "Asia and Australia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Afrika va Janubiy Amerika",
+          "ru": "Африка и Южная Америка",
+          "en": "Africa and South America"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Turkiya poytaxti qaysi shahar?",
+      "ru": "Столица Турции?",
+      "en": "What is the capital of Turkey?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Istanbul",
+          "ru": "Стамбул",
+          "en": "Istanbul"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Izmir",
+          "ru": "Измир",
+          "en": "Izmir"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Anqara",
+          "ru": "Анкара",
+          "en": "Ankara"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Antaliya",
+          "ru": "Анталья",
+          "en": "Antalya"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Janubiy Koreya poytaxti qaysi shahar?",
+      "ru": "Столица Южной Кореи?",
+      "en": "What is the capital of South Korea?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Seul",
+          "ru": "Сеул",
+          "en": "Seoul"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Pusan",
+          "ru": "Пусан",
+          "en": "Busan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Inchxon",
+          "ru": "Инчхон",
+          "en": "Incheon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tegu",
+          "ru": "Тэгу",
+          "en": "Daegu"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Indoneziya poytaxti qaysi shahar?",
+      "ru": "Столица Индонезии?",
+      "en": "What is the capital of Indonesia?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Bali",
+          "ru": "Бали",
+          "en": "Bali"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jakarta",
+          "ru": "Джакарта",
+          "en": "Jakarta"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Surabaya",
+          "ru": "Сурабая",
+          "en": "Surabaya"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bandung",
+          "ru": "Бандунг",
+          "en": "Bandung"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800"
+  },
+  {
+    "question": {
+      "uz": "Qaysi qit'ada eng ko'p davlat bor?",
+      "ru": "На каком континенте больше всего стран?",
+      "en": "Which continent has the most countries?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Yevropa",
+          "ru": "Европа",
+          "en": "Europe"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Osiyo",
+          "ru": "Азия",
+          "en": "Asia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Janubiy Amerika",
+          "ru": "Южная Америка",
+          "en": "South America"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Afrika",
+          "ru": "Африка",
+          "en": "Africa"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi rasmda qaysi tabiiy yoki sun'iy joy?",
+      "ru": "Какое природное или рукотворное место на картинке?",
+      "en": "Which natural or man-made place is shown in the image?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ulug' Kanal",
+          "ru": "Великий канал",
+          "en": "Grand Canal"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Suv yo'llari (Venesiya)",
+          "ru": "Венеция каналы",
+          "en": "Venice canals"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Amsterdam kanallari",
+          "ru": "Каналы Амстердама",
+          "en": "Amsterdam canals"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Suez kanali",
+          "ru": "Суэцкий канал",
+          "en": "Suez Canal"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Argentina poytaxti qaysi shahar?",
+      "ru": "Столица Аргентины?",
+      "en": "What is the capital of Argentina?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kordova",
+          "ru": "Кордова",
+          "en": "Córdoba"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rosario",
+          "ru": "Росарио",
+          "en": "Rosario"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Buenos-Ayres",
+          "ru": "Буэнос-Айрес",
+          "en": "Buenos Aires"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Mendoza",
+          "ru": "Мендоса",
+          "en": "Mendoza"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Meksika poytaxti qaysi shahar?",
+      "ru": "Столица Мексики?",
+      "en": "What is the capital of Mexico?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Mexiko",
+          "ru": "Мехико",
+          "en": "Mexico City"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Gvadalaxara",
+          "ru": "Гвадалахара",
+          "en": "Guadalajara"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Monterrey",
+          "ru": "Монтеррей",
+          "en": "Monterrey"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kankun",
+          "ru": "Канкун",
+          "en": "Cancún"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Nil daryosi qaysi dengizga quyiladi?",
+      "ru": "В какое море впадает река Нил?",
+      "en": "Into which sea does the Nile River flow?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Qizil dengiz",
+          "ru": "Красное море",
+          "en": "Red Sea"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hind okeani",
+          "ru": "Индийский океан",
+          "en": "Indian Ocean"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qora dengiz",
+          "ru": "Чёрное море",
+          "en": "Black Sea"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "O'rta yer dengizi",
+          "ru": "Средиземное море",
+          "en": "Mediterranean Sea"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"
+  }
+]

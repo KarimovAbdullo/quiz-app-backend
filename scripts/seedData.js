@@ -33,7 +33,7 @@ async function seedData() {
     // await Category.deleteMany({});
     // await Question.deleteMany({});
 
-    // Categories (with order: 1=Movies, 2=Science, 3=Game, 4=Football, 5=MMA, 6=Music)
+    // Categories (with order: 1=Movies, 2=Logical, 3=Geographical, 4=Football, 5=MMA, 6=Music)
     // Multi-language support: uz, ru, en
     const categoriesData = [
       {
@@ -46,17 +46,17 @@ async function seedData() {
       },
       {
         name: {
-          uz: "Fan",
-          ru: "Наука",
-          en: "Science",
+          uz: "Mantiq",
+          ru: "Логика",
+          en: "Logical",
         },
         order: 2,
       },
       {
         name: {
-          uz: "O'yinlar",
-          ru: "Игры",
-          en: "Games",
+          uz: "Geografiya",
+          ru: "География",
+          en: "Geographical",
         },
         order: 3,
       },
@@ -176,101 +176,8 @@ async function seedData() {
           ],
         },
       ],
-      Science: [
-        {
-          question: "Yer sayyorasi Quyosh atrofida necha marta aylanadi?",
-          options: [
-            { text: "365 marta", isCorrect: true },
-            { text: "366 marta", isCorrect: false },
-            { text: "364 marta", isCorrect: false },
-            { text: "360 marta", isCorrect: false },
-          ],
-        },
-        {
-          question: "Su vodorod va kislorodning qaysi nisbatida hosil bo'ladi?",
-          options: [
-            { text: "H2O", isCorrect: true },
-            { text: "H2O2", isCorrect: false },
-            { text: "CO2", isCorrect: false },
-            { text: "NaCl", isCorrect: false },
-          ],
-        },
-        {
-          question: "Eng kichik element qaysi?",
-          options: [
-            { text: "Vodorod", isCorrect: true },
-            { text: "Geliy", isCorrect: false },
-            { text: "Litiy", isCorrect: false },
-            { text: "Uglerod", isCorrect: false },
-          ],
-        },
-        {
-          question: "Fotosintez jarayonida qaysi gaz chiqariladi?",
-          options: [
-            { text: "Kislorod", isCorrect: true },
-            { text: "Uglerod dioksid", isCorrect: false },
-            { text: "Azot", isCorrect: false },
-            { text: "Vodorod", isCorrect: false },
-          ],
-        },
-        {
-          question: "Yer sayyorasi necha million yil oldin paydo bo'lgan?",
-          options: [
-            { text: "4.5 milliard", isCorrect: true },
-            { text: "2.5 milliard", isCorrect: false },
-            { text: "6.5 milliard", isCorrect: false },
-            { text: "1.5 milliard", isCorrect: false },
-          ],
-        },
-      ],
-      Game: [
-        {
-          question: "Super Mario o'yinida bosh qahramonning ismi nima?",
-          options: [
-            { text: "Mario", isCorrect: true },
-            { text: "Luigi", isCorrect: false },
-            { text: "Bowser", isCorrect: false },
-            { text: "Yoshi", isCorrect: false },
-          ],
-        },
-        {
-          question: "Minecraft o'yinida asosiy blok nima?",
-          options: [
-            { text: "Dirt", isCorrect: false },
-            { text: "Stone", isCorrect: false },
-            { text: "Grass Block", isCorrect: true },
-            { text: "Wood", isCorrect: false },
-          ],
-        },
-        {
-          question: "Fortnite o'yinida qancha o'yinchi bir vaqtda o'ynaydi?",
-          options: [
-            { text: "50", isCorrect: false },
-            { text: "100", isCorrect: true },
-            { text: "150", isCorrect: false },
-            { text: "200", isCorrect: false },
-          ],
-        },
-        {
-          question: "Pokemon o'yinida eng birinchi Pokemon qaysi?",
-          options: [
-            { text: "Pikachu", isCorrect: false },
-            { text: "Bulbasaur", isCorrect: true },
-            { text: "Charmander", isCorrect: false },
-            { text: "Squirtle", isCorrect: false },
-          ],
-        },
-        {
-          question:
-            "Call of Duty o'yinlar seriyasida qaysi jang maydoni eng mashhur?",
-          options: [
-            { text: "Nuketown", isCorrect: true },
-            { text: "Rust", isCorrect: false },
-            { text: "Shipment", isCorrect: false },
-            { text: "Dome", isCorrect: false },
-          ],
-        },
-      ],
+      Logical: [],
+      Geographical: [],
       Football: [
         {
           question: "Futbol maydonida nechta o'yinchi bo'ladi?",
@@ -418,8 +325,8 @@ async function seedData() {
     // Map category names (old format) to new format
     const categoryNameMap = {
       "Movies": "Movies",
-      "Science": "Science",
-      "Game": "Game",
+      "Logical": "Logical",
+      "Geographical": "Geographical",
       "Football": "Football",
       "MMA": "MMA",
       "Music": "Music",

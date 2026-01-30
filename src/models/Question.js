@@ -33,7 +33,11 @@ const questionSchema = new mongoose.Schema(
       en: { type: String, required: true, trim: true }, // English (translated)
     },
     image: {
-      type: String, // URL to image (optional)
+      type: String, // URL to single image (optional)
+      default: null,
+    },
+    images: {
+      type: [String], // Array of image URLs (e.g. 3 actors for "which film") (optional)
       default: null,
     },
     options: {

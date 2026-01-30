@@ -209,6 +209,7 @@ router.post(
             isCorrect: opt.isCorrect,
           })),
           image: newQuestion.image,
+          images: newQuestion.images || undefined,
           createdAt: newQuestion.createdAt,
         },
       });
@@ -258,6 +259,7 @@ router.get("/questions", adminMiddleware, async (req, res) => {
         question: q.question,
         options: q.options,
         image: q.image,
+        images: q.images || undefined,
         createdAt: q.createdAt,
       })),
     });
@@ -416,6 +418,7 @@ router.put(
           question: existingQuestion.question,
           options: existingQuestion.options,
           image: existingQuestion.image,
+          images: existingQuestion.images || undefined,
           updatedAt: existingQuestion.updatedAt,
         },
       });

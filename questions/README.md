@@ -69,7 +69,7 @@ Har bir JSON fayl **array** formatida bo'lishi kerak. Har bir element bir savol.
 1. **Har bir savol aynan 4 ta variantga ega bo'lishi kerak**
 2. **Aynan bitta variant `isCorrect: true` bo'lishi kerak**
 3. **Barcha tillar (uz, ru, en) bo'lishi kerak**
-4. **`image` maydoni ixtiyoriy** (null yoki URL)
+4. **`image` yoki `images` ixtiyoriy**: bitta rasm uchun `"image": "url"`, bir nechta rasm (masalan 3 ta aktyor) uchun `"images": ["url1", "url2", "url3"]`
 
 ## 🚀 Qanday ishlatish
 
@@ -83,7 +83,13 @@ Har bir JSON fayl **array** formatida bo'lishi kerak. Har bir element bir savol.
 node scripts/importQuestionsFromJSON.js questions/movies.json
 ```
 
-Agar kategoriya ID ni ko'rsatmoqchi bo'lsangiz:
+Agar kategoriyadagi barcha savollarni (adminkadan qo'shilganlar ham) o'chirib, yangi JSON dan import qilmoqchi bo'lsangiz:
+
+```bash
+node scripts/importQuestionsFromJSON.js questions/movies-new.json --clear-first
+```
+
+Kategoriya ID ni ko'rsatish (ixtiyoriy):
 
 ```bash
 node scripts/importQuestionsFromJSON.js questions/movies.json <categoryId>

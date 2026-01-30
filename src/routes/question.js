@@ -168,29 +168,34 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
 
     // Format questions for user's language (from database, NO translation here)
     // Translations are already saved in database when question was created
+    const baseUrl = process.env.BASE_URL ||
+      (process.env.RAILWAY_PUBLIC_DOMAIN ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}` : null) ||
+      'https://quiz-app-backend-production-cd1c.up.railway.app';
+
+    const toFullUrl = (url) => {
+      if (!url || (url.startsWith('http://') || url.startsWith('https://'))) return url;
+      return url.startsWith('/') ? `${baseUrl}${url}` : `${baseUrl}/${url}`;
+    };
+
     const formattedQuestions = questions.map((question) => {
-      // Ensure image URL is full URL if it's relative
-      let imageUrl = question.image || null;
-      if (imageUrl && !imageUrl.startsWith('http://') && !imageUrl.startsWith('https://')) {
-        // Convert relative URL to full URL
-        const baseUrl = process.env.BASE_URL || 
-          (process.env.RAILWAY_PUBLIC_DOMAIN ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}` : null) ||
-          'https://quiz-app-backend-production-cd1c.up.railway.app';
-        imageUrl = imageUrl.startsWith('/') 
-          ? `${baseUrl}${imageUrl}`
-          : `${baseUrl}/${imageUrl}`;
+      // Support single image or multiple images (e.g. 3 actors)
+      let imageUrl = null;
+      let imagesArr = null;
+      if (question.images && question.images.length > 0) {
+        imagesArr = question.images.map(toFullUrl);
+      } else if (question.image) {
+        imageUrl = toFullUrl(question.image);
       }
-      
       return {
         id: question._id,
         categoryId: question.categoryId,
-        question: question.question[userLanguage] || question.question.uz, // Fallback to Uzbek
+        question: question.question[userLanguage] || question.question.uz,
         options: question.options.map((option) => ({
           id: option._id,
-          text: option.text[userLanguage] || option.text.uz, // Fallback to Uzbek
-          // Don't include isCorrect in response (security)
+          text: option.text[userLanguage] || option.text.uz,
         })),
         image: imageUrl,
+        images: imagesArr,
         createdAt: question.createdAt,
       };
     });

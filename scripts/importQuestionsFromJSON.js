@@ -38,11 +38,9 @@ mongoose
  */
 async function importQuestions() {
   try {
-    // ============================================
-    // BU YERNI O'ZGARTIRING - JSON fayl yo'li
-    // ============================================
-    const jsonFilePath = process.argv[2] || "questions/movies.json";
-    
+    const args = process.argv.slice(2).filter((a) => a !== "--clear-first");
+    const jsonFilePath = args[0] || "questions/movies.json";
+
     // JSON faylni o'qish
     if (!fs.existsSync(jsonFilePath)) {
       console.error(`❌ JSON fayl topilmadi: ${jsonFilePath}`);
@@ -70,31 +68,20 @@ async function importQuestions() {
       console.log(`   ${idx + 1}. ${name} (ID: ${cat._id})`);
     });
 
-    let categoryId = process.argv[3];
-    
+    const clearFirst = process.argv.includes("--clear-first");
+    let categoryId = args[1];
+
     if (!categoryId) {
       
       const fileName = path.basename(jsonFilePath, '.json');
       let categoryName = null;
       
-      if (fileName.includes('games') || fileName.includes('game')) {
-        let foundCategory = await Category.findOne({ "name.en": "Games" });
-        if (!foundCategory) {
-          foundCategory = await Category.findOne({ "name.en": "Game" });
-        }
-        if (foundCategory) {
-          categoryId = foundCategory._id.toString();
-          console.log(`\n✅ "${foundCategory.name.en}" kategoriyasi topildi: ${categoryId}`);
-        } else {
-          console.error("\n❌ 'Games' yoki 'Game' kategoriyasi topilmadi!");
-          console.log("ℹ️  Kategoriya ID ni ko'rsating: node scripts/importQuestionsFromJSON.js questions/games.json <categoryId>");
-          process.exit(1);
-        }
-        categoryName = null; // categoryName ni null qilish, chunki allaqachon topildi
-      } else if (fileName.includes('movies') || fileName.includes('movie')) {
+      if (fileName.includes('movies') || fileName.includes('movie')) {
         categoryName = { "name.en": "Movies" };
-      } else if (fileName.includes('science')) {
-        categoryName = { "name.en": "Science" };
+      } else if (fileName.includes('logical')) {
+        categoryName = { "name.en": "Logical" };
+      } else if (fileName.includes('geographical') || fileName.includes('geography')) {
+        categoryName = { "name.en": "Geographical" };
       } else if (fileName.includes('football')) {
         categoryName = { "name.en": "Football" };
       } else if (fileName.includes('mma')) {
@@ -128,6 +115,12 @@ async function importQuestions() {
     }
 
     console.log(`\n📁 Kategoriya: ${category.name.uz} / ${category.name.ru} / ${category.name.en}`);
+
+    if (clearFirst) {
+      const deleted = await Question.deleteMany({ categoryId });
+      console.log(`\n🗑️  Kategoriyadagi ${deleted.deletedCount} ta savol o'chirildi (adminkadan qo'shilganlar ham).\n`);
+    }
+
     console.log(`\n🔄 Savollar import qilinmoqda...\n`);
 
     let successCount = 0;
@@ -201,7 +194,7 @@ async function importQuestions() {
           continue;
         }
 
-        // Savolni yaratish
+        // Savolni yaratish (image yoki images: bitta rasm yoki bir nechta rasmlar)
         const newQuestion = new Question({
           categoryId: categoryId,
           question: {
@@ -217,7 +210,8 @@ async function importQuestions() {
             },
             isCorrect: opt.isCorrect,
           })),
-          image: questionData.image || null,
+          image: questionData.images && questionData.images.length > 0 ? null : (questionData.image || null),
+          images: questionData.images && questionData.images.length > 0 ? questionData.images : null,
         });
 
         await newQuestion.save();

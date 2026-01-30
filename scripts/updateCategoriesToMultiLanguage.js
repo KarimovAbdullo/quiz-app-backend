@@ -30,15 +30,30 @@ const categoryTranslations = {
     ru: "Фильмы",
     en: "Movies",
   },
+  Logical: {
+    uz: "Mantiq",
+    ru: "Логика",
+    en: "Logical",
+  },
+  Geographical: {
+    uz: "Geografiya",
+    ru: "География",
+    en: "Geographical",
+  },
   Science: {
-    uz: "Fan",
-    ru: "Наука",
-    en: "Science",
+    uz: "Mantiq",
+    ru: "Логика",
+    en: "Logical",
   },
   Game: {
-    uz: "O'yinlar",
-    ru: "Игры",
-    en: "Games",
+    uz: "Geografiya",
+    ru: "География",
+    en: "Geographical",
+  },
+  Games: {
+    uz: "Geografiya",
+    ru: "География",
+    en: "Geographical",
   },
   Football: {
     uz: "Futbol",

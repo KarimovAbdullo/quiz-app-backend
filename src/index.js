@@ -193,17 +193,17 @@ async function createCategoriesOnly() {
       },
       {
         name: {
-          uz: "Fan",
-          ru: "Наука",
-          en: "Science",
+          uz: "Mantiq",
+          ru: "Логика",
+          en: "Logical",
         },
         order: 2,
       },
       {
         name: {
-          uz: "O'yinlar",
-          ru: "Игры",
-          en: "Games",
+          uz: "Geografiya",
+          ru: "География",
+          en: "Geographical",
         },
         order: 3,
       },
@@ -283,21 +283,30 @@ async function updateCategoriesToMultiLanguage() {
         ru: "Фильмы",
         en: "Movies",
       },
+      Logical: {
+        uz: "Mantiq",
+        ru: "Логика",
+        en: "Logical",
+      },
+      Geographical: {
+        uz: "Geografiya",
+        ru: "География",
+        en: "Geographical",
+      },
       Science: {
-        uz: "Fan",
-        ru: "Наука",
-        en: "Science",
+        uz: "Mantiq",
+        ru: "Логика",
+        en: "Logical",
       },
       Game: {
-        uz: "O'yinlar",
-        ru: "Игры",
-        en: "Games",
+        uz: "Geografiya",
+        ru: "География",
+        en: "Geographical",
       },
       Games: {
-        // Also handle "Games" (plural)
-        uz: "O'yinlar",
-        ru: "Игры",
-        en: "Games",
+        uz: "Geografiya",
+        ru: "География",
+        en: "Geographical",
       },
       Football: {
         uz: "Futbol",
@@ -319,7 +328,35 @@ async function updateCategoriesToMultiLanguage() {
     const categories = await Category.find();
     let updatedCount = 0;
 
+    // Replace old categories with new: Science -> Logical, Games/Game -> Geographical
+    const logicalName = {
+      uz: "Mantiq",
+      ru: "Логика",
+      en: "Logical",
+    };
+    const geographicalName = {
+      uz: "Geografiya",
+      ru: "География",
+      en: "Geographical",
+    };
+
     for (const category of categories) {
+      const nameEn = typeof category.name === "object" && category.name ? category.name.en : category.name;
+      if (nameEn === "Science") {
+        category.name = logicalName;
+        await category.save();
+        updatedCount++;
+        console.log(`✅ Renamed category: Science → Logical`);
+        continue;
+      }
+      if (nameEn === "Games" || nameEn === "Game") {
+        category.name = geographicalName;
+        await category.save();
+        updatedCount++;
+        console.log(`✅ Renamed category: ${nameEn} → Geographical`);
+        continue;
+      }
+
       // Check if category.name is already an object (new format)
       if (
         typeof category.name === "object" &&

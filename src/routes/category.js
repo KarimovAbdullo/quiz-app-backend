@@ -87,9 +87,8 @@ router.get("/", async (req, res) => {
         // Category translations mapping
         const categoryTranslations = {
           Movies: { uz: "Kinolar", ru: "Фильмы", en: "Movies" },
-          Science: { uz: "Fan", ru: "Наука", en: "Science" },
-          Game: { uz: "O'yinlar", ru: "Игры", en: "Games" },
-          Games: { uz: "O'yinlar", ru: "Игры", en: "Games" },
+          Logical: { uz: "Mantiq", ru: "Логика", en: "Logical" },
+          Geographical: { uz: "Geografiya", ru: "География", en: "Geographical" },
           Football: { uz: "Futbol", ru: "Футбол", en: "Football" },
           MMA: { uz: "MMA", ru: "ММА", en: "MMA" },
           Music: { uz: "Musiqa", ru: "Музыка", en: "Music" },
@@ -145,8 +144,8 @@ router.get("/", async (req, res) => {
             // Last resort: use order to determine category name
             const orderToName = {
               1: "Movies",
-              2: "Science",
-              3: "Game",
+              2: "Logical",
+              3: "Geographical",
               4: "Football",
               5: "MMA",
               6: "Music",
@@ -168,8 +167,8 @@ router.get("/", async (req, res) => {
           // If name is completely missing, use order
           const orderToName = {
             1: "Movies",
-            2: "Science",
-            3: "Game",
+            2: "Logical",
+            3: "Geographical",
             4: "Football",
             5: "MMA",
             6: "Music",

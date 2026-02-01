@@ -119,23 +119,27 @@ router.post("/answer", authMiddleware, async (req, res) => {
 
 /**
  * GET /questions/:categoryId
- * Get all unsolved questions for a specific category
+ * Get questions for a specific category.
  * Protected route (JWT required)
- * 
- * Returns questions in user's preferred language
- * Language can be specified in query param (?language=uzb) or taken from user profile
+ *
+ * - Normal mode (allMode=false, default): only questions user has NOT correctly answered.
+ * - Battle mode (allMode=true): ALL questions in the category (including already correctly answered).
+ *
+ * allMode: query param (?allMode=true) or user profile allMode (e.g. set via PUT /auth/allMode).
+ * Language: query param (?language=uzb) or user profile.
  */
 router.get("/:categoryId", authMiddleware, async (req, res) => {
   try {
     const { categoryId } = req.params;
-    const { language } = req.query; // Optional language override from query param
+    const { language, allMode: allModeQuery } = req.query;
     const userId = req.user._id;
 
-    // Get user's correctly solved questions and language preference
     const user = await User.findById(userId);
     const correctlySolvedQuestionIds = user.correctlySolvedQuestions || [];
-    
-    // Map language codes: uzb → uz, rus → ru, eng → en
+
+    // Battle mode: true if query allMode=true OR user.allMode is true
+    const allMode = allModeQuery === "true" || allModeQuery === true || user.allMode === true;
+
     const languageMap = {
       "uzb": "uz",
       "rus": "ru",
@@ -144,14 +148,10 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
       "ru": "ru",
       "en": "en",
     };
-    
-    // Determine language: query param > user preference > default (uz)
+
     let userLanguage = language || user.language || "uz";
-    
-    // Normalize language code
     userLanguage = languageMap[userLanguage] || userLanguage;
-    
-    // Validate language
+
     if (!["uz", "ru", "en"].includes(userLanguage)) {
       return res.status(400).json({
         success: false,
@@ -159,12 +159,11 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
       });
     }
 
-    // Find questions in this category that user hasn't correctly solved
-    // Only exclude questions that were answered correctly (not all answered questions)
-    const questions = await Question.find({
-      categoryId: categoryId,
-      _id: { $nin: correctlySolvedQuestionIds },
-    });
+    // allMode (battle): return ALL questions; otherwise exclude correctly solved
+    const questionFilter = allMode
+      ? { categoryId }
+      : { categoryId, _id: { $nin: correctlySolvedQuestionIds } };
+    const questions = await Question.find(questionFilter);
 
     // Format questions for user's language (from database, NO translation here)
     // Translations are already saved in database when question was created
@@ -204,6 +203,7 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
       success: true,
       count: formattedQuestions.length,
       language: userLanguage,
+      allMode, // true = battle (all questions), false = only unsolved
       questions: formattedQuestions,
     });
   } catch (error) {

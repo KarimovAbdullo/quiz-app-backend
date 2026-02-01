@@ -100,7 +100,7 @@ app.get("/", (req, res) => {
         getAll: "GET /categories",
       },
       questions: {
-        getByCategory: "GET /questions/:categoryId?language=uzb|rus|eng",
+        getByCategory: "GET /questions/:categoryId?language=uzb|rus|eng&allMode=true|false (allMode=true = battle, all questions)",
         submitAnswer: "POST /questions/answer",
       },
       admin: {

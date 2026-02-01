@@ -48,6 +48,11 @@ const userSchema = new mongoose.Schema(
       enum: ["uz", "ru", "en", "uzb", "rus", "eng"], // Support both formats for backward compatibility
       default: "uz", // Default to "uz" (Uzbek)
     },
+    // Battle mode: when true, question list returns ALL questions (including already correctly answered)
+    allMode: {
+      type: Boolean,
+      default: false,
+    },
   },
   {
     timestamps: true,

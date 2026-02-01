@@ -267,6 +267,7 @@ router.get("/profile", authMiddleware, async (req, res) => {
         nickname: user.nickname,
         status: user.status,
         mode: user.mode,
+        allMode: user.allMode === true, // Battle mode: when true, questions API returns all (including already correct)
         correctAnswers: user.correctAnswers,
         solvedQuestionsCount: user.solvedQuestions.length,
         language: userLanguage, // Normalized language code (uz, ru, en)
@@ -278,6 +279,49 @@ router.get("/profile", authMiddleware, async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Error fetching profile",
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * PUT /auth/allMode
+ * Set battle mode: when true, GET /questions/:categoryId returns ALL questions (including already correctly answered).
+ * Protected route (JWT required)
+ * Body: { allMode: true | false }
+ */
+router.put("/allMode", authMiddleware, async (req, res) => {
+  try {
+    const { allMode } = req.body;
+    const userId = req.user._id;
+
+    if (typeof allMode !== "boolean") {
+      return res.status(400).json({
+        success: false,
+        message: "Please provide allMode as boolean (true or false)",
+      });
+    }
+
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: "User not found",
+      });
+    }
+
+    user.allMode = allMode;
+    await user.save();
+
+    res.status(200).json({
+      success: true,
+      message: allMode ? "Battle mode on: all questions will be shown" : "Normal mode: only unsolved questions will be shown",
+      allMode: user.allMode,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error updating allMode",
       error: error.message,
     });
   }

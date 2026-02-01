@@ -123,7 +123,7 @@
         "isCorrect": true
       }
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/The_Godfather.png/800px-The_Godfather.png"
+    "image": "https://i.ibb.co/SD3qXvkr/2026-02-01-3-58-49-PM.png"
   },
   {
     "question": {
@@ -635,7 +635,7 @@
         "isCorrect": true
       }
     ],
-    "image": "https://images.unsplash.com/photo-1534809027769-b00d750a6bac?w=800"
+    "image": "https://i.ibb.co/fWpM600/2026-02-01-4-07-27-PM.png"
   },
   {
     "question": {
@@ -1404,9 +1404,2867 @@
       }
     ],
     "images": [
-      "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=400",
-      "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=400",
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400"
+      "https://i.ibb.co/FLxxvYKG/images-4.webp",
+      "https://i.ibb.co/YFXxXxTg/licensed-image.webp",
+      "https://i.ibb.co/9mVTpTR7/images-5.webp"
     ]
+  },
+  {
+    "question": {
+      "uz": "Qaysi film 'Eng yaxshi film' Oscarini birinchi marta qo'lga kiritgan (1929)?",
+      "ru": "Какой фильм первым получил «Оскар» за лучший фильм (1929)?",
+      "en": "Which film was the first to win the Academy Award for Best Picture (1929)?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sunrise",
+          "ru": "Восход",
+          "en": "Sunrise"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Jazz Singer",
+          "ru": "Певец джаза",
+          "en": "The Jazz Singer"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Broadway Melody",
+          "ru": "Бродвейская мелодия",
+          "en": "The Broadway Melody"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Wings",
+          "ru": "Крылья",
+          "en": "Wings"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this frame from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Reservoir Dogs",
+          "ru": "Бешеные псы",
+          "en": "Reservoir Dogs"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kill Bill",
+          "ru": "Убить Билла",
+          "en": "Kill Bill"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jackie Brown",
+          "ru": "Джеки Браун",
+          "en": "Jackie Brown"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pulp Fiction",
+          "ru": "Криминальное чтиво",
+          "en": "Pulp Fiction"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": "https://i.ibb.co/xSr5mZX5/2026-02-01-5-03-14-PM.png"
+  },
+  {
+    "question": {
+      "uz": "'May the Force be with you' — bu replika qaysi filmdan?",
+      "ru": "Из какого фильма фраза «Да пребудет с тобой Сила»?",
+      "en": "Which movie is the line 'May the Force be with you' from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Star Trek",
+          "ru": "Звёздный путь",
+          "en": "Star Trek"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Matrix",
+          "ru": "Матрица",
+          "en": "The Matrix"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Star Wars",
+          "ru": "Звёздные войны",
+          "en": "Star Wars"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Dune",
+          "ru": "Дюна",
+          "en": "Dune"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu aktyorlar birga qaysi filmda ishtirok etgan?",
+      "ru": "В каком фильме вместе снялись эти актёры?",
+      "en": "In which film did these actors appear together?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Saving Private Ryan",
+          "ru": "Спасти рядового Райана",
+          "en": "Saving Private Ryan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Cast Away",
+          "ru": "Изгой",
+          "en": "Cast Away"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Green Mile",
+          "ru": "Зелёная миля",
+          "en": "The Green Mile"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Forrest Gump",
+          "ru": "Форрест Гамп",
+          "en": "Forrest Gump"
+        },
+        "isCorrect": true
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/ycp5s6DH/5bf6304b746a7f35b289a0ffe9b9ca2a.jpg",
+      "https://i.ibb.co/21gBr7BP/images-1.jpg",
+      "https://i.ibb.co/21gBr7BP/images-1.jpg"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Inception filmida Dom Cobb qahramonini kim ijro etgan?",
+      "ru": "Кто сыграл Доминика Кобба в фильме «Начало»?",
+      "en": "Who played Dom Cobb in Inception?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Leonardo DiCaprio",
+          "ru": "Леонардо ДиКаприо",
+          "en": "Leonardo DiCaprio"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Christian Bale",
+          "ru": "Кристиан Бейл",
+          "en": "Christian Bale"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Matt Damon",
+          "ru": "Мэтт Деймон",
+          "en": "Matt Damon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Brad Pitt",
+          "ru": "Брэд Питт",
+          "en": "Brad Pitt"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "The Silence of the Lambs qachon 'Eng yaxshi film' Oscarini oldi?",
+      "ru": "Когда «Молчание ягнят» получило «Оскар» за лучший фильм?",
+      "en": "When did The Silence of the Lambs win the Best Picture Oscar?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1989",
+          "ru": "1989",
+          "en": "1989"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1991",
+          "ru": "1991",
+          "en": "1991"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "1990",
+          "ru": "1990",
+          "en": "1990"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1992",
+          "ru": "1992",
+          "en": "1992"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this frame from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Inception",
+          "ru": "Начало",
+          "en": "Inception"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Blade Runner",
+          "ru": "Бегущий по лезвию",
+          "en": "Blade Runner"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Minority Report",
+          "ru": "Особое мнение",
+          "en": "Minority Report"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Matrix",
+          "ru": "Матрица",
+          "en": "The Matrix"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": "https://i.ibb.co/xKYk8ktb/2026-02-01-5-12-11-PM.png"
+  },
+  {
+    "question": {
+      "uz": "Alfred Hitchcock qaysi filmida 'Psycho' deb nomlangan?",
+      "ru": "Как называется знаменитый фильм Хичкока с душем?",
+      "en": "What is the famous Hitchcock film with the shower scene?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Psycho",
+          "ru": "Психо",
+          "en": "Psycho"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Vertigo",
+          "ru": "Головокружение",
+          "en": "Vertigo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rear Window",
+          "ru": "Окно во двор",
+          "en": "Rear Window"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "North by Northwest",
+          "ru": "К северу через северо-запад",
+          "en": "North by Northwest"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Franchise qaysi filmdan boshlandi: Harry Potter yoki Lord of the Rings?",
+      "ru": "Какой франшиза стартовала раньше: Гарри Поттер или Властелин колец?",
+      "en": "Which franchise film was released first: Harry Potter or Lord of the Rings?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Lord of the Rings (2001)",
+          "ru": "Властелин колец (2001)",
+          "en": "Lord of the Rings (2001)"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Harry Potter (2001)",
+          "ru": "Гарри Поттер (2001)",
+          "en": "Harry Potter (2001)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Ikkalasi bir yil",
+          "ru": "Оба в один год",
+          "en": "Both same year"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lord of the Rings (2002)",
+          "ru": "Властелин колец (2002)",
+          "en": "Lord of the Rings (2002)"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu aktyorlar birga qaysi filmda ishtirok etgan?",
+      "ru": "В каком фильме вместе снялись эти актёры?",
+      "en": "In which film did these actors appear together?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Italian Job",
+          "ru": "Итальянская работа",
+          "en": "The Italian Job"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Snatch",
+          "ru": "Большой куш",
+          "en": "Snatch"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ocean's Eleven",
+          "ru": "Одиннадцать друзей Оушена",
+          "en": "Ocean's Eleven"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Heat",
+          "ru": "Жар тела",
+          "en": "Heat"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/sDY117S/images-6.webp",
+      "https://i.ibb.co/ks04NBRS/images-2.webp",
+      "https://i.ibb.co/ZpS0S019/licensed-image.webp"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Christopher Nolan qaysi filmida qahramon 'dream within a dream' tushida?",
+      "ru": "В каком фильме Нолана герой во сне внутри сна?",
+      "en": "In which Nolan film does the hero have a dream within a dream?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Inception",
+          "ru": "Начало",
+          "en": "Inception"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Prestige",
+          "ru": "Престиж",
+          "en": "The Prestige"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Interstellar",
+          "ru": "Интерстеллар",
+          "en": "Interstellar"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Memento",
+          "ru": "Помни",
+          "en": "Memento"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi film 'La La Land' ni bir vaqtning o'zida eng yaxshi film deb e'lon qildi, keyin o'zgartirdi?",
+      "ru": "На какой церемонии «Оскара» сначала назвали не тот фильм лучшим?",
+      "en": "At which Oscars was the wrong Best Picture initially announced?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2018",
+          "ru": "2018",
+          "en": "2018"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2017 — La La Land / Moonlight",
+          "ru": "2017 — Ла-Ла Ленд / Лунный свет",
+          "en": "2017 — La La Land / Moonlight"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2016",
+          "ru": "2016",
+          "en": "2016"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hech qachon",
+          "ru": "Никогда",
+          "en": "Never"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this frame from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Platform (2019)",
+          "ru": "The Platform (2019)",
+          "en": "The Platform (2019)"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Game",
+          "ru": "Игра",
+          "en": "The Game"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Squid Game",
+          "ru": "Squid Game",
+          "en": "Squid Game"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Exam (2009)",
+          "ru": "Exam (2009)",
+          "en": "Exam (2009)"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://i.ibb.co/nMzT7GZc/2026-02-01-5-32-47-PM.png"
+  },
+  {
+    "question": {
+      "uz": "Meryl Streep necha marta Oscar mukofotiga nomzod bo'lgan?",
+      "ru": "Сколько раз Мерил Стрип была номинирована на «Оскар»?",
+      "en": "How many times has Meryl Streep been nominated for an Oscar?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "21 ta",
+          "ru": "21",
+          "en": "21"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "15 ta",
+          "ru": "15",
+          "en": "15"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "10 ta",
+          "ru": "10",
+          "en": "10"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "18 ta",
+          "ru": "18",
+          "en": "18"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Blade Runner qaysi asar asosida suratga olingan?",
+      "ru": "По какому произведению снят «Бегущий по лезвию»?",
+      "en": "What is Blade Runner based on?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Isaac Asimov",
+          "ru": "Айзек Азимов",
+          "en": "Isaac Asimov"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Philip K. Dick — Do Androids Dream of Electric Sheep?",
+          "ru": "Филип К. Дик",
+          "en": "Philip K. Dick — Do Androids Dream of Electric Sheep?"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Ray Bradbury",
+          "ru": "Рэй Брэдбери",
+          "en": "Ray Bradbury"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Original ssenariy",
+          "ru": "Оригинальный сценарий",
+          "en": "Original screenplay"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu aktyorlar birga qaysi filmda ishtirok etgan?",
+      "ru": "В каком фильме вместе снялись эти актёры?",
+      "en": "In which film did these actors appear together?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Goodfellas",
+          "ru": "Славные парни",
+          "en": "Goodfellas"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Wolf of Wall Street",
+          "ru": "Волк с Уолл-стрит",
+          "en": "The Wolf of Wall Street"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Departed",
+          "ru": "Отступники",
+          "en": "The Departed"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Shutter Island",
+          "ru": "Остров проклятых",
+          "en": "Shutter Island"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/XrBR0n1P/images-8.webp",
+      "https://i.ibb.co/ks04NBRS/images-2.webp",
+      "https://i.ibb.co/NnN11HrY/images-1.webp"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Black Panther qaysi yilda ekranlarga chiqdi?",
+      "ru": "В каком году вышел «Чёрная пантера»?",
+      "en": "When was Black Panther released?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2018",
+          "ru": "2018",
+          "en": "2018"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2017",
+          "ru": "2017",
+          "en": "2017"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2019",
+          "ru": "2019",
+          "en": "2019"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2020",
+          "ru": "2020",
+          "en": "2020"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "'Here's looking at you, kid' — qaysi filmdan?",
+      "ru": "Из какого фильма фраза «Вот за тебя, малыш»?",
+      "en": "Which movie has the line 'Here's looking at you, kid'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Maltese Falcon",
+          "ru": "Сокровища Сьерра-Мадре",
+          "en": "The Maltese Falcon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Casablanca",
+          "ru": "Касабланка",
+          "en": "Casablanca"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "To Have and Have Not",
+          "ru": "Иметь и не иметь",
+          "en": "To Have and Have Not"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Key Largo",
+          "ru": "Ки-Ларго",
+          "en": "Key Largo"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this frame from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Braveheart",
+          "ru": "Храброе сердце",
+          "en": "Braveheart"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Troy",
+          "ru": "Троя",
+          "en": "Troy"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gladiator",
+          "ru": "Гладиатор",
+          "en": "Gladiator"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "300",
+          "ru": "300 спартанцев",
+          "en": "300"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://i.ibb.co/27sN3xf4/2026-02-01-5-57-17-PM.png"
+  },
+  {
+    "question": {
+      "uz": "Quentin Tarantino qaysi filmida Uma Thurman sariq libosda?",
+      "ru": "В каком фильме Тарантино Ума Турман в жёлтом костюме?",
+      "en": "In which Tarantino film does Uma Thurman wear a yellow outfit?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kill Bill",
+          "ru": "Убить Билла",
+          "en": "Kill Bill"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jackie Brown",
+          "ru": "Джеки Браун",
+          "en": "Jackie Brown"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Death Proof",
+          "ru": "Доказательство смерти",
+          "en": "Death Proof"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pulp Fiction",
+          "ru": "Криминальное чтиво",
+          "en": "Pulp Fiction"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "E.T. qaysi rejissyor filmi?",
+      "ru": "Кто режиссёр фильма «Инопланетянин»?",
+      "en": "Who directed E.T.?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "George Lucas",
+          "ru": "Джордж Лукас",
+          "en": "George Lucas"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Steven Spielberg",
+          "ru": "Стивен Спилберг",
+          "en": "Steven Spielberg"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "James Cameron",
+          "ru": "Джеймс Кэмерон",
+          "en": "James Cameron"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Robert Zemeckis",
+          "ru": "Роберт Земекис",
+          "en": "Robert Zemeckis"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu aktyorlar birga qaysi filmda ishtirok etgan?",
+      "ru": "В каком фильме вместе снялись эти актёры?",
+      "en": "In which film did these actors appear together?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Avengers: Infinity War",
+          "ru": "Мстители: Война бесконечности",
+          "en": "Avengers: Infinity War"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Avengers: Endgame",
+          "ru": "Мстители: Финал",
+          "en": "Avengers: Endgame"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Iron Man",
+          "ru": "Железный человек",
+          "en": "Iron Man"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Captain America: Civil War",
+          "ru": "Первый мститель: Противостояние",
+          "en": "Captain America: Civil War"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/WW5MLVbJ/images-9.webp",
+      "https://i.ibb.co/Vptvqvbn/images-11.webp",
+      "https://i.ibb.co/KcYcqTrJ/images-10.webp"
+    ]
+  },
+  {
+    "question": {
+      "uz": "The Shining asari qaysi yozuvchiga tegishli?",
+      "ru": "Кто написал роман «Сияние»?",
+      "en": "Who wrote the novel The Shining?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Dean Koontz",
+          "ru": "Дин Кунц",
+          "en": "Dean Koontz"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Clive Barker",
+          "ru": "Клайв Баркер",
+          "en": "Clive Barker"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Stephen King",
+          "ru": "Стивен Кинг",
+          "en": "Stephen King"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Peter Straub",
+          "ru": "Питер Страуб",
+          "en": "Peter Straub"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Amélie qaysi poytaxtda suratga olingan?",
+      "ru": "В каком городе снят фильм «Амели»?",
+      "en": "In which city is Amélie set?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Paris",
+          "ru": "Париж",
+          "en": "Paris"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "London",
+          "ru": "Лондон",
+          "en": "London"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lyon",
+          "ru": "Лион",
+          "en": "Lyon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bordeaux",
+          "ru": "Бордо",
+          "en": "Bordeaux"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this frame from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Lost World",
+          "ru": "Затерянный мир",
+          "en": "The Lost World"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "King Kong",
+          "ru": "Кинг-Конг",
+          "en": "King Kong"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Godzilla",
+          "ru": "Годзилла",
+          "en": "Godzilla"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jurassic Park",
+          "ru": "Парк Юрского периода",
+          "en": "Jurassic Park"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": "https://i.ibb.co/xqF77rLJ/2026-02-01-6-01-33-PM.png"
+  },
+  {
+    "question": {
+      "uz": "Cate Blanchett qaysi filmda Katharine Hepburnni tasvirlagan?",
+      "ru": "В каком фильме Кейт Бланшетт сыграла Кэтрин Хепбёрн?",
+      "en": "In which film did Cate Blanchett play Katharine Hepburn?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Elizabeth",
+          "ru": "Елизавета",
+          "en": "Elizabeth"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Aviator",
+          "ru": "Авиатор",
+          "en": "The Aviator"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Blue Jasmine",
+          "ru": "Жасминовый рай",
+          "en": "Blue Jasmine"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Carol",
+          "ru": "Кэрол",
+          "en": "Carol"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "No Country for Old Men qaysi yozuvchi asariga asoslangan?",
+      "ru": "По какому произведению снят «Старикам тут не место»?",
+      "en": "What is No Country for Old Men based on?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Stephen King",
+          "ru": "Стивен Кинг",
+          "en": "Stephen King"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Original",
+          "ru": "Оригинал",
+          "en": "Original"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Elmore Leonard",
+          "ru": "Элмор Леонард",
+          "en": "Elmore Leonard"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Cormac McCarthy",
+          "ru": "Кормак Маккарти",
+          "en": "Cormac McCarthy novel"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu aktyorlar birga qaysi filmda ishtirok etgan?",
+      "ru": "В каком фильме вместе снялись эти актёры?",
+      "en": "In which film did these actors appear together?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Moneyball",
+          "ru": "Человек, который изменил всё",
+          "en": "Moneyball"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Steve Jobs",
+          "ru": "Стив Джобс",
+          "en": "Steve Jobs"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Social Network",
+          "ru": "Социальная сеть",
+          "en": "The Social Network"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Trial of the Chicago 7",
+          "ru": "Суд над чикагской семёркой",
+          "en": "The Trial of the Chicago 7"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/gLnSfsQX/220x330-1.webp",
+      "https://i.ibb.co/CKkxg4Qf/images-12.webp",
+      "https://i.ibb.co/CK4jyKRN/images-13.webp"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Pan's Labyrinth qaysi til filmi?",
+      "ru": "На каком языке снят «Лабиринт фавна»?",
+      "en": "What language is Pan's Labyrinth in?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ispan",
+          "ru": "Испанский",
+          "en": "Spanish"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Ingliz",
+          "ru": "Английский",
+          "en": "English"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fransuz",
+          "ru": "Французский",
+          "en": "French"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Italyan",
+          "ru": "Итальянский",
+          "en": "Italian"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Heath Ledger qaysi filmda Jokerni o'ynagan?",
+      "ru": "В каком фильме Хит Леджер сыграл Джокера?",
+      "en": "In which film did Heath Ledger play the Joker?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Batman Begins",
+          "ru": "Бэтмен: Начало",
+          "en": "Batman Begins"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Dark Knight",
+          "ru": "Тёмный рыцарь",
+          "en": "The Dark Knight"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Brokeback Mountain",
+          "ru": "Горбатая гора",
+          "en": "Brokeback Mountain"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Joker (2019)",
+          "ru": "Джокер (2019)",
+          "en": "Joker (2019)"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this frame from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Terminator",
+          "ru": "Терминатор",
+          "en": "The Terminator"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bill & Ted",
+          "ru": "Билл и Тед",
+          "en": "Bill & Ted"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Back to the Future",
+          "ru": "Назад в будущее",
+          "en": "Back to the Future"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Groundhog Day",
+          "ru": "День сурка",
+          "en": "Groundhog Day"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://i.ibb.co/j995KW0j/2026-02-01-6-05-26-PM.png"
+  },
+  {
+    "question": {
+      "uz": "Slumdog Millionaire qaysi mamlakatda suratga olingan?",
+      "ru": "В какой стране снят «Миллионер из трущоб»?",
+      "en": "In which country is Slumdog Millionaire set?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pakistan",
+          "ru": "Пакистан",
+          "en": "Pakistan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bangladesh",
+          "ru": "Бангладеш",
+          "en": "Bangladesh"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Indoneziya",
+          "ru": "Индонезия",
+          "en": "Indonesia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hindiston",
+          "ru": "Индия",
+          "en": "India"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu aktyorlar birga qaysi filmda ishtirok etgan?",
+      "ru": "В каком фильме вместе снялись эти актёры?",
+      "en": "In which film did these actors appear together?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Moonrise Kingdom",
+          "ru": "Королевство полной луны",
+          "en": "Moonrise Kingdom"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fantastic Mr. Fox",
+          "ru": "Бесподобный мистер Фокс",
+          "en": "Fantastic Mr. Fox"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Grand Budapest Hotel",
+          "ru": "Отель «Гранд Будапешт»",
+          "en": "The Grand Budapest Hotel"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Isle of Dogs",
+          "ru": "Остров собак",
+          "en": "Isle of Dogs"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://placeholder.example/movies/actors-REPLACE-1.jpg",
+      "https://placeholder.example/movies/actors-REPLACE-2.jpg",
+      "https://placeholder.example/movies/actors-REPLACE-3.jpg"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Parasite qaysi mamlakat rejissyori filmi?",
+      "ru": "Режиссёр какой страны снял «Паразиты»?",
+      "en": "Which country's director made Parasite?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Janubiy Koreya",
+          "ru": "Южная Корея",
+          "en": "South Korea"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Yaponiya",
+          "ru": "Япония",
+          "en": "Japan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Xitoy",
+          "ru": "Китай",
+          "en": "China"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tayvan",
+          "ru": "Тайвань",
+          "en": "Taiwan"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Mad Max: Fury Road qaysi yilda chiqdi?",
+      "ru": "В каком году вышел «Безумный Макс: Дорога ярости»?",
+      "en": "When was Mad Max: Fury Road released?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2015",
+          "ru": "2015",
+          "en": "2015"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2013",
+          "ru": "2013",
+          "en": "2013"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2014",
+          "ru": "2014",
+          "en": "2014"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2016",
+          "ru": "2016",
+          "en": "2016"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this frame from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Us",
+          "ru": "Мы",
+          "en": "Us"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nope",
+          "ru": "Нет",
+          "en": "Nope"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Candyman",
+          "ru": "Кандимен",
+          "en": "Candyman"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Get Out",
+          "ru": "Прочь",
+          "en": "Get Out"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": "https://i.ibb.co/GfbFv8VS/2026-02-01-6-07-49-PM.png"
+  },
+  {
+    "question": {
+      "uz": "Anthony Hopkins qancha vaqt ekranda Hannibal Lecter rolida (The Silence of the Lambs)?",
+      "ru": "Сколько минут Энтони Хопкинс на экране в роли Ганнибала Лектера?",
+      "en": "How many minutes is Anthony Hopkins on screen as Hannibal Lecter in The Silence of the Lambs?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1 soat",
+          "ru": "1 час",
+          "en": "1 hour"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "45 daqiqa",
+          "ru": "45 минут",
+          "en": "45 minutes"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "5 daqiqa",
+          "ru": "5 минут",
+          "en": "5 minutes"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Taxminan 16 daqiqa",
+          "ru": "Около 16 минут",
+          "en": "About 16 minutes"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "The Godfather qaysi roman asosida?",
+      "ru": "По какому роману снят «Крёстный отец»?",
+      "en": "What novel is The Godfather based on?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Original",
+          "ru": "Оригинал",
+          "en": "Original"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mario Puzo — The Godfather",
+          "ru": "Марио Пьюзо",
+          "en": "Mario Puzo — The Godfather"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Nicholas Pileggi",
+          "ru": "Николас Пиледжи",
+          "en": "Nicholas Pileggi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Stephen King",
+          "ru": "Стивен Кинг",
+          "en": "Stephen King"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu aktyorlar birga qaysi filmda ishtirok etgan?",
+      "ru": "В каком фильме вместе снялись эти актёры?",
+      "en": "In which film did these actors appear together?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Django Unchained",
+          "ru": "Джанго освобождённый",
+          "en": "Django Unchained"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Inglourious Basterds",
+          "ru": "Бесславные ублюдки",
+          "en": "Inglourious Basterds"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Once Upon a Time in Hollywood",
+          "ru": "Однажды в Голливуде",
+          "en": "Once Upon a Time in Hollywood"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Hateful Eight",
+          "ru": "Восемь ненавистных",
+          "en": "The Hateful Eight"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/MDw8jXGG/600x900.webp",
+      "https://i.ibb.co/4C3YP2P/images-14.webp",
+      "https://i.ibb.co/Z1RCH455/MV5-BMj-I0-MTg3-Mz-I0-M15-BMl5-Ban-Bn-Xk-Ft-ZTcw-Mz-Qy-ODU2-Mw-V1-FMjpg-UX1000.jpg"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Bong Joon-ho qaysi filmi 'Eng yaxshi film' Oscarini qo'lga kiritdi?",
+      "ru": "Какой фильм Пон Чжун Хо получил «Оскар» за лучший фильм?",
+      "en": "Which Bong Joon-ho film won Best Picture?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Snowpiercer",
+          "ru": "Сквозь снег",
+          "en": "Snowpiercer"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Memories of Murder",
+          "ru": "Воспоминания об убийстве",
+          "en": "Memories of Murder"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Parasite",
+          "ru": "Паразиты",
+          "en": "Parasite"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Host",
+          "ru": "Хозяин",
+          "en": "The Host"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "'You talking to me?' — qaysi filmdan?",
+      "ru": "Из какого фильма фраза «Ты ко мне обращаешься?»?",
+      "en": "Which movie has the line 'You talking to me?'?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Raging Bull",
+          "ru": "Бешеный бык",
+          "en": "Raging Bull"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The King of Comedy",
+          "ru": "Король комедии",
+          "en": "The King of Comedy"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Taxi Driver",
+          "ru": "Таксист",
+          "en": "Taxi Driver"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Goodfellas",
+          "ru": "Славные парни",
+          "en": "Goodfellas"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this frame from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "My Neighbor Totoro",
+          "ru": "Мой сосед Тоторо",
+          "en": "My Neighbor Totoro"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Princess Mononoke",
+          "ru": "Принцесса Мононоке",
+          "en": "Princess Mononoke"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Howl's Moving Castle",
+          "ru": "Ходячий замок",
+          "en": "Howl's Moving Castle"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Spirited Away",
+          "ru": "Унесённые призраками",
+          "en": "Spirited Away"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": "https://i.ibb.co/SXC1gTxB/2026-02-01-6-13-35-PM.png"
+  },
+  {
+    "question": {
+      "uz": "Coco qaysi mamlakat madaniyatiga bag'ishlangan?",
+      "ru": "Культуре какой страны посвящён «Тайна Коко»?",
+      "en": "What culture is Coco about?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ispaniya",
+          "ru": "Испания",
+          "en": "Spain"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Peru",
+          "ru": "Перу",
+          "en": "Peru"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kolumbiya",
+          "ru": "Колумбия",
+          "en": "Colombia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Meksika",
+          "ru": "Мексика",
+          "en": "Mexico"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Joker (2019) qaysi personaj haqida?",
+      "ru": "О каком персонаже комиксов фильм «Джокер» (2019)?",
+      "en": "Which comic character is Joker (2019) about?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Original",
+          "ru": "Оригинал",
+          "en": "Original"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Green Goblin",
+          "ru": "Зелёный гоблин",
+          "en": "Green Goblin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lex Luthor",
+          "ru": "Лекс Лютор",
+          "en": "Lex Luthor"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Joker (DC/Batman)",
+          "ru": "Джокер (DC/Бэтмен)",
+          "en": "Joker (DC/Batman)"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu aktyorlar birga qaysi filmda ishtirok etgan?",
+      "ru": "В каком фильме вместе снялись эти актёры?",
+      "en": "In which film did these actors appear together?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Glass Onion",
+          "ru": "Стеклянная луковица",
+          "en": "Glass Onion"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Murder on the Orient Express",
+          "ru": "Убийство в Восточном экспрессе",
+          "en": "Murder on the Orient Express"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Clue",
+          "ru": "Подозрение",
+          "en": "Clue"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Knives Out",
+          "ru": "Достать ножи",
+          "en": "Knives Out"
+        },
+        "isCorrect": true
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/rRDpcHVs/images-15.webp",
+      "https://i.ibb.co/rRDpcHVs/images-15.webp",
+      "https://i.ibb.co/Vptvqvbn/images-11.webp"
+    ]
+  },
+  {
+    "question": {
+      "uz": "1917 filmi qanday usulda suratga olingan (ko'rinishi)?",
+      "ru": "Как снят фильм «1917» визуально?",
+      "en": "How was 1917 filmed to look like?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Qora-oq",
+          "ru": "Чёрно-белый",
+          "en": "Black and white"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "3D",
+          "ru": "3D",
+          "en": "3D"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bir kesimda (one-take)",
+          "ru": "Один дубль (one-take)",
+          "en": "As if one continuous take"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "IMAX",
+          "ru": "IMAX",
+          "en": "IMAX"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Nomadland qaysi kitob asosida?",
+      "ru": "По какой книге снят «Земля кочевников»?",
+      "en": "What is Nomadland based on?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Original",
+          "ru": "Оригинал",
+          "en": "Original"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jessica Bruder — Nomadland",
+          "ru": "Джессика Брудер",
+          "en": "Jessica Bruder — Nomadland"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Jack Kerouac",
+          "ru": "Джек Керуак",
+          "en": "Jack Kerouac"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "John Steinbeck",
+          "ru": "Джон Стейнбек",
+          "en": "John Steinbeck"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this frame from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Blade Runner 2049",
+          "ru": "Бегущий по лезвию 2049",
+          "en": "Blade Runner 2049"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arrival",
+          "ru": "Прибытие",
+          "en": "Arrival"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Dune (2021)",
+          "ru": "Дюна (2021)",
+          "en": "Dune (2021)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Interstellar",
+          "ru": "Интерстеллар",
+          "en": "Interstellar"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://i.ibb.co/3my9qxY1/2026-02-01-6-17-31-PM.png"
+  },
+  {
+    "question": {
+      "uz": "Everything Everywhere All at Once qaysi yilda Oscar oldi?",
+      "ru": "В каком году «Всё везде и сразу» получило «Оскар»?",
+      "en": "When did Everything Everywhere All at Once win the Oscar?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2023",
+          "ru": "2023",
+          "en": "2023"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2022",
+          "ru": "2022",
+          "en": "2022"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2021",
+          "ru": "2021",
+          "en": "2021"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2024",
+          "ru": "2024",
+          "en": "2024"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Top Gun: Maverick qaysi filmin davomi?",
+      "ru": "Продолжением какого фильма является «Топ Ган: Мэверик»?",
+      "en": "Which film is Top Gun: Maverick a sequel to?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Top Gun (1990)",
+          "ru": "Топ Ган (1990)",
+          "en": "Top Gun (1990)"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Original",
+          "ru": "Оригинал",
+          "en": "Original"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Top Gun (1986)",
+          "ru": "Топ Ган (1986)",
+          "en": "Top Gun (1986)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Iron Eagle",
+          "ru": "Железный орёл",
+          "en": "Iron Eagle"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu aktyorlar birga qaysi filmda ishtirok etgan?",
+      "ru": "В каком фильме вместе снялись эти актёры?",
+      "en": "In which film did these actors appear together?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Blade Runner 2049",
+          "ru": "Бегущий по лезвию 2049",
+          "en": "Blade Runner 2049"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Dune (2021)",
+          "ru": "Дюна (2021)",
+          "en": "Dune (2021)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Arrival",
+          "ru": "Прибытие",
+          "en": "Arrival"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sicario",
+          "ru": "Убийца",
+          "en": "Sicario"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/v4ryF6hK/images-16.webp",
+      "https://i.ibb.co/04T1yLq/images-17.webp",
+      "https://i.ibb.co/kWmdtPM/images-18.webp"
+    ]
+  },
+  {
+    "question": {
+      "uz": "The Batman (2022) qaysi aktyor Batman rolida?",
+      "ru": "Кто сыграл Бэтмена в «Бэтмен» (2022)?",
+      "en": "Who played Batman in The Batman (2022)?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ben Affleck",
+          "ru": "Бен Аффлек",
+          "en": "Ben Affleck"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Christian Bale",
+          "ru": "Кристиан Бейл",
+          "en": "Christian Bale"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Robert Pattinson",
+          "ru": "Роберт Паттинсон",
+          "en": "Robert Pattinson"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Michael Keaton",
+          "ru": "Майкл Китон",
+          "en": "Michael Keaton"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "RRR qaysi mamlakat filmi?",
+      "ru": "Фильм какой страны «РРР»?",
+      "en": "Which country's film is RRR?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pakistan",
+          "ru": "Пакистан",
+          "en": "Pakistan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hindiston",
+          "ru": "Индия",
+          "en": "India"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Bangladesh",
+          "ru": "Бангладеш",
+          "en": "Bangladesh"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nepal",
+          "ru": "Непал",
+          "en": "Nepal"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this frame from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Dark Knight",
+          "ru": "Тёмный рыцарь",
+          "en": "The Dark Knight"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Batman (2022)",
+          "ru": "Бэтмен (2022)",
+          "en": "The Batman (2022)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Joker",
+          "ru": "Джокер",
+          "en": "Joker"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Batman Begins",
+          "ru": "Бэтмен: Начало",
+          "en": "Batman Begins"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": "https://i.ibb.co/CKWML1hP/2026-02-01-6-21-44-PM.png"
+  },
+  {
+    "question": {
+      "uz": "Oppenheimer qaysi fizik haqida?",
+      "ru": "О каком физике фильм «Оппенгеймер»?",
+      "en": "Which physicist is Oppenheimer about?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Albert Einstein",
+          "ru": "Альберт Эйнштейн",
+          "en": "Albert Einstein"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "J. Robert Oppenheimer",
+          "ru": "Роберт Оппенгеймер",
+          "en": "J. Robert Oppenheimer"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Richard Feynman",
+          "ru": "Ричард Фейнман",
+          "en": "Richard Feynman"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Niels Bohr",
+          "ru": "Нильс Бор",
+          "en": "Niels Bohr"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Barbie (2023) qaysi studiya tomonidan ishlab chiqarilgan?",
+      "ru": "Какой студией выпущен «Барби» (2023)?",
+      "en": "Which studio released Barbie (2023)?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Disney",
+          "ru": "Disney",
+          "en": "Disney"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Warner Bros.",
+          "ru": "Warner Bros.",
+          "en": "Warner Bros."
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Universal",
+          "ru": "Universal",
+          "en": "Universal"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Paramount",
+          "ru": "Paramount",
+          "en": "Paramount"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu aktyorlar birga qaysi filmda ishtirok etgan?",
+      "ru": "В каком фильме вместе снялись эти актёры?",
+      "en": "In which film did these actors appear together?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Inception",
+          "ru": "Начало",
+          "en": "Inception"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Interstellar",
+          "ru": "Интерстеллар",
+          "en": "Interstellar"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tenet",
+          "ru": "Довод",
+          "en": "Tenet"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Oppenheimer",
+          "ru": "Оппенгеймер",
+          "en": "Oppenheimer"
+        },
+        "isCorrect": true
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/9mVTpTR7/images-5.webp",
+      "https://i.ibb.co/ks04NBRS/images-2.webp",
+      "https://i.ibb.co/MyJgCSRv/image.webp"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Killers of the Flower Moon qaysi kitob asosida?",
+      "ru": "По какой книге снят «Убийцы цветочной луны»?",
+      "en": "What book is Killers of the Flower Moon based on?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Original",
+          "ru": "Оригинал",
+          "en": "Original"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Stephen King",
+          "ru": "Стивен Кинг",
+          "en": "Stephen King"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "True story, no book",
+          "ru": "Реальная история, без книги",
+          "en": "True story, no book"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "David Grann — Killers of the Flower Moon",
+          "ru": "Дэвид Гранн",
+          "en": "David Grann — Killers of the Flower Moon"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "The Holdovers qaysi yil voqealarida?",
+      "ru": "В каком году происходят события «Оставшихся»?",
+      "en": "What year is The Holdovers set in?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1980",
+          "ru": "1980",
+          "en": "1980"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1965",
+          "ru": "1965",
+          "en": "1965"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1975",
+          "ru": "1975",
+          "en": "1975"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1970",
+          "ru": "1970",
+          "en": "1970"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Quyidagi kadr qaysi filmdan?",
+      "ru": "Из какого фильма этот кадр?",
+      "en": "Which movie is this frame from?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Favourite",
+          "ru": "Фаворитка",
+          "en": "The Favourite"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Lobster",
+          "ru": "Лобстер",
+          "en": "The Lobster"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Killing of a Sacred Deer",
+          "ru": "Убийство священного оленя",
+          "en": "The Killing of a Sacred Deer"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Poor Things",
+          "ru": "Бедные вещи",
+          "en": "Poor Things"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": "https://i.ibb.co/3mW85JK1/2026-02-01-6-25-06-PM.png"
+  },
+  {
+    "question": {
+      "uz": "Anatomy of a Fall qaysi til filmi?",
+      "ru": "На каком языке фильм «Анатомия падения»?",
+      "en": "What language is Anatomy of a Fall in?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ingliz",
+          "ru": "Английский",
+          "en": "English"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fransuz",
+          "ru": "Французский",
+          "en": "French"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Nemischa",
+          "ru": "Немецкий",
+          "en": "German"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ispan",
+          "ru": "Испанский",
+          "en": "Spanish"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Zone of Interest qaysi yozuvchi asariga asoslangan?",
+      "ru": "По какому произведению снят «Зона интересов»?",
+      "en": "What is The Zone of Interest based on?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Original",
+          "ru": "Оригинал",
+          "en": "Original"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Martin Amis — The Zone of Interest",
+          "ru": "Мартин Эмис",
+          "en": "Martin Amis — The Zone of Interest"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Primo Levi",
+          "ru": "Примо Леви",
+          "en": "Primo Levi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Elie Wiesel",
+          "ru": "Эли Визель",
+          "en": "Elie Wiesel"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bu aktyorlar birga qaysi filmda ishtirok etgan?",
+      "ru": "В каком фильме вместе снялись эти актёры?",
+      "en": "In which film did these actors appear together?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "The Favourite",
+          "ru": "Фаворитка",
+          "en": "The Favourite"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Lobster",
+          "ru": "Лобстер",
+          "en": "The Lobster"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Cruella",
+          "ru": "Круэлла",
+          "en": "Cruella"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Poor Things",
+          "ru": "Бедные вещи",
+          "en": "Poor Things"
+        },
+        "isCorrect": true
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/9mVTpTR7/images-5.webp",
+      "https://i.ibb.co/ks04NBRS/images-2.webp",
+      "https://i.ibb.co/MyJgCSRv/image.webp"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Past Lives qaysi rejissyor filmi?",
+      "ru": "Кто режиссёр «Прошлых жизней»?",
+      "en": "Who directed Past Lives?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Bong Joon-ho",
+          "ru": "Пон Чжун Хо",
+          "en": "Bong Joon-ho"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lee Isaac Chung",
+          "ru": "Ли Айзек Чун",
+          "en": "Lee Isaac Chung"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lulu Wang",
+          "ru": "Лулу Ван",
+          "en": "Lulu Wang"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Celine Song",
+          "ru": "Селин Сон",
+          "en": "Celine Song"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "American Fiction qaysi roman asosida?",
+      "ru": "По какому роману снят «Американская беллетристика»?",
+      "en": "What novel is American Fiction based on?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Original",
+          "ru": "Оригинал",
+          "en": "Original"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Percival Everett — Erasure",
+          "ru": "Персиваль Эверетт — Стирание",
+          "en": "Percival Everett — Erasure"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Colson Whitehead",
+          "ru": "Колсон Уайтхед",
+          "en": "Colson Whitehead"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "James McBride",
+          "ru": "Джеймс Макбрайд",
+          "en": "James McBride"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Maestro (2023) qaysi shaxs haqida?",
+      "ru": "О ком фильм «Маэстро» (2023)?",
+      "en": "Who is Maestro (2023) about?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Herbert von Karajan",
+          "ru": "Герберт фон Караян",
+          "en": "Herbert von Karajan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Leonard Bernstein",
+          "ru": "Леонард Бернстайн",
+          "en": "Leonard Bernstein"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Arturo Toscanini",
+          "ru": "Артуро Тосканини",
+          "en": "Arturo Toscanini"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gustavo Dudamel",
+          "ru": "Густаво Дудамель",
+          "en": "Gustavo Dudamel"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "The Color Purple (2023) qaysi roman asosida?",
+      "ru": "По какому роману снят «Цвет пурпурный» (2023)?",
+      "en": "What novel is The Color Purple (2023) based on?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Toni Morrison",
+          "ru": "Тони Моррисон",
+          "en": "Toni Morrison"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Maya Angelou",
+          "ru": "Майя Энджелоу",
+          "en": "Maya Angelou"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Alice Walker — The Color Purple",
+          "ru": "Элис Уокер",
+          "en": "Alice Walker — The Color Purple"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Original",
+          "ru": "Оригинал",
+          "en": "Original"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
   }
 ]

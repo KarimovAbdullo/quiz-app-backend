@@ -1,11 +1,56 @@
 const express = require("express");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+const multer = require("multer");
+const path = require("path");
+const fs = require("fs");
 const User = require("../models/User");
 const Category = require("../models/Category");
 const Question = require("../models/Question");
 const authMiddleware = require("../middleware/authMiddleware");
 const router = express.Router();
+
+const uploadAvatarsDir = path.join(__dirname, "../../uploads/avatars");
+if (!fs.existsSync(uploadAvatarsDir)) {
+  fs.mkdirSync(uploadAvatarsDir, { recursive: true });
+}
+const avatarStorage = multer.diskStorage({
+  destination: (req, file, cb) => cb(null, uploadAvatarsDir),
+  filename: (req, file, cb) => {
+    const ext = (path.extname(file.originalname) || ".jpg").toLowerCase();
+    if (![".jpg", ".jpeg", ".png", ".gif", ".webp"].includes(ext)) {
+      return cb(new Error("Invalid image type"), "");
+    }
+    cb(null, `avatar-${req.user._id}-${Date.now()}${ext}`);
+  },
+});
+const uploadAvatar = multer({
+  storage: avatarStorage,
+  limits: { fileSize: 5 * 1024 * 1024 },
+  fileFilter: (req, file, cb) => {
+    if (file.mimetype.startsWith("image/")) {
+      cb(null, true);
+    } else {
+      cb(new Error("Only image files are allowed"), false);
+    }
+  },
+});
+function getBaseUrl() {
+  return (
+    process.env.BASE_URL ||
+    (process.env.RAILWAY_PUBLIC_DOMAIN
+      ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`
+      : null) ||
+    "https://quiz-app-backend-production-cd1c.up.railway.app"
+  );
+}
+function toAvatarUrl(filename) {
+  if (!filename) return null;
+  const base = getBaseUrl().replace(/\/$/, "");
+  return filename.startsWith("http")
+    ? filename
+    : `${base}/uploads/avatars/${path.basename(filename)}`;
+}
 
 // Map stored mode/status to English for API response
 const modeToEnglish = (m) => (m === "oddiy" || m === "premium" ? (m === "premium" ? "vip" : "free") : m);
@@ -93,6 +138,7 @@ router.post("/register", async (req, res) => {
         id: user._id,
         email: user.email,
         nickname: user.nickname,
+        avatar: toAvatarUrl(user.avatar),
       },
     });
   } catch (error) {
@@ -153,6 +199,7 @@ router.post("/login", async (req, res) => {
         id: user._id,
         email: user.email,
         nickname: user.nickname,
+        avatar: toAvatarUrl(user.avatar),
       },
     });
   } catch (error) {
@@ -287,6 +334,7 @@ router.get("/profile", authMiddleware, async (req, res) => {
         id: user._id,
         email: user.email,
         nickname: user.nickname,
+        avatar: toAvatarUrl(user.avatar),
         status: statusToEnglish(user.status),
         mode: modeToEnglish(user.mode),
         allMode: user.allMode === true,
@@ -306,6 +354,91 @@ router.get("/profile", authMiddleware, async (req, res) => {
     });
   }
 });
+
+/**
+ * PUT /auth/profile
+ * Update profile: nickname and/or avatar (image file).
+ * Protected route (JWT required).
+ * Body: multipart/form-data with optional "nickname" (string) and optional "avatar" (image file).
+ */
+router.put(
+  "/profile",
+  authMiddleware,
+  (req, res, next) => {
+    uploadAvatar.single("avatar")(req, res, (err) => {
+      if (err) {
+        return res.status(400).json({
+          success: false,
+          message: err.message || "Invalid file",
+        });
+      }
+      next();
+    });
+  },
+  async (req, res) => {
+    try {
+      const userId = req.user._id;
+      const user = await User.findById(userId);
+      if (!user) {
+        return res.status(404).json({
+          success: false,
+          message: "User not found",
+        });
+      }
+
+      const nickname = req.body.nickname;
+      if (nickname !== undefined) {
+        const trimmed = (typeof nickname === "string" ? nickname : "").trim();
+        if (!trimmed) {
+          return res.status(400).json({
+            success: false,
+            message: "Nickname cannot be empty",
+          });
+        }
+        user.nickname = trimmed;
+      }
+
+      if (req.file) {
+        if (user.avatar) {
+          const oldFilename = user.avatar.includes("/")
+            ? path.basename(user.avatar)
+            : user.avatar;
+          const oldPath = path.join(uploadAvatarsDir, oldFilename);
+          try {
+            if (fs.existsSync(oldPath)) {
+              fs.unlinkSync(oldPath);
+            }
+          } catch (e) {
+            console.warn("Could not delete old avatar:", e.message);
+          }
+        }
+        user.avatar = req.file.filename;
+      }
+
+      await user.save();
+
+      res.status(200).json({
+        success: true,
+        message: "Profile updated successfully",
+        profile: {
+          id: user._id,
+          email: user.email,
+          nickname: user.nickname,
+          avatar: toAvatarUrl(user.avatar),
+          status: statusToEnglish(user.status),
+          mode: modeToEnglish(user.mode),
+          updatedAt: user.updatedAt,
+        },
+      });
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        message: "Error updating profile",
+        error: error.message,
+      });
+    }
+  }
+);
 
 /**
  * PUT /auth/allMode

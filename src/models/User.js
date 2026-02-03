@@ -19,6 +19,10 @@ const userSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
+    avatar: {
+      type: String,
+      default: null,
+    },
     solvedQuestions: {
       type: [mongoose.Schema.Types.ObjectId],
       ref: "Question",

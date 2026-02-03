@@ -28,6 +28,7 @@ const fs = require("fs");
 // Ensure uploads directory exists
 const uploadsDir = path.join(__dirname, "../uploads");
 const uploadsQuestionsDir = path.join(__dirname, "../uploads/questions");
+const uploadsAvatarsDir = path.join(__dirname, "../uploads/avatars");
 
 if (!fs.existsSync(uploadsDir)) {
   fs.mkdirSync(uploadsDir, { recursive: true });
@@ -37,6 +38,11 @@ if (!fs.existsSync(uploadsDir)) {
 if (!fs.existsSync(uploadsQuestionsDir)) {
   fs.mkdirSync(uploadsQuestionsDir, { recursive: true });
   console.log("✅ Created uploads/questions directory");
+}
+
+if (!fs.existsSync(uploadsAvatarsDir)) {
+  fs.mkdirSync(uploadsAvatarsDir, { recursive: true });
+  console.log("✅ Created uploads/avatars directory");
 }
 
 // Serve static files with proper headers

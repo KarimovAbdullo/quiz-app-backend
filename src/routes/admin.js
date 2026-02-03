@@ -9,6 +9,15 @@ const User = require("../models/User");
 const { translateQuestion } = require("../utils/translate");
 const router = express.Router();
 
+// Map stored mode/status to English for API response
+const modeToEnglish = (m) => (m === "oddiy" || m === "premium" ? (m === "premium" ? "vip" : "free") : m);
+const statusToEnglish = (s) => {
+  const map = { "boshlang'ich": "beginner", "super daxo": "super_plus", "super": "super" };
+  return map[s] || s;
+};
+const VALID_MODES = ["free", "vip"];
+const VALID_STATUSES = ["active", "blocked", "premium", "beginner", "super", "super_plus"];
+
 // Configure multer for image uploads
 // Store images in 'uploads/questions' directory
 const uploadDir = path.join(__dirname, "../../uploads/questions");
@@ -491,8 +500,42 @@ router.delete("/questions/:id", adminMiddleware, async (req, res) => {
 });
 
 /**
+ * GET /admin/users
+ * Get all users (Admin only). Returns list without passwords; mode and status in English.
+ */
+router.get("/users", adminMiddleware, async (req, res) => {
+  try {
+    const users = await User.find().select("-password").sort({ createdAt: -1 });
+
+    res.status(200).json({
+      success: true,
+      count: users.length,
+      users: users.map((u) => ({
+        id: u._id,
+        email: u.email,
+        nickname: u.nickname,
+        status: statusToEnglish(u.status),
+        mode: modeToEnglish(u.mode),
+        correctAnswers: u.correctAnswers,
+        solvedQuestionsCount: (u.solvedQuestions || []).length,
+        language: u.language,
+        allMode: u.allMode === true,
+        createdAt: u.createdAt,
+        updatedAt: u.updatedAt,
+      })),
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error fetching users",
+      error: error.message,
+    });
+  }
+});
+
+/**
  * GET /admin/users/:id
- * Get user by ID (Admin only)
+ * Get user by ID with full details and categoryProgress (Admin only). Password not returned; mode and status in English.
  */
 router.get("/users/:id", adminMiddleware, async (req, res) => {
   try {
@@ -506,17 +549,37 @@ router.get("/users/:id", adminMiddleware, async (req, res) => {
       });
     }
 
+    // Category progress: correct count per category
+    const categories = await Category.find().sort({ order: 1 });
+    const categoryProgress = [];
+    for (const cat of categories) {
+      const correctCount = await Question.countDocuments({
+        _id: { $in: user.correctlySolvedQuestions || [] },
+        categoryId: cat._id,
+      });
+      const categoryName = typeof cat.name === "object" && cat.name ? cat.name.en : cat.name;
+      categoryProgress.push({
+        categoryId: cat._id,
+        categoryName,
+        correctCount,
+      });
+    }
+
     res.status(200).json({
       success: true,
       user: {
         id: user._id,
         email: user.email,
         nickname: user.nickname,
-        status: user.status,
-        mode: user.mode,
+        status: statusToEnglish(user.status),
+        mode: modeToEnglish(user.mode),
         correctAnswers: user.correctAnswers,
+        solvedQuestionsCount: (user.solvedQuestions || []).length,
         language: user.language,
+        allMode: user.allMode === true,
+        categoryProgress,
         createdAt: user.createdAt,
+        updatedAt: user.updatedAt,
       },
     });
   } catch (error) {
@@ -529,22 +592,13 @@ router.get("/users/:id", adminMiddleware, async (req, res) => {
 });
 
 /**
- * PUT /admin/users/:id/mode
- * Update user mode (Admin only)
- * Body: { mode: "oddiy" | "premium" }
+ * PUT /admin/users/:id
+ * Update user mode and/or status (Admin only). Body: { mode?: "free" | "vip", status?: "active" | "blocked" | "premium" | "beginner" | "super" | "super_plus" }
  */
-router.put("/users/:id/mode", adminMiddleware, async (req, res) => {
+router.put("/users/:id", adminMiddleware, async (req, res) => {
   try {
     const { id } = req.params;
-    const { mode } = req.body;
-
-    // Validate mode
-    if (!mode || !["oddiy", "premium"].includes(mode)) {
-      return res.status(400).json({
-        success: false,
-        message: "Mode must be either 'oddiy' or 'premium'",
-      });
-    }
+    const { mode, status } = req.body;
 
     const user = await User.findById(id);
     if (!user) {
@@ -554,22 +608,44 @@ router.put("/users/:id/mode", adminMiddleware, async (req, res) => {
       });
     }
 
-    user.mode = mode;
+    if (mode !== undefined) {
+      if (!VALID_MODES.includes(mode)) {
+        return res.status(400).json({
+          success: false,
+          message: `Mode must be one of: ${VALID_MODES.join(", ")}`,
+        });
+      }
+      user.mode = mode;
+    }
+    if (status !== undefined) {
+      if (!VALID_STATUSES.includes(status)) {
+        return res.status(400).json({
+          success: false,
+          message: `Status must be one of: ${VALID_STATUSES.join(", ")}`,
+        });
+      }
+      user.status = status;
+    }
+
     await user.save();
 
     res.status(200).json({
       success: true,
-      message: `User mode updated to ${mode}`,
+      message: "User updated successfully",
       user: {
         id: user._id,
+        email: user.email,
         nickname: user.nickname,
-        mode: user.mode,
+        status: statusToEnglish(user.status),
+        mode: modeToEnglish(user.mode),
+        correctAnswers: user.correctAnswers,
+        updatedAt: user.updatedAt,
       },
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Error updating user mode",
+      message: "Error updating user",
       error: error.message,
     });
   }

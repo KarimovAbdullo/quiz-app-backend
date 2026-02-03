@@ -43,4 +43,8 @@ function processFile(filePath, isFootball = false) {
 
 processFile(GAMES_PATH, false);
 processFile(FOOTBALL_PATH, true);
+const GEO_PATH = path.join(__dirname, "../questions/geographical.json");
+if (fs.existsSync(GEO_PATH)) {
+  processFile(GEO_PATH, false);
+}
 console.log("Tugadi.");

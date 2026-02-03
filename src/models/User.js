@@ -31,13 +31,13 @@ const userSchema = new mongoose.Schema(
     },
     status: {
       type: String,
-      enum: ["boshlang'ich", "super", "super daxo"],
-      default: "boshlang'ich",
+      enum: ["active", "blocked", "premium", "beginner", "super", "super_plus", "boshlang'ich", "super daxo"],
+      default: "active",
     },
     mode: {
       type: String,
-      enum: ["oddiy", "premium"],
-      default: "oddiy",
+      enum: ["free", "vip", "oddiy", "premium"],
+      default: "free",
     },
     correctAnswers: {
       type: Number,

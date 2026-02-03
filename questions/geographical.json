@@ -1,9 +1,93 @@
 [
   {
     "question": {
-      "uz": "Dunyodagi eng baland tog' qaysi?",
-      "ru": "Какая гора самая высокая в мире?",
-      "en": "What is the highest mountain in the world?"
+      "uz": "Eng ko'p qush turlariga ega bo'lgan davlatlar qaysilar?",
+      "ru": "В каких странах больше всего видов птиц?",
+      "en": "Which countries have the most bird species?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kolumbiya",
+          "ru": "Колумбия",
+          "en": "Colombia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Braziliya",
+          "ru": "Бразилия",
+          "en": "Brazil"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Peru",
+          "ru": "Перу",
+          "en": "Peru"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Indoneziya",
+          "ru": "Индонезия",
+          "en": "Indonesia"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Inson uchun eng xavfsiz yovvoyi hayvonlar qaysilar?",
+      "ru": "Какие дикие животные самые безопасные для человека?",
+      "en": "Which wild animals are safest for humans?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kiyik",
+          "ru": "Олень",
+          "en": "Deer"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Quyon",
+          "ru": "Кролик",
+          "en": "Rabbit"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Panda",
+          "ru": "Панда",
+          "en": "Panda"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Zebra",
+          "ru": "Зебра",
+          "en": "Zebra"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng baland tog' cho'qqilari qaysilar?",
+      "ru": "Какие самые высокие горные вершины в мире?",
+      "en": "What are the highest mountain peaks in the world?"
     },
     "options": [
       {
@@ -16,9 +100,17 @@
       },
       {
         "text": {
-          "uz": "Elbrus",
-          "ru": "Эльбрус",
-          "en": "Elbrus"
+          "uz": "Kangchenjunga",
+          "ru": "Канченджанга",
+          "en": "Kangchenjunga"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lhotse",
+          "ru": "Лхоцзе",
+          "en": "Lhotse"
         },
         "isCorrect": false
       },
@@ -29,12 +121,46 @@
           "en": "Everest"
         },
         "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar o'z bolalariga g'amxo'rlik qiladi?",
+      "ru": "Какие животные заботятся о своих детёнышах?",
+      "en": "Which animals care for their young?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Delfin",
+          "ru": "Дельфин",
+          "en": "Dolphin"
+        },
+        "isCorrect": false
       },
       {
         "text": {
-          "uz": "Kilimanjaro",
-          "ru": "Килиманджаро",
-          "en": "Kilimanjaro"
+          "uz": "Fil",
+          "ru": "Слон",
+          "en": "Elephant"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Bo'ri",
+          "ru": "Волк",
+          "en": "Wolf"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ayiq",
+          "ru": "Медведь",
+          "en": "Bear"
         },
         "isCorrect": false
       }
@@ -43,24 +169,66 @@
   },
   {
     "question": {
-      "uz": "Aholisi eng kam bo'lgan davlat qaysi?",
-      "ru": "Какая страна имеет наименьшее население?",
-      "en": "Which country has the smallest population?"
+      "uz": "Eng tez quruqlik hayvonlari qaysilar?",
+      "ru": "Какие самые быстрые наземные животные?",
+      "en": "Which are the fastest land animals?"
     },
     "options": [
       {
         "text": {
-          "uz": "Vatikan",
-          "ru": "Ватикан",
-          "en": "Vatican City"
+          "uz": "Yaguar",
+          "ru": "Ягуар",
+          "en": "Jaguar"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tuyaqush",
+          "ru": "Страус",
+          "en": "Ostrich"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gepard",
+          "ru": "Гепард",
+          "en": "Cheetah"
         },
         "isCorrect": true
       },
       {
         "text": {
+          "uz": "Ot",
+          "ru": "Лошадь",
+          "en": "Horse"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng kichik davlatlar qaysilar?",
+      "ru": "Какие самые маленькие страны в мире?",
+      "en": "What are the smallest countries in the world?"
+    },
+    "options": [
+      {
+        "text": {
           "uz": "Monako",
           "ru": "Монако",
           "en": "Monaco"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nauru",
+          "ru": "Науру",
+          "en": "Nauru"
         },
         "isCorrect": false
       },
@@ -74,9 +242,51 @@
       },
       {
         "text": {
-          "uz": "Lixtenshteyn",
-          "ru": "Лихтенштейн",
-          "en": "Liechtenstein"
+          "uz": "Vatikan",
+          "ru": "Ватикан",
+          "en": "Vatican City"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng aqlli hayvonlar qaysilar?",
+      "ru": "Какие животные самые умные?",
+      "en": "Which animals are the smartest?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Shimpanze",
+          "ru": "Шимпанзе",
+          "en": "Chimpanzee"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Delfin",
+          "ru": "Дельфин",
+          "en": "Dolphin"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Слон",
+          "en": "Elephant"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qarg'a",
+          "ru": "Ворона",
+          "en": "Crow"
         },
         "isCorrect": false
       }
@@ -85,19 +295,53 @@
   },
   {
     "question": {
-      "uz": "Dunyodagi eng katta okean qaysi?",
-      "ru": "Какой океан самый большой?",
-      "en": "Which is the largest ocean?"
+      "uz": "Eng uzoq umr ko'ruvchi hayvonlar qaysilar?",
+      "ru": "Какие животные живут дольше всего?",
+      "en": "Which animals live the longest?"
     },
     "options": [
       {
         "text": {
-          "uz": "Hind okeani",
-          "ru": "Индийский океан",
-          "en": "Indian Ocean"
+          "uz": "Kit",
+          "ru": "Кит",
+          "en": "Whale"
         },
         "isCorrect": false
       },
+      {
+        "text": {
+          "uz": "Akula",
+          "ru": "Акула",
+          "en": "Shark"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Toshbaqa",
+          "ru": "Черепаха",
+          "en": "Tortoise"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Слон",
+          "en": "Elephant"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta okeanlar qaysilar?",
+      "ru": "Какие самые большие океаны в мире?",
+      "en": "What are the largest oceans in the world?"
+    },
+    "options": [
       {
         "text": {
           "uz": "Atlantika okeani",
@@ -108,8 +352,16 @@
       },
       {
         "text": {
+          "uz": "Hind okeani",
+          "ru": "Индийский океан",
+          "en": "Indian Ocean"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
           "uz": "Shimoliy Muz okeani",
-          "ru": "Северный Ледовитый океан",
+          "ru": "Северный Ледовитый",
           "en": "Arctic Ocean"
         },
         "isCorrect": false
@@ -127,40 +379,40 @@
   },
   {
     "question": {
-      "uz": "Yer yuzasida nechta qit'a bor?",
-      "ru": "Сколько континентов на Земле?",
-      "en": "How many continents are there on Earth?"
+      "uz": "Qaysi hayvonlar faqat o'simlik bilan oziqlanadi?",
+      "ru": "Какие животные питаются только растениями?",
+      "en": "Which animals eat only plants?"
     },
     "options": [
       {
         "text": {
-          "uz": "5",
-          "ru": "5",
-          "en": "5"
+          "uz": "Sigir",
+          "ru": "Корова",
+          "en": "Cow"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "6",
-          "ru": "6",
-          "en": "6"
+          "uz": "Fil",
+          "ru": "Слон",
+          "en": "Elephant"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "7",
-          "ru": "7",
-          "en": "7"
+          "uz": "Kiyik",
+          "ru": "Олень",
+          "en": "Deer"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "8",
-          "ru": "8",
-          "en": "8"
+          "uz": "Zebra",
+          "ru": "Зебра",
+          "en": "Zebra"
         },
         "isCorrect": false
       }
@@ -169,124 +421,40 @@
   },
   {
     "question": {
-      "uz": "Quyidagi rasmda qaysi davlat bayrog'i tasvirlangan?",
-      "ru": "Флаг какой страны изображён на картинке?",
-      "en": "Which country's flag is shown in the image?"
+      "uz": "Eng katta qushlar qaysilar?",
+      "ru": "Какие птицы самые большие?",
+      "en": "Which birds are the largest?"
     },
     "options": [
       {
         "text": {
-          "uz": "Indoneziya",
-          "ru": "Индонезия",
-          "en": "Indonesia"
+          "uz": "Emu",
+          "ru": "Эму",
+          "en": "Emu"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Yaponiya",
-          "ru": "Япония",
-          "en": "Japan"
+          "uz": "Kazuar",
+          "ru": "Казуар",
+          "en": "Cassowary"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tuyaqush",
+          "ru": "Страус",
+          "en": "Ostrich"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Polsha",
-          "ru": "Польша",
-          "en": "Poland"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Avstriya",
-          "ru": "Австрия",
-          "en": "Austria"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": "https://images.unsplash.com/photo-1502920514313-52581002a659?w=800"
-  },
-  {
-    "question": {
-      "uz": "Avstraliya poytaxti qaysi shahar?",
-      "ru": "Столица Австралии?",
-      "en": "What is the capital of Australia?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Sydney",
-          "ru": "Сидней",
-          "en": "Sydney"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Melburn",
-          "ru": "Мельбурн",
-          "en": "Melbourne"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Perth",
-          "ru": "Перт",
-          "en": "Perth"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Kanberra",
-          "ru": "Канберра",
-          "en": "Canberra"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Kanada poytaxti qaysi shahar?",
-      "ru": "Столица Канады?",
-      "en": "What is the capital of Canada?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Ottava",
-          "ru": "Оттава",
-          "en": "Ottawa"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Toronto",
-          "ru": "Торонто",
-          "en": "Toronto"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Vankuver",
-          "ru": "Ванкувер",
-          "en": "Vancouver"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Montreal",
-          "ru": "Монреаль",
-          "en": "Montreal"
+          "uz": "Kondor",
+          "ru": "Кондор",
+          "en": "Condor"
         },
         "isCorrect": false
       }
@@ -295,51 +463,9 @@
   },
   {
     "question": {
-      "uz": "Braziliya poytaxti qaysi shahar?",
-      "ru": "Столица Бразилии?",
-      "en": "What is the capital of Brazil?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "San-Paulu",
-          "ru": "Сан-Паулу",
-          "en": "São Paulo"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Rio-de-Janeyro",
-          "ru": "Рио-де-Жанейро",
-          "en": "Rio de Janeiro"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Brasiliya",
-          "ru": "Бразилиа",
-          "en": "Brasília"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Salvador",
-          "ru": "Салвадор",
-          "en": "Salvador"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Dunyodagi eng uzun daryo qaysi?",
-      "ru": "Какая река самая длинная в мире?",
-      "en": "What is the longest river in the world?"
+      "uz": "Dunyodagi eng uzun daryolar qaysilar?",
+      "ru": "Какие самые длинные реки в мире?",
+      "en": "What are the longest rivers in the world?"
     },
     "options": [
       {
@@ -352,1565 +478,11 @@
       },
       {
         "text": {
-          "uz": "Yansi",
+          "uz": "Yanszi",
           "ru": "Янцзы",
           "en": "Yangtze"
         },
         "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Mississippi",
-          "ru": "Миссисипи",
-          "en": "Mississippi"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Nil",
-          "ru": "Нил",
-          "en": "Nile"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Quyidagi rasmda qaysi mashhur joy tasvirlangan?",
-      "ru": "Какое известное место изображено на картинке?",
-      "en": "Which famous place is shown in the image?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Big Ben",
-          "ru": "Биг-Бен",
-          "en": "Big Ben"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Kolizey",
-          "ru": "Колизей",
-          "en": "Colosseum"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Eyfel minorasi",
-          "ru": "Эйфелева башня",
-          "en": "Eiffel Tower"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Ozodlik haykali",
-          "ru": "Статуя Свободы",
-          "en": "Statue of Liberty"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800"
-  },
-  {
-    "question": {
-      "uz": "Yer yuzasi bo'yicha eng katta davlat qaysi?",
-      "ru": "Какая страна самая большая по площади?",
-      "en": "Which country is the largest by area?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Kanada",
-          "ru": "Канада",
-          "en": "Canada"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Rossiya",
-          "ru": "Россия",
-          "en": "Russia"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "AQSh",
-          "ru": "США",
-          "en": "USA"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Xitoy",
-          "ru": "Китай",
-          "en": "China"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Misr poytaxti qaysi shahar?",
-      "ru": "Столица Египта?",
-      "en": "What is the capital of Egypt?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Qohira",
-          "ru": "Каир",
-          "en": "Cairo"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Iskandariya",
-          "ru": "Александрия",
-          "en": "Alexandria"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Giza",
-          "ru": "Гиза",
-          "en": "Giza"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Luxor",
-          "ru": "Луксор",
-          "en": "Luxor"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Hindiston poytaxti qaysi shahar?",
-      "ru": "Столица Индии?",
-      "en": "What is the capital of India?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Yangi Dehli",
-          "ru": "Нью-Дели",
-          "en": "New Delhi"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Mumbay",
-          "ru": "Мумбаи",
-          "en": "Mumbai"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Kalkutta",
-          "ru": "Калькутта",
-          "en": "Kolkata"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Bangalor",
-          "ru": "Бангалор",
-          "en": "Bangalore"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Qaysi dengiz dunyoda eng chuchuk?",
-      "ru": "Какое море самое пресное в мире?",
-      "en": "Which sea is the least salty in the world?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "O'rta yer dengizi",
-          "ru": "Средиземное море",
-          "en": "Mediterranean Sea"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Qizil dengiz",
-          "ru": "Красное море",
-          "en": "Red Sea"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Boltiq dengizi",
-          "ru": "Балтийское море",
-          "en": "Baltic Sea"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Qora dengiz",
-          "ru": "Чёрное море",
-          "en": "Black Sea"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Quyidagi rasmda qaysi diqqatga sazovor joy?",
-      "ru": "Какая достопримечательность на картинке?",
-      "en": "Which landmark is shown in the image?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Eyfel minorasi",
-          "ru": "Эйфелева башня",
-          "en": "Eiffel Tower"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Pisa minorasi",
-          "ru": "Пизанская башня",
-          "en": "Leaning Tower of Pisa"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Ozodlik haykali",
-          "ru": "Статуя Свободы",
-          "en": "Statue of Liberty"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Big Ben",
-          "ru": "Биг-Бен",
-          "en": "Big Ben"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800"
-  },
-  {
-    "question": {
-      "uz": "Sahara cho'li qaysi qit'ada joylashgan?",
-      "ru": "На каком континенте находится пустыня Сахара?",
-      "en": "On which continent is the Sahara Desert located?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Osiyo",
-          "ru": "Азия",
-          "en": "Asia"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Afrika",
-          "ru": "Африка",
-          "en": "Africa"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Avstraliya",
-          "ru": "Австралия",
-          "en": "Australia"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Janubiy Amerika",
-          "ru": "Южная Америка",
-          "en": "South America"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "AQSh poytaxti qaysi shahar?",
-      "ru": "Столица США?",
-      "en": "What is the capital of the USA?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Nyu-York",
-          "ru": "Нью-Йорк",
-          "en": "New York"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Los-Anjeles",
-          "ru": "Лос-Анджелес",
-          "en": "Los Angeles"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Vashington",
-          "ru": "Вашингтон",
-          "en": "Washington D.C."
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Chikago",
-          "ru": "Чикаго",
-          "en": "Chicago"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Fransiya poytaxti qaysi shahar?",
-      "ru": "Столица Франции?",
-      "en": "What is the capital of France?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Lion",
-          "ru": "Лион",
-          "en": "Lyon"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Parij",
-          "ru": "Париж",
-          "en": "Paris"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Marsey",
-          "ru": "Марсель",
-          "en": "Marseille"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Bordo",
-          "ru": "Бордо",
-          "en": "Bordeaux"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Buyuk Britaniya poytaxti qaysi shahar?",
-      "ru": "Столица Великобритании?",
-      "en": "What is the capital of the United Kingdom?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "London",
-          "ru": "Лондон",
-          "en": "London"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Manchester",
-          "ru": "Манчестер",
-          "en": "Manchester"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Birmingem",
-          "ru": "Бирмингем",
-          "en": "Birmingham"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Liverpul",
-          "ru": "Ливерпуль",
-          "en": "Liverpool"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Quyidagi rasmda qaysi taniqli inshoot?",
-      "ru": "Какое известное сооружение на картинке?",
-      "en": "Which famous structure is shown in the image?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Partenon",
-          "ru": "Парфенон",
-          "en": "Parthenon"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Petra",
-          "ru": "Петра",
-          "en": "Petra"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Taj Mahal",
-          "ru": "Тадж-Махал",
-          "en": "Taj Mahal"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Kolizey",
-          "ru": "Колизей",
-          "en": "Colosseum"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800"
-  },
-  {
-    "question": {
-      "uz": "Germaniya poytaxti qaysi shahar?",
-      "ru": "Столица Германии?",
-      "en": "What is the capital of Germany?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Myunxen",
-          "ru": "Мюнхен",
-          "en": "Munich"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Berlin",
-          "ru": "Берлин",
-          "en": "Berlin"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Gamburg",
-          "ru": "Гамбург",
-          "en": "Hamburg"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Frankfurt",
-          "ru": "Франкфурт",
-          "en": "Frankfurt"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Italiya poytaxti qaysi shahar?",
-      "ru": "Столица Италии?",
-      "en": "What is the capital of Italy?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Rim",
-          "ru": "Рим",
-          "en": "Rome"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Milan",
-          "ru": "Милан",
-          "en": "Milan"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Neapol",
-          "ru": "Неаполь",
-          "en": "Naples"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Venesiya",
-          "ru": "Венеция",
-          "en": "Venice"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Ispaniya poytaxti qaysi shahar?",
-      "ru": "Столица Испании?",
-      "en": "What is the capital of Spain?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Barselona",
-          "ru": "Барселона",
-          "en": "Barcelona"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Valensiya",
-          "ru": "Валенсия",
-          "en": "Valencia"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Madrid",
-          "ru": "Мадрид",
-          "en": "Madrid"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Sevilya",
-          "ru": "Севилья",
-          "en": "Seville"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Rossiya poytaxti qaysi shahar?",
-      "ru": "Столица России?",
-      "en": "What is the capital of Russia?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Sankt-Peterburg",
-          "ru": "Санкт-Петербург",
-          "en": "Saint Petersburg"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Novosibirsk",
-          "ru": "Новосибирск",
-          "en": "Novosibirsk"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Yekaterinburg",
-          "ru": "Екатеринбург",
-          "en": "Yekaterinburg"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Moskva",
-          "ru": "Москва",
-          "en": "Moscow"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Dunyodagi eng kichik davlat (yuzasi) qaysi?",
-      "ru": "Какое государство самое маленькое по площади?",
-      "en": "Which is the smallest country by area?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Monako",
-          "ru": "Монако",
-          "en": "Monaco"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "San-Marino",
-          "ru": "Сан-Марино",
-          "en": "San Marino"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Lixtenshteyn",
-          "ru": "Лихтенштейн",
-          "en": "Liechtenstein"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Vatikan",
-          "ru": "Ватикан",
-          "en": "Vatican City"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=800"
-  },
-  {
-    "question": {
-      "uz": "Quyidagi rasmda qaysi davlat yoki joy?",
-      "ru": "Какая страна или место на картинке?",
-      "en": "Which country or place is shown in the image?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Misr",
-          "ru": "Египет",
-          "en": "Egypt"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Gretsiya",
-          "ru": "Греция",
-          "en": "Greece"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Hindiston",
-          "ru": "Индия",
-          "en": "India"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Iordaniya",
-          "ru": "Иордания",
-          "en": "Jordan"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Amazon daryosi asosan qaysi qit'ada?",
-      "ru": "В какой части света протекает река Амазонка?",
-      "en": "On which continent is the Amazon River mainly located?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Afrika",
-          "ru": "Африка",
-          "en": "Africa"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Janubiy Amerika",
-          "ru": "Южная Америка",
-          "en": "South America"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Osiyo",
-          "ru": "Азия",
-          "en": "Asia"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Avstraliya",
-          "ru": "Австралия",
-          "en": "Australia"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Everest cho'qqisi qaysi davlat(lar)da?",
-      "ru": "В какой стране находится вершина Эверест?",
-      "en": "In which country is Mount Everest located?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Hindiston va Xitoy",
-          "ru": "Индия и Китай",
-          "en": "India and China"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Butan",
-          "ru": "Бутан",
-          "en": "Bhutan"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Nepal va Xitoy",
-          "ru": "Непал и Китай",
-          "en": "Nepal and China"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Tibet",
-          "ru": "Тибет",
-          "en": "Tibet"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Xitoy poytaxti qaysi shahar?",
-      "ru": "Столица Китая?",
-      "en": "What is the capital of China?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Pekin",
-          "ru": "Пекин",
-          "en": "Beijing"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Shanxay",
-          "ru": "Шанхай",
-          "en": "Shanghai"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Gonkong",
-          "ru": "Гонконг",
-          "en": "Hong Kong"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Guanchjou",
-          "ru": "Гуанчжоу",
-          "en": "Guangzhou"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Yaponiya poytaxti qaysi shahar?",
-      "ru": "Столица Японии?",
-      "en": "What is the capital of Japan?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Osaka",
-          "ru": "Осака",
-          "en": "Osaka"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Kioto",
-          "ru": "Киото",
-          "en": "Kyoto"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Yokogama",
-          "ru": "Иокогама",
-          "en": "Yokohama"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Tokio",
-          "ru": "Токио",
-          "en": "Tokyo"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800"
-  },
-  {
-    "question": {
-      "uz": "Quyidagi rasmda qaysi diqqatga sazovor joy?",
-      "ru": "Какая достопримечательность на картинке?",
-      "en": "Which landmark is shown in the image?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Eyfel minorasi",
-          "ru": "Эйфелева башня",
-          "en": "Eiffel Tower"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Big Ben",
-          "ru": "Биг-Бен",
-          "en": "Big Ben"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Ozodlik haykali",
-          "ru": "Статуя Свободы",
-          "en": "Statue of Liberty"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Kristus haykali",
-          "ru": "Статуя Христа",
-          "en": "Christ the Redeemer"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "O'rta yer dengizi qaysi qit'alar orasida joylashgan?",
-      "ru": "Между какими континентами расположено Средиземное море?",
-      "en": "Between which continents is the Mediterranean Sea located?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Amerika va Yevropa",
-          "ru": "Америка и Европа",
-          "en": "Americas and Europe"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Yevropa, Afrika, Osiyo",
-          "ru": "Европа, Африка, Азия",
-          "en": "Europe, Africa, Asia"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Osiyo va Avstraliya",
-          "ru": "Азия и Австралия",
-          "en": "Asia and Australia"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Afrika va Janubiy Amerika",
-          "ru": "Африка и Южная Америка",
-          "en": "Africa and South America"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Turkiya poytaxti qaysi shahar?",
-      "ru": "Столица Турции?",
-      "en": "What is the capital of Turkey?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Istanbul",
-          "ru": "Стамбул",
-          "en": "Istanbul"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Izmir",
-          "ru": "Измир",
-          "en": "Izmir"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Anqara",
-          "ru": "Анкара",
-          "en": "Ankara"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Antaliya",
-          "ru": "Анталья",
-          "en": "Antalya"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Janubiy Koreya poytaxti qaysi shahar?",
-      "ru": "Столица Южной Кореи?",
-      "en": "What is the capital of South Korea?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Seul",
-          "ru": "Сеул",
-          "en": "Seoul"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Pusan",
-          "ru": "Пусан",
-          "en": "Busan"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Inchxon",
-          "ru": "Инчхон",
-          "en": "Incheon"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Tegu",
-          "ru": "Тэгу",
-          "en": "Daegu"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Indoneziya poytaxti qaysi shahar?",
-      "ru": "Столица Индонезии?",
-      "en": "What is the capital of Indonesia?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Bali",
-          "ru": "Бали",
-          "en": "Bali"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Jakarta",
-          "ru": "Джакарта",
-          "en": "Jakarta"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Surabaya",
-          "ru": "Сурабая",
-          "en": "Surabaya"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Bandung",
-          "ru": "Бандунг",
-          "en": "Bandung"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800"
-  },
-  {
-    "question": {
-      "uz": "Qaysi qit'ada eng ko'p davlat bor?",
-      "ru": "На каком континенте больше всего стран?",
-      "en": "Which continent has the most countries?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Yevropa",
-          "ru": "Европа",
-          "en": "Europe"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Osiyo",
-          "ru": "Азия",
-          "en": "Asia"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Janubiy Amerika",
-          "ru": "Южная Америка",
-          "en": "South America"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Afrika",
-          "ru": "Африка",
-          "en": "Africa"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Quyidagi rasmda qaysi tabiiy yoki sun'iy joy?",
-      "ru": "Какое природное или рукотворное место на картинке?",
-      "en": "Which natural or man-made place is shown in the image?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Ulug' Kanal",
-          "ru": "Великий канал",
-          "en": "Grand Canal"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Suv yo'llari (Venesiya)",
-          "ru": "Венеция каналы",
-          "en": "Venice canals"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Amsterdam kanallari",
-          "ru": "Каналы Амстердама",
-          "en": "Amsterdam canals"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Suez kanali",
-          "ru": "Суэцкий канал",
-          "en": "Suez Canal"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Argentina poytaxti qaysi shahar?",
-      "ru": "Столица Аргентины?",
-      "en": "What is the capital of Argentina?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Kordova",
-          "ru": "Кордова",
-          "en": "Córdoba"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Rosario",
-          "ru": "Росарио",
-          "en": "Rosario"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Buenos-Ayres",
-          "ru": "Буэнос-Айрес",
-          "en": "Buenos Aires"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Mendoza",
-          "ru": "Мендоса",
-          "en": "Mendoza"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Meksika poytaxti qaysi shahar?",
-      "ru": "Столица Мексики?",
-      "en": "What is the capital of Mexico?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Mexiko",
-          "ru": "Мехико",
-          "en": "Mexico City"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Gvadalaxara",
-          "ru": "Гвадалахара",
-          "en": "Guadalajara"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Monterrey",
-          "ru": "Монтеррей",
-          "en": "Monterrey"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Kankun",
-          "ru": "Канкун",
-          "en": "Cancún"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Nil daryosi qaysi dengizga quyiladi?",
-      "ru": "В какое море впадает река Нил?",
-      "en": "Into which sea does the Nile River flow?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Qizil dengiz",
-          "ru": "Красное море",
-          "en": "Red Sea"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Hind okeani",
-          "ru": "Индийский океан",
-          "en": "Indian Ocean"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Qora dengiz",
-          "ru": "Чёрное море",
-          "en": "Black Sea"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "O'rta yer dengizi",
-          "ru": "Средиземное море",
-          "en": "Mediterranean Sea"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"
-  },
-  {
-    "question": {
-      "uz": "Fransiya poytaxti qaysi shahar?",
-      "ru": "Столица Франции?",
-      "en": "Capital of France?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Marsel",
-          "ru": "Марсель",
-          "en": "Marseille"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Lyon",
-          "ru": "Лион",
-          "en": "Lyon"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Parij",
-          "ru": "Париж",
-          "en": "Paris"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Bordo",
-          "ru": "Бордо",
-          "en": "Bordeaux"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Germaniya poytaxti qaysi shahar?",
-      "ru": "Столица Германии?",
-      "en": "Capital of Germany?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Frankfurt",
-          "ru": "Франкфурт",
-          "en": "Frankfurt"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Myunxen",
-          "ru": "Мюнхен",
-          "en": "Munich"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Berlin",
-          "ru": "Берлин",
-          "en": "Berlin"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Gamburg",
-          "ru": "Гамбург",
-          "en": "Hamburg"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Yaponiya poytaxti qaysi shahar?",
-      "ru": "Столица Японии?",
-      "en": "Capital of Japan?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Tokio",
-          "ru": "Токио",
-          "en": "Tokyo"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Kioto",
-          "ru": "Киото",
-          "en": "Kyoto"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Osaka",
-          "ru": "Осака",
-          "en": "Osaka"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Yokogama",
-          "ru": "Иокогама",
-          "en": "Yokohama"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Hindiston poytaxti qaysi shahar?",
-      "ru": "Столица Индии?",
-      "en": "Capital of India?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Chennay",
-          "ru": "Ченнаи",
-          "en": "Chennai"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Nyu-Dehli",
-          "ru": "Нью-Дели",
-          "en": "New Delhi"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Mumbay",
-          "ru": "Мумбаи",
-          "en": "Mumbai"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Bangalor",
-          "ru": "Бангалор",
-          "en": "Bangalore"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Misr poytaxti qaysi shahar?",
-      "ru": "Столица Египта?",
-      "en": "Capital of Egypt?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Qohira",
-          "ru": "Каир",
-          "en": "Cairo"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Iskandariya",
-          "ru": "Александрия",
-          "en": "Alexandria"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Luksor",
-          "ru": "Луксор",
-          "en": "Luxor"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Giza",
-          "ru": "Гиза",
-          "en": "Giza"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Dunyodagi eng uzun daryo qaysi?",
-      "ru": "Самая длинная река в мире?",
-      "en": "Longest river in the world?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Amazonka",
-          "ru": "Амазонка",
-          "en": "Amazon"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Nil",
-          "ru": "Нил",
-          "en": "Nile"
-        },
-        "isCorrect": true
       },
       {
         "text": {
@@ -1922,9 +494,51 @@
       },
       {
         "text": {
-          "uz": "Yanszi",
-          "ru": "Янцзы",
-          "en": "Yangtze"
+          "uz": "Nil",
+          "ru": "Нил",
+          "en": "Nile"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar suvda yashab, havodan nafas oladi?",
+      "ru": "Какие животные живут в воде и дышат воздухом?",
+      "en": "Which animals live in water and breathe air?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Delfin",
+          "ru": "Дельфин",
+          "en": "Dolphin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kit",
+          "ru": "Кит",
+          "en": "Whale"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Tyulen",
+          "ru": "Тюлень",
+          "en": "Seal"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Timsoh",
+          "ru": "Крокодил",
+          "en": "Crocodile"
         },
         "isCorrect": false
       }
@@ -1933,18 +547,286 @@
   },
   {
     "question": {
-      "uz": "Dunyodagi eng katta cho'l qaysi?",
-      "ru": "Самая большая пустыня в мире?",
-      "en": "Largest desert in the world?"
+      "uz": "Eng zaharli jonzotlar qaysilar?",
+      "ru": "Какие самые ядовитые существа?",
+      "en": "Which are the most venomous creatures?"
     },
     "options": [
       {
         "text": {
-          "uz": "G'arbiy Antarktida",
+          "uz": "Chayon",
+          "ru": "Скорпион",
+          "en": "Scorpion"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qora beva o'rgimchak",
+          "ru": "Чёрная вдова",
+          "en": "Black widow spider"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kobra",
+          "ru": "Кобра",
+          "en": "Cobra"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Ari",
+          "ru": "Пчела",
+          "en": "Bee"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta hayvonlar qaysilar?",
+      "ru": "Какие самые большие животные в мире?",
+      "en": "What are the largest animals in the world?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Слон",
+          "en": "Elephant"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Akula",
+          "ru": "Акула",
+          "en": "Shark"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Begemot",
+          "ru": "Бегемот",
+          "en": "Hippo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ko'k kit",
+          "ru": "Синий кит",
+          "en": "Blue whale"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar tunda faol bo'ladi?",
+      "ru": "Какие животные активны ночью?",
+      "en": "Which animals are active at night?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Yarasa",
+          "ru": "Летучая мышь",
+          "en": "Bat"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Boyo'g'li",
+          "ru": "Сова",
+          "en": "Owl"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Tulki",
+          "ru": "Лиса",
+          "en": "Fox"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yo'lbars",
+          "ru": "Тигр",
+          "en": "Tiger"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng baland uchadigan qushlar qaysilar?",
+      "ru": "Какие птицы летают выше всего?",
+      "en": "Which birds fly the highest?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Lochin",
+          "ru": "Сокол",
+          "en": "Falcon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Turna",
+          "ru": "Журавль",
+          "en": "Crane"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Burgut",
+          "ru": "Орёл",
+          "en": "Eagle"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Qarchi",
+          "ru": "Ястреб",
+          "en": "Hawk"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng sovuq joylar qaysilar?",
+      "ru": "Где самые холодные места в мире?",
+      "en": "Where are the coldest places in the world?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sibir",
+          "ru": "Сибирь",
+          "en": "Siberia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Grenlandiya",
+          "ru": "Гренландия",
+          "en": "Greenland"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Alaska",
+          "ru": "Аляска",
+          "en": "Alaska"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Antarktida",
+          "ru": "Антарктида",
+          "en": "Antarctica"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar guruh bo'lib yashaydi?",
+      "ru": "Какие животные живут группами?",
+      "en": "Which animals live in groups?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sher",
+          "ru": "Лев",
+          "en": "Lion"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bo'ri",
+          "ru": "Волк",
+          "en": "Wolf"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Delfin",
+          "ru": "Дельфин",
+          "en": "Dolphin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Слон",
+          "en": "Elephant"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta cho'llar qaysilar?",
+      "ru": "Какие самые большие пустыни в мире?",
+      "en": "What are the largest deserts in the world?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Antarktida",
           "ru": "Антарктида",
           "en": "Antarctica"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arab cho'li",
+          "ru": "Аравийская пустыня",
+          "en": "Arabian Desert"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sahara",
+          "ru": "Сахара",
+          "en": "Sahara"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1953,20 +835,46 @@
           "en": "Gobi"
         },
         "isCorrect": false
-      },
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar yerdagi eng katta sutemizuvchilar?",
+      "ru": "Какие самые большие наземные млекопитающие?",
+      "en": "Which are the largest land mammals?"
+    },
+    "options": [
       {
         "text": {
-          "uz": "Arabiston",
-          "ru": "Аравийская",
-          "en": "Arabian"
+          "uz": "Karkidon",
+          "ru": "Носорог",
+          "en": "Rhinoceros"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Sahro",
-          "ru": "Сахара",
-          "en": "Sahara"
+          "uz": "Begemot",
+          "ru": "Бегемот",
+          "en": "Hippo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jirafa",
+          "ru": "Жираф",
+          "en": "Giraffe"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Слон",
+          "en": "Elephant"
         },
         "isCorrect": true
       }
@@ -1975,40 +883,40 @@
   },
   {
     "question": {
-      "uz": "AQSh poytaxti qaysi shahar?",
-      "ru": "Столица США?",
-      "en": "Capital of USA?"
+      "uz": "Dunyodagi eng chuqur okean chuqurligi qayerda?",
+      "ru": "Где самая глубокая океанская впадина?",
+      "en": "Where is the deepest ocean trench?"
     },
     "options": [
       {
         "text": {
-          "uz": "Chikago",
-          "ru": "Чикаго",
-          "en": "Chicago"
+          "uz": "Tinch okeani",
+          "ru": "Тихий океан",
+          "en": "Pacific"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Nyu-York",
-          "ru": "Нью-Йорк",
-          "en": "New York"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Vashington",
-          "ru": "Вашингтон",
-          "en": "Washington D.C."
+          "uz": "Mariyana xandaqi",
+          "ru": "Марианская впадина",
+          "en": "Mariana Trench"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Los-Anjeles",
-          "ru": "Лос-Анджелес",
-          "en": "Los Angeles"
+          "uz": "Atlantika",
+          "ru": "Атлантика",
+          "en": "Atlantic"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Puerto-Riko xandaqi",
+          "ru": "Жёлоб Пуэрто-Рико",
+          "en": "Puerto Rico Trench"
         },
         "isCorrect": false
       }
@@ -2017,40 +925,40 @@
   },
   {
     "question": {
-      "uz": "Xitoy poytaxti qaysi shahar?",
-      "ru": "Столица Китая?",
-      "en": "Capital of China?"
+      "uz": "Qaysi qushlar ucha olmaydi?",
+      "ru": "Какие птицы не умеют летать?",
+      "en": "Which birds cannot fly?"
     },
     "options": [
       {
         "text": {
-          "uz": "Shenchjen",
-          "ru": "Шэньчжэнь",
-          "en": "Shenzhen"
+          "uz": "Pingvin",
+          "ru": "Пингвин",
+          "en": "Penguin"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Shanxay",
-          "ru": "Шанхай",
-          "en": "Shanghai"
+          "uz": "Emu",
+          "ru": "Эму",
+          "en": "Emu"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Pekin",
-          "ru": "Пекин",
-          "en": "Beijing"
+          "uz": "Tuyaqush",
+          "ru": "Страус",
+          "en": "Ostrich"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Guanchjou",
-          "ru": "Гуанчжоу",
-          "en": "Guangzhou"
+          "uz": "Kazuar",
+          "ru": "Казуар",
+          "en": "Cassowary"
         },
         "isCorrect": false
       }
@@ -2059,389 +967,19 @@
   },
   {
     "question": {
-      "uz": "Rossiya poytaxti qaysi shahar?",
-      "ru": "Столица России?",
-      "en": "Capital of Russia?"
+      "uz": "Eng katta qit'a qaysi?",
+      "ru": "Какой континент самый большой?",
+      "en": "Which is the largest continent?"
     },
     "options": [
       {
         "text": {
-          "uz": "Sankt-Peterburg",
-          "ru": "Санкт-Петербург",
-          "en": "Saint Petersburg"
+          "uz": "Afrika",
+          "ru": "Африка",
+          "en": "Africa"
         },
         "isCorrect": false
       },
-      {
-        "text": {
-          "uz": "Novosibirsk",
-          "ru": "Новосибирск",
-          "en": "Novosibirsk"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Moskva",
-          "ru": "Москва",
-          "en": "Moscow"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Yekaterinburg",
-          "ru": "Екатеринбург",
-          "en": "Yekaterinburg"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Birlashgan Qirollik poytaxti qaysi shahar?",
-      "ru": "Столица Великобритании?",
-      "en": "Capital of UK?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Liverpul",
-          "ru": "Ливерпуль",
-          "en": "Liverpool"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Birmingem",
-          "ru": "Бирмингем",
-          "en": "Birmingham"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Manchester",
-          "ru": "Манчестер",
-          "en": "Manchester"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "London",
-          "ru": "Лондон",
-          "en": "London"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Ispaniya poytaxti qaysi shahar?",
-      "ru": "Столица Испании?",
-      "en": "Capital of Spain?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Madrid",
-          "ru": "Мадрид",
-          "en": "Madrid"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Barselona",
-          "ru": "Барселона",
-          "en": "Barcelona"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Valensiya",
-          "ru": "Валенсия",
-          "en": "Valencia"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Sevilya",
-          "ru": "Севилья",
-          "en": "Seville"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Italiya poytaxti qaysi shahar?",
-      "ru": "Столица Италии?",
-      "en": "Capital of Italy?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Rim",
-          "ru": "Рим",
-          "en": "Rome"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Venetsiya",
-          "ru": "Венеция",
-          "en": "Venice"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Milan",
-          "ru": "Милан",
-          "en": "Milan"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Neapol",
-          "ru": "Неаполь",
-          "en": "Naples"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Turkiya poytaxti qaysi shahar?",
-      "ru": "Столица Турции?",
-      "en": "Capital of Turkey?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Anqara",
-          "ru": "Анкара",
-          "en": "Ankara"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Izmir",
-          "ru": "Измир",
-          "en": "Izmir"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Bursa",
-          "ru": "Бурса",
-          "en": "Bursa"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Istanbul",
-          "ru": "Стамбул",
-          "en": "Istanbul"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Indoneziya poytaxti qaysi shahar?",
-      "ru": "Столица Индонезии?",
-      "en": "Capital of Indonesia?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Bandung",
-          "ru": "Бандунг",
-          "en": "Bandung"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Surabaya",
-          "ru": "Сурабая",
-          "en": "Surabaya"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Jakarta",
-          "ru": "Джакарта",
-          "en": "Jakarta"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Bali",
-          "ru": "Бали",
-          "en": "Bali"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Janubiy Koreya poytaxti qaysi shahar?",
-      "ru": "Столица Южной Кореи?",
-      "en": "Capital of South Korea?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Incheon",
-          "ru": "Инчхон",
-          "en": "Incheon"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Seul",
-          "ru": "Сеул",
-          "en": "Seoul"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Daegu",
-          "ru": "Тэгу",
-          "en": "Daegu"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Busan",
-          "ru": "Пусан",
-          "en": "Busan"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Meksika poytaxti qaysi shahar?",
-      "ru": "Столица Мексики?",
-      "en": "Capital of Mexico?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Gvadalaxara",
-          "ru": "Гвадалахара",
-          "en": "Guadalajara"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Kankun",
-          "ru": "Канкун",
-          "en": "Cancún"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Monterrey",
-          "ru": "Монтеррей",
-          "en": "Monterrey"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Mexiko",
-          "ru": "Мехико",
-          "en": "Mexico City"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Argentina poytaxti qaysi shahar?",
-      "ru": "Столица Аргентины?",
-      "en": "Capital of Argentina?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Mendosa",
-          "ru": "Мендоса",
-          "en": "Mendoza"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Buenos-Ayres",
-          "ru": "Буэнос-Айрес",
-          "en": "Buenos Aires"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Rosario",
-          "ru": "Росарио",
-          "en": "Rosario"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Kordova",
-          "ru": "Кордова",
-          "en": "Córdoba"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Dunyodagi eng katta qit'a qaysi?",
-      "ru": "Самый большой континент?",
-      "en": "Largest continent?"
-    },
-    "options": [
       {
         "text": {
           "uz": "Shimoliy Amerika",
@@ -2465,12 +1003,46 @@
           "en": "Asia"
         },
         "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar ikki marta hayot kechiradi (metamorfoz)?",
+      "ru": "Какие животные проходят метаморфоз?",
+      "en": "Which animals undergo metamorphosis?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "It",
+          "ru": "It",
+          "en": "It"
+        },
+        "isCorrect": false
       },
       {
         "text": {
-          "uz": "Afrika",
-          "ru": "Африка",
-          "en": "Africa"
+          "uz": "Kapa",
+          "ru": "Kapa",
+          "en": "Kapa"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Sigir",
+          "ru": "Sigir",
+          "en": "Sigir"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tovuq",
+          "ru": "Tovuq",
+          "en": "Tovuq"
         },
         "isCorrect": false
       }
@@ -2479,40 +1051,82 @@
   },
   {
     "question": {
-      "uz": "Everest tog'i qaysi davlatda joylashgan?",
-      "ru": "В какой стране гора Эверест?",
-      "en": "In which country is Mount Everest?"
+      "uz": "Dunyodagi eng katta orol qaysi?",
+      "ru": "Какой самый большой остров в мире?",
+      "en": "What is the largest island in the world?"
     },
     "options": [
       {
         "text": {
-          "uz": "Hindiston",
-          "ru": "Индия",
-          "en": "India"
+          "uz": "Madagaskar",
+          "ru": "Мадагаскар",
+          "en": "Madagascar"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Butan",
-          "ru": "Бутан",
-          "en": "Bhutan"
+          "uz": "Borneo",
+          "ru": "Борнео",
+          "en": "Borneo"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Pokiston",
-          "ru": "Пакистан",
-          "en": "Pakistan"
+          "uz": "Grenlandiya",
+          "ru": "Гренландия",
+          "en": "Greenland"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Yangi Gvineya",
+          "ru": "Новая Гвинея",
+          "en": "New Guinea"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar uyquda qishlaydi?",
+      "ru": "Какие животные впадают в спячку?",
+      "en": "Which animals hibernate?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sichqon",
+          "ru": "Мышь",
+          "en": "Mouse"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Nepal / Xitoy",
-          "ru": "Непал/Китай",
-          "en": "Nepal/China"
+          "uz": "Echki",
+          "ru": "Ёж",
+          "en": "Hedgehog"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yo'lbars",
+          "ru": "Тигр",
+          "en": "Tiger"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ayiq",
+          "ru": "Медведь",
+          "en": "Bear"
         },
         "isCorrect": true
       }
@@ -2521,9 +1135,1311 @@
   },
   {
     "question": {
-      "uz": "Amazonka daryosi qaysi qit'ada?",
-      "ru": "На каком континенте река Амазонка?",
-      "en": "On which continent is the Amazon River?"
+      "uz": "Eng katta dengiz (yopiq suv) qaysi?",
+      "ru": "Какое море самое большое (замкнутое)?",
+      "en": "Which is the largest enclosed sea?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "O'rta yer dengizi",
+          "ru": "Средиземное",
+          "en": "Mediterranean"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kaspiy dengizi",
+          "ru": "Каспийское море",
+          "en": "Caspian Sea"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Qora dengiz",
+          "ru": "Чёрное море",
+          "en": "Black Sea"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Baykal",
+          "ru": "Байкал",
+          "en": "Baikal"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hasharotlar asal yig'adi?",
+      "ru": "Какие насекомые собирают мёд?",
+      "en": "Which insects collect honey?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Chivin",
+          "ru": "Chivin",
+          "en": "Chivin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Chayon",
+          "ru": "Chayon",
+          "en": "Chayon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "O'rgimchak",
+          "ru": "O'rgimchak",
+          "en": "O'rgimchak"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng baland vodiy qaysi?",
+      "ru": "Какая долина самая высокая в мире?",
+      "en": "What is the highest valley in the world?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Grand Kanyon",
+          "ru": "Гранд-Каньон",
+          "en": "Grand Canyon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rift vodiysi",
+          "ru": "Рифтовая долина",
+          "en": "Rift Valley"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Altiplano",
+          "ru": "Альтиплано",
+          "en": "Altiplano"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tibet platosi",
+          "ru": "Тибетское плато",
+          "en": "Tibetan Plateau"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng tez uchadigan qush qaysi?",
+      "ru": "Какая птица летает быстрее всех?",
+      "en": "Which bird flies the fastest?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Qarg'a",
+          "ru": "Qarg'a",
+          "en": "Qarg'a"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lochin (sapsan)",
+          "ru": "Lochin (sapsan)",
+          "en": "Lochin (sapsan)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Kaptar",
+          "ru": "Kaptar",
+          "en": "Kaptar"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Chumchuq",
+          "ru": "Chumchuq",
+          "en": "Chumchuq"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar teri orqali nafas oladi?",
+      "ru": "Какие животные дышат кожей?",
+      "en": "Which animals breathe through skin?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Mushuk",
+          "ru": "Mushuk",
+          "en": "Mushuk"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qurbaqa",
+          "ru": "Qurbaqa",
+          "en": "Qurbaqa"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Baliq",
+          "ru": "Baliq",
+          "en": "Baliq"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta tropik yomg'ir o'rmoni qayerda?",
+      "ru": "Где самый большой тропический дождевой лес?",
+      "en": "Where is the largest tropical rainforest?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kongo",
+          "ru": "Конго",
+          "en": "Congo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Indoneziya",
+          "ru": "Индонезия",
+          "en": "Indonesia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Borneo",
+          "ru": "Борнео",
+          "en": "Borneo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Amazonka",
+          "ru": "Амазонка",
+          "en": "Amazon"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar xorda (qovurg'asiz) yashaydi?",
+      "ru": "Какие животные живут без позвоночника?",
+      "en": "Which animals have no backbone?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Baliq",
+          "ru": "Baliq",
+          "en": "Baliq"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kaltakesak",
+          "ru": "Kaltakesak",
+          "en": "Kaltakesak"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng kichik qit'a qaysi?",
+      "ru": "Какой континент самый маленький?",
+      "en": "Which is the smallest continent?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Antarktida",
+          "ru": "Antarktida",
+          "en": "Antarktida"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yevropa",
+          "ru": "Yevropa",
+          "en": "Yevropa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Avstraliya",
+          "ru": "Avstraliya",
+          "en": "Avstraliya"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Okeaniya",
+          "ru": "Okeaniya",
+          "en": "Okeaniya"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi sutemizuvchilar parvooz qiladi?",
+      "ru": "Какие млекопитающие умеют летать?",
+      "en": "Which mammals can fly?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sincap (planer)",
+          "ru": "Sincap (planer)",
+          "en": "Sincap (planer)"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Suv sichqoni",
+          "ru": "Suv sichqoni",
+          "en": "Suv sichqoni"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Delfin",
+          "ru": "Delfin",
+          "en": "Delfin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yarasa",
+          "ru": "Yarasa",
+          "en": "Yarasa"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng uzun tog' tizmasi qaysi?",
+      "ru": "Какой самый длинный горный хребет?",
+      "en": "What is the longest mountain range?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Himalay",
+          "ru": "Гималаи",
+          "en": "Himalayas"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Andlar",
+          "ru": "Анды",
+          "en": "Andes"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Alp",
+          "ru": "Альпы",
+          "en": "Alps"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ural",
+          "ru": "Урал",
+          "en": "Ural"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar yilning yarmini suvda, yarmini quruqda o'tkazadi?",
+      "ru": "Какие животные проводят полгода в воде, полгода на суше?",
+      "en": "Which animals spend half the year in water, half on land?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Timsoh",
+          "ru": "Timsoh",
+          "en": "Timsoh"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qurbaqa",
+          "ru": "Qurbaqa",
+          "en": "Qurbaqa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tyulen",
+          "ru": "Tyulen",
+          "en": "Tyulen"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Kit",
+          "ru": "Kit",
+          "en": "Kit"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng ko'p tillar so'zlashadigan davlat qaysi?",
+      "ru": "В какой стране говорят на самом большом количестве языков?",
+      "en": "Which country has the most languages?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Hindiston",
+          "ru": "Hindiston",
+          "en": "Hindiston"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Indoneziya",
+          "ru": "Indoneziya",
+          "en": "Indoneziya"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nigeriya",
+          "ru": "Nigeriya",
+          "en": "Nigeriya"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Papua-Yangi Gvineya",
+          "ru": "Papua-Yangi Gvineya",
+          "en": "Papua-Yangi Gvineya"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar ovoz orqali yo'nalish topadi?",
+      "ru": "Какие животные ориентируются по звуку?",
+      "en": "Which animals navigate by sound?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Fil",
+          "en": "Fil"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yarasa",
+          "ru": "Yarasa",
+          "en": "Yarasa"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Baliq",
+          "ru": "Baliq",
+          "en": "Baliq"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta ko'l (chirindisi) qaysi?",
+      "ru": "Какое озеро самое большое (пресное)?",
+      "en": "What is the largest freshwater lake?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Viktoriya",
+          "ru": "Виктория",
+          "en": "Victoria"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Superior",
+          "ru": "Верхнее",
+          "en": "Superior"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Baykal",
+          "ru": "Байкал",
+          "en": "Baikal"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Tanganyika",
+          "ru": "Танганьика",
+          "en": "Tanganyika"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi jonzotlar regeneratsiya qiladi (qismi o'sadi)?",
+      "ru": "Какие существа регенерируют части тела?",
+      "en": "Which creatures can regenerate body parts?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Fil",
+          "en": "Fil"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ilon (dum)",
+          "ru": "Ilon (dum)",
+          "en": "Ilon (dum)"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng issiq cho'l qaysi?",
+      "ru": "Какая пустыня самая жаркая?",
+      "en": "Which desert is the hottest?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Gobi",
+          "ru": "Gobi",
+          "en": "Gobi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lut (Eron)",
+          "ru": "Lut (Eron)",
+          "en": "Lut (Eron)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Atakama",
+          "ru": "Atakama",
+          "en": "Atakama"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arab",
+          "ru": "Arab",
+          "en": "Arab"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar migratsiya qiladi (masofaga uchib/yuradi)?",
+      "ru": "Какие животные мигрируют на большие расстояния?",
+      "en": "Which animals migrate long distances?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Tovuq",
+          "ru": "Tovuq",
+          "en": "Tovuq"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ilon",
+          "ru": "Ilon",
+          "en": "Ilon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Turna",
+          "ru": "Turna",
+          "en": "Turna"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "O'rgimchak",
+          "ru": "O'rgimchak",
+          "en": "O'rgimchak"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta vulkan qaysi?",
+      "ru": "Какой вулкан самый большой в мире?",
+      "en": "What is the largest volcano in the world?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Vezuviy",
+          "ru": "Везувий",
+          "en": "Vesuvius"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fuji",
+          "ru": "Фудзи",
+          "en": "Fuji"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kotopaksi",
+          "ru": "Котопахи",
+          "en": "Cotopaxi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mauna Loa",
+          "ru": "Мауна-Лоа",
+          "en": "Mauna Loa"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar yirtqich va o't-o'lan bilan oziqlanadi?",
+      "ru": "Какие животные едят и мясо, и растения?",
+      "en": "Which animals eat both meat and plants?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Arslon",
+          "ru": "Arslon",
+          "en": "Arslon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ayiq",
+          "ru": "Ayiq",
+          "en": "Ayiq"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Fil",
+          "en": "Fil"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ilon",
+          "ru": "Ilon",
+          "en": "Ilon"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta yarim orol qaysi?",
+      "ru": "Какой полуостров самый большой?",
+      "en": "What is the largest peninsula?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Hindiston",
+          "ru": "Hindiston",
+          "en": "Hindiston"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Skandinaviya",
+          "ru": "Skandinaviya",
+          "en": "Skandinaviya"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arabiston yarim oroli",
+          "ru": "Arabiston yarim oroli",
+          "en": "Arabiston yarim oroli"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Labrador",
+          "ru": "Labrador",
+          "en": "Labrador"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar suvda ham, quruqda ham yashaydi?",
+      "ru": "Какие животные живут и в воде, и на суше?",
+      "en": "Which animals live both in water and on land?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kit",
+          "ru": "Kit",
+          "en": "Kit"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qurbaqa",
+          "ru": "Qurbaqa",
+          "en": "Qurbaqa"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta muzlik qayerda?",
+      "ru": "Где самый большой ледник в мире?",
+      "en": "Where is the largest glacier?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Grenlandiya",
+          "ru": "Гренландия",
+          "en": "Greenland"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Antarktida",
+          "ru": "Антарктида",
+          "en": "Antarctica"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Alaska",
+          "ru": "Аляска",
+          "en": "Alaska"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Himalay",
+          "ru": "Гималаи",
+          "en": "Himalayas"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta kemiruvchi qaysi?",
+      "ru": "Какой грызун самый большой?",
+      "en": "What is the largest rodent?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sichqon",
+          "ru": "Sichqon",
+          "en": "Sichqon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ochqon",
+          "ru": "Ochqon",
+          "en": "Ochqon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kapibara",
+          "ru": "Kapibara",
+          "en": "Kapibara"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Suv sichqoni",
+          "ru": "Suv sichqoni",
+          "en": "Suv sichqoni"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi okean eng chuqur?",
+      "ru": "Какой океан самый глубокий?",
+      "en": "Which ocean is the deepest?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Atlantika",
+          "ru": "Атлантика",
+          "en": "Atlantic"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hind okeani",
+          "ru": "Индийский",
+          "en": "Indian"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Shimoliy Muz",
+          "ru": "Северный Ледовитый",
+          "en": "Arctic"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tinch okeani",
+          "ru": "Тихий океан",
+          "en": "Pacific Ocean"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar koloniya (uyalar) quradi?",
+      "ru": "Какие животные строят колонии (ульи)?",
+      "en": "Which animals build colonies (hives)?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Bo'ri",
+          "ru": "Bo'ri",
+          "en": "Bo'ri"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ilon",
+          "ru": "Ilon",
+          "en": "Ilon"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta daryo (hajmi) qaysi?",
+      "ru": "Какая река самая полноводная?",
+      "en": "Which river has the largest volume?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Nil",
+          "ru": "Нил",
+          "en": "Nile"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yanszi",
+          "ru": "Янцзы",
+          "en": "Yangtze"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Amazonka",
+          "ru": "Амазонка",
+          "en": "Amazon"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Missisipi",
+          "ru": "Миссисипи",
+          "en": "Mississippi"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar changda cho'kadi (cho'kindi)?",
+      "ru": "Какие животные купаются в пыли?",
+      "en": "Which animals dust bathe?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Baliq",
+          "ru": "Baliq",
+          "en": "Baliq"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ilon",
+          "ru": "Ilon",
+          "en": "Ilon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tovuq",
+          "ru": "Tovuq",
+          "en": "Tovuq"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng baland sharshara qaysi?",
+      "ru": "Какой водопад самый высокий?",
+      "en": "What is the tallest waterfall?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Niagara",
+          "ru": "Niagara",
+          "en": "Niagara"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Angel (Venesuela)",
+          "ru": "Angel (Venesuela)",
+          "en": "Angel (Venesuela)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Viktoriya",
+          "ru": "Viktoriya",
+          "en": "Viktoriya"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Iguasu",
+          "ru": "Iguasu",
+          "en": "Iguasu"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi jonzotlar elektrik zarba beradi?",
+      "ru": "Какие существа бьют током?",
+      "en": "Which creatures produce electric shock?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Akula",
+          "ru": "Akula",
+          "en": "Akula"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Elektrik ilon baliq",
+          "ru": "Elektrik ilon baliq",
+          "en": "Elektrik ilon baliq"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Qurbaqa",
+          "ru": "Qurbaqa",
+          "en": "Qurbaqa"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta o'rmon (yuzasi) qayerda?",
+      "ru": "Где самый большой лес по площади?",
+      "en": "Where is the largest forest by area?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Amazonka",
+          "ru": "Амазонка",
+          "en": "Amazon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kongo",
+          "ru": "Конго",
+          "en": "Congo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kanada",
+          "ru": "Канада",
+          "en": "Canada"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sibir (taiga)",
+          "ru": "Сибирь (тайга)",
+          "en": "Siberia (taiga)"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar tuxumdan chiqadi lekin sut bilan oziqlanadi?",
+      "ru": "Какие животные вылупляются из яйца, но питаются молоком?",
+      "en": "Which animals hatch from egg but feed on milk?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tuxumqotar (ekidna",
+          "ru": "Tuxumqotar (ekidna",
+          "en": "Tuxumqotar (ekidna"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Baliq",
+          "ru": "Baliq",
+          "en": "Baliq"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ilon",
+          "ru": "Ilon",
+          "en": "Ilon"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta qit'alararo tog' tizmasi qaysi?",
+      "ru": "Какой межконтинентальный хребет самый большой?",
+      "en": "What is the largest intercontinental range?"
     },
     "options": [
       {
@@ -2531,6 +2447,484 @@
           "uz": "Afrika",
           "ru": "Африка",
           "en": "Africa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Shimoliy Amerika",
+          "ru": "Северная Америка",
+          "en": "North America"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Osiyo",
+          "ru": "Азия",
+          "en": "Asia"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Janubiy Amerika",
+          "ru": "Южная Америка",
+          "en": "South America"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar o'zini dushmandan yashiradi (kamuflyaj)?",
+      "ru": "Какие животные маскируются от врагов?",
+      "en": "Which animals camouflage from predators?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Fil",
+          "en": "Fil"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tovuq",
+          "ru": "Tovuq",
+          "en": "Tovuq"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "It",
+          "ru": "It",
+          "en": "It"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Baboq",
+          "ru": "Baboq",
+          "en": "Baboq"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng qurg'oqchil joy qayerda?",
+      "ru": "Где самое сухое место на Земле?",
+      "en": "Where is the driest place on Earth?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sahara",
+          "ru": "Сахара",
+          "en": "Sahara"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Atakama",
+          "ru": "Атакама",
+          "en": "Atacama"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Lut (Eron)",
+          "ru": "Лут (Иран)",
+          "en": "Lut (Iran)"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arab cho'li",
+          "ru": "Аравийская пустыня",
+          "en": "Arabian Desert"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta dengiz sutemizuvchisi qaysi?",
+      "ru": "Какое морское млекопитающее самое большое?",
+      "en": "What is the largest marine mammal?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Слон",
+          "en": "Elephant"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Akula",
+          "ru": "Акула",
+          "en": "Shark"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ko'k kit",
+          "ru": "Синий кит",
+          "en": "Blue whale"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Tyulen",
+          "ru": "Тюлень",
+          "en": "Seal"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi qushlar dengizda ko'p vaqt o'tkazadi?",
+      "ru": "Какие птицы проводят много времени в море?",
+      "en": "Which birds spend much time at sea?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Tovuq",
+          "ru": "Tovuq",
+          "en": "Tovuq"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Burgut",
+          "ru": "Burgut",
+          "en": "Burgut"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qarg'a",
+          "ru": "Qarg'a",
+          "en": "Qarg'a"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Albatros",
+          "ru": "Albatros",
+          "en": "Albatros"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta arhipelag qaysi?",
+      "ru": "Какой архипелаг самый большой?",
+      "en": "What is the largest archipelago?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Yaponiya",
+          "ru": "Yaponiya",
+          "en": "Yaponiya"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Indoneziya (Malay arhipelagi)",
+          "ru": "Indoneziya (Malay arhipelagi)",
+          "en": "Indoneziya (Malay arhipelagi)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Filippin",
+          "ru": "Filippin",
+          "en": "Filippin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Karib",
+          "ru": "Karib",
+          "en": "Karib"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar qishda qor ostida yashaydi?",
+      "ru": "Какие животные живут под снегом зимой?",
+      "en": "Which animals live under snow in winter?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sher",
+          "ru": "Sher",
+          "en": "Sher"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Fil",
+          "en": "Fil"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sichqon",
+          "ru": "Sichqon",
+          "en": "Sichqon"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Baliq",
+          "ru": "Baliq",
+          "en": "Baliq"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng baland shahar qaysi?",
+      "ru": "Какой город самый высокогорный?",
+      "en": "What is the highest city in the world?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Lhasa",
+          "ru": "Лхаса",
+          "en": "Lhasa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kito",
+          "ru": "Кито",
+          "en": "Quito"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bogota",
+          "ru": "Богота",
+          "en": "Bogota"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "La-Ras",
+          "ru": "Ла-Пас",
+          "en": "La Paz"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi jonzotlar bioluminescensiya (yorug'lik) chiqaradi?",
+      "ru": "Какие существа светятся (биолюминесценция)?",
+      "en": "Which creatures produce bioluminescence?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kuniga qurti",
+          "ru": "Kuniga qurti",
+          "en": "Kuniga qurti"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Mushuk",
+          "ru": "Mushuk",
+          "en": "Mushuk"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta platolar qaysi?",
+      "ru": "Какие плато самые большие?",
+      "en": "What are the largest plateaus?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Alp",
+          "ru": "Alp",
+          "en": "Alp"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sahara",
+          "ru": "Sahara",
+          "en": "Sahara"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tibet",
+          "ru": "Tibet",
+          "en": "Tibet"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Amazonka",
+          "ru": "Amazonka",
+          "en": "Amazonka"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar suvni filtrlaydi (ozuqa oladi)?",
+      "ru": "Какие животные фильтруют воду для питания?",
+      "en": "Which animals filter water for food?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Akula",
+          "ru": "Akula",
+          "en": "Akula"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qurbaqa",
+          "ru": "Qurbaqa",
+          "en": "Qurbaqa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kit",
+          "ru": "Kit",
+          "en": "Kit"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng uzun qirg'oq chizig'iga ega davlat qaysi?",
+      "ru": "У какой страны самая длинная береговая линия?",
+      "en": "Which country has the longest coastline?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Indoneziya",
+          "ru": "Индонезия",
+          "en": "Indonesia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kanada",
+          "ru": "Канада",
+          "en": "Canada"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Rossiya",
+          "ru": "Россия",
+          "en": "Russia"
         },
         "isCorrect": false
       },
@@ -2541,20 +2935,46 @@
           "en": "Australia"
         },
         "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta sudraluvchi qaysi?",
+      "ru": "Какая рептилия самая большая?",
+      "en": "What is the largest reptile?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ilon anakonda",
+          "ru": "Ilon anakonda",
+          "en": "Ilon anakonda"
+        },
+        "isCorrect": false
       },
       {
         "text": {
-          "uz": "Janubiy Amerika",
-          "ru": "Южная Америка",
-          "en": "South America"
+          "uz": "Kaltakesak komodo",
+          "ru": "Kaltakesak komodo",
+          "en": "Kaltakesak komodo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Timsoh (tuzli suv)",
+          "ru": "Timsoh (tuzli suv)",
+          "en": "Timsoh (tuzli suv)"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Osiyo",
-          "ru": "Азия",
-          "en": "Asia"
+          "uz": "Toshbaqa",
+          "ru": "Toshbaqa",
+          "en": "Toshbaqa"
         },
         "isCorrect": false
       }
@@ -2563,670 +2983,40 @@
   },
   {
     "question": {
-      "uz": "O'zbekiston poytaxti qaysi shahar?",
-      "ru": "Столица Узбекистана?",
-      "en": "Capital of Uzbekistan?"
+      "uz": "Qaysi hayvonlar g'ozlar ketida uchar?",
+      "ru": "Какие птицы летают клином?",
+      "en": "Which birds fly in V-formation?"
     },
     "options": [
       {
         "text": {
-          "uz": "Farg'ona",
-          "ru": "Фергана",
-          "en": "Fergana"
+          "uz": "Qarg'a",
+          "ru": "Qarg'a",
+          "en": "Qarg'a"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Buxoro",
-          "ru": "Бухара",
-          "en": "Bukhara"
+          "uz": "Burgut",
+          "ru": "Burgut",
+          "en": "Burgut"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Toshkent",
-          "ru": "Ташкент",
-          "en": "Tashkent"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Samarqand",
-          "ru": "Самарканд",
-          "en": "Samarkand"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Qozog'iston poytaxti qaysi shahar?",
-      "ru": "Столица Казахстана?",
-      "en": "Capital of Kazakhstan?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Nur-Sulton (Ostona)",
-          "ru": "Нур-Султан (Астана)",
-          "en": "Nur-Sultan (Astana)"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Olmaota",
-          "ru": "Алматы",
-          "en": "Almaty"
+          "uz": "Tovuq",
+          "ru": "Tovuq",
+          "en": "Tovuq"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Oqtau",
-          "ru": "Актау",
-          "en": "Aktau"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Shimkent",
-          "ru": "Шымкент",
-          "en": "Shymkent"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Tojikiston poytaxti qaysi shahar?",
-      "ru": "Столица Таджикистана?",
-      "en": "Capital of Tajikistan?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Dushanbe",
-          "ru": "Душанбе",
-          "en": "Dushanbe"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Istaravshan",
-          "ru": "Истаравшан",
-          "en": "Istaravshan"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Qurgan-Tepa",
-          "ru": "Курган-Тюбе",
-          "en": "Kurgan-Tyube"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Xujand",
-          "ru": "Худжанд",
-          "en": "Khujand"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Eron poytaxti qaysi shahar?",
-      "ru": "Столица Ирана?",
-      "en": "Capital of Iran?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Shiraz",
-          "ru": "Шираз",
-          "en": "Shiraz"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Tehron",
-          "ru": "Тегеран",
-          "en": "Tehran"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Mashhad",
-          "ru": "Мешхед",
-          "en": "Mashhad"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Isfahon",
-          "ru": "Исфахан",
-          "en": "Isfahan"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Pokiston poytaxti qaysi shahar?",
-      "ru": "Столица Пакистана?",
-      "en": "Capital of Pakistan?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Karachi",
-          "ru": "Карачи",
-          "en": "Karachi"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Lahor",
-          "ru": "Лахор",
-          "en": "Lahore"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Islomobod",
-          "ru": "Исламабад",
-          "en": "Islamabad"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Peshovar",
-          "ru": "Пешавар",
-          "en": "Peshawar"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "BAA poytaxti qaysi shahar?",
-      "ru": "Столица ОАЭ?",
-      "en": "Capital of UAE?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Abu-Dabi",
-          "ru": "Абу-Даби",
-          "en": "Abu Dhabi"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Ras-al-Xayma",
-          "ru": "Рас-эль-Хайма",
-          "en": "Ras Al Khaimah"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Sharja",
-          "ru": "Шарджа",
-          "en": "Sharjah"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Dubay",
-          "ru": "Дубай",
-          "en": "Dubai"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Saudiya Arabistoni poytaxti qaysi shahar?",
-      "ru": "Столица Саудовской Аравии?",
-      "en": "Capital of Saudi Arabia?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Makkah",
-          "ru": "Мекка",
-          "en": "Mecca"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Madina",
-          "ru": "Медина",
-          "en": "Medina"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Ar-Riyod",
-          "ru": "Эр-Рияд",
-          "en": "Riyadh"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Jidda",
-          "ru": "Джидда",
-          "en": "Jeddah"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Polsha poytaxti qaysi shahar?",
-      "ru": "Столица Польши?",
-      "en": "Capital of Poland?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Varshava",
-          "ru": "Варшава",
-          "en": "Warsaw"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Krakov",
-          "ru": "Краков",
-          "en": "Krakow"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Vrotslav",
-          "ru": "Вроцлав",
-          "en": "Wrocław"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Gdansk",
-          "ru": "Гданьск",
-          "en": "Gdańsk"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Niderlandiya poytaxti qaysi shahar?",
-      "ru": "Столица Нидерландов?",
-      "en": "Capital of Netherlands?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Gaaga",
-          "ru": "Гаага",
-          "en": "The Hague"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Amsterdam",
-          "ru": "Амстердам",
-          "en": "Amsterdam"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Utrext",
-          "ru": "Утрехт",
-          "en": "Utrecht"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Rotterdam",
-          "ru": "Роттердам",
-          "en": "Rotterdam"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Belgiya poytaxti qaysi shahar?",
-      "ru": "Столица Бельгии?",
-      "en": "Capital of Belgium?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Brugge",
-          "ru": "Брюгге",
-          "en": "Bruges"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Bryussel",
-          "ru": "Брюссель",
-          "en": "Brussels"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Antverpen",
-          "ru": "Антверпен",
-          "en": "Antwerp"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Gent",
-          "ru": "Гент",
-          "en": "Ghent"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Shveytsariya poytaxti qaysi shahar?",
-      "ru": "Столица Швейцарии?",
-      "en": "Capital of Switzerland?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Syurix",
-          "ru": "Цюрих",
-          "en": "Zurich"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Bern",
-          "ru": "Берн",
-          "en": "Bern"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Jeneva",
-          "ru": "Женева",
-          "en": "Geneva"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Bazel",
-          "ru": "Базель",
-          "en": "Basel"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Avstriya poytaxti qaysi shahar?",
-      "ru": "Столица Австрии?",
-      "en": "Capital of Austria?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Lins",
-          "ru": "Линц",
-          "en": "Linz"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Vena",
-          "ru": "Вена",
-          "en": "Vienna"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Zalsburg",
-          "ru": "Зальцбург",
-          "en": "Salzburg"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Graz",
-          "ru": "Грац",
-          "en": "Graz"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Shvetsiya poytaxti qaysi shahar?",
-      "ru": "Столица Швеции?",
-      "en": "Capital of Sweden?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Gotenburg",
-          "ru": "Гётеборг",
-          "en": "Gothenburg"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Stokgolm",
-          "ru": "Стокгольм",
-          "en": "Stockholm"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Uppsala",
-          "ru": "Уппсала",
-          "en": "Uppsala"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Malmyo",
-          "ru": "Мальмё",
-          "en": "Malmö"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Norvegiya poytaxti qaysi shahar?",
-      "ru": "Столица Норвегии?",
-      "en": "Capital of Norway?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Stavanger",
-          "ru": "Ставангер",
-          "en": "Stavanger"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Bergen",
-          "ru": "Берген",
-          "en": "Bergen"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Oslo",
-          "ru": "Осло",
-          "en": "Oslo"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Trondxeym",
-          "ru": "Тронхейм",
-          "en": "Trondheim"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Daniya poytaxti qaysi shahar?",
-      "ru": "Столица Дании?",
-      "en": "Capital of Denmark?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Orxus",
-          "ru": "Орхус",
-          "en": "Aarhus"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Olborg",
-          "ru": "Ольборг",
-          "en": "Aalborg"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Kopengagen",
-          "ru": "Копенгаген",
-          "en": "Copenhagen"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Odense",
-          "ru": "Оденсе",
-          "en": "Odense"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Finlandiya poytaxti qaysi shahar?",
-      "ru": "Столица Финляндии?",
-      "en": "Capital of Finland?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Turku",
-          "ru": "Турку",
-          "en": "Turku"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Espoo",
-          "ru": "Эспоо",
-          "en": "Espoo"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Tampere",
-          "ru": "Тампере",
-          "en": "Tampere"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Xelsinki",
-          "ru": "Хельсинки",
-          "en": "Helsinki"
+          "uz": "G'o z",
+          "ru": "G'o z",
+          "en": "G'o z"
         },
         "isCorrect": true
       }
@@ -3235,40 +3025,40 @@
   },
   {
     "question": {
-      "uz": "Gretsiya poytaxti qaysi shahar?",
-      "ru": "Столица Греции?",
-      "en": "Capital of Greece?"
+      "uz": "Eng katta yopiq havza (dengizga chiqmas) qaysi?",
+      "ru": "Какой бессточный бассейн самый большой?",
+      "en": "What is the largest endorheic basin?"
     },
     "options": [
       {
         "text": {
-          "uz": "Afina",
-          "ru": "Афины",
-          "en": "Athens"
+          "uz": "Aral",
+          "ru": "Арал",
+          "en": "Aral"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kaspiy havzasi",
+          "ru": "Каспийский бассейн",
+          "en": "Caspian basin"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Saloniki",
-          "ru": "Салоники",
-          "en": "Thessaloniki"
+          "uz": "Chad",
+          "ru": "Чад",
+          "en": "Chad"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Patras",
-          "ru": "Патры",
-          "en": "Patras"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Iraklion",
-          "ru": "Ираклион",
-          "en": "Heraklion"
+          "uz": "Titikaka",
+          "ru": "Титикака",
+          "en": "Titicaca"
         },
         "isCorrect": false
       }
@@ -3277,124 +3067,40 @@
   },
   {
     "question": {
-      "uz": "Portugaliya poytaxti qaysi shahar?",
-      "ru": "Столица Португалии?",
-      "en": "Capital of Portugal?"
+      "uz": "Qaysi hayvonlar o'z uyasini loydan quradi?",
+      "ru": "Какие животные строят гнёзда из глины?",
+      "en": "Which animals build nests from mud?"
     },
     "options": [
       {
         "text": {
-          "uz": "Braga",
-          "ru": "Брага",
-          "en": "Braga"
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Faro",
-          "ru": "Фару",
-          "en": "Faro"
+          "uz": "Qarg'a",
+          "ru": "Qarg'a",
+          "en": "Qarg'a"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Portu",
-          "ru": "Порту",
-          "en": "Porto"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Lissabon",
-          "ru": "Лиссабон",
-          "en": "Lisbon"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Chexiya poytaxti qaysi shahar?",
-      "ru": "Столица Чехии?",
-      "en": "Capital of Czech Republic?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Ostrava",
-          "ru": "Острава",
-          "en": "Ostrava"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Pilsen",
-          "ru": "Пльзень",
-          "en": "Plzeň"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Brno",
-          "ru": "Брно",
-          "en": "Brno"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Praga",
-          "ru": "Прага",
-          "en": "Prague"
-        },
-        "isCorrect": true
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Vengriya poytaxti qaysi shahar?",
-      "ru": "Столица Венгрии?",
-      "en": "Capital of Hungary?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Debretsen",
-          "ru": "Дебрецен",
-          "en": "Debrecen"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Budapesht",
-          "ru": "Будапешт",
-          "en": "Budapest"
+          "uz": "Qaldirg'och",
+          "ru": "Qaldirg'och",
+          "en": "Qaldirg'och"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Sekeshfehervar",
-          "ru": "Секешфехервар",
-          "en": "Székesfehérvár"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Pech",
-          "ru": "Печ",
-          "en": "Pécs"
+          "uz": "Burgut",
+          "ru": "Burgut",
+          "en": "Burgut"
         },
         "isCorrect": false
       }
@@ -3403,250 +3109,40 @@
   },
   {
     "question": {
-      "uz": "Ruminiya poytaxti qaysi shahar?",
-      "ru": "Столица Румынии?",
-      "en": "Capital of Romania?"
+      "uz": "Dunyodagi eng issiq mintaqa qaysi?",
+      "ru": "Какой регион самый жаркий?",
+      "en": "Which region is the hottest?"
     },
     "options": [
       {
         "text": {
-          "uz": "Iasi",
-          "ru": "Яссы",
-          "en": "Iași"
+          "uz": "Sahara",
+          "ru": "Сахара",
+          "en": "Sahara"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Timişoara",
-          "ru": "Тимишоара",
-          "en": "Timișoara"
+          "uz": "Lut (Eron)",
+          "ru": "Лут (Иран)",
+          "en": "Lut (Iran)"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Buxarest",
-          "ru": "Бухарест",
-          "en": "Bucharest"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Kluj",
-          "ru": "Клуж",
-          "en": "Cluj-Napoca"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Ukraina poytaxti qaysi shahar?",
-      "ru": "Столица Украины?",
-      "en": "Capital of Ukraine?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Xarkov",
-          "ru": "Харьков",
-          "en": "Kharkiv"
+          "uz": "Gobi",
+          "ru": "Гоби",
+          "en": "Gobi"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Odessa",
-          "ru": "Одесса",
-          "en": "Odesa"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Kiyev",
-          "ru": "Киев",
-          "en": "Kyiv"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Lvov",
-          "ru": "Львов",
-          "en": "Lviv"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Belarus poytaxti qaysi shahar?",
-      "ru": "Столица Беларуси?",
-      "en": "Capital of Belarus?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Vitebsk",
-          "ru": "Витебск",
-          "en": "Vitebsk"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Gomel",
-          "ru": "Гомель",
-          "en": "Gomel"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Minsk",
-          "ru": "Минск",
-          "en": "Minsk"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Grodno",
-          "ru": "Гродно",
-          "en": "Grodno"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Ozarbayjon poytaxti qaysi shahar?",
-      "ru": "Столица Азербайджана?",
-      "en": "Capital of Azerbaijan?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Sumgait",
-          "ru": "Сумгаит",
-          "en": "Sumqayit"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Boku",
-          "ru": "Баку",
-          "en": "Baku"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Ganja",
-          "ru": "Гянджа",
-          "en": "Ganja"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Mingachevir",
-          "ru": "Мингечаур",
-          "en": "Mingachevir"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Gruziya poytaxti qaysi shahar?",
-      "ru": "Столица Грузии?",
-      "en": "Capital of Georgia?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Tbilisi",
-          "ru": "Тбилиси",
-          "en": "Tbilisi"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Kutaisi",
-          "ru": "Кутаиси",
-          "en": "Kutaisi"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Rustavi",
-          "ru": "Рустави",
-          "en": "Rustavi"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Batumi",
-          "ru": "Батуми",
-          "en": "Batumi"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Armaniston poytaxti qaysi shahar?",
-      "ru": "Столица Армении?",
-      "en": "Capital of Armenia?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Gyumri",
-          "ru": "Гюмри",
-          "en": "Gyumri"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Vanadzor",
-          "ru": "Ванадзор",
-          "en": "Vanadzor"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Vagharshapat",
-          "ru": "Вагаршапат",
-          "en": "Vagharshapat"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Yerevan",
-          "ru": "Ереван",
-          "en": "Yerevan"
+          "uz": "Dallol (Efiopiya)",
+          "ru": "Даллол (Эфиопия)",
+          "en": "Dallol (Ethiopia)"
         },
         "isCorrect": true
       }
@@ -3655,40 +3151,40 @@
   },
   {
     "question": {
-      "uz": "Isroil poytaxti qaysi shahar?",
-      "ru": "Столица Израиля?",
-      "en": "Capital of Israel?"
+      "uz": "Eng katta qush (hajmi) qaysi?",
+      "ru": "Какая птица самая тяжёлая (летающая)?",
+      "en": "What is the heaviest flying bird?"
     },
     "options": [
       {
         "text": {
-          "uz": "Beer Sheva",
-          "ru": "Беэр-Шева",
-          "en": "Be'er Sheva"
+          "uz": "Tuyaqush",
+          "ru": "Tuyaqush",
+          "en": "Tuyaqush"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Quddus",
-          "ru": "Иерусалим",
-          "en": "Jerusalem"
+          "uz": "Jek (kori bustard)",
+          "ru": "Jek (kori bustard)",
+          "en": "Jek (kori bustard)"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Tel-Aviv",
-          "ru": "Тель-Авив",
-          "en": "Tel Aviv"
+          "uz": "Burgut",
+          "ru": "Burgut",
+          "en": "Burgut"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Hayfa",
-          "ru": "Хайфа",
-          "en": "Haifa"
+          "uz": "Lochin",
+          "ru": "Lochin",
+          "en": "Lochin"
         },
         "isCorrect": false
       }
@@ -3697,40 +3193,40 @@
   },
   {
     "question": {
-      "uz": "Janubiy Afrika poytaxti (uchta) — qaysi biri rasmiy poytaxt?",
-      "ru": "Столица ЮАР (одна из трёх)?",
-      "en": "One of South Africa's capitals?"
+      "uz": "Qaysi hayvonlar o'zini o'zi himoya qiladi (tikan, zahar)?",
+      "ru": "Какие животные защищаются иглами/ядом?",
+      "en": "Which animals defend with spines/venom?"
     },
     "options": [
       {
         "text": {
-          "uz": "Keyptaun",
-          "ru": "Кейптаун",
-          "en": "Cape Town"
+          "uz": "Quyon",
+          "ru": "Quyon",
+          "en": "Quyon"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Yoxannesburg",
-          "ru": "Йоханнесбург",
-          "en": "Johannesburg"
+          "uz": "Tovuq",
+          "ru": "Tovuq",
+          "en": "Tovuq"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Pretoriya",
-          "ru": "Претория",
-          "en": "Pretoria"
+          "uz": "Kirpi",
+          "ru": "Kirpi",
+          "en": "Kirpi"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Durban",
-          "ru": "Дурбан",
-          "en": "Durban"
+          "uz": "It",
+          "ru": "It",
+          "en": "It"
         },
         "isCorrect": false
       }
@@ -3739,82 +3235,40 @@
   },
   {
     "question": {
-      "uz": "Marokash poytaxti qaysi shahar?",
-      "ru": "Столица Марокко?",
-      "en": "Capital of Morocco?"
+      "uz": "Eng katta yarim orol (Yevropa) qaysi?",
+      "ru": "Какой полуостров самый большой в Европе?",
+      "en": "What is the largest peninsula in Europe?"
     },
     "options": [
       {
         "text": {
-          "uz": "Fes",
-          "ru": "Фес",
-          "en": "Fes"
+          "uz": "Iberiya",
+          "ru": "Iberiya",
+          "en": "Iberiya"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Rabat",
-          "ru": "Рабат",
-          "en": "Rabat"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Marakesh",
-          "ru": "Марракеш",
-          "en": "Marrakesh"
+          "uz": "Balkan",
+          "ru": "Balkan",
+          "en": "Balkan"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Kasablanka",
-          "ru": "Касабланка",
-          "en": "Casablanca"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Keniya poytaxti qaysi shahar?",
-      "ru": "Столица Кении?",
-      "en": "Capital of Kenya?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Mombasa",
-          "ru": "Момбаса",
-          "en": "Mombasa"
+          "uz": "Krim",
+          "ru": "Krim",
+          "en": "Krim"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Nakuru",
-          "ru": "Накуру",
-          "en": "Nakuru"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Kisumu",
-          "ru": "Кисуму",
-          "en": "Kisumu"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Nayrobi",
-          "ru": "Найроби",
-          "en": "Nairobi"
+          "uz": "Skandinaviya",
+          "ru": "Skandinaviya",
+          "en": "Skandinaviya"
         },
         "isCorrect": true
       }
@@ -3823,40 +3277,40 @@
   },
   {
     "question": {
-      "uz": "Nigeriya poytaxti qaysi shahar?",
-      "ru": "Столица Нигерии?",
-      "en": "Capital of Nigeria?"
+      "uz": "Qaysi jonzotlar 3 yoki undan ortiq oyoqqa ega?",
+      "ru": "У каких существ больше трёх пар ног?",
+      "en": "Which creatures have more than 3 pairs of legs?"
     },
     "options": [
       {
         "text": {
-          "uz": "Ibadan",
-          "ru": "Ибадан",
-          "en": "Ibadan"
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Lagos",
-          "ru": "Лагос",
-          "en": "Lagos"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Abuja",
-          "ru": "Абуджа",
-          "en": "Abuja"
+          "uz": "Chayon",
+          "ru": "Chayon",
+          "en": "Chayon"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Kano",
-          "ru": "Кано",
-          "en": "Kano"
+          "uz": "Qurbaqa",
+          "ru": "Qurbaqa",
+          "en": "Qurbaqa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
         },
         "isCorrect": false
       }
@@ -3865,40 +3319,40 @@
   },
   {
     "question": {
-      "uz": "Tailand poytaxti qaysi shahar?",
-      "ru": "Столица Таиланда?",
-      "en": "Capital of Thailand?"
+      "uz": "Dunyodagi eng katta ko'l (umuman) qaysi?",
+      "ru": "Какое озеро самое большое по площади?",
+      "en": "What is the largest lake by area?"
     },
     "options": [
       {
         "text": {
-          "uz": "Phuket",
-          "ru": "Пхукет",
-          "en": "Phuket"
+          "uz": "Superior",
+          "ru": "Верхнее",
+          "en": "Superior"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Bangkok",
-          "ru": "Бангкок",
-          "en": "Bangkok"
+          "uz": "Viktoriya",
+          "ru": "Виктория",
+          "en": "Victoria"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kaspiy dengizi",
+          "ru": "Каспийское море",
+          "en": "Caspian Sea"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Pattaya",
-          "ru": "Паттайя",
-          "en": "Pattaya"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Chiang May",
-          "ru": "Чиангмай",
-          "en": "Chiang Mai"
+          "uz": "Baykal",
+          "ru": "Байкал",
+          "en": "Baikal"
         },
         "isCorrect": false
       }
@@ -3907,40 +3361,40 @@
   },
   {
     "question": {
-      "uz": "Vyetnam poytaxti qaysi shahar?",
-      "ru": "Столица Вьетнама?",
-      "en": "Capital of Vietnam?"
+      "uz": "Eng katta maymun qaysi?",
+      "ru": "Какая обезьяна самая большая?",
+      "en": "What is the largest ape?"
     },
     "options": [
       {
         "text": {
-          "uz": "Da Nang",
-          "ru": "Дананг",
-          "en": "Da Nang"
+          "uz": "Shimpanze",
+          "ru": "Shimpanze",
+          "en": "Shimpanze"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Ho Shi Min",
-          "ru": "Хошимин",
-          "en": "Ho Chi Minh City"
+          "uz": "Orangutan",
+          "ru": "Orangutan",
+          "en": "Orangutan"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Hue",
-          "ru": "Хюэ",
-          "en": "Huế"
+          "uz": "Babuin",
+          "ru": "Babuin",
+          "en": "Babuin"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Xanoy",
-          "ru": "Ханой",
-          "en": "Hanoi"
+          "uz": "Gorilla",
+          "ru": "Gorilla",
+          "en": "Gorilla"
         },
         "isCorrect": true
       }
@@ -3949,40 +3403,40 @@
   },
   {
     "question": {
-      "uz": "Filippin poytaxti qaysi shahar?",
-      "ru": "Столица Филиппин?",
-      "en": "Capital of Philippines?"
+      "uz": "Qaysi hayvonlar suvda sakraydi?",
+      "ru": "Какие животные прыгают по воде?",
+      "en": "Which animals run on water?"
     },
     "options": [
       {
         "text": {
-          "uz": "Manila",
-          "ru": "Манила",
-          "en": "Manila"
+          "uz": "Qurbaqa",
+          "ru": "Qurbaqa",
+          "en": "Qurbaqa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Basilis kaltakesak",
+          "ru": "Basilis kaltakesak",
+          "en": "Basilis kaltakesak"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Sebu",
-          "ru": "Себу",
-          "en": "Cebu"
+          "uz": "Baliq",
+          "ru": "Baliq",
+          "en": "Baliq"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Davao",
-          "ru": "Давао",
-          "en": "Davao"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Keson-Siti",
-          "ru": "Кесон-Сити",
-          "en": "Quezon City"
+          "uz": "It",
+          "ru": "It",
+          "en": "It"
         },
         "isCorrect": false
       }
@@ -3991,40 +3445,40 @@
   },
   {
     "question": {
-      "uz": "Malayziya poytaxti qaysi shahar?",
-      "ru": "Столица Малайзии?",
-      "en": "Capital of Malaysia?"
+      "uz": "Eng katta materik (yagona) qaysi?",
+      "ru": "Какой единый массив суши самый большой?",
+      "en": "What is the largest single landmass?"
     },
     "options": [
       {
         "text": {
-          "uz": "Kuala-Lumpur",
-          "ru": "Куала-Лумпур",
-          "en": "Kuala Lumpur"
+          "uz": "Afrika",
+          "ru": "Afrika",
+          "en": "Afrika"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Amerika",
+          "ru": "Amerika",
+          "en": "Amerika"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yevrosiyo (Yevropa + Osiyo)",
+          "ru": "Yevrosiyo (Yevropa + Osiyo)",
+          "en": "Yevrosiyo (Yevropa + Osiyo)"
         },
         "isCorrect": true
       },
       {
         "text": {
-          "uz": "Kuching",
-          "ru": "Кучинг",
-          "en": "Kuching"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Joxor-Baru",
-          "ru": "Джохор-Бару",
-          "en": "Johor Bahru"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Penang",
-          "ru": "Пенанг",
-          "en": "Penang"
+          "uz": "Antarktida",
+          "ru": "Antarktida",
+          "en": "Antarktida"
         },
         "isCorrect": false
       }
@@ -4033,124 +3487,40 @@
   },
   {
     "question": {
-      "uz": "Singapur — davlat yoki shahar?",
-      "ru": "Сингапур — страна или город?",
-      "en": "Singapore — country or city?"
+      "uz": "Qaysi hayvonlar suvda yuzadi, lekin quruqda tug'iladi?",
+      "ru": "Какие животные плавают в воде, но рождаются на суше?",
+      "en": "Which animals swim but are born on land?"
     },
     "options": [
       {
         "text": {
-          "uz": "Faqat shahar",
-          "ru": "Только город",
-          "en": "Only city"
+          "uz": "Kit",
+          "ru": "Kit",
+          "en": "Kit"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Hech biri",
-          "ru": "Ни то ни другое",
-          "en": "Neither"
+          "uz": "Baliq",
+          "ru": "Baliq",
+          "en": "Baliq"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Shahar-davlat",
-          "ru": "Город-государство",
-          "en": "City-state"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Faqat davlat",
-          "ru": "Только страна",
-          "en": "Only country"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Kolumbiya poytaxti qaysi shahar?",
-      "ru": "Столица Колумбии?",
-      "en": "Capital of Colombia?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "Medellin",
-          "ru": "Медельин",
-          "en": "Medellín"
+          "uz": "Qurbaqa",
+          "ru": "Qurbaqa",
+          "en": "Qurbaqa"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Barrankilya",
-          "ru": "Барранкилья",
-          "en": "Barranquilla"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Bogota",
-          "ru": "Богота",
-          "en": "Bogotá"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
-          "uz": "Kali",
-          "ru": "Кали",
-          "en": "Cali"
-        },
-        "isCorrect": false
-      }
-    ],
-    "image": null
-  },
-  {
-    "question": {
-      "uz": "Chili poytaxti qaysi shahar?",
-      "ru": "Столица Чили?",
-      "en": "Capital of Chile?"
-    },
-    "options": [
-      {
-        "text": {
-          "uz": "La Serena",
-          "ru": "Ла-Серена",
-          "en": "La Serena"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Koncepcion",
-          "ru": "Консепсьон",
-          "en": "Concepción"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Valparaiso",
-          "ru": "Вальпараисо",
-          "en": "Valparaíso"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Santyago",
-          "ru": "Сантьяго",
-          "en": "Santiago"
+          "uz": "Tyulen",
+          "ru": "Tyulen",
+          "en": "Tyulen"
         },
         "isCorrect": true
       }
@@ -4159,42 +3529,672 @@
   },
   {
     "question": {
-      "uz": "Peru poytaxti qaysi shahar?",
-      "ru": "Столица Перу?",
-      "en": "Capital of Peru?"
+      "uz": "Dunyodagi eng katta gidroelektrostansiya qayerda?",
+      "ru": "Где самая большая ГЭС?",
+      "en": "Where is the largest hydroelectric dam?"
     },
     "options": [
       {
         "text": {
-          "uz": "Truxillo",
-          "ru": "Трухильо",
-          "en": "Trujillo"
+          "uz": "Itaipu",
+          "ru": "Итайпу",
+          "en": "Itaipu"
         },
         "isCorrect": false
       },
       {
         "text": {
-          "uz": "Cusco",
-          "ru": "Куско",
-          "en": "Cusco"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Arequipa",
-          "ru": "Арекипа",
-          "en": "Arequipa"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
-          "uz": "Lima",
-          "ru": "Лима",
-          "en": "Lima"
+          "uz": "Sanxia (Xitoy)",
+          "ru": "Санься (Китай)",
+          "en": "Three Gorges (China)"
         },
         "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Guri",
+          "ru": "Гури",
+          "en": "Guri"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Grand Kulye",
+          "ru": "Гранд-Кули",
+          "en": "Grand Coulee"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta qush tuxumi qaysi hayvonnikiga tegishli?",
+      "ru": "У какой птицы самое большое яйцо?",
+      "en": "Which bird has the largest egg?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Emu",
+          "ru": "Emu",
+          "en": "Emu"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pingvin",
+          "ru": "Pingvin",
+          "en": "Pingvin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tuyaqush",
+          "ru": "Tuyaqush",
+          "en": "Tuyaqush"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Burgut",
+          "ru": "Burgut",
+          "en": "Burgut"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar chang va suvda yuradi?",
+      "ru": "Какие животные ходят по пыли и воде?",
+      "en": "Which animals walk on dust and water?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ilon",
+          "ru": "Ilon",
+          "en": "Ilon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qurbaqa",
+          "ru": "Qurbaqa",
+          "en": "Qurbaqa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Baliq",
+          "ru": "Baliq",
+          "en": "Baliq"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "O'rgimchak (suv)",
+          "ru": "O'rgimchak (suv)",
+          "en": "O'rgimchak (suv)"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta dengiz bo'g'ozi qaysi?",
+      "ru": "Какой пролив самый широкий?",
+      "en": "What is the widest strait?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Gibraltar",
+          "ru": "Гибралтар",
+          "en": "Gibraltar"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Dreyk bo'g'ozi",
+          "ru": "Пролив Дрейка",
+          "en": "Drake Passage"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Bospor",
+          "ru": "Босфор",
+          "en": "Bosporus"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Malakka",
+          "ru": "Малакка",
+          "en": "Malacca"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi jonzotlar qon so'radi?",
+      "ru": "Какие существа питаются кровью?",
+      "en": "Which creatures feed on blood?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "O'rgimchak",
+          "ru": "O'rgimchak",
+          "en": "O'rgimchak"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Chivin",
+          "ru": "Chivin",
+          "en": "Chivin"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Chayon",
+          "ru": "Chayon",
+          "en": "Chayon"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng baland suv havzasi qaysi?",
+      "ru": "Какое озеро самое высокогорное?",
+      "en": "What is the highest navigable lake?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Baykal",
+          "ru": "Байкал",
+          "en": "Baikal"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Viktoriya",
+          "ru": "Виктория",
+          "en": "Victoria"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Superior",
+          "ru": "Верхнее",
+          "en": "Superior"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Titikaka",
+          "ru": "Титикака",
+          "en": "Titicaca"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta yirtqich qush qaysi?",
+      "ru": "Какая хищная птица самая большая?",
+      "en": "What is the largest bird of prey?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Lochin",
+          "ru": "Lochin",
+          "en": "Lochin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kondor",
+          "ru": "Kondor",
+          "en": "Kondor"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Boyqush",
+          "ru": "Boyqush",
+          "en": "Boyqush"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qarg'a",
+          "ru": "Qarg'a",
+          "en": "Qarg'a"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar o'zini 'o'lik' ko'rsatadi?",
+      "ru": "Какие животные притворяются мёртвыми?",
+      "en": "Which animals play dead?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sher",
+          "ru": "Sher",
+          "en": "Sher"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Fil",
+          "en": "Fil"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Opossum",
+          "ru": "Opossum",
+          "en": "Opossum"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta okean oqimi qaysi?",
+      "ru": "Какое океанское течение самое мощное?",
+      "en": "What is the strongest ocean current?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Golfstrim",
+          "ru": "Golfstrim",
+          "en": "Golfstrim"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kuroshio",
+          "ru": "Kuroshio",
+          "en": "Kuroshio"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "El-Nino",
+          "ru": "El-Nino",
+          "en": "El-Nino"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Antarktika aylana oqimi",
+          "ru": "Antarktika aylana oqimi",
+          "en": "Antarktika aylana oqimi"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar qishda qor rangiga o'zgaradi?",
+      "ru": "Какие животные зимой становятся белыми?",
+      "en": "Which animals turn white in winter?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Yo'lbars",
+          "ru": "Yo'lbars",
+          "en": "Yo'lbars"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Oq ayiq",
+          "ru": "Oq ayiq",
+          "en": "Oq ayiq"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Sher",
+          "ru": "Sher",
+          "en": "Sher"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Fil",
+          "en": "Fil"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta muzlik tizimi qayerda?",
+      "ru": "Где самая большая ледниковая система?",
+      "en": "Where is the largest ice sheet?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Grenlandiya",
+          "ru": "Гренландия",
+          "en": "Greenland"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Alaska",
+          "ru": "Аляска",
+          "en": "Alaska"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Antarktida",
+          "ru": "Антарктида",
+          "en": "Antarctica"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Himalay",
+          "ru": "Гималаи",
+          "en": "Himalayas"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta hasharot qaysi?",
+      "ru": "Какое насекомое самое большое?",
+      "en": "What is the largest insect?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ari",
+          "ru": "Ari",
+          "en": "Ari"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Chayon",
+          "ru": "Chayon",
+          "en": "Chayon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Chivin",
+          "ru": "Chivin",
+          "en": "Chivin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Goliath qo'ng'izi",
+          "ru": "Goliath qo'ng'izi",
+          "en": "Goliath qo'ng'izi"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi hayvonlar suvni ichiga oladi lekin chiqarmaydi?",
+      "ru": "Какие животные не пьют воду (получают из пищи)?",
+      "en": "Which animals get water only from food?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kit",
+          "ru": "Kit",
+          "en": "Kit"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tuyaqush",
+          "ru": "Tuyaqush",
+          "en": "Tuyaqush"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Fil",
+          "ru": "Fil",
+          "en": "Fil"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "It",
+          "ru": "It",
+          "en": "It"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eng katta ekvatorial o'rmon qaysi?",
+      "ru": "Какой экваториальный лес самый большой?",
+      "en": "What is the largest equatorial forest?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kongo",
+          "ru": "Kongo",
+          "en": "Kongo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Indoneziya",
+          "ru": "Indoneziya",
+          "en": "Indoneziya"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Amazonka yomg'ir o'rmoni",
+          "ru": "Amazonka yomg'ir o'rmoni",
+          "en": "Amazonka yomg'ir o'rmoni"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Malezija",
+          "ru": "Malezija",
+          "en": "Malezija"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi jonzotlar 4 ta qanotga ega?",
+      "ru": "У каких существ 4 крыла?",
+      "en": "Which creatures have 4 wings?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Qush",
+          "ru": "Qush",
+          "en": "Qush"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yarasa",
+          "ru": "Yarasa",
+          "en": "Yarasa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Chivin",
+          "ru": "Chivin",
+          "en": "Chivin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Libella",
+          "ru": "Libella",
+          "en": "Libella"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta delta qaysi daryoda?",
+      "ru": "У какой реки самая большая дельта?",
+      "en": "Which river has the largest delta?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Nil",
+          "ru": "Нил",
+          "en": "Nile"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ganges-Brahmaputra",
+          "ru": "Ганг-Брахмапутра",
+          "en": "Ganges-Brahmaputra"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Amazonka",
+          "ru": "Амазонка",
+          "en": "Amazon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Missisipi",
+          "ru": "Миссисипи",
+          "en": "Mississippi"
+        },
+        "isCorrect": false
       }
     ],
     "image": null

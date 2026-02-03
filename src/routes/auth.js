@@ -2,8 +2,17 @@ const express = require("express");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
+const Category = require("../models/Category");
+const Question = require("../models/Question");
 const authMiddleware = require("../middleware/authMiddleware");
 const router = express.Router();
+
+// Map stored mode/status to English for API response
+const modeToEnglish = (m) => (m === "oddiy" || m === "premium" ? (m === "premium" ? "vip" : "free") : m);
+const statusToEnglish = (s) => {
+  const map = { "boshlang'ich": "beginner", "super daxo": "super_plus", "super": "super" };
+  return map[s] || s;
+};
 
 /**
  * POST /auth/register
@@ -231,20 +240,33 @@ router.get("/profile", authMiddleware, async (req, res) => {
       });
     }
 
-    // Calculate status based on correctAnswers
+    // Calculate status based on correctAnswers (store in English)
     let calculatedStatus = user.status;
     if (user.correctAnswers >= 51) {
-      calculatedStatus = "super daxo";
+      calculatedStatus = "super_plus";
     } else if (user.correctAnswers >= 11) {
       calculatedStatus = "super";
     } else {
-      calculatedStatus = "boshlang'ich";
+      calculatedStatus = "beginner";
     }
-
-    // Update status if it changed
-    if (user.status !== calculatedStatus) {
+    if (!["beginner", "super", "super_plus", "active", "blocked", "premium"].includes(user.status)) {
       user.status = calculatedStatus;
       await user.save();
+    }
+
+    // Category progress: how many correct per category
+    const categories = await Category.find().sort({ order: 1 });
+    const categoryProgress = [];
+    for (const cat of categories) {
+      const correctCount = await Question.countDocuments({
+        _id: { $in: user.correctlySolvedQuestions || [] },
+        categoryId: cat._id,
+      });
+      categoryProgress.push({
+        categoryId: cat._id,
+        categoryName: cat.name,
+        correctCount,
+      });
     }
 
     // Map language code if needed (uzb → uz, rus → ru, eng → en)
@@ -258,19 +280,20 @@ router.get("/profile", authMiddleware, async (req, res) => {
     };
     const userLanguage = languageMap[user.language] || user.language || "uz";
 
-    // Return profile data
+    // Return profile data (mode and status in English)
     res.status(200).json({
       success: true,
       profile: {
         id: user._id,
         email: user.email,
         nickname: user.nickname,
-        status: user.status,
-        mode: user.mode,
-        allMode: user.allMode === true, // Battle mode: when true, questions API returns all (including already correct)
+        status: statusToEnglish(user.status),
+        mode: modeToEnglish(user.mode),
+        allMode: user.allMode === true,
         correctAnswers: user.correctAnswers,
         solvedQuestionsCount: user.solvedQuestions.length,
-        language: userLanguage, // Normalized language code (uz, ru, en)
+        language: userLanguage,
+        categoryProgress,
         createdAt: user.createdAt,
         updatedAt: user.updatedAt,
       },

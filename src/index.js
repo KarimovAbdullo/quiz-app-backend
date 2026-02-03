@@ -107,6 +107,9 @@ app.get("/", (req, res) => {
         getCategories: "GET /admin/categories",
         addQuestion: "POST /admin/questions (multipart/form-data)",
         getQuestions: "GET /admin/questions",
+        getUsers: "GET /admin/users",
+        getUserById: "GET /admin/users/:id",
+        updateUser: "PUT /admin/users/:id (body: mode?, status?)",
       },
     },
   });

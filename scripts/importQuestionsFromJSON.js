@@ -182,16 +182,18 @@ async function importQuestions() {
           continue;
         }
 
-        // Savol allaqachon mavjudligini tekshirish (question.uz ga qarab)
-        const existingQuestion = await Question.findOne({
-          categoryId: categoryId,
-          "question.uz": questionData.question.uz,
-        });
-
-        if (existingQuestion) {
-          console.log(`⏭️  Savol ${i + 1}: "${questionData.question.uz.substring(0, 50)}..." allaqachon mavjud, o'tkazib yuborildi`);
-          skipCount++;
-          continue;
+        // Savol allaqachon mavjudligini tekshirish (question.uz) — faqat clear-first bo‘lmaganda
+        // clear-first da barcha qo‘shiladi (bir xil matnli savollar ham, masalan "Quyidagi kadr qaysi filmdan?")
+        if (!clearFirst) {
+          const existingQuestion = await Question.findOne({
+            categoryId: categoryId,
+            "question.uz": questionData.question.uz,
+          });
+          if (existingQuestion) {
+            console.log(`⏭️  Savol ${i + 1}: "${questionData.question.uz.substring(0, 50)}..." allaqachon mavjud, o'tkazib yuborildi`);
+            skipCount++;
+            continue;
+          }
         }
 
         // Savolni yaratish (image yoki images: bitta rasm yoki bir nechta rasmlar)

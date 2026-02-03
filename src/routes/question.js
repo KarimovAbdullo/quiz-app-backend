@@ -58,13 +58,14 @@ router.post("/answer", authMiddleware, async (req, res) => {
     // Get user
     const user = await User.findById(userId);
 
-    // Check if question is already correctly solved (don't allow re-submission of correct answers)
+    // If question was already correctly solved before, don't update profile again,
+    // but still return the current attempt's result (so battle mode gets correct isCorrect)
     const isAlreadyCorrectlySolved = user.correctlySolvedQuestions.includes(questionId);
     if (isAlreadyCorrectlySolved) {
       return res.status(200).json({
         success: true,
         message: "Question already correctly solved",
-        isCorrect: true,
+        isCorrect: answerIsCorrect, // current attempt result (e.g. battle: wrong → false)
         solvedQuestions: user.solvedQuestions,
         correctAnswers: user.correctAnswers,
         status: user.status,

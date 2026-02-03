@@ -1678,5 +1678,2525 @@
       }
     ],
     "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"
+  },
+  {
+    "question": {
+      "uz": "Fransiya poytaxti qaysi shahar?",
+      "ru": "Столица Франции?",
+      "en": "Capital of France?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Marsel",
+          "ru": "Марсель",
+          "en": "Marseille"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lyon",
+          "ru": "Лион",
+          "en": "Lyon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Parij",
+          "ru": "Париж",
+          "en": "Paris"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Bordo",
+          "ru": "Бордо",
+          "en": "Bordeaux"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Germaniya poytaxti qaysi shahar?",
+      "ru": "Столица Германии?",
+      "en": "Capital of Germany?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Frankfurt",
+          "ru": "Франкфурт",
+          "en": "Frankfurt"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Myunxen",
+          "ru": "Мюнхен",
+          "en": "Munich"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Berlin",
+          "ru": "Берлин",
+          "en": "Berlin"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Gamburg",
+          "ru": "Гамбург",
+          "en": "Hamburg"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Yaponiya poytaxti qaysi shahar?",
+      "ru": "Столица Японии?",
+      "en": "Capital of Japan?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Tokio",
+          "ru": "Токио",
+          "en": "Tokyo"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Kioto",
+          "ru": "Киото",
+          "en": "Kyoto"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Osaka",
+          "ru": "Осака",
+          "en": "Osaka"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yokogama",
+          "ru": "Иокогама",
+          "en": "Yokohama"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Hindiston poytaxti qaysi shahar?",
+      "ru": "Столица Индии?",
+      "en": "Capital of India?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Chennay",
+          "ru": "Ченнаи",
+          "en": "Chennai"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nyu-Dehli",
+          "ru": "Нью-Дели",
+          "en": "New Delhi"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Mumbay",
+          "ru": "Мумбаи",
+          "en": "Mumbai"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bangalor",
+          "ru": "Бангалор",
+          "en": "Bangalore"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Misr poytaxti qaysi shahar?",
+      "ru": "Столица Египта?",
+      "en": "Capital of Egypt?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Qohira",
+          "ru": "Каир",
+          "en": "Cairo"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Iskandariya",
+          "ru": "Александрия",
+          "en": "Alexandria"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Luksor",
+          "ru": "Луксор",
+          "en": "Luxor"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Giza",
+          "ru": "Гиза",
+          "en": "Giza"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng uzun daryo qaysi?",
+      "ru": "Самая длинная река в мире?",
+      "en": "Longest river in the world?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Amazonka",
+          "ru": "Амазонка",
+          "en": "Amazon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nil",
+          "ru": "Нил",
+          "en": "Nile"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Missisipi",
+          "ru": "Миссисипи",
+          "en": "Mississippi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yanszi",
+          "ru": "Янцзы",
+          "en": "Yangtze"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta cho'l qaysi?",
+      "ru": "Самая большая пустыня в мире?",
+      "en": "Largest desert in the world?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "G'arbiy Antarktida",
+          "ru": "Антарктида",
+          "en": "Antarctica"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gobi",
+          "ru": "Гоби",
+          "en": "Gobi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arabiston",
+          "ru": "Аравийская",
+          "en": "Arabian"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sahro",
+          "ru": "Сахара",
+          "en": "Sahara"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "AQSh poytaxti qaysi shahar?",
+      "ru": "Столица США?",
+      "en": "Capital of USA?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Chikago",
+          "ru": "Чикаго",
+          "en": "Chicago"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nyu-York",
+          "ru": "Нью-Йорк",
+          "en": "New York"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Vashington",
+          "ru": "Вашингтон",
+          "en": "Washington D.C."
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Los-Anjeles",
+          "ru": "Лос-Анджелес",
+          "en": "Los Angeles"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Xitoy poytaxti qaysi shahar?",
+      "ru": "Столица Китая?",
+      "en": "Capital of China?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Shenchjen",
+          "ru": "Шэньчжэнь",
+          "en": "Shenzhen"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Shanxay",
+          "ru": "Шанхай",
+          "en": "Shanghai"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pekin",
+          "ru": "Пекин",
+          "en": "Beijing"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Guanchjou",
+          "ru": "Гуанчжоу",
+          "en": "Guangzhou"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Rossiya poytaxti qaysi shahar?",
+      "ru": "Столица России?",
+      "en": "Capital of Russia?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sankt-Peterburg",
+          "ru": "Санкт-Петербург",
+          "en": "Saint Petersburg"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Novosibirsk",
+          "ru": "Новосибирск",
+          "en": "Novosibirsk"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Moskva",
+          "ru": "Москва",
+          "en": "Moscow"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Yekaterinburg",
+          "ru": "Екатеринбург",
+          "en": "Yekaterinburg"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Birlashgan Qirollik poytaxti qaysi shahar?",
+      "ru": "Столица Великобритании?",
+      "en": "Capital of UK?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Liverpul",
+          "ru": "Ливерпуль",
+          "en": "Liverpool"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Birmingem",
+          "ru": "Бирмингем",
+          "en": "Birmingham"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Manchester",
+          "ru": "Манчестер",
+          "en": "Manchester"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "London",
+          "ru": "Лондон",
+          "en": "London"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Ispaniya poytaxti qaysi shahar?",
+      "ru": "Столица Испании?",
+      "en": "Capital of Spain?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Madrid",
+          "ru": "Мадрид",
+          "en": "Madrid"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Barselona",
+          "ru": "Барселона",
+          "en": "Barcelona"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Valensiya",
+          "ru": "Валенсия",
+          "en": "Valencia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sevilya",
+          "ru": "Севилья",
+          "en": "Seville"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Italiya poytaxti qaysi shahar?",
+      "ru": "Столица Италии?",
+      "en": "Capital of Italy?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Rim",
+          "ru": "Рим",
+          "en": "Rome"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Venetsiya",
+          "ru": "Венеция",
+          "en": "Venice"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Milan",
+          "ru": "Милан",
+          "en": "Milan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Neapol",
+          "ru": "Неаполь",
+          "en": "Naples"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Turkiya poytaxti qaysi shahar?",
+      "ru": "Столица Турции?",
+      "en": "Capital of Turkey?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Anqara",
+          "ru": "Анкара",
+          "en": "Ankara"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Izmir",
+          "ru": "Измир",
+          "en": "Izmir"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bursa",
+          "ru": "Бурса",
+          "en": "Bursa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Istanbul",
+          "ru": "Стамбул",
+          "en": "Istanbul"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Indoneziya poytaxti qaysi shahar?",
+      "ru": "Столица Индонезии?",
+      "en": "Capital of Indonesia?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Bandung",
+          "ru": "Бандунг",
+          "en": "Bandung"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Surabaya",
+          "ru": "Сурабая",
+          "en": "Surabaya"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jakarta",
+          "ru": "Джакарта",
+          "en": "Jakarta"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Bali",
+          "ru": "Бали",
+          "en": "Bali"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Janubiy Koreya poytaxti qaysi shahar?",
+      "ru": "Столица Южной Кореи?",
+      "en": "Capital of South Korea?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Incheon",
+          "ru": "Инчхон",
+          "en": "Incheon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Seul",
+          "ru": "Сеул",
+          "en": "Seoul"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Daegu",
+          "ru": "Тэгу",
+          "en": "Daegu"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Busan",
+          "ru": "Пусан",
+          "en": "Busan"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Meksika poytaxti qaysi shahar?",
+      "ru": "Столица Мексики?",
+      "en": "Capital of Mexico?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Gvadalaxara",
+          "ru": "Гвадалахара",
+          "en": "Guadalajara"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kankun",
+          "ru": "Канкун",
+          "en": "Cancún"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Monterrey",
+          "ru": "Монтеррей",
+          "en": "Monterrey"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mexiko",
+          "ru": "Мехико",
+          "en": "Mexico City"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Argentina poytaxti qaysi shahar?",
+      "ru": "Столица Аргентины?",
+      "en": "Capital of Argentina?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Mendosa",
+          "ru": "Мендоса",
+          "en": "Mendoza"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Buenos-Ayres",
+          "ru": "Буэнос-Айрес",
+          "en": "Buenos Aires"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Rosario",
+          "ru": "Росарио",
+          "en": "Rosario"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kordova",
+          "ru": "Кордова",
+          "en": "Córdoba"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dunyodagi eng katta qit'a qaysi?",
+      "ru": "Самый большой континент?",
+      "en": "Largest continent?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Shimoliy Amerika",
+          "ru": "Северная Америка",
+          "en": "North America"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Janubiy Amerika",
+          "ru": "Южная Америка",
+          "en": "South America"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Osiyo",
+          "ru": "Азия",
+          "en": "Asia"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Afrika",
+          "ru": "Африка",
+          "en": "Africa"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Everest tog'i qaysi davlatda joylashgan?",
+      "ru": "В какой стране гора Эверест?",
+      "en": "In which country is Mount Everest?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Hindiston",
+          "ru": "Индия",
+          "en": "India"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Butan",
+          "ru": "Бутан",
+          "en": "Bhutan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pokiston",
+          "ru": "Пакистан",
+          "en": "Pakistan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nepal / Xitoy",
+          "ru": "Непал/Китай",
+          "en": "Nepal/China"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Amazonka daryosi qaysi qit'ada?",
+      "ru": "На каком континенте река Амазонка?",
+      "en": "On which continent is the Amazon River?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Afrika",
+          "ru": "Африка",
+          "en": "Africa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Avstraliya",
+          "ru": "Австралия",
+          "en": "Australia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Janubiy Amerika",
+          "ru": "Южная Америка",
+          "en": "South America"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Osiyo",
+          "ru": "Азия",
+          "en": "Asia"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'zbekiston poytaxti qaysi shahar?",
+      "ru": "Столица Узбекистана?",
+      "en": "Capital of Uzbekistan?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Farg'ona",
+          "ru": "Фергана",
+          "en": "Fergana"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Buxoro",
+          "ru": "Бухара",
+          "en": "Bukhara"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Toshkent",
+          "ru": "Ташкент",
+          "en": "Tashkent"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Samarqand",
+          "ru": "Самарканд",
+          "en": "Samarkand"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qozog'iston poytaxti qaysi shahar?",
+      "ru": "Столица Казахстана?",
+      "en": "Capital of Kazakhstan?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Nur-Sulton (Ostona)",
+          "ru": "Нур-Султан (Астана)",
+          "en": "Nur-Sultan (Astana)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Olmaota",
+          "ru": "Алматы",
+          "en": "Almaty"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Oqtau",
+          "ru": "Актау",
+          "en": "Aktau"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Shimkent",
+          "ru": "Шымкент",
+          "en": "Shymkent"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Tojikiston poytaxti qaysi shahar?",
+      "ru": "Столица Таджикистана?",
+      "en": "Capital of Tajikistan?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Dushanbe",
+          "ru": "Душанбе",
+          "en": "Dushanbe"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Istaravshan",
+          "ru": "Истаравшан",
+          "en": "Istaravshan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qurgan-Tepa",
+          "ru": "Курган-Тюбе",
+          "en": "Kurgan-Tyube"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Xujand",
+          "ru": "Худжанд",
+          "en": "Khujand"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eron poytaxti qaysi shahar?",
+      "ru": "Столица Ирана?",
+      "en": "Capital of Iran?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Shiraz",
+          "ru": "Шираз",
+          "en": "Shiraz"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tehron",
+          "ru": "Тегеран",
+          "en": "Tehran"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Mashhad",
+          "ru": "Мешхед",
+          "en": "Mashhad"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Isfahon",
+          "ru": "Исфахан",
+          "en": "Isfahan"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Pokiston poytaxti qaysi shahar?",
+      "ru": "Столица Пакистана?",
+      "en": "Capital of Pakistan?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Karachi",
+          "ru": "Карачи",
+          "en": "Karachi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lahor",
+          "ru": "Лахор",
+          "en": "Lahore"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Islomobod",
+          "ru": "Исламабад",
+          "en": "Islamabad"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Peshovar",
+          "ru": "Пешавар",
+          "en": "Peshawar"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "BAA poytaxti qaysi shahar?",
+      "ru": "Столица ОАЭ?",
+      "en": "Capital of UAE?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Abu-Dabi",
+          "ru": "Абу-Даби",
+          "en": "Abu Dhabi"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Ras-al-Xayma",
+          "ru": "Рас-эль-Хайма",
+          "en": "Ras Al Khaimah"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sharja",
+          "ru": "Шарджа",
+          "en": "Sharjah"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Dubay",
+          "ru": "Дубай",
+          "en": "Dubai"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Saudiya Arabistoni poytaxti qaysi shahar?",
+      "ru": "Столица Саудовской Аравии?",
+      "en": "Capital of Saudi Arabia?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Makkah",
+          "ru": "Мекка",
+          "en": "Mecca"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Madina",
+          "ru": "Медина",
+          "en": "Medina"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ar-Riyod",
+          "ru": "Эр-Рияд",
+          "en": "Riyadh"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Jidda",
+          "ru": "Джидда",
+          "en": "Jeddah"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Polsha poytaxti qaysi shahar?",
+      "ru": "Столица Польши?",
+      "en": "Capital of Poland?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Varshava",
+          "ru": "Варшава",
+          "en": "Warsaw"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Krakov",
+          "ru": "Краков",
+          "en": "Krakow"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Vrotslav",
+          "ru": "Вроцлав",
+          "en": "Wrocław"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gdansk",
+          "ru": "Гданьск",
+          "en": "Gdańsk"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Niderlandiya poytaxti qaysi shahar?",
+      "ru": "Столица Нидерландов?",
+      "en": "Capital of Netherlands?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Gaaga",
+          "ru": "Гаага",
+          "en": "The Hague"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Amsterdam",
+          "ru": "Амстердам",
+          "en": "Amsterdam"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Utrext",
+          "ru": "Утрехт",
+          "en": "Utrecht"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rotterdam",
+          "ru": "Роттердам",
+          "en": "Rotterdam"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Belgiya poytaxti qaysi shahar?",
+      "ru": "Столица Бельгии?",
+      "en": "Capital of Belgium?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Brugge",
+          "ru": "Брюгге",
+          "en": "Bruges"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bryussel",
+          "ru": "Брюссель",
+          "en": "Brussels"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Antverpen",
+          "ru": "Антверпен",
+          "en": "Antwerp"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gent",
+          "ru": "Гент",
+          "en": "Ghent"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Shveytsariya poytaxti qaysi shahar?",
+      "ru": "Столица Швейцарии?",
+      "en": "Capital of Switzerland?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Syurix",
+          "ru": "Цюрих",
+          "en": "Zurich"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bern",
+          "ru": "Берн",
+          "en": "Bern"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Jeneva",
+          "ru": "Женева",
+          "en": "Geneva"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bazel",
+          "ru": "Базель",
+          "en": "Basel"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Avstriya poytaxti qaysi shahar?",
+      "ru": "Столица Австрии?",
+      "en": "Capital of Austria?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Lins",
+          "ru": "Линц",
+          "en": "Linz"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Vena",
+          "ru": "Вена",
+          "en": "Vienna"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Zalsburg",
+          "ru": "Зальцбург",
+          "en": "Salzburg"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Graz",
+          "ru": "Грац",
+          "en": "Graz"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Shvetsiya poytaxti qaysi shahar?",
+      "ru": "Столица Швеции?",
+      "en": "Capital of Sweden?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Gotenburg",
+          "ru": "Гётеборг",
+          "en": "Gothenburg"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Stokgolm",
+          "ru": "Стокгольм",
+          "en": "Stockholm"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Uppsala",
+          "ru": "Уппсала",
+          "en": "Uppsala"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Malmyo",
+          "ru": "Мальмё",
+          "en": "Malmö"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Norvegiya poytaxti qaysi shahar?",
+      "ru": "Столица Норвегии?",
+      "en": "Capital of Norway?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Stavanger",
+          "ru": "Ставангер",
+          "en": "Stavanger"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bergen",
+          "ru": "Берген",
+          "en": "Bergen"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Oslo",
+          "ru": "Осло",
+          "en": "Oslo"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Trondxeym",
+          "ru": "Тронхейм",
+          "en": "Trondheim"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Daniya poytaxti qaysi shahar?",
+      "ru": "Столица Дании?",
+      "en": "Capital of Denmark?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Orxus",
+          "ru": "Орхус",
+          "en": "Aarhus"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Olborg",
+          "ru": "Ольборг",
+          "en": "Aalborg"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kopengagen",
+          "ru": "Копенгаген",
+          "en": "Copenhagen"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Odense",
+          "ru": "Оденсе",
+          "en": "Odense"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Finlandiya poytaxti qaysi shahar?",
+      "ru": "Столица Финляндии?",
+      "en": "Capital of Finland?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Turku",
+          "ru": "Турку",
+          "en": "Turku"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Espoo",
+          "ru": "Эспоо",
+          "en": "Espoo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tampere",
+          "ru": "Тампере",
+          "en": "Tampere"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Xelsinki",
+          "ru": "Хельсинки",
+          "en": "Helsinki"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Gretsiya poytaxti qaysi shahar?",
+      "ru": "Столица Греции?",
+      "en": "Capital of Greece?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Afina",
+          "ru": "Афины",
+          "en": "Athens"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Saloniki",
+          "ru": "Салоники",
+          "en": "Thessaloniki"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Patras",
+          "ru": "Патры",
+          "en": "Patras"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Iraklion",
+          "ru": "Ираклион",
+          "en": "Heraklion"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Portugaliya poytaxti qaysi shahar?",
+      "ru": "Столица Португалии?",
+      "en": "Capital of Portugal?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Braga",
+          "ru": "Брага",
+          "en": "Braga"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Faro",
+          "ru": "Фару",
+          "en": "Faro"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Portu",
+          "ru": "Порту",
+          "en": "Porto"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lissabon",
+          "ru": "Лиссабон",
+          "en": "Lisbon"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Chexiya poytaxti qaysi shahar?",
+      "ru": "Столица Чехии?",
+      "en": "Capital of Czech Republic?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ostrava",
+          "ru": "Острава",
+          "en": "Ostrava"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pilsen",
+          "ru": "Пльзень",
+          "en": "Plzeň"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Brno",
+          "ru": "Брно",
+          "en": "Brno"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Praga",
+          "ru": "Прага",
+          "en": "Prague"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Vengriya poytaxti qaysi shahar?",
+      "ru": "Столица Венгрии?",
+      "en": "Capital of Hungary?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Debretsen",
+          "ru": "Дебрецен",
+          "en": "Debrecen"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Budapesht",
+          "ru": "Будапешт",
+          "en": "Budapest"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Sekeshfehervar",
+          "ru": "Секешфехервар",
+          "en": "Székesfehérvár"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pech",
+          "ru": "Печ",
+          "en": "Pécs"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Ruminiya poytaxti qaysi shahar?",
+      "ru": "Столица Румынии?",
+      "en": "Capital of Romania?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Iasi",
+          "ru": "Яссы",
+          "en": "Iași"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Timişoara",
+          "ru": "Тимишоара",
+          "en": "Timișoara"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Buxarest",
+          "ru": "Бухарест",
+          "en": "Bucharest"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Kluj",
+          "ru": "Клуж",
+          "en": "Cluj-Napoca"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Ukraina poytaxti qaysi shahar?",
+      "ru": "Столица Украины?",
+      "en": "Capital of Ukraine?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Xarkov",
+          "ru": "Харьков",
+          "en": "Kharkiv"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Odessa",
+          "ru": "Одесса",
+          "en": "Odesa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kiyev",
+          "ru": "Киев",
+          "en": "Kyiv"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Lvov",
+          "ru": "Львов",
+          "en": "Lviv"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Belarus poytaxti qaysi shahar?",
+      "ru": "Столица Беларуси?",
+      "en": "Capital of Belarus?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Vitebsk",
+          "ru": "Витебск",
+          "en": "Vitebsk"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gomel",
+          "ru": "Гомель",
+          "en": "Gomel"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Minsk",
+          "ru": "Минск",
+          "en": "Minsk"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Grodno",
+          "ru": "Гродно",
+          "en": "Grodno"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Ozarbayjon poytaxti qaysi shahar?",
+      "ru": "Столица Азербайджана?",
+      "en": "Capital of Azerbaijan?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sumgait",
+          "ru": "Сумгаит",
+          "en": "Sumqayit"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Boku",
+          "ru": "Баку",
+          "en": "Baku"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Ganja",
+          "ru": "Гянджа",
+          "en": "Ganja"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mingachevir",
+          "ru": "Мингечаур",
+          "en": "Mingachevir"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Gruziya poytaxti qaysi shahar?",
+      "ru": "Столица Грузии?",
+      "en": "Capital of Georgia?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Tbilisi",
+          "ru": "Тбилиси",
+          "en": "Tbilisi"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Kutaisi",
+          "ru": "Кутаиси",
+          "en": "Kutaisi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rustavi",
+          "ru": "Рустави",
+          "en": "Rustavi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Batumi",
+          "ru": "Батуми",
+          "en": "Batumi"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Armaniston poytaxti qaysi shahar?",
+      "ru": "Столица Армении?",
+      "en": "Capital of Armenia?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Gyumri",
+          "ru": "Гюмри",
+          "en": "Gyumri"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Vanadzor",
+          "ru": "Ванадзор",
+          "en": "Vanadzor"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Vagharshapat",
+          "ru": "Вагаршапат",
+          "en": "Vagharshapat"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yerevan",
+          "ru": "Ереван",
+          "en": "Yerevan"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Isroil poytaxti qaysi shahar?",
+      "ru": "Столица Израиля?",
+      "en": "Capital of Israel?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Beer Sheva",
+          "ru": "Беэр-Шева",
+          "en": "Be'er Sheva"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Quddus",
+          "ru": "Иерусалим",
+          "en": "Jerusalem"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Tel-Aviv",
+          "ru": "Тель-Авив",
+          "en": "Tel Aviv"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hayfa",
+          "ru": "Хайфа",
+          "en": "Haifa"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Janubiy Afrika poytaxti (uchta) — qaysi biri rasmiy poytaxt?",
+      "ru": "Столица ЮАР (одна из трёх)?",
+      "en": "One of South Africa's capitals?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Keyptaun",
+          "ru": "Кейптаун",
+          "en": "Cape Town"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yoxannesburg",
+          "ru": "Йоханнесбург",
+          "en": "Johannesburg"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pretoriya",
+          "ru": "Претория",
+          "en": "Pretoria"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Durban",
+          "ru": "Дурбан",
+          "en": "Durban"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Marokash poytaxti qaysi shahar?",
+      "ru": "Столица Марокко?",
+      "en": "Capital of Morocco?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fes",
+          "ru": "Фес",
+          "en": "Fes"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rabat",
+          "ru": "Рабат",
+          "en": "Rabat"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Marakesh",
+          "ru": "Марракеш",
+          "en": "Marrakesh"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kasablanka",
+          "ru": "Касабланка",
+          "en": "Casablanca"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Keniya poytaxti qaysi shahar?",
+      "ru": "Столица Кении?",
+      "en": "Capital of Kenya?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Mombasa",
+          "ru": "Момбаса",
+          "en": "Mombasa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nakuru",
+          "ru": "Накуру",
+          "en": "Nakuru"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kisumu",
+          "ru": "Кисуму",
+          "en": "Kisumu"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nayrobi",
+          "ru": "Найроби",
+          "en": "Nairobi"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Nigeriya poytaxti qaysi shahar?",
+      "ru": "Столица Нигерии?",
+      "en": "Capital of Nigeria?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ibadan",
+          "ru": "Ибадан",
+          "en": "Ibadan"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lagos",
+          "ru": "Лагос",
+          "en": "Lagos"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Abuja",
+          "ru": "Абуджа",
+          "en": "Abuja"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Kano",
+          "ru": "Кано",
+          "en": "Kano"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Tailand poytaxti qaysi shahar?",
+      "ru": "Столица Таиланда?",
+      "en": "Capital of Thailand?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Phuket",
+          "ru": "Пхукет",
+          "en": "Phuket"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bangkok",
+          "ru": "Бангкок",
+          "en": "Bangkok"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Pattaya",
+          "ru": "Паттайя",
+          "en": "Pattaya"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Chiang May",
+          "ru": "Чиангмай",
+          "en": "Chiang Mai"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Vyetnam poytaxti qaysi shahar?",
+      "ru": "Столица Вьетнама?",
+      "en": "Capital of Vietnam?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Da Nang",
+          "ru": "Дананг",
+          "en": "Da Nang"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ho Shi Min",
+          "ru": "Хошимин",
+          "en": "Ho Chi Minh City"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hue",
+          "ru": "Хюэ",
+          "en": "Huế"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Xanoy",
+          "ru": "Ханой",
+          "en": "Hanoi"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Filippin poytaxti qaysi shahar?",
+      "ru": "Столица Филиппин?",
+      "en": "Capital of Philippines?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Manila",
+          "ru": "Манила",
+          "en": "Manila"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Sebu",
+          "ru": "Себу",
+          "en": "Cebu"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Davao",
+          "ru": "Давао",
+          "en": "Davao"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Keson-Siti",
+          "ru": "Кесон-Сити",
+          "en": "Quezon City"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Malayziya poytaxti qaysi shahar?",
+      "ru": "Столица Малайзии?",
+      "en": "Capital of Malaysia?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kuala-Lumpur",
+          "ru": "Куала-Лумпур",
+          "en": "Kuala Lumpur"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Kuching",
+          "ru": "Кучинг",
+          "en": "Kuching"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Joxor-Baru",
+          "ru": "Джохор-Бару",
+          "en": "Johor Bahru"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Penang",
+          "ru": "Пенанг",
+          "en": "Penang"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Singapur — davlat yoki shahar?",
+      "ru": "Сингапур — страна или город?",
+      "en": "Singapore — country or city?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Faqat shahar",
+          "ru": "Только город",
+          "en": "Only city"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hech biri",
+          "ru": "Ни то ни другое",
+          "en": "Neither"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Shahar-davlat",
+          "ru": "Город-государство",
+          "en": "City-state"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Faqat davlat",
+          "ru": "Только страна",
+          "en": "Only country"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Kolumbiya poytaxti qaysi shahar?",
+      "ru": "Столица Колумбии?",
+      "en": "Capital of Colombia?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Medellin",
+          "ru": "Медельин",
+          "en": "Medellín"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Barrankilya",
+          "ru": "Барранкилья",
+          "en": "Barranquilla"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bogota",
+          "ru": "Богота",
+          "en": "Bogotá"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Kali",
+          "ru": "Кали",
+          "en": "Cali"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Chili poytaxti qaysi shahar?",
+      "ru": "Столица Чили?",
+      "en": "Capital of Chile?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "La Serena",
+          "ru": "Ла-Серена",
+          "en": "La Serena"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Koncepcion",
+          "ru": "Консепсьон",
+          "en": "Concepción"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Valparaiso",
+          "ru": "Вальпараисо",
+          "en": "Valparaíso"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Santyago",
+          "ru": "Сантьяго",
+          "en": "Santiago"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Peru poytaxti qaysi shahar?",
+      "ru": "Столица Перу?",
+      "en": "Capital of Peru?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Truxillo",
+          "ru": "Трухильо",
+          "en": "Trujillo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Cusco",
+          "ru": "Куско",
+          "en": "Cusco"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arequipa",
+          "ru": "Арекипа",
+          "en": "Arequipa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lima",
+          "ru": "Лима",
+          "en": "Lima"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
   }
 ]

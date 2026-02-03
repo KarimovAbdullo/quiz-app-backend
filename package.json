@@ -11,7 +11,8 @@
     "delete-questions": "node scripts/deleteAllQuestions.js",
     "import:movies": "node scripts/importQuestionsFromJSON.js questions/movies-new.json --clear-first",
     "import:logical": "node scripts/importQuestionsFromJSON.js questions/logical.json --clear-first",
-    "import:geographical": "node scripts/importQuestionsFromJSON.js questions/geographical.json --clear-first"
+    "import:geographical": "node scripts/importQuestionsFromJSON.js questions/geographical.json --clear-first",
+    "import:football": "node scripts/importQuestionsFromJSON.js questions/football.json --clear-first"
   },
   "keywords": [
     "quiz",

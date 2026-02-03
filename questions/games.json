@@ -8,19 +8,19 @@
     "options": [
       {
         "text": {
-          "uz": "Mario",
-          "ru": "Марио",
-          "en": "Mario"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Luigi",
           "ru": "Луиджи",
           "en": "Luigi"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mario",
+          "ru": "Марио",
+          "en": "Mario"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -100,14 +100,6 @@
       },
       {
         "text": {
-          "uz": "100",
-          "ru": "100",
-          "en": "100"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "150",
           "ru": "150",
           "en": "150"
@@ -121,6 +113,14 @@
           "en": "200"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "100",
+          "ru": "100",
+          "en": "100"
+        },
+        "isCorrect": true
       }
     ],
     "image": null
@@ -176,14 +176,6 @@
     "options": [
       {
         "text": {
-          "uz": "Nuketown",
-          "ru": "Нюктаун",
-          "en": "Nuketown"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Rust",
           "ru": "Раст",
           "en": "Rust"
@@ -197,6 +189,14 @@
           "en": "Shipment"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nuketown",
+          "ru": "Нюктаун",
+          "en": "Nuketown"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -226,14 +226,6 @@
       },
       {
         "text": {
-          "uz": "2013",
-          "ru": "2013",
-          "en": "2013"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "2015",
           "ru": "2015",
           "en": "2015"
@@ -247,6 +239,14 @@
           "en": "2017"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2013",
+          "ru": "2013",
+          "en": "2013"
+        },
+        "isCorrect": true
       }
     ],
     "image": null
@@ -260,19 +260,19 @@
     "options": [
       {
         "text": {
-          "uz": "Geralt",
-          "ru": "Геральт",
-          "en": "Geralt"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Ciri",
           "ru": "Цири",
           "en": "Ciri"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Geralt",
+          "ru": "Геральт",
+          "en": "Geralt"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -302,14 +302,6 @@
     "options": [
       {
         "text": {
-          "uz": "Minecraft",
-          "ru": "Майнкрафт",
-          "en": "Minecraft"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Terraria",
           "ru": "Террария",
           "en": "Terraria"
@@ -323,6 +315,14 @@
           "en": "Roblox"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Minecraft",
+          "ru": "Майнкрафт",
+          "en": "Minecraft"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -342,14 +342,6 @@
       "en": "Who created Counter-Strike: Global Offensive (CS:GO)?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "Valve",
-          "ru": "Valve",
-          "en": "Valve"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "EA Games",
@@ -373,6 +365,14 @@
           "en": "Ubisoft"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Valve",
+          "ru": "Valve",
+          "en": "Valve"
+        },
+        "isCorrect": true
       }
     ],
     "image": null
@@ -394,19 +394,19 @@
       },
       {
         "text": {
-          "uz": "100-150",
-          "ru": "100-150",
-          "en": "100-150"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
           "uz": "150-200",
           "ru": "150-200",
           "en": "150-200"
         },
         "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "100-150",
+          "ru": "100-150",
+          "en": "100-150"
+        },
+        "isCorrect": false
       },
       {
         "text": {
@@ -436,19 +436,19 @@
       },
       {
         "text": {
-          "uz": "100",
-          "ru": "100",
-          "en": "100"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "150",
           "ru": "150",
           "en": "150"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "100",
+          "ru": "100",
+          "en": "100"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -468,14 +468,6 @@
       "en": "How many players can play in Among Us?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "4-10",
-          "ru": "4-10",
-          "en": "4-10"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "2-8",
@@ -499,6 +491,14 @@
           "en": "8-16"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "4-10",
+          "ru": "4-10",
+          "en": "4-10"
+        },
+        "isCorrect": true
       }
     ],
     "image": null
@@ -512,19 +512,19 @@
     "options": [
       {
         "text": {
-          "uz": "Lua dasturlash tilida",
-          "ru": "На языке программирования Lua",
-          "en": "In Lua programming language"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "JavaScript da",
           "ru": "На JavaScript",
           "en": "In JavaScript"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Lua dasturlash tilida",
+          "ru": "На языке программирования Lua",
+          "en": "In Lua programming language"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -554,14 +554,6 @@
     "options": [
       {
         "text": {
-          "uz": "Link",
-          "ru": "Линк",
-          "en": "Link"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Zelda",
           "ru": "Зельда",
           "en": "Zelda"
@@ -575,6 +567,14 @@
           "en": "Ganon"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Link",
+          "ru": "Линк",
+          "en": "Link"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -594,14 +594,6 @@
       "en": "What color is the main character in Sonic the Hedgehog?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "Ko'k",
-          "ru": "Синий",
-          "en": "Blue"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "Qizil",
@@ -625,6 +617,14 @@
           "en": "Green"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ko'k",
+          "ru": "Синий",
+          "en": "Blue"
+        },
+        "isCorrect": true
       }
     ],
     "image": null
@@ -638,19 +638,19 @@
     "options": [
       {
         "text": {
-          "uz": "Pac-Man",
-          "ru": "Пак-Мэн",
-          "en": "Pac-Man"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Tetris",
           "ru": "Тетрис",
           "en": "Tetris"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pac-Man",
+          "ru": "Пак-Мэн",
+          "en": "Pac-Man"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -688,19 +688,19 @@
       },
       {
         "text": {
-          "uz": "1984",
-          "ru": "1984",
-          "en": "1984"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "1988",
           "ru": "1988",
           "en": "1988"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1984",
+          "ru": "1984",
+          "en": "1984"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -730,14 +730,6 @@
       },
       {
         "text": {
-          "uz": "Bomb",
-          "ru": "Бомба",
-          "en": "Bomb"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Chuck",
           "ru": "Чак",
           "en": "Chuck"
@@ -751,6 +743,14 @@
           "en": "Matilda"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bomb",
+          "ru": "Бомба",
+          "en": "Bomb"
+        },
+        "isCorrect": true
       }
     ],
     "image": null
@@ -772,19 +772,19 @@
       },
       {
         "text": {
-          "uz": "FIFA 20",
-          "ru": "FIFA 20",
-          "en": "FIFA 20"
-        },
-        "isCorrect": false
-      },
-      {
-        "text": {
           "uz": "FIFA 22",
           "ru": "FIFA 22",
           "en": "FIFA 22"
         },
         "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "FIFA 20",
+          "ru": "FIFA 20",
+          "en": "FIFA 20"
+        },
+        "isCorrect": false
       },
       {
         "text": {
@@ -814,19 +814,19 @@
       },
       {
         "text": {
-          "uz": "Tarixiy davrlar",
-          "ru": "Исторические эпохи",
-          "en": "Historical eras"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Kelajak",
           "ru": "Будущее",
           "en": "Future"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tarixiy davrlar",
+          "ru": "Исторические эпохи",
+          "en": "Historical eras"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -846,14 +846,6 @@
       "en": "What game is shown in the image below?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "Super Mario Bros",
-          "ru": "Супер Марио Брос",
-          "en": "Super Mario Bros"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "Sonic",
@@ -877,6 +869,14 @@
           "en": "Mega Man"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Super Mario Bros",
+          "ru": "Супер Марио Брос",
+          "en": "Super Mario Bros"
+        },
+        "isCorrect": true
       }
     ],
     "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=800"
@@ -940,19 +940,19 @@
       },
       {
         "text": {
-          "uz": "30-35",
-          "ru": "30-35",
-          "en": "30-35"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "40-50",
           "ru": "40-50",
           "en": "40-50"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "30-35",
+          "ru": "30-35",
+          "en": "30-35"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -972,14 +972,6 @@
       "en": "What genre does World of Warcraft belong to?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "MMORPG",
-          "ru": "MMORPG",
-          "en": "MMORPG"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "FPS",
@@ -1003,6 +995,14 @@
           "en": "MOBA"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "MMORPG",
+          "ru": "MMORPG",
+          "en": "MMORPG"
+        },
+        "isCorrect": true
       }
     ],
     "image": null
@@ -1016,19 +1016,19 @@
     "options": [
       {
         "text": {
-          "uz": "Fortnite",
-          "ru": "Фортнайт",
-          "en": "Fortnite"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "PUBG",
           "ru": "PUBG",
           "en": "PUBG"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fortnite",
+          "ru": "Фортнайт",
+          "en": "Fortnite"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1066,19 +1066,19 @@
       },
       {
         "text": {
-          "uz": "3",
-          "ru": "3",
-          "en": "3"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "4",
           "ru": "4",
           "en": "4"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "3",
+          "ru": "3",
+          "en": "3"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1098,14 +1098,6 @@
       "en": "How many agents are available in Valorant?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "15-20",
-          "ru": "15-20",
-          "en": "15-20"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "20-25",
@@ -1129,6 +1121,14 @@
           "en": "More than 30"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "15-20",
+          "ru": "15-20",
+          "en": "15-20"
+        },
+        "isCorrect": true
       }
     ],
     "image": null
@@ -1142,19 +1142,19 @@
     "options": [
       {
         "text": {
-          "uz": "Mashinalar",
-          "ru": "Машины",
-          "en": "Cars"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Tanklar",
           "ru": "Танки",
           "en": "Tanks"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mashinalar",
+          "ru": "Машины",
+          "en": "Cars"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1184,14 +1184,6 @@
     "options": [
       {
         "text": {
-          "uz": "The Witcher 3",
-          "ru": "Ведьмак 3",
-          "en": "The Witcher 3"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Skyrim",
           "ru": "Скайрим",
           "en": "Skyrim"
@@ -1205,6 +1197,14 @@
           "en": "Dark Souls"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The Witcher 3",
+          "ru": "Ведьмак 3",
+          "en": "The Witcher 3"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1224,14 +1224,6 @@
       "en": "How many times can you die in Dark Souls?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "Cheksiz",
-          "ru": "Бесконечно",
-          "en": "Unlimited"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "3 marta",
@@ -1255,6 +1247,14 @@
           "en": "10 times"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Cheksiz",
+          "ru": "Бесконечно",
+          "en": "Unlimited"
+        },
+        "isCorrect": true
       }
     ],
     "image": null
@@ -1268,19 +1268,19 @@
     "options": [
       {
         "text": {
-          "uz": "Kratos",
-          "ru": "Кратос",
-          "en": "Kratos"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Zeus",
           "ru": "Зевс",
           "en": "Zeus"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kratos",
+          "ru": "Кратос",
+          "en": "Kratos"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1310,14 +1310,6 @@
     "options": [
       {
         "text": {
-          "uz": "Vahshiy G'arb davri",
-          "ru": "Эпоха Дикого Запада",
-          "en": "Wild West era"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Zamonaviy davr",
           "ru": "Современная эпоха",
           "en": "Modern era"
@@ -1331,6 +1323,14 @@
           "en": "Middle Ages"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Vahshiy G'arb davri",
+          "ru": "Эпоха Дикого Запада",
+          "en": "Wild West era"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1350,14 +1350,6 @@
       "en": "What game is shown in the image below?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "GTA V",
-          "ru": "GTA V",
-          "en": "GTA V"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "Watch Dogs",
@@ -1381,6 +1373,14 @@
           "en": "Sleeping Dogs"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "GTA V",
+          "ru": "GTA V",
+          "en": "GTA V"
+        },
+        "isCorrect": true
       }
     ],
     "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=800"
@@ -1394,19 +1394,19 @@
     "options": [
       {
         "text": {
-          "uz": "Survival va Creative",
-          "ru": "Выживание и Творчество",
-          "en": "Survival and Creative"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Faqat Survival",
           "ru": "Только Выживание",
           "en": "Only Survival"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Survival va Creative",
+          "ru": "Выживание и Творчество",
+          "en": "Survival and Creative"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1436,14 +1436,6 @@
     "options": [
       {
         "text": {
-          "uz": "Fermerlik qilish",
-          "ru": "Заниматься фермерством",
-          "en": "Farming"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Faqat jang qilish",
           "ru": "Только сражаться",
           "en": "Only fight"
@@ -1457,6 +1449,14 @@
           "en": "Only build"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fermerlik qilish",
+          "ru": "Заниматься фермерством",
+          "en": "Farming"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1476,14 +1476,6 @@
       "en": "What game is shown in the image below?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "Pokemon Go",
-          "ru": "Покемон Го",
-          "en": "Pokemon Go"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "Ingress",
@@ -1507,6 +1499,14 @@
           "en": "Jurassic World Alive"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pokemon Go",
+          "ru": "Покемон Го",
+          "en": "Pokemon Go"
+        },
+        "isCorrect": true
       }
     ],
     "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=800"
@@ -1520,19 +1520,19 @@
     "options": [
       {
         "text": {
-          "uz": "Rangli konfektlar",
-          "ru": "Цветные конфеты",
-          "en": "Colored candies"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Faqat qizil",
           "ru": "Только красные",
           "en": "Only red"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rangli konfektlar",
+          "ru": "Цветные конфеты",
+          "en": "Colored candies"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1562,14 +1562,6 @@
     "options": [
       {
         "text": {
-          "uz": "Qal'a, barraklar, fabrikalar",
-          "ru": "Замок, казармы, фабрики",
-          "en": "Castle, barracks, factories"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Faqat uylar",
           "ru": "Только дома",
           "en": "Only houses"
@@ -1583,6 +1575,14 @@
           "en": "Only castles"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qal'a, barraklar, fabrikalar",
+          "ru": "Замок, казармы, фабрики",
+          "en": "Castle, barracks, factories"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1602,14 +1602,6 @@
       "en": "What game is shown in the image below?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "CS:GO",
-          "ru": "CS:GO",
-          "en": "CS:GO"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "Valorant",
@@ -1633,6 +1625,14 @@
           "en": "Call of Duty"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "CS:GO",
+          "ru": "CS:GO",
+          "en": "CS:GO"
+        },
+        "isCorrect": true
       }
     ],
     "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800"
@@ -1646,19 +1646,19 @@
     "options": [
       {
         "text": {
-          "uz": "5",
-          "ru": "5",
-          "en": "5"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "4",
           "ru": "4",
           "en": "4"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "5",
+          "ru": "5",
+          "en": "5"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1696,19 +1696,19 @@
       },
       {
         "text": {
-          "uz": "Platformer",
-          "ru": "Платформер",
-          "en": "Platformer"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "FPS",
           "ru": "FPS",
           "en": "FPS"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Platformer",
+          "ru": "Платформер",
+          "en": "Platformer"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1728,14 +1728,6 @@
       "en": "What game is shown in the image below?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "Among Us",
-          "ru": "Амонг Ас",
-          "en": "Among Us"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "Town of Salem",
@@ -1759,6 +1751,14 @@
           "en": "Werewolf"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Among Us",
+          "ru": "Амонг Ас",
+          "en": "Among Us"
+        },
+        "isCorrect": true
       }
     ],
     "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=800"
@@ -1772,19 +1772,19 @@
     "options": [
       {
         "text": {
-          "uz": "Yunon mifologiyasi",
-          "ru": "Греческая мифология",
-          "en": "Greek mythology"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Rim mifologiyasi",
           "ru": "Римская мифология",
           "en": "Roman mythology"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yunon mifologiyasi",
+          "ru": "Греческая мифология",
+          "en": "Greek mythology"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1814,14 +1814,6 @@
     "options": [
       {
         "text": {
-          "uz": "Platformer",
-          "ru": "Платформер",
-          "en": "Platformer"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "RPG",
           "ru": "RPG",
           "en": "RPG"
@@ -1835,6 +1827,14 @@
           "en": "FPS"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Platformer",
+          "ru": "Платформер",
+          "en": "Platformer"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1854,14 +1854,6 @@
       "en": "What genre is Hollow Knight?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "Metroidvania",
-          "ru": "Метроидвания",
-          "en": "Metroidvania"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "FPS",
@@ -1885,6 +1877,14 @@
           "en": "MOBA"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Metroidvania",
+          "ru": "Метроидвания",
+          "en": "Metroidvania"
+        },
+        "isCorrect": true
       }
     ],
     "image": null
@@ -1898,19 +1898,19 @@
     "options": [
       {
         "text": {
-          "uz": "League of Legends",
-          "ru": "Лига Легенд",
-          "en": "League of Legends"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Dota 2",
           "ru": "Дота 2",
           "en": "Dota 2"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "League of Legends",
+          "ru": "Лига Легенд",
+          "en": "League of Legends"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1940,14 +1940,6 @@
     "options": [
       {
         "text": {
-          "uz": "O'ldirish yoki o'ldirmaslik",
-          "ru": "Убивать или не убивать",
-          "en": "Kill or not kill"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Faqat o'ldirish",
           "ru": "Только убивать",
           "en": "Only kill"
@@ -1961,6 +1953,14 @@
           "en": "Only not kill"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "O'ldirish yoki o'ldirmaslik",
+          "ru": "Убивать или не убивать",
+          "en": "Kill or not kill"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -1980,14 +1980,6 @@
       "en": "What art style is used in Cuphead?"
     },
     "options": [
-      {
-        "text": {
-          "uz": "1930-yillar animatsiya uslubi",
-          "ru": "Стиль анимации 1930-х годов",
-          "en": "1930s animation style"
-        },
-        "isCorrect": true
-      },
       {
         "text": {
           "uz": "Zamonaviy 3D",
@@ -2011,6 +2003,14 @@
           "en": "Realistic"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1930-yillar animatsiya uslubi",
+          "ru": "Стиль анимации 1930-х годов",
+          "en": "1930s animation style"
+        },
+        "isCorrect": true
       }
     ],
     "image": null
@@ -2024,19 +2024,19 @@
     "options": [
       {
         "text": {
-          "uz": "Portal gun",
-          "ru": "Портал пушка",
-          "en": "Portal gun"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Gravity gun",
           "ru": "Гравитационная пушка",
           "en": "Gravity gun"
         },
         "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Portal gun",
+          "ru": "Портал пушка",
+          "en": "Portal gun"
+        },
+        "isCorrect": true
       },
       {
         "text": {
@@ -2066,14 +2066,6 @@
     "options": [
       {
         "text": {
-          "uz": "Doom",
-          "ru": "Дум",
-          "en": "Doom"
-        },
-        "isCorrect": true
-      },
-      {
-        "text": {
           "uz": "Quake",
           "ru": "Квейк",
           "en": "Quake"
@@ -2090,6 +2082,14 @@
       },
       {
         "text": {
+          "uz": "Doom",
+          "ru": "Дум",
+          "en": "Doom"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
           "uz": "Duke Nukem",
           "ru": "Дюк Нюкем",
           "en": "Duke Nukem"
@@ -2098,5 +2098,2105 @@
       }
     ],
     "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800"
+  },
+  {
+    "question": {
+      "uz": "PUBG o'yinida xarita nomi qaysi?",
+      "ru": "Как называется карта в PUBG?",
+      "en": "What is the map called in PUBG?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Summoner's Rift",
+          "ru": "Ущелье Призывателя",
+          "en": "Summoner's Rift"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Dust II",
+          "ru": "Даст 2",
+          "en": "Dust II"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Los Santos",
+          "ru": "Лос-Сантос",
+          "en": "Los Santos"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Erangel",
+          "ru": "Эрангел",
+          "en": "Erangel"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Counter-Strike: Global Offensive da eng mashhur xarita qaysi?",
+      "ru": "Какая самая популярная карта в CS:GO?",
+      "en": "What is the most popular map in CS:GO?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Mirage",
+          "ru": "Мираж",
+          "en": "Mirage"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Dust II",
+          "ru": "Даст 2",
+          "en": "Dust II"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Inferno",
+          "ru": "Инферно",
+          "en": "Inferno"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nuke",
+          "ru": "Нюк",
+          "en": "Nuke"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dota 2 da jamoada odatda nechta o'yinchi bor?",
+      "ru": "Сколько игроков обычно в команде в Dota 2?",
+      "en": "How many players are usually on a team in Dota 2?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "4",
+          "ru": "4",
+          "en": "4"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "6",
+          "ru": "6",
+          "en": "6"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "5",
+          "ru": "5",
+          "en": "5"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "3",
+          "ru": "3",
+          "en": "3"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "GTA 5 da bosh qahramonlardan biri kim?",
+      "ru": "Кто один из главных героев в GTA 5?",
+      "en": "Who is one of the main characters in GTA 5?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "CJ",
+          "ru": "CJ",
+          "en": "CJ"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Niko",
+          "ru": "Нико",
+          "en": "Niko"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tommy",
+          "ru": "Томми",
+          "en": "Tommy"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Michael",
+          "ru": "Майкл",
+          "en": "Michael"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "PUBG qisqacha nima degani?",
+      "ru": "Что означает аббревиатура PUBG?",
+      "en": "What does PUBG stand for?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Public Battle Game",
+          "ru": "Публичная боевая игра",
+          "en": "Public Battle Game"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "PlayerUnknown's Battlegrounds",
+          "ru": "PlayerUnknown's Battlegrounds",
+          "en": "PlayerUnknown's Battlegrounds"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Player Battle Ground",
+          "ru": "Игровое поле боя",
+          "en": "Player Battle Ground"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Battle Royale Game",
+          "ru": "Королевская битва",
+          "en": "Battle Royale Game"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "CS:GO da Terroristlar bomba qayerda o'rnatadi?",
+      "ru": "Куда террористы устанавливают бомбу в CS:GO?",
+      "en": "Where do Terrorists plant the bomb in CS:GO?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Markazda",
+          "ru": "В центре",
+          "en": "In the center"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Spawn da",
+          "ru": "На спавне",
+          "en": "At spawn"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "A yoki B saytda",
+          "ru": "На точке A или B",
+          "en": "At A or B site"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Har qanday joyda",
+          "ru": "В любом месте",
+          "en": "Anywhere"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dota 2 da The International nima?",
+      "ru": "Что такое The International в Dota 2?",
+      "en": "What is The International in Dota 2?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "O'yin rejimi",
+          "ru": "Режим игры",
+          "en": "Game mode"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qahramon nomi",
+          "ru": "Имя героя",
+          "en": "Hero name"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Xarita",
+          "ru": "Карта",
+          "en": "Map"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yillik jahon chempionati",
+          "ru": "Ежегодный чемпионат мира",
+          "en": "Annual world championship"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "GTA 5 da shahar nomi nima?",
+      "ru": "Как называется город в GTA 5?",
+      "en": "What is the city called in GTA 5?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Liberty City",
+          "ru": "Либерти-Сити",
+          "en": "Liberty City"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Los Santos",
+          "ru": "Лос-Сантос",
+          "en": "Los Santos"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Vice City",
+          "ru": "Вайс-Сити",
+          "en": "Vice City"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "San Fierro",
+          "ru": "Сан-Фьерро",
+          "en": "San Fierro"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "League of Legends da asosiy arena nomi nima?",
+      "ru": "Как называется главная арена в League of Legends?",
+      "en": "What is the main arena called in League of Legends?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Howling Abyss",
+          "ru": "Воющая Бездна",
+          "en": "Howling Abyss"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Twisted Treeline",
+          "ru": "Искривленная линия деревьев",
+          "en": "Twisted Treeline"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Summoner's Rift",
+          "ru": "Ущелье Призывателя",
+          "en": "Summoner's Rift"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "The Rift",
+          "ru": "Разлом",
+          "en": "The Rift"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Valorant qaysi kompaniya tomonidan yaratilgan?",
+      "ru": "К какой компании принадлежит Valorant?",
+      "en": "Which company created Valorant?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Valve",
+          "ru": "Valve",
+          "en": "Valve"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Blizzard",
+          "ru": "Blizzard",
+          "en": "Blizzard"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Epic Games",
+          "ru": "Epic Games",
+          "en": "Epic Games"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Riot Games",
+          "ru": "Riot Games",
+          "en": "Riot Games"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dark Souls qaysi studiya tomonidan yaratilgan?",
+      "ru": "Какой студией создана Dark Souls?",
+      "en": "Which studio created Dark Souls?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Bethesda",
+          "ru": "Bethesda",
+          "en": "Bethesda"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "FromSoftware",
+          "ru": "FromSoftware",
+          "en": "FromSoftware"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "CD Projekt",
+          "ru": "CD Projekt",
+          "en": "CD Projekt"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "BioWare",
+          "ru": "BioWare",
+          "en": "BioWare"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Elden Ring qaysi yil chiqdi?",
+      "ru": "В каком году вышел Elden Ring?",
+      "en": "In what year did Elden Ring release?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2021",
+          "ru": "2021",
+          "en": "2021"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2023",
+          "ru": "2023",
+          "en": "2023"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2022",
+          "ru": "2022",
+          "en": "2022"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2020",
+          "ru": "2020",
+          "en": "2020"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "The Witcher 3 da bosh qahramon kim?",
+      "ru": "Кто главный герой в The Witcher 3?",
+      "en": "Who is the main character in The Witcher 3?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ciri",
+          "ru": "Цири",
+          "en": "Ciri"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yennefer",
+          "ru": "Йеннифер",
+          "en": "Yennefer"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Dandelion",
+          "ru": "Лютик",
+          "en": "Dandelion"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Geralt",
+          "ru": "Геральт",
+          "en": "Geralt"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Overwatch da jamoada nechta o'yinchi?",
+      "ru": "Сколько игроков в команде в Overwatch?",
+      "en": "How many players on a team in Overwatch?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "5",
+          "ru": "5",
+          "en": "5"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "6",
+          "ru": "6",
+          "en": "6"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "4",
+          "ru": "4",
+          "en": "4"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "8",
+          "ru": "8",
+          "en": "8"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Red Dead Redemption 2 da bosh qahramon ismi nima?",
+      "ru": "Как зовут главного героя в Red Dead Redemption 2?",
+      "en": "What is the main character's name in Red Dead Redemption 2?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "John Marston",
+          "ru": "Джон Марстон",
+          "en": "John Marston"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Dutch",
+          "ru": "Датч",
+          "en": "Dutch"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arthur Morgan",
+          "ru": "Артур Морган",
+          "en": "Arthur Morgan"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Micah",
+          "ru": "Майка",
+          "en": "Micah"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Among Us da maxfiy rolda kim bor?",
+      "ru": "Кто есть в тайной роли в Among Us?",
+      "en": "Who has the secret role in Among Us?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Crewmate",
+          "ru": "Член экипажа",
+          "en": "Crewmate"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Captain",
+          "ru": "Капитан",
+          "en": "Captain"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Detective",
+          "ru": "Детектив",
+          "en": "Detective"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Impostor",
+          "ru": "Самозванец",
+          "en": "Impostor"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "FIFA va eFootball (PES) qanday sport turi?",
+      "ru": "К какому виду спорта относятся FIFA и eFootball?",
+      "en": "What sport do FIFA and eFootball represent?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Basketbol",
+          "ru": "Баскетбол",
+          "en": "Basketball"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Futbol",
+          "ru": "Футбол",
+          "en": "Football"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Tennis",
+          "ru": "Теннис",
+          "en": "Tennis"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Beysbol",
+          "ru": "Бейсбол",
+          "en": "Baseball"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Call of Duty: Warzone qanday rejim?",
+      "ru": "Какой режим у Call of Duty: Warzone?",
+      "en": "What type of mode is Call of Duty: Warzone?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Survival",
+          "ru": "Выживание",
+          "en": "Survival"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Racing",
+          "ru": "Гонки",
+          "en": "Racing"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Battle Royale",
+          "ru": "Королевская битва",
+          "en": "Battle Royale"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "RPG",
+          "ru": "РПГ",
+          "en": "RPG"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Minecraft da Nether nima?",
+      "ru": "Что такое Незер в Minecraft?",
+      "en": "What is the Nether in Minecraft?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Qishloq",
+          "ru": "Деревня",
+          "en": "Village"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qal'a",
+          "ru": "Крепость",
+          "en": "Fortress"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Daryo",
+          "ru": "Река",
+          "en": "River"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "O'zga olam (dimensiya)",
+          "ru": "Иное измерение",
+          "en": "Alternate dimension"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "GTA 5 da Trevor kim?",
+      "ru": "Кто такой Тревор в GTA 5?",
+      "en": "Who is Trevor in GTA 5?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Politsiya",
+          "ru": "Полицейский",
+          "en": "Police officer"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bosh qahramonlardan biri",
+          "ru": "Один из главных героев",
+          "en": "One of the main characters"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Gangster boshlig'i",
+          "ru": "Глава банды",
+          "en": "Gang leader"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Taksi haydovchi",
+          "ru": "Таксист",
+          "en": "Taxi driver"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dota 2 da Roshan nima?",
+      "ru": "Что такое Рошан в Dota 2?",
+      "en": "What is Roshan in Dota 2?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Qahramon",
+          "ru": "Герой",
+          "en": "Hero"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Xarita",
+          "ru": "Карта",
+          "en": "Map"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kuchli neytral boss",
+          "ru": "Мощный нейтральный босс",
+          "en": "Powerful neutral boss"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Buyum",
+          "ru": "Предмет",
+          "en": "Item"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "CS:GO da CT qisqacha nima?",
+      "ru": "Что означает CT в CS:GO?",
+      "en": "What does CT stand for in CS:GO?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Combat Team",
+          "ru": "Боевая команда",
+          "en": "Combat Team"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Capture Team",
+          "ru": "Команда захвата",
+          "en": "Capture Team"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Counter Team",
+          "ru": "Контркоманда",
+          "en": "Counter Team"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Counter-Terrorists",
+          "ru": "Контртеррористы",
+          "en": "Counter-Terrorists"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "PUBG Mobile va PUBG PC farqi qanday?",
+      "ru": "В чём разница между PUBG Mobile и PUBG PC?",
+      "en": "What is the difference between PUBG Mobile and PUBG PC?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Xarita boshqacha",
+          "ru": "Другая карта",
+          "en": "Different map"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Platforma (mobil / kompyuter)",
+          "ru": "Платформа (мобильный / ПК)",
+          "en": "Platform (mobile / PC)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "O'yinchi soni boshqacha",
+          "ru": "Другое количество игроков",
+          "en": "Different player count"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Farqi yo'q",
+          "ru": "Нет разницы",
+          "en": "No difference"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Fortnite da 'Battle Pass' nima?",
+      "ru": "Что такое Battle Pass в Fortnite?",
+      "en": "What is the Battle Pass in Fortnite?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "O'yin rejimi",
+          "ru": "Режим игры",
+          "en": "Game mode"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Xarita",
+          "ru": "Карта",
+          "en": "Map"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mavsumiy mukofotlar va skinlar",
+          "ru": "Сезонные награды и скины",
+          "en": "Seasonal rewards and skins"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Qurol",
+          "ru": "Оружие",
+          "en": "Weapon"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Halo seriyasida bosh qahramon kim?",
+      "ru": "Кто главный герой в серии Halo?",
+      "en": "Who is the main character in the Halo series?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Cortana",
+          "ru": "Кортана",
+          "en": "Cortana"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arbiter",
+          "ru": "Арбитр",
+          "en": "Arbiter"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Noble Six",
+          "ru": "Нобл Сикс",
+          "en": "Noble Six"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Master Chief",
+          "ru": "Мастер Чиф",
+          "en": "Master Chief"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "God of War (2018) da Kratos qayerga boradi?",
+      "ru": "Куда отправляется Кратос в God of War (2018)?",
+      "en": "Where does Kratos go in God of War (2018)?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Yunon mifologiyasiga",
+          "ru": "В греческую мифологию",
+          "en": "Greek mythology"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Skandinaviya mifologiyasiga",
+          "ru": "В скандинавскую мифологию",
+          "en": "Norse mythology"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Rimga",
+          "ru": "В Рим",
+          "en": "Rome"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Misrga",
+          "ru": "В Египет",
+          "en": "Egypt"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Zelda: Breath of the Wild da bosh qahramon ismi nima?",
+      "ru": "Как зовут главного героя в Zelda: Breath of the Wild?",
+      "en": "What is the main character's name in Zelda: Breath of the Wild?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Zelda",
+          "ru": "Зельда",
+          "en": "Zelda"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ganon",
+          "ru": "Ганон",
+          "en": "Ganon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Link",
+          "ru": "Линк",
+          "en": "Link"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Daruk",
+          "ru": "Дарук",
+          "en": "Daruk"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Fall Guys qanday janr?",
+      "ru": "Какой жанр у Fall Guys?",
+      "en": "What genre is Fall Guys?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Shooter",
+          "ru": "Шутер",
+          "en": "Shooter"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "RPG",
+          "ru": "РПГ",
+          "en": "RPG"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Simulator",
+          "ru": "Симулятор",
+          "en": "Simulator"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Party / obstacle course",
+          "ru": "Партийная / полоса препятствий",
+          "en": "Party / obstacle course"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Rocket League da mashinalar nima qiladi?",
+      "ru": "Что делают машины в Rocket League?",
+      "en": "What do the cars do in Rocket League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Poyga",
+          "ru": "Гонки",
+          "en": "Racing"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Futbol (gol urish)",
+          "ru": "Играют в футбол (забивают голы)",
+          "en": "Play football (score goals)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Jang",
+          "ru": "Бой",
+          "en": "Combat"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sakrash",
+          "ru": "Прыжки",
+          "en": "Jumping"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Apex Legends qaysi kompaniyaning o'yini?",
+      "ru": "О какой компании игра Apex Legends?",
+      "en": "Which company's game is Apex Legends?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Activision",
+          "ru": "Activision",
+          "en": "Activision"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ubisoft",
+          "ru": "Ubisoft",
+          "en": "Ubisoft"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Electronic Arts (Respawn)",
+          "ru": "Electronic Arts (Respawn)",
+          "en": "Electronic Arts (Respawn)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Blizzard",
+          "ru": "Blizzard",
+          "en": "Blizzard"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "GTA 5 da Franklin kim?",
+      "ru": "Кто такой Франклин в GTA 5?",
+      "en": "Who is Franklin in GTA 5?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Politsiya",
+          "ru": "Полицейский",
+          "en": "Police"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gangster",
+          "ru": "Гангстер",
+          "en": "Gangster"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Biznesmen",
+          "ru": "Бизнесмен",
+          "en": "Businessman"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bosh qahramonlardan biri",
+          "ru": "Один из главных героев",
+          "en": "One of the main characters"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dota 2 qaysi platformada ishlab chiqilgan?",
+      "ru": "На какой платформе разработана Dota 2?",
+      "en": "On what platform is Dota 2 developed?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Origin",
+          "ru": "Origin",
+          "en": "Origin"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Steam (Valve)",
+          "ru": "Steam (Valve)",
+          "en": "Steam (Valve)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Epic Games",
+          "ru": "Epic Games",
+          "en": "Epic Games"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Battle.net",
+          "ru": "Battle.net",
+          "en": "Battle.net"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "World of Warcraft qanday o'yin?",
+      "ru": "Что за игра World of Warcraft?",
+      "en": "What kind of game is World of Warcraft?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Shooter",
+          "ru": "Шутер",
+          "en": "Shooter"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Strategy",
+          "ru": "Стратегия",
+          "en": "Strategy"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "MMORPG",
+          "ru": "ММОРПГ",
+          "en": "MMORPG"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Racing",
+          "ru": "Гонки",
+          "en": "Racing"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Cyberpunk 2077 da bosh qahramon laqabi nima?",
+      "ru": "Какой псевдоним у главного героя в Cyberpunk 2077?",
+      "en": "What is the main character's alias in Cyberpunk 2077?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Johnny",
+          "ru": "Джонни",
+          "en": "Johnny"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Silverhand",
+          "ru": "Сильверхенд",
+          "en": "Silverhand"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Samurai",
+          "ru": "Самурай",
+          "en": "Samurai"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "V",
+          "ru": "V",
+          "en": "V"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Assassin's Creed da asosiy guruh nomi nima?",
+      "ru": "Как называется главная организация в Assassin's Creed?",
+      "en": "What is the main organization called in Assassin's Creed?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Templars",
+          "ru": "Тамплиеры",
+          "en": "Templars"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Assassin Brotherhood",
+          "ru": "Братство ассасинов",
+          "en": "Assassin Brotherhood"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Hidden Ones",
+          "ru": "Скрытые",
+          "en": "Hidden Ones"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Order",
+          "ru": "Орден",
+          "en": "Order"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "PUBG da 'Chicken Dinner' nima anglatadi?",
+      "ru": "Что означает 'Chicken Dinner' в PUBG?",
+      "en": "What does 'Chicken Dinner' mean in PUBG?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ovqat",
+          "ru": "Еда",
+          "en": "Food"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mukofot",
+          "ru": "Награда",
+          "en": "Reward"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "G'alaba (yutuq)",
+          "ru": "Победа",
+          "en": "Victory (win)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Rejim nomi",
+          "ru": "Название режима",
+          "en": "Mode name"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "CS:GO da AWP nima?",
+      "ru": "Что такое AWP в CS:GO?",
+      "en": "What is the AWP in CS:GO?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pistolet",
+          "ru": "Пистолет",
+          "en": "Pistol"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Avtomat",
+          "ru": "Автомат",
+          "en": "Assault rifle"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pulemyot",
+          "ru": "Пулемёт",
+          "en": "Machine gun"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sniper miltiq",
+          "ru": "Снайперская винтовка",
+          "en": "Sniper rifle"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "GTA 5 da 'Heist' nima?",
+      "ru": "Что такое 'Heist' в GTA 5?",
+      "en": "What is a 'Heist' in GTA 5?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Poyga",
+          "ru": "Гонка",
+          "en": "Race"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "O'g'irlik missiyalari",
+          "ru": "Миссии ограбления",
+          "en": "Robbery missions"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Jang",
+          "ru": "Бой",
+          "en": "Fight"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Savdo",
+          "ru": "Торговля",
+          "en": "Trading"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Dota 2 da 'Creep' nima?",
+      "ru": "Что такое 'Крип' в Dota 2?",
+      "en": "What is a 'Creep' in Dota 2?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Qahramon",
+          "ru": "Герой",
+          "en": "Hero"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Boss",
+          "ru": "Босс",
+          "en": "Boss"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kichik oddiy dushman yoki askar",
+          "ru": "Мелкий обычный враг или солдат",
+          "en": "Small regular enemy or soldier"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Buyum",
+          "ru": "Предмет",
+          "en": "Item"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "FIFA da eng mashhur klublardan biri qaysi?",
+      "ru": "Один из самых популярных клубов в FIFA?",
+      "en": "One of the most popular clubs in FIFA?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "New York Yankees",
+          "ru": "Нью-Йорк Янкиз",
+          "en": "New York Yankees"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "LA Lakers",
+          "ru": "Лейкерс",
+          "en": "LA Lakers"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Chicago Bulls",
+          "ru": "Чикаго Буллз",
+          "en": "Chicago Bulls"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Real Madrid",
+          "ru": "Реал Мадрид",
+          "en": "Real Madrid"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Minecraft da Ender Dragon qayerda?",
+      "ru": "Где находится Эндер Дракон в Minecraft?",
+      "en": "Where is the Ender Dragon in Minecraft?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Nether da",
+          "ru": "В Незере",
+          "en": "In the Nether"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "The End olamida",
+          "ru": "В измерении The End",
+          "en": "In The End dimension"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Overworld da",
+          "ru": "В обычном мире",
+          "en": "In Overworld"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Dungeon da",
+          "ru": "В подземелье",
+          "en": "In dungeon"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "League of Legends qaysi kompaniya tomonidan yaratilgan?",
+      "ru": "Кем создана League of Legends?",
+      "en": "Who created League of Legends?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Valve",
+          "ru": "Valve",
+          "en": "Valve"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Blizzard",
+          "ru": "Blizzard",
+          "en": "Blizzard"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Riot Games",
+          "ru": "Riot Games",
+          "en": "Riot Games"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "EA",
+          "ru": "EA",
+          "en": "EA"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "GTA 5 qachon chiqqan?",
+      "ru": "Когда вышла GTA 5?",
+      "en": "When did GTA 5 release?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2012",
+          "ru": "2012",
+          "en": "2012"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2014",
+          "ru": "2014",
+          "en": "2014"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2015",
+          "ru": "2015",
+          "en": "2015"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2013",
+          "ru": "2013",
+          "en": "2013"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Tetris da bloklar qanday harakat qiladi?",
+      "ru": "Как двигаются блоки в Тетрисе?",
+      "en": "How do the blocks move in Tetris?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Yuqoriga ko'tariladi",
+          "ru": "Поднимаются вверх",
+          "en": "Rise upward"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pastga tushadi",
+          "ru": "Падают вниз",
+          "en": "Fall downward"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Chapga siljiydi",
+          "ru": "Двигаются влево",
+          "en": "Move left"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "O'ngga siljiydi",
+          "ru": "Двигаются вправо",
+          "en": "Move right"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Pac-Man da asosiy maqsad nima?",
+      "ru": "Какова главная цель в Pac-Man?",
+      "en": "What is the main goal in Pac-Man?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ruhlarni o'ldirish",
+          "ru": "Убить призраков",
+          "en": "Kill ghosts"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Labirintdan chiqish",
+          "ru": "Выйти из лабиринта",
+          "en": "Exit the maze"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Nuqtalarni yeb, ruhlaridan qochish",
+          "ru": "Съесть точки и избегать призраков",
+          "en": "Eat dots and avoid ghosts"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Yig'ilishlar to'plash",
+          "ru": "Собирать фрукты",
+          "en": "Collect fruits"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Street Fighter da eng mashhur personajlardan biri kim?",
+      "ru": "Один из самых известных персонажей Street Fighter?",
+      "en": "One of the most famous characters in Street Fighter?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Mario",
+          "ru": "Марио",
+          "en": "Mario"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sonic",
+          "ru": "Соник",
+          "en": "Sonic"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pikachu",
+          "ru": "Пикачу",
+          "en": "Pikachu"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ryu",
+          "ru": "Рю",
+          "en": "Ryu"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Sekiro: Shadows Die Twice qaysi mamlakatda bo'ladi?",
+      "ru": "В какой стране происходит Sekiro: Shadows Die Twice?",
+      "en": "In which country does Sekiro: Shadows Die Twice take place?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Xitoy",
+          "ru": "Китай",
+          "en": "China"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Yaponiya (Sengoku davri)",
+          "ru": "Япония (период Сэнгоку)",
+          "en": "Japan (Sengoku period)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Korea",
+          "ru": "Корея",
+          "en": "Korea"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Tailand",
+          "ru": "Таиланд",
+          "en": "Thailand"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bloodborne qanday uslubda o'yin?",
+      "ru": "В каком стиле игра Bloodborne?",
+      "en": "What style of game is Bloodborne?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sport",
+          "ru": "Спорт",
+          "en": "Sports"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Simulyator",
+          "ru": "Симулятор",
+          "en": "Simulator"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qo'rqinchli action RPG (FromSoftware)",
+          "ru": "Хоррор action RPG (FromSoftware)",
+          "en": "Horror action RPG (FromSoftware)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Puzzle",
+          "ru": "Головоломка",
+          "en": "Puzzle"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Resident Evil asosan qanday janr?",
+      "ru": "К какому жанру в основном относится Resident Evil?",
+      "en": "What genre is Resident Evil primarily?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Racing",
+          "ru": "Гонки",
+          "en": "Racing"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sport",
+          "ru": "Спорт",
+          "en": "Sports"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Musiqiy",
+          "ru": "Музыкальный",
+          "en": "Music"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Survival horror",
+          "ru": "Хоррор на выживание",
+          "en": "Survival horror"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Final Fantasy qaysi kompaniya tomonidan yaratilgan?",
+      "ru": "Кем создана серия Final Fantasy?",
+      "en": "Who created the Final Fantasy series?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Nintendo",
+          "ru": "Nintendo",
+          "en": "Nintendo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Square Enix",
+          "ru": "Square Enix",
+          "en": "Square Enix"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Sega",
+          "ru": "Sega",
+          "en": "Sega"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Capcom",
+          "ru": "Capcom",
+          "en": "Capcom"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
   }
 ]

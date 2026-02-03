@@ -1,0 +1,4303 @@
+[
+  {
+    "question": {
+      "uz": "Manchester United Chempionlar ligasida qaysi yilda g'olib bo'lgan?",
+      "ru": "В каком году «Манчестер Юнайтед» выиграл Лигу чемпионов?",
+      "en": "In which year did Manchester United win the Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1998 va 2009",
+          "ru": "1998 и 2009",
+          "en": "1998 and 2009"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1999 va 2008",
+          "ru": "1999 и 2008",
+          "en": "1999 and 2008"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2000 va 2007",
+          "ru": "2000 и 2007",
+          "en": "2000 and 2007"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2001 va 2010",
+          "ru": "2001 и 2010",
+          "en": "2001 and 2010"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Real Madrid Chempionlar ligasini necha marta qo'lga kiritgan?",
+      "ru": "Сколько раз «Реал Мадрид» выигрывал Лигу чемпионов?",
+      "en": "How many times has Real Madrid won the Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "13 marta",
+          "ru": "13 раз",
+          "en": "13 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "14 marta",
+          "ru": "14 раз",
+          "en": "14 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "15 marta (2024 yilgacha)",
+          "ru": "15 раз (на 2024)",
+          "en": "15 times (as of 2024)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "12 marta",
+          "ru": "12 раз",
+          "en": "12 times"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "2022 yilda Qatar jahon chempionatida qaysi terma jamoa g'olib bo'ldi?",
+      "ru": "Какая сборная выиграла чемпионат мира 2022 года в Катаре?",
+      "en": "Which national team won the 2022 World Cup in Qatar?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fransiya",
+          "ru": "Франция",
+          "en": "France"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Braziliya",
+          "ru": "Бразилия",
+          "en": "Brazil"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Germaniya",
+          "ru": "Германия",
+          "en": "Germany"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Argentina",
+          "ru": "Аргентина",
+          "en": "Argentina"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Euro 2020 (2021 da o'tkazilgan) qaysi davlat chempioni bo'ldi?",
+      "ru": "Кто стал чемпионом Евро 2020 (проведён в 2021)?",
+      "en": "Which country won Euro 2020 (held in 2021)?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Angliya",
+          "ru": "Англия",
+          "en": "England"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Italiya",
+          "ru": "Италия",
+          "en": "Italy"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Ispaniya",
+          "ru": "Испания",
+          "en": "Spain"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fransiya",
+          "ru": "Франция",
+          "en": "France"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "David Villa",
+          "ru": "Давид Вилья",
+          "en": "David Villa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sergio Agüero",
+          "ru": "Серхио Агуэро",
+          "en": "Sergio Agüero"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fernando Torres",
+          "ru": "Фернандо Торрес",
+          "en": "Fernando Torres"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Diego Costa",
+          "ru": "Диего Коста",
+          "en": "Diego Costa"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/gZxNDF0F/spain-atletico-madrid-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/jPZ24nL5/england-liverpool-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/n8Pfgb1B/england-chelsea-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Barcelona necha marta Chempionlar ligasida g'olib bo'lgan?",
+      "ru": "Сколько раз «Барселона» выигрывала Лигу чемпионов?",
+      "en": "How many times has Barcelona won the Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "4 marta",
+          "ru": "4 раза",
+          "en": "4 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "6 marta",
+          "ru": "6 раз",
+          "en": "6 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "3 marta",
+          "ru": "3 раза",
+          "en": "3 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "5 marta",
+          "ru": "5 раз",
+          "en": "5 times"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Liverpool Chempionlar ligasida oxirgi marta qaysi yil g'olib bo'lgan?",
+      "ru": "В каком году «Ливерпуль» в последний раз выигрывал Лигу чемпионов?",
+      "en": "In which year did Liverpool last win the Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2018",
+          "ru": "2018",
+          "en": "2018"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2019",
+          "ru": "2019",
+          "en": "2019"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2020",
+          "ru": "2020",
+          "en": "2020"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2022",
+          "ru": "2022",
+          "en": "2022"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bayern Munich Chempionlar ligasini necha marta qo'lga kiritgan?",
+      "ru": "Сколько раз «Бавария» выигрывала Лигу чемпионов?",
+      "en": "How many times has Bayern Munich won the Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "5 marta",
+          "ru": "5 раз",
+          "en": "5 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "7 marta",
+          "ru": "7 раз",
+          "en": "7 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "6 marta",
+          "ru": "6 раз",
+          "en": "6 times"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "4 marta",
+          "ru": "4 раза",
+          "en": "4 times"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "\"Men hech qachon Zlatan bilan almashmayman\" — bu gapni kim aytgan?",
+      "ru": "«Я никогда не обменяюсь на Златана» — кто это сказал?",
+      "en": "Who said \"I would never swap Zlatan\"?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pep Guardiola (Zlatan haqida)",
+          "ru": "Пеп Гвардиола (о Златане)",
+          "en": "Pep Guardiola (about Zlatan)"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Alex Ferguson",
+          "ru": "Алекс Фергюсон",
+          "en": "Alex Ferguson"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Carlo Ancelotti",
+          "ru": "Карло Анчелотти",
+          "en": "Carlo Ancelotti"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jose Mourinho",
+          "ru": "Жозе Моуринью",
+          "en": "Jose Mourinho"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Samuel Eto'o",
+          "ru": "Самуэль Это'о",
+          "en": "Samuel Eto'o"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Didier Drogba",
+          "ru": "Дидье Дрогба",
+          "en": "Didier Drogba"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Nicholas Anelka",
+          "ru": "Николя Анелька",
+          "en": "Nicolas Anelka"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Salomon Kalou",
+          "ru": "Саломон Калу",
+          "en": "Salomon Kalou"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/xKFLR59c/france-marseille-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/n8Pfgb1B/england-chelsea-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Angliya Premer-ligasi qaysi yilda tashkil etilgan?",
+      "ru": "В каком году была основана Премьер-лига Англии?",
+      "en": "In which year was the English Premier League founded?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1990",
+          "ru": "1990",
+          "en": "1990"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1995",
+          "ru": "1995",
+          "en": "1995"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1992",
+          "ru": "1992",
+          "en": "1992"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "1988",
+          "ru": "1988",
+          "en": "1988"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Chelsea Chempionlar ligasida qaysi yilda birinchi marta g'olib bo'lgan?",
+      "ru": "В каком году «Челси» впервые выиграл Лигу чемпионов?",
+      "en": "In which year did Chelsea first win the Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2010",
+          "ru": "2010",
+          "en": "2010"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2021",
+          "ru": "2021",
+          "en": "2021"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2009",
+          "ru": "2009",
+          "en": "2009"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2012",
+          "ru": "2012",
+          "en": "2012"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "2014 yilda Braziliyada jahon chempioni qaysi jamoa bo'lgan?",
+      "ru": "Кто стал чемпионом мира 2014 года в Бразилии?",
+      "en": "Which team won the 2014 World Cup in Brazil?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Argentina",
+          "ru": "Аргентина",
+          "en": "Argentina"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Germaniya",
+          "ru": "Германия",
+          "en": "Germany"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Braziliya",
+          "ru": "Бразилия",
+          "en": "Brazil"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Niderlandiya",
+          "ru": "Нидерланды",
+          "en": "Netherlands"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Inter Milan Chempionlar ligasini oxirgi marta qaysi yil qo'lga kiritgan?",
+      "ru": "В каком году «Интер» в последний раз выигрывал Лигу чемпионов?",
+      "en": "In which year did Inter Milan last win the Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2009",
+          "ru": "2009",
+          "en": "2009"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2011",
+          "ru": "2011",
+          "en": "2011"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2010",
+          "ru": "2010",
+          "en": "2010"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2023",
+          "ru": "2023",
+          "en": "2023"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Marcelo",
+          "ru": "Марсело",
+          "en": "Marcelo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jordi Alba",
+          "ru": "Жорди Альба",
+          "en": "Jordi Alba"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Maicon",
+          "ru": "Майкон",
+          "en": "Maicon"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Dani Alves",
+          "ru": "Дани Алвес",
+          "en": "Dani Alves"
+        },
+        "isCorrect": true
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/hxXrPds1/spain-sevilla-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/0RPmHbpm/spain-barcelona-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/YBT7LqjQ/italy-juventus-3000x3000-football-logos-cc.png",
+       "https://i.ibb.co/3yjsn78t/france-paris-saint-germain-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Manchester Unitedda 7-raqamda ko'p yillar o'ynagan mashhur ingliz yarim himoyachi kim?",
+      "ru": "Кто известный английский полузащитник, долго игравший под 7 номером в «Манчестер Юнайтед»?",
+      "en": "Which famous English midfielder wore number 7 for Manchester United for many years?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Cristiano Ronaldo",
+          "ru": "Криштиану Роналду",
+          "en": "Cristiano Ronaldo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "David Beckham",
+          "ru": "Дэвид Бекхэм",
+          "en": "David Beckham"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Eric Cantona",
+          "ru": "Эрик Кантона",
+          "en": "Eric Cantona"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Wayne Rooney",
+          "ru": "Уэйн Руни",
+          "en": "Wayne Rooney"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Chelseada 26-raqamda uzoq yillar sardor bo'lgan markaziy himoyachi kim?",
+      "ru": "Кто центральный защитник и долголетний капитан «Челси» с номером 26?",
+      "en": "Which centre-back was long-time captain at Chelsea wearing number 26?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Gary Cahill",
+          "ru": "Гэри Кэхилл",
+          "en": "Gary Cahill"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ricardo Carvalho",
+          "ru": "Рикарду Карвалью",
+          "en": "Ricardo Carvalho"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "John Terry",
+          "ru": "Джон Терри",
+          "en": "John Terry"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "David Luiz",
+          "ru": "Давид Луис",
+          "en": "David Luiz"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "\"Futbol — oddiy o'yin: 22 kishi to'pni quvadi, oxirida nemislar g'alaba qozonadi\" — kim aytgan?",
+      "ru": "«Футбол — простая игра: 22 человека гоняют мяч, в конце побеждают немцы» — кто сказал?",
+      "en": "Who said \"Football is a simple game: 22 men chase a ball and in the end the Germans win\"?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Alan Shearer",
+          "ru": "Алан Ширер",
+          "en": "Alan Shearer"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jurgen Klinsmann",
+          "ru": "Юрген Клинсман",
+          "en": "Jürgen Klinsmann"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gary Neville",
+          "ru": "Гэри Невилл",
+          "en": "Gary Neville"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gary Lineker",
+          "ru": "Гэри Линекер",
+          "en": "Gary Lineker"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Euro 2016 qaysi davlat chempioni bo'lgan?",
+      "ru": "Кто стал чемпионом Евро 2016?",
+      "en": "Which country won Euro 2016?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fransiya",
+          "ru": "Франция",
+          "en": "France"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Portugaliya",
+          "ru": "Португалия",
+          "en": "Portugal"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Germaniya",
+          "ru": "Германия",
+          "en": "Germany"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ispaniya",
+          "ru": "Испания",
+          "en": "Spain"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Wayne Rooney",
+          "ru": "Уэйн Руни",
+          "en": "Wayne Rooney"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Paul Scholes",
+          "ru": "Пол Скоулз",
+          "en": "Paul Scholes"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "David Beckham",
+          "ru": "Дэвид Бекхэм",
+          "en": "David Beckham"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Michael Owen",
+          "ru": "Майкл Оуэн",
+          "en": "Michael Owen"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/nMvDrJNS/england-manchester-united-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/LzBXFt5B/spain-real-madrid-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/xKJgzD8R/usa-la-galaxy-3000x3000-football-logos-cc.png",
+          "https://i.ibb.co/C5YtfzXx/france-paris-saint-germain-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "AC Milan Chempionlar ligasini necha marta qo'lga kiritgan?",
+      "ru": "Сколько раз «Милан» выигрывал Лигу чемпионов?",
+      "en": "How many times has AC Milan won the Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "6 marta",
+          "ru": "6 раз",
+          "en": "6 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "5 marta",
+          "ru": "5 раз",
+          "en": "5 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "8 marta",
+          "ru": "8 раз",
+          "en": "8 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "7 marta",
+          "ru": "7 раз",
+          "en": "7 times"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "2018 yilda Rossiyada jahon chempioni qaysi jamoa bo'lgan?",
+      "ru": "Кто стал чемпионом мира 2018 года в России?",
+      "en": "Which team won the 2018 World Cup in Russia?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Xorvatiya",
+          "ru": "Хорватия",
+          "en": "Croatia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fransiya",
+          "ru": "Франция",
+          "en": "France"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Belgiya",
+          "ru": "Бельгия",
+          "en": "Belgium"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Angliya",
+          "ru": "Англия",
+          "en": "England"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Juventus Chempionlar ligasida oxirgi marta qaysi yil g'olib bo'lgan?",
+      "ru": "В каком году «Ювентус» в последний раз выигрывал Лигу чемпионов?",
+      "en": "In which year did Juventus last win the Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1997",
+          "ru": "1997",
+          "en": "1997"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2003",
+          "ru": "2003",
+          "en": "2003"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1996",
+          "ru": "1996",
+          "en": "1996"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2015",
+          "ru": "2015",
+          "en": "2015"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "\"Men Zlatan bilan almashmayman\" — bu iborani kim aytgan?",
+      "ru": "Кто сказал фразу «Я не обменяюсь на Златана»?",
+      "en": "Who said \"I would not swap him for Zlatan\"?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pep Guardiola",
+          "ru": "Пеп Гвардиола",
+          "en": "Pep Guardiola"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Alex Ferguson",
+          "ru": "Алекс Фергюсон",
+          "en": "Alex Ferguson"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Carlo Ancelotti",
+          "ru": "Карло Анчелотти",
+          "en": "Carlo Ancelotti"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jose Mourinho (Lukaku yoki boshqasi haqida)",
+          "ru": "Жозе Моуринью (о Лукаку и др.)",
+          "en": "Jose Mourinho (about Lukaku etc)"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Philippe Coutinho",
+          "ru": "Филипе Коутиньо",
+          "en": "Philippe Coutinho"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Neymar",
+          "ru": "Неймар",
+          "en": "Neymar"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Antoine Griezmann",
+          "ru": "Антуан Гризманн",
+          "en": "Antoine Griezmann"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ousmane Dembélé",
+          "ru": "Усман Дембеле",
+          "en": "Ousmane Dembélé"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/nq1jdd2M/brazil-santos-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/0RPmHbpm/spain-barcelona-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/C5YtfzXx/france-paris-saint-germain-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Borussiya Dortmundda 11-raqamda ko'p yillar o'ynagan va keyin Bayern ga o'tgan polshalik hujumchi kim?",
+      "ru": "Кто польский нападающий, долго игравший в «Боруссии» Дортмунд под 11 номером и перешедший в «Баварию»?",
+      "en": "Which Polish striker wore number 11 at Borussia Dortmund for years before moving to Bayern?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pierre-Emerick Aubameyang",
+          "ru": "Пьер-Эмерик Обамеянг",
+          "en": "Pierre-Emerick Aubameyang"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Marco Reus",
+          "ru": "Марко Ройс",
+          "en": "Marco Reus"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Robert Lewandowski",
+          "ru": "Роберт Левандовский",
+          "en": "Robert Lewandowski"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Mario Götze",
+          "ru": "Марио Гётце",
+          "en": "Mario Götze"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Atletiko Madrid Chempionlar ligasida hech qachon g'olib bo'lmagan. To'g'ri yoki noto'g'ri?",
+      "ru": "«Атлетико» Мадрид никогда не выигрывал Лигу чемпионов. Верно или нет?",
+      "en": "Atlético Madrid has never won the Champions League. True or false?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Noto'g'ri (1 marta g'olib)",
+          "ru": "Неверно (выигрывал 1 раз)",
+          "en": "False (won once)"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Noto'g'ri (2 marta g'olib)",
+          "ru": "Неверно (выигрывал 2 раза)",
+          "en": "False (won twice)"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Noto'g'ri (3 marta g'olib)",
+          "ru": "Неверно (выигрывал 3 раза)",
+          "en": "False (won 3 times)"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "To'g'ri",
+          "ru": "Верно",
+          "en": "True"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Euro 2012 qaysi davlat chempioni bo'lgan?",
+      "ru": "Кто стал чемпионом Евро 2012?",
+      "en": "Which country won Euro 2012?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Italiya",
+          "ru": "Италия",
+          "en": "Italy"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ispaniya",
+          "ru": "Испания",
+          "en": "Spain"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Germaniya",
+          "ru": "Германия",
+          "en": "Germany"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Portugaliya",
+          "ru": "Португалия",
+          "en": "Portugal"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Luka Modrić",
+          "ru": "Лука Модрич",
+          "en": "Luka Modrić"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mateo Kovačić",
+          "ru": "Матео Ковачич",
+          "en": "Mateo Kovačić"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ivan Rakitić",
+          "ru": "Иван Ракитич",
+          "en": "Ivan Rakitić"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Marcelo Brozović",
+          "ru": "Марсело Брозович",
+          "en": "Marcelo Brozović"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/6cvG3tYJ/spain-sevilla-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/0RPmHbpm/spain-barcelona-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/RLdpWdS/italy-inter-3000x3000-football-logos-cc.png"
+
+      
+      
+    ]
+  },
+  {
+    "question": {
+      "uz": "Chelseada 8-raqamda ko'p yillar o'ynagan va gol urish bo'yicha rekordchi ingliz yarim himoyachi kim?",
+      "ru": "Кто английский полузащитник, долго носивший 8 номер в «Челси» и рекордсмен по голам?",
+      "en": "Which English midfielder wore number 8 at Chelsea for years and is the club's record goalscorer?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Steven Gerrard",
+          "ru": "Стивен Джеррард",
+          "en": "Steven Gerrard"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Paul Scholes",
+          "ru": "Пол Скоулз",
+          "en": "Paul Scholes"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Michael Ballack",
+          "ru": "Михаэль Баллак",
+          "en": "Michael Ballack"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Frank Lampard",
+          "ru": "Фрэнк Лэмпард",
+          "en": "Frank Lampard"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Ajax Chempionlar ligasini necha marta qo'lga kiritgan?",
+      "ru": "Сколько раз «Аякс» выигрывал Лигу чемпионов?",
+      "en": "How many times has Ajax won the Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "3 marta",
+          "ru": "3 раза",
+          "en": "3 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "4 marta",
+          "ru": "4 раза",
+          "en": "4 times"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "5 marta",
+          "ru": "5 раз",
+          "en": "5 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2 marta",
+          "ru": "2 раза",
+          "en": "2 times"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "2006 yilda Germaniyada jahon chempioni qaysi jamoa bo'lgan?",
+      "ru": "Кто стал чемпионом мира 2006 года в Германии?",
+      "en": "Which team won the 2006 World Cup in Germany?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fransiya",
+          "ru": "Франция",
+          "en": "France"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Germaniya",
+          "ru": "Германия",
+          "en": "Germany"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Italiya",
+          "ru": "Италия",
+          "en": "Italy"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Portugaliya",
+          "ru": "Португалия",
+          "en": "Portugal"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "\"O'zimni leytenant his qilaman, kapitanga yordam beraman\" — Liverpoolda kim bunday gapirgan?",
+      "ru": "«Я чувствую себя лейтенантом, помогаю капитану» — кто из «Ливерпуля» так сказал?",
+      "en": "Who at Liverpool said something like \"I feel like a lieutenant, helping the captain\"?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Steven Gerrard",
+          "ru": "Стивен Джеррард",
+          "en": "Steven Gerrard"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Virgil van Dijk",
+          "ru": "Вирджил ван Дейк",
+          "en": "Virgil van Dijk"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Roberto Firmino",
+          "ru": "Роберто Фирмино",
+          "en": "Roberto Firmino"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "James Milner (Jordan Henderson haqida)",
+          "ru": "Джеймс Милнер (о Джордане Хендерсоне)",
+          "en": "James Milner (about Jordan Henderson)"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Franck Ribéry",
+          "ru": "Франк Рибери",
+          "en": "Franck Ribéry"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Arjen Robben",
+          "ru": "Арjen Роббен",
+          "en": "Arjen Robben"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Thomas Müller",
+          "ru": "Томас Мюллер",
+          "en": "Thomas Müller"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Robert Lewandowski",
+          "ru": "Роберт Левандовский",
+          "en": "Robert Lewandowski"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/n8Pfgb1B/england-chelsea-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/hRrJ6Wfr/spain-real-madrid-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/zgGtVj1/germany-bayern-munchen-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Manchester City Premer-ligada birinchi marta qaysi yil chempion bo'lgan?",
+      "ru": "В каком году «Манчестер Сити» впервые стал чемпионом Премьер-лиги?",
+      "en": "In which year did Manchester City first win the Premier League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2011",
+          "ru": "2011",
+          "en": "2011"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2014",
+          "ru": "2014",
+          "en": "2014"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2012",
+          "ru": "2012",
+          "en": "2012"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2016",
+          "ru": "2016",
+          "en": "2016"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Porto Chempionlar ligasida qaysi yilda g'olib bo'lgan (Jose Mourinho boshchiligida)?",
+      "ru": "В каком году «Порту» выиграл Лигу чемпионов под руководством Жозе Моуринью?",
+      "en": "In which year did Porto win the Champions League under Jose Mourinho?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2003",
+          "ru": "2003",
+          "en": "2003"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2005",
+          "ru": "2005",
+          "en": "2005"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2006",
+          "ru": "2006",
+          "en": "2006"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2004",
+          "ru": "2004",
+          "en": "2004"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Euro 2004 qaysi davlat chempioni bo'lgan?",
+      "ru": "Кто стал чемпионом Евро 2004?",
+      "en": "Which country won Euro 2004?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Portugaliya",
+          "ru": "Португалия",
+          "en": "Portugal"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gretsiya",
+          "ru": "Греция",
+          "en": "Greece"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Chexiya",
+          "ru": "Чехия",
+          "en": "Czech Republic"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Niderlandiya",
+          "ru": "Нидерланды",
+          "en": "Netherlands"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Arjen Robben",
+          "ru": "Арjen Роббен",
+          "en": "Arjen Robben"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Thomas Müller",
+          "ru": "Томас Мюллер",
+          "en": "Thomas Müller"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Franck Ribéry",
+          "ru": "Франк Рибери",
+          "en": "Franck Ribéry"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Kingsley Coman",
+          "ru": "Кингсли Коман",
+          "en": "Kingsley Coman"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/xKFLR59c/france-marseille-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/MHMJkWb/germany-bayern-munchen-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Liverpoolda 11-raqamda o'ynagan va Misr terma jamoasida yulduz bo'lgan hujumchi kim?",
+      "ru": "Кто нападающий, игравший под 11 номером в «Ливерпуле» и звезда сборной Египта?",
+      "en": "Which forward wore number 11 at Liverpool and is a star for Egypt?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Sadio Mané",
+          "ru": "Садио Мане",
+          "en": "Sadio Mané"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Roberto Firmino",
+          "ru": "Роберто Фирмино",
+          "en": "Roberto Firmino"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Luis Suárez",
+          "ru": "Луис Суарес",
+          "en": "Luis Suárez"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mohamed Salah",
+          "ru": "Мохамед Салах",
+          "en": "Mohamed Salah"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Nottingem Forest Chempionlar ligasini necha marta qo'lga kiritgan?",
+      "ru": "Сколько раз «Ноттингем Форест» выигрывал Кубок европейских чемпионов/Лигу чемпионов?",
+      "en": "How many times has Nottingham Forest won the European Cup/Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1 marta",
+          "ru": "1 раз",
+          "en": "1 time"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2 marta (1979, 1980)",
+          "ru": "2 раза (1979, 1980)",
+          "en": "2 times (1979, 1980)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "3 marta",
+          "ru": "3 раза",
+          "en": "3 times"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hech qachon",
+          "ru": "Никогда",
+          "en": "Never"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "2010 yilda Janubiy Afrikada jahon chempioni qaysi jamoa bo'lgan?",
+      "ru": "Кто стал чемпионом мира 2010 года в ЮАР?",
+      "en": "Which team won the 2010 World Cup in South Africa?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Niderlandiya",
+          "ru": "Нидерланды",
+          "en": "Netherlands"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Germaniya",
+          "ru": "Германия",
+          "en": "Germany"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ispaniya",
+          "ru": "Испания",
+          "en": "Spain"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Urugvay",
+          "ru": "Уругвай",
+          "en": "Uruguay"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "\"Men bu yerda boshqaruvchi emas, men — maxsus bitta\" — kim aytgan?",
+      "ru": "«Я здесь не обычный, я — особенный» (прибл.) — кто сказал?",
+      "en": "Who said something like \"I am not a normal one here, I am the special one\"?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pep Guardiola",
+          "ru": "Пеп Гвардиола",
+          "en": "Pep Guardiola"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Alex Ferguson",
+          "ru": "Алекс Фергюсон",
+          "en": "Alex Ferguson"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Carlo Ancelotti",
+          "ru": "Карло Анчелотти",
+          "en": "Carlo Ancelotti"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Jose Mourinho",
+          "ru": "Жозе Моуринью",
+          "en": "Jose Mourinho"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kevin De Bruyne",
+          "ru": "Кевин Де Брейне",
+          "en": "Kevin De Bruyne"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mohamed Salah",
+          "ru": "Мохамед Салах",
+          "en": "Mohamed Salah"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Eden Hazard",
+          "ru": "Эден Азар",
+          "en": "Eden Hazard"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Romelu Lukaku",
+          "ru": "Ромелу Лукаку",
+          "en": "Romelu Lukaku"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/rRnNLCV1/switzerland-basel-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/n8Pfgb1B/england-chelsea-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/N2MxBjSW/italy-roma-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/jPZ24nL5/england-liverpool-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Real Madrid 2016 yilda Chempionlar ligasida finalda kimni mag'lub etgan?",
+      "ru": "Кого «Реал Мадрид» победил в финале Лиги чемпионов 2016 года?",
+      "en": "Who did Real Madrid beat in the 2016 Champions League final?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Juventus",
+          "ru": "Ювентус",
+          "en": "Juventus"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Liverpool",
+          "ru": "Ливерпуль",
+          "en": "Liverpool"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Atletiko Madrid",
+          "ru": "Атлетико Мадрид",
+          "en": "Atlético Madrid"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Bayern Munich",
+          "ru": "Бавария",
+          "en": "Bayern Munich"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Barcelona 2015 yilda Chempionlar ligasi finalida kimni mag'lub etgan?",
+      "ru": "Кого «Барселона» победила в финале Лиги чемпионов 2015 года?",
+      "en": "Who did Barcelona beat in the 2015 Champions League final?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Bayern Munich",
+          "ru": "Бавария",
+          "en": "Bayern Munich"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Real Madrid",
+          "ru": "Реал Мадрид",
+          "en": "Real Madrid"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Atletiko Madrid",
+          "ru": "Атлетико Мадрид",
+          "en": "Atlético Madrid"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Juventus",
+          "ru": "Ювентус",
+          "en": "Juventus"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Benfica Chempionlar ligasini oxirgi marta qaysi yil qo'lga kiritgan?",
+      "ru": "В каком году «Бенфика» в последний раз выигрывала Кубок европейских чемпионов?",
+      "en": "In which year did Benfica last win the European Cup?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1961",
+          "ru": "1961",
+          "en": "1961"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1962 (ketma-ket 2 marta)",
+          "ru": "1962 (подряд 2 раза)",
+          "en": "1962 (back-to-back)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "1963",
+          "ru": "1963",
+          "en": "1963"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1990",
+          "ru": "1990",
+          "en": "1990"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Fernando Torres",
+          "ru": "Фернандо Торрес",
+          "en": "Fernando Torres"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Diego Costa",
+          "ru": "Диего Коста",
+          "en": "Diego Costa"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sergio Agüero",
+          "ru": "Серхио Агуэро",
+          "en": "Sergio Agüero"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Alvaro Morata",
+          "ru": "Альваро Мората",
+          "en": "Álvaro Morata"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/GvP64wwB/argentina-independiente-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/gZxNDF0F/spain-atletico-madrid-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/TMvdr28v/england-manchester-city-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "2002 yilda Yaponiya va Janubiy Koreyada jahon chempioni qaysi jamoa bo'lgan?",
+      "ru": "Кто стал чемпионом мира 2002 года в Японии и Южной Корее?",
+      "en": "Which team won the 2002 World Cup in Japan and South Korea?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Germaniya",
+          "ru": "Германия",
+          "en": "Germany"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Turkiya",
+          "ru": "Турция",
+          "en": "Turkey"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Janubiy Koreya",
+          "ru": "Южная Корея",
+          "en": "South Korea"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Braziliya",
+          "ru": "Бразилия",
+          "en": "Brazil"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Tottenham Hotspur hech qachon Chempionlar ligasida g'olib bo'lmagan. To'g'ri yoki noto'g'ri?",
+      "ru": "«Тоттенхэм» никогда не выигрывал Лигу чемпионов. Верно или нет?",
+      "en": "Tottenham Hotspur has never won the Champions League. True or false?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Noto'g'ri",
+          "ru": "Неверно",
+          "en": "False"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "To'g'ri",
+          "ru": "Верно",
+          "en": "True"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "1 marta g'olib",
+          "ru": "Выигрывал 1 раз",
+          "en": "Won once"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2 marta g'olib",
+          "ru": "Выигрывал 2 раза",
+          "en": "Won twice"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Arsenal Premer-ligada oxirgi marta qaysi yil chempion bo'lgan?",
+      "ru": "В каком году «Арсенал» в последний раз становился чемпионом Премьер-лиги?",
+      "en": "In which year did Arsenal last win the Premier League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2002",
+          "ru": "2002",
+          "en": "2002"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2006",
+          "ru": "2006",
+          "en": "2006"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2004 (Invincibles)",
+          "ru": "2004 (Непобедимые)",
+          "en": "2004 (Invincibles)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "1998",
+          "ru": "1998",
+          "en": "1998"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Henrik Larsson",
+          "ru": "Хенрик Ларссон",
+          "en": "Henrik Larsson"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Edinson Cavani",
+          "ru": "Эдинсон Кавани",
+          "en": "Edinson Cavani"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Marco Verratti",
+          "ru": "Марко Верратти",
+          "en": "Marco Verratti"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Zlatan Ibrahimović",
+          "ru": "Златан Ибрагимович",
+          "en": "Zlatan Ibrahimović"
+        },
+        "isCorrect": true
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/1yDcw7N/netherlands-ajax-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/YBT7LqjQ/italy-juventus-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/RLdpWdS/italy-inter-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/0RPmHbpm/spain-barcelona-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/5gcJJvsL/italy-milan-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/C5YtfzXx/france-paris-saint-germain-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/nMvDrJNS/england-manchester-united-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Wayne Rooney Manchester Unitedda qaysi raqamda o'ynagan?",
+      "ru": "Под каким номером играл Уэйн Руни в «Манчестер Юнайтед»?",
+      "en": "What number did Wayne Rooney wear at Manchester United?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "9",
+          "ru": "9",
+          "en": "9"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "10",
+          "ru": "10",
+          "en": "10"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "8",
+          "ru": "8",
+          "en": "8"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "7",
+          "ru": "7",
+          "en": "7"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Luis Suárez Liverpoolda qaysi raqamda o'ynagan?",
+      "ru": "Под каким номером играл Луис Суарес в «Ливерпуле»?",
+      "en": "What number did Luis Suárez wear at Liverpool?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "9",
+          "ru": "9",
+          "en": "9"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "10",
+          "ru": "10",
+          "en": "10"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "7",
+          "ru": "7",
+          "en": "7"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "11",
+          "ru": "11",
+          "en": "11"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Euro 2008 qaysi davlat chempioni bo'lgan?",
+      "ru": "Кто стал чемпионом Евро 2008?",
+      "en": "Which country won Euro 2008?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Germaniya",
+          "ru": "Германия",
+          "en": "Germany"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rossiya",
+          "ru": "Россия",
+          "en": "Russia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Turkiya",
+          "ru": "Турция",
+          "en": "Turkey"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ispaniya",
+          "ru": "Испания",
+          "en": "Spain"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Paul Pogba",
+          "ru": "Пол Погба",
+          "en": "Paul Pogba"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Wayne Rooney",
+          "ru": "Уэйн Руни",
+          "en": "Wayne Rooney"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Robin van Persie",
+          "ru": "Робин ван Перси",
+          "en": "Robin van Persie"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Marcus Rashford",
+          "ru": "Маркус Рэшфорд",
+          "en": "Marcus Rashford"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/848yMkcg/england-everton-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/nMvDrJNS/england-manchester-united-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/VcSWfZx8/dc-united-logo-transparent.png"
+
+    ]
+  },
+  {
+    "question": {
+      "uz": "Borussiya Dortmundda 17-raqamda ko'p yillar o'ynagan va keyin Barcelonaga o'tgan fransuz kim?",
+      "ru": "Кто француз, долго игравший в «Боруссии» Дортмунд под 17 номером и перешедший в «Барселону»?",
+      "en": "Which Frenchman wore number 17 at Borussia Dortmund for years before moving to Barcelona?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Antoine Griezmann",
+          "ru": "Антуан Гризманн",
+          "en": "Antoine Griezmann"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kylian Mbappé",
+          "ru": "Килиан Мбаппе",
+          "en": "Kylian Mbappé"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ousmane Dembélé",
+          "ru": "Усман Дембеле",
+          "en": "Ousmane Dembélé"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Anthony Martial",
+          "ru": "Энтони Марсьяль",
+          "en": "Anthony Martial"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Chelsea 2021 yilda Chempionlar ligasida finalda kimni mag'lub etgan?",
+      "ru": "Кого «Челси» победил в финале Лиги чемпионов 2021 года?",
+      "en": "Who did Chelsea beat in the 2021 Champions League final?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Real Madrid",
+          "ru": "Реал Мадрид",
+          "en": "Real Madrid"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bayern Munich",
+          "ru": "Бавария",
+          "en": "Bayern Munich"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Paris Saint-Germain",
+          "ru": "ПСЖ",
+          "en": "Paris Saint-Germain"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Manchester City",
+          "ru": "Манчестер Сити",
+          "en": "Manchester City"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "\"Futbol — hayot, qolgani — tafsilot\" — kim aytgan?",
+      "ru": "«Футбол — это жизнь, остальное — детали» — кто сказал?",
+      "en": "Who said \"Football is life, the rest is details\"?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Alex Ferguson",
+          "ru": "Алекс Фергюсон",
+          "en": "Alex Ferguson"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bill Shankly (Liverpool murabbiyi)",
+          "ru": "Билл Шенкли (тренер Ливерпуля)",
+          "en": "Bill Shankly (Liverpool manager)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Jose Mourinho",
+          "ru": "Жозе Моуринью",
+          "en": "Jose Mourinho"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Pep Guardiola",
+          "ru": "Пеп Гвардиола",
+          "en": "Pep Guardiola"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Edinson Cavani",
+          "ru": "Эдинсон Кавани",
+          "en": "Edinson Cavani"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Diego Forlán",
+          "ru": "Диего Форлан",
+          "en": "Diego Forlán"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Luis Suárez",
+          "ru": "Луис Суарес",
+          "en": "Luis Suárez"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Cavani",
+          "ru": "Кавани",
+          "en": "Cavani"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/7N65RfT8/uruguay-nacional-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/DqKSnRG/netherlands-fc-groningen-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/TjVyFYG/netherlands-ajax-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/jPZ24nL5/england-liverpool-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/0RPmHbpm/spain-barcelona-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/gZxNDF0F/spain-atletico-madrid-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Steaua Bukuresti Chempionlar ligasini qaysi yil qo'lga kiritgan?",
+      "ru": "В каком году «Стяуа» Бухарест выигрывал Кубок европейских чемпионов?",
+      "en": "In which year did Steaua Bucharest win the European Cup?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1985",
+          "ru": "1985",
+          "en": "1985"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1987",
+          "ru": "1987",
+          "en": "1987"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1989",
+          "ru": "1989",
+          "en": "1989"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1986",
+          "ru": "1986",
+          "en": "1986"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Red Star Belgrade Chempionlar ligasini qaysi yil qo'lga kiritgan?",
+      "ru": "В каком году «Црвена Звезда» выигрывала Кубок европейских чемпионов?",
+      "en": "In which year did Red Star Belgrade win the European Cup?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1990",
+          "ru": "1990",
+          "en": "1990"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1991",
+          "ru": "1991",
+          "en": "1991"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "1992",
+          "ru": "1992",
+          "en": "1992"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1989",
+          "ru": "1989",
+          "en": "1989"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Kevin De Bruyne",
+          "ru": "Кевин Де Брейне",
+          "en": "Kevin De Bruyne"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mohamed Salah",
+          "ru": "Мохамед Салах",
+          "en": "Mohamed Salah"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Eden Hazard",
+          "ru": "Эден Азар",
+          "en": "Eden Hazard"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Willian",
+          "ru": "Уильян",
+          "en": "Willian"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/SX7CZzCL/france-lille-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/n8Pfgb1B/england-chelsea-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/hRrJ6Wfr/spain-real-madrid-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Manchester United 1999 yilda Chempionlar ligasi finalida qanday hisobda g'alaba qozongan?",
+      "ru": "С каким счётом «Манчестер Юнайтед» выиграл финал Лиги чемпионов 1999 года?",
+      "en": "What was the score when Manchester United won the 1999 Champions League final?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1:0",
+          "ru": "1:0",
+          "en": "1-0"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "3:1",
+          "ru": "3:1",
+          "en": "3-1"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Penaltilar seriyasida",
+          "ru": "По пенальти",
+          "en": "On penalties"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2:1 (Bayern ustidan)",
+          "ru": "2:1 (над Баварией)",
+          "en": "2-1 (vs Bayern)"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Kevin De Bruyne Manchester Cityda qaysi raqamda o'ynaydi?",
+      "ru": "Под каким номером играет Кевин Де Брейне в «Манчестер Сити»?",
+      "en": "What number does Kevin De Bruyne wear at Manchester City?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "10",
+          "ru": "10",
+          "en": "10"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "17",
+          "ru": "17",
+          "en": "17"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "8",
+          "ru": "8",
+          "en": "8"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "7",
+          "ru": "7",
+          "en": "7"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "N'Golo Kanté",
+          "ru": "Н'Голо Канте",
+          "en": "N'Golo Kanté"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Blaise Matuidi",
+          "ru": "Блез Матуиди",
+          "en": "Blaise Matuidi"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Paul Pogba",
+          "ru": "Пол Погба",
+          "en": "Paul Pogba"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Adrien Rabiot",
+          "ru": "Адриан Рабьо",
+          "en": "Adrien Rabiot"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/nMvDrJNS/england-manchester-united-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/YBT7LqjQ/italy-juventus-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Juventusda 10-raqamda ko'p yillar o'ynagan argentinalik kim?",
+      "ru": "Кто аргентинец, долго игравший под 10 номером в «Ювентусе»?",
+      "en": "Which Argentine wore number 10 at Juventus for many years?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Carlos Tevez",
+          "ru": "Карлос Тевес",
+          "en": "Carlos Tevez"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gonzalo Higuaín",
+          "ru": "Гонсало Игуаин",
+          "en": "Gonzalo Higuaín"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Angel Di María",
+          "ru": "Анхель Ди Мария",
+          "en": "Ángel Di María"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Paulo Dybala",
+          "ru": "Пауло Дибала",
+          "en": "Paulo Dybala"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "2000 yilda Belgiya va Niderlandiyada Euro qaysi davlat chempioni bo'lgan?",
+      "ru": "Кто стал чемпионом Евро 2000 в Бельгии и Нидерландах?",
+      "en": "Which country won Euro 2000 in Belgium and the Netherlands?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Italiya",
+          "ru": "Италия",
+          "en": "Italy"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fransiya",
+          "ru": "Франция",
+          "en": "France"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Niderlandiya",
+          "ru": "Нидерланды",
+          "en": "Netherlands"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Portugaliya",
+          "ru": "Португалия",
+          "en": "Portugal"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Ousmane Dembélé",
+          "ru": "Усман Дембеле",
+          "en": "Ousmane Dembélé"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Neymar",
+          "ru": "Неймар",
+          "en": "Neymar"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Antoine Griezmann",
+          "ru": "Антуан Гризманн",
+          "en": "Antoine Griezmann"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Philippe Coutinho",
+          "ru": "Филипе Коутиньо",
+          "en": "Philippe Coutinho"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/XfMH8s1Z/spain-real-sociedad-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/gZxNDF0F/spain-atletico-madrid-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/0RPmHbpm/spain-barcelona-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Liverpool 2005 yilda Chempionlar ligasi finalida qanday g'alaba qozongan?",
+      "ru": "Как «Ливерпуль» выиграл финал Лиги чемпионов 2005 года?",
+      "en": "How did Liverpool win the 2005 Champions League final?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Oddiy vaqtda 2:1",
+          "ru": "В основное время 2:1",
+          "en": "2-1 in normal time"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Qo'shimcha vaqtda",
+          "ru": "В доп. время",
+          "en": "In extra time"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1:0",
+          "ru": "1:0",
+          "en": "1-0"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Penaltilar seriyasida (3:3, Milan ustidan)",
+          "ru": "По пенальти (3:3 с Миланом)",
+          "en": "On penalties (3-3 vs Milan)"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Barcelona 2009 yilda oltita kubok qo'lga kiritgan. Bu nima deb ataladi?",
+      "ru": "В 2009 году «Барселона» выиграла шесть трофеев. Как это называется?",
+      "en": "In 2009 Barcelona won six trophies. What is this called?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Treble",
+          "ru": "Требл",
+          "en": "Treble"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Sextete (Oltilik)",
+          "ru": "Секстет (Шестерка)",
+          "en": "Sextete (The Six)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Double",
+          "ru": "Дубль",
+          "en": "Double"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Grand Slam",
+          "ru": "Гранд-слэм",
+          "en": "Grand Slam"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "John Terry Chelsea sardori bo'lgan yillarda qaysi raqamda o'ynagan?",
+      "ru": "Под каким номером играл Джон Терри, будучи капитаном «Челси»?",
+      "en": "What number did John Terry wear as Chelsea captain?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "6",
+          "ru": "6",
+          "en": "6"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "4",
+          "ru": "4",
+          "en": "4"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "26",
+          "ru": "26",
+          "en": "26"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "5",
+          "ru": "5",
+          "en": "5"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Pierre-Emerick Aubameyang",
+          "ru": "Пьер-Эмерик Обамеянг",
+          "en": "Pierre-Emerick Aubameyang"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Marco Reus",
+          "ru": "Марко Ройс",
+          "en": "Marco Reus"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Erling Haaland",
+          "ru": "Эрлинг Холанн",
+          "en": "Erling Haaland"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Robert Lewandowski",
+          "ru": "Роберт Левандовский",
+          "en": "Robert Lewandowski"
+        },
+        "isCorrect": true
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/5gqSWgGZ/poland-lech-poznan-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/yBBz6VZK/germany-borussia-dortmund-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/MHMJkWb/germany-bayern-munchen-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/0RPmHbpm/spain-barcelona-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "1998 yilda Fransiyada jahon chempioni qaysi jamoa bo'lgan?",
+      "ru": "Кто стал чемпионом мира 1998 года во Франции?",
+      "en": "Which team won the 1998 World Cup in France?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Braziliya",
+          "ru": "Бразилия",
+          "en": "Brazil"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Fransiya",
+          "ru": "Франция",
+          "en": "France"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Xorvatiya",
+          "ru": "Хорватия",
+          "en": "Croatia"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Niderlandiya",
+          "ru": "Нидерланды",
+          "en": "Netherlands"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Steven Gerrard Liverpoolda qaysi raqamda o'ynagan?",
+      "ru": "Под каким номером играл Стивен Джеррард в «Ливерпуле»?",
+      "en": "What number did Steven Gerrard wear at Liverpool?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "7",
+          "ru": "7",
+          "en": "7"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "10",
+          "ru": "10",
+          "en": "10"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "8",
+          "ru": "8",
+          "en": "8"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "6",
+          "ru": "6",
+          "en": "6"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Atletiko Madrid 2014 va 2016 yillarda Chempionlar ligasi finalida kimga yutqazgan?",
+      "ru": "Кому «Атлетико» Мадрид проиграл в финалах Лиги чемпионов 2014 и 2016?",
+      "en": "Who did Atlético Madrid lose to in the 2014 and 2016 Champions League finals?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Barcelona",
+          "ru": "Барселона",
+          "en": "Barcelona"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bayern Munich",
+          "ru": "Бавария",
+          "en": "Bayern Munich"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Juventus",
+          "ru": "Ювентус",
+          "en": "Juventus"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Real Madrid (ikkala yil)",
+          "ru": "Реал Мадрид (оба года)",
+          "en": "Real Madrid (both years)"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "\"Men Zlatan — men keldim\" — kim aytgan?",
+      "ru": "«Я Златан — я пришёл» — кто сказал?",
+      "en": "Who said \"I am Zlatan — I came\"?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Cristiano Ronaldo",
+          "ru": "Криштиану Роналду",
+          "en": "Cristiano Ronaldo"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Zlatan Ibrahimović",
+          "ru": "Златан Ибрагимович",
+          "en": "Zlatan Ibrahimović"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Jose Mourinho",
+          "ru": "Жозе Моуринью",
+          "en": "Jose Mourinho"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Eric Cantona",
+          "ru": "Эрик Кантона",
+          "en": "Eric Cantona"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Frank Lampard",
+          "ru": "Фрэнк Лэмпард",
+          "en": "Frank Lampard"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gary Cahill",
+          "ru": "Гэри Кэхилл",
+          "en": "Gary Cahill"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "John Terry",
+          "ru": "Джон Терри",
+          "en": "John Terry"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Ashley Cole",
+          "ru": "Эшли Коул",
+          "en": "Ashley Cole"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/n8Pfgb1B/england-chelsea-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/ks6vFZjg/england-aston-villa-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Valencia CF Chempionlar ligasida finalga qachon chiqqan (g'olib bo'lmagan)?",
+      "ru": "Когда «Валенсия» доходила до финала Лиги чемпионов (не выигрывала)?",
+      "en": "When did Valencia CF reach the Champions League final (without winning)?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "1999 va 2002",
+          "ru": "1999 и 2002",
+          "en": "1999 and 2002"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2002 va 2003",
+          "ru": "2002 и 2003",
+          "en": "2002 and 2003"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Hech qachon",
+          "ru": "Никогда",
+          "en": "Never"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2000 va 2001",
+          "ru": "2000 и 2001",
+          "en": "2000 and 2001"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Leicester City Premer-ligada qaysi yil sensatsion chempion bo'lgan?",
+      "ru": "В каком году «Лестер Сити» сенсационно стал чемпионом Премьер-лиги?",
+      "en": "In which year did Leicester City sensationally win the Premier League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2015",
+          "ru": "2015",
+          "en": "2015"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2016",
+          "ru": "2016",
+          "en": "2016"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2017",
+          "ru": "2017",
+          "en": "2017"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2014",
+          "ru": "2014",
+          "en": "2014"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Euro 1992 qaysi davlat chempioni bo'lgan (Daniya — so'nggi daqiqada taklif qilingan)?",
+      "ru": "Кто стал чемпионом Евро 1992 (Дания была приглашена в последний момент)?",
+      "en": "Which country won Euro 1992 (Denmark was invited at the last minute)?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Germaniya",
+          "ru": "Германия",
+          "en": "Germany"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Niderlandiya",
+          "ru": "Нидерланды",
+          "en": "Netherlands"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Daniya",
+          "ru": "Дания",
+          "en": "Denmark"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Shvetsiya",
+          "ru": "Швеция",
+          "en": "Sweden"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Real Madrid 2014 yilda Chempionlar ligasi finalida kimni mag'lub etgan (La Décima)?",
+      "ru": "Кого «Реал Мадрид» победил в финале Лиги чемпионов 2014 года (Ла Десима)?",
+      "en": "Who did Real Madrid beat in the 2014 Champions League final (La Décima)?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Juventus",
+          "ru": "Ювентус",
+          "en": "Juventus"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Bayern Munich",
+          "ru": "Бавария",
+          "en": "Bayern Munich"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Chelsea",
+          "ru": "Челси",
+          "en": "Chelsea"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Atletiko Madrid",
+          "ru": "Атлетико Мадрид",
+          "en": "Atlético Madrid"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Barcelona 8-raqamda ko'p yillar o'ynagan va Xorvatiya terma jamoasi yarim himoyachisi kim?",
+      "ru": "Кто полузащитник сборной Хорватии, долго игравший под 8 номером в «Барселоне»?",
+      "en": "Which Croatia midfielder wore number 8 at Barcelona for many years?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Luka Modrić",
+          "ru": "Лука Модрич",
+          "en": "Luka Modrić"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Ivan Rakitić",
+          "ru": "Иван Ракитич",
+          "en": "Ivan Rakitić"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Mateo Kovačić",
+          "ru": "Матео Ковачич",
+          "en": "Mateo Kovačić"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Marcelo Brozović",
+          "ru": "Марсело Брозович",
+          "en": "Marcelo Brozović"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Bayern Munich 2013 yilda Chempionlar ligasi finalida kimni mag'lub etgan?",
+      "ru": "Кого «Бавария» победила в финале Лиги чемпионов 2013 года?",
+      "en": "Who did Bayern Munich beat in the 2013 Champions League final?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Barcelona",
+          "ru": "Барселона",
+          "en": "Barcelona"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Real Madrid",
+          "ru": "Реал Мадрид",
+          "en": "Real Madrid"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Borussiya Dortmund",
+          "ru": "Боруссия Дортмунд",
+          "en": "Borussia Dortmund"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Chelsea",
+          "ru": "Челси",
+          "en": "Chelsea"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Steven Gerrard",
+          "ru": "Стивен Джеррард",
+          "en": "Steven Gerrard"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "John Terry",
+          "ru": "Джон Терри",
+          "en": "John Terry"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Michael Ballack",
+          "ru": "Михаэль Баллак",
+          "en": "Michael Ballack"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Frank Lampard",
+          "ru": "Фрэнк Лэмпард",
+          "en": "Frank Lampard"
+        },
+        "isCorrect": true
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/NgcnMgb4/england-west-ham-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/n8Pfgb1B/england-chelsea-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/TMvdr28v/england-manchester-city-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Ispaniya terma jamoasi ketma-ket qaysi yillarda Euro chempioni bo'lgan?",
+      "ru": "В какие годы подряд сборная Испании становилась чемпионом Евро?",
+      "en": "In which consecutive years did Spain win the European Championship?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2010 va 2012",
+          "ru": "2010 и 2012",
+          "en": "2010 and 2012"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2008 va 2012",
+          "ru": "2008 и 2012",
+          "en": "2008 and 2012"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2004 va 2008",
+          "ru": "2004 и 2008",
+          "en": "2004 and 2008"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2012 va 2016",
+          "ru": "2012 и 2016",
+          "en": "2012 and 2016"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Milan (AC Milan) Chempionlar ligasini oxirgi marta qaysi yil qo'lga kiritgan?",
+      "ru": "В каком году «Милан» в последний раз выигрывал Лигу чемпионов?",
+      "en": "In which year did AC Milan last win the Champions League?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2005",
+          "ru": "2005",
+          "en": "2005"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2010",
+          "ru": "2010",
+          "en": "2010"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2007",
+          "ru": "2007",
+          "en": "2007"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2003",
+          "ru": "2003",
+          "en": "2003"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Eric Cantona Manchester Unitedda qaysi raqamda o'ynagan?",
+      "ru": "Под каким номером играл Эрик Кантона в «Манчестер Юнайтед»?",
+      "en": "What number did Eric Cantona wear at Manchester United?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "10",
+          "ru": "10",
+          "en": "10"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "9",
+          "ru": "9",
+          "en": "9"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "11",
+          "ru": "11",
+          "en": "11"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "7",
+          "ru": "7",
+          "en": "7"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "\"O'yin o'ldi\" — bu gapni Angliya — Germaniya (2020 Euro final) penaltilaridan keyin kim aytgan?",
+      "ru": "«Игра умерла» — кто сказал это после пенальти Англия — Германия (финал Евро 2020)?",
+      "en": "Who said \"The game is dead\" after the England-Germany (Euro 2020 final) penalties?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Roy Keane (yoki boshqa ekspert)",
+          "ru": "Рой Кин (или другой эксперт)",
+          "en": "Roy Keane (or another pundit)"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Gary Neville",
+          "ru": "Гэри Невилл",
+          "en": "Gary Neville"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Alan Shearer",
+          "ru": "Алан Ширер",
+          "en": "Alan Shearer"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Rio Ferdinand",
+          "ru": "Рио Фердинанд",
+          "en": "Rio Ferdinand"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Dennis Bergkamp",
+          "ru": "Деннис Бергкамп",
+          "en": "Dennis Bergkamp"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Robin van Persie",
+          "ru": "Робин ван Перси",
+          "en": "Robin van Persie"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Thierry Henry",
+          "ru": "Тьерри Анри",
+          "en": "Thierry Henry"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Patrick Vieira",
+          "ru": "Патрик Виейра",
+          "en": "Patrick Vieira"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/3yjYjPqh/france-as-monaco-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/YBT7LqjQ/italy-juventus-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/0RPmHbpm/spain-barcelona-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/4gKZgswj/usa-new-york-red-bulls-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Andrés Iniesta Barcelonada qaysi raqamda o'ynagan?",
+      "ru": "Под каким номером играл Андрес Иньеста в «Барселоне»?",
+      "en": "What number did Andrés Iniesta wear at Barcelona?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "6",
+          "ru": "6",
+          "en": "6"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "10",
+          "ru": "10",
+          "en": "10"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "4",
+          "ru": "4",
+          "en": "4"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "8",
+          "ru": "8",
+          "en": "8"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Xavi Hernandez Barcelonada qaysi raqamda o'ynagan?",
+      "ru": "Под каким номером играл Хави Эрнандес в «Барселоне»?",
+      "en": "What number did Xavi Hernández wear at Barcelona?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "8",
+          "ru": "8",
+          "en": "8"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "6",
+          "ru": "6",
+          "en": "6"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "4",
+          "ru": "4",
+          "en": "4"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "10",
+          "ru": "10",
+          "en": "10"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "1990 yilda Italiyada jahon chempioni qaysi jamoa bo'lgan?",
+      "ru": "Кто стал чемпионом мира 1990 года в Италии?",
+      "en": "Which team won the 1990 World Cup in Italy?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Argentina",
+          "ru": "Аргентина",
+          "en": "Argentina"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Italiya",
+          "ru": "Италия",
+          "en": "Italy"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Germaniya (G'arbiy)",
+          "ru": "Германия (Западная)",
+          "en": "Germany (West)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Inglizcha",
+          "ru": "Англия",
+          "en": "England"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Eden Hazard",
+          "ru": "Эден Азар",
+          "en": "Eden Hazard"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Romelu Lukaku",
+          "ru": "Ромелу Лукаку",
+          "en": "Romelu Lukaku"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Thibaut Courtois",
+          "ru": "Тибо Куртуа",
+          "en": "Thibaut Courtois"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Kevin De Bruyne",
+          "ru": "Кевин Де Брейне",
+          "en": "Kevin De Bruyne"
+        },
+        "isCorrect": true
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/60phwh38/belgium-genk-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/n8Pfgb1B/england-chelsea-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/1tvH3SbT/germany-wolfsburg-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/TMvdr28v/england-manchester-city-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Lionel Messi Barcelonada qaysi raqamda o'ynagan?",
+      "ru": "Под каким номером играл Лионель Месси в «Барселоне»?",
+      "en": "What number did Lionel Messi wear at Barcelona?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "7",
+          "ru": "7",
+          "en": "7"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "10",
+          "ru": "10",
+          "en": "10"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "9",
+          "ru": "9",
+          "en": "9"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "19",
+          "ru": "19",
+          "en": "19"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Cristiano Ronaldo Manchester Unitedda birinchi marta qaysi raqamda o'ynagan?",
+      "ru": "Под каким номером Криштиану Роналду впервые играл в «Манчестер Юнайтед»?",
+      "en": "What number did Cristiano Ronaldo first wear at Manchester United?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "9",
+          "ru": "9",
+          "en": "9"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "11",
+          "ru": "11",
+          "en": "11"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "7",
+          "ru": "7",
+          "en": "7"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "17",
+          "ru": "17",
+          "en": "17"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Sergio Ramos Real Madridda qaysi raqamda o'ynagan?",
+      "ru": "Под каким номером играл Серхио Рамос в «Реал Мадрид»?",
+      "en": "What number did Sergio Ramos wear at Real Madrid?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "5",
+          "ru": "5",
+          "en": "5"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "3",
+          "ru": "3",
+          "en": "3"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2",
+          "ru": "2",
+          "en": "2"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "4",
+          "ru": "4",
+          "en": "4"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "O'yinchini aniqlang",
+      "ru": "Угадайте футболиста",
+      "en": "Who is this player?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "Alexis Sánchez",
+          "ru": "Алексис Санчес",
+          "en": "Alexis Sánchez"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Cesc Fàbregas",
+          "ru": "Сеск Фабрегас",
+          "en": "Cesc Fàbregas"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Santi Cazorla",
+          "ru": "Санти Касорла",
+          "en": "Santi Cazorla"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "Mesut Özil",
+          "ru": "Месут Озиль",
+          "en": "Mesut Özil"
+        },
+        "isCorrect": false
+      }
+    ],
+    "images": [
+      "https://i.ibb.co/33ZCrkG/england-arsenal-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/0RPmHbpm/spain-barcelona-3000x3000-football-logos-cc.png",
+      "https://i.ibb.co/n8Pfgb1B/england-chelsea-3000x3000-football-logos-cc.png"
+    ]
+  },
+  {
+    "question": {
+      "uz": "Pep Guardiola Barcelona bosh murabbiyi bo'lgan yillarda qaysi yillarda Chempionlar ligasida g'olib bo'lgan?",
+      "ru": "В какие годы «Барселона» выигрывала Лигу чемпионов под руководством Пепa Гвардиолы?",
+      "en": "In which years did Barcelona win the Champions League under Pep Guardiola?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2010 va 2012",
+          "ru": "2010 и 2012",
+          "en": "2010 and 2012"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2008 va 2010",
+          "ru": "2008 и 2010",
+          "en": "2008 and 2010"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2009 va 2011",
+          "ru": "2009 и 2011",
+          "en": "2009 and 2011"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "2011 va 2013",
+          "ru": "2011 и 2013",
+          "en": "2011 and 2013"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Alex Ferguson Manchester Unitedni necha yil boshqargan?",
+      "ru": "Сколько лет Алекс Фергюсон руководил «Манчестер Юнайтед»?",
+      "en": "How many years did Alex Ferguson manage Manchester United?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "20 yil",
+          "ru": "20 лет",
+          "en": "20 years"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "25 yil",
+          "ru": "25 лет",
+          "en": "25 years"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "30 yil",
+          "ru": "30 лет",
+          "en": "30 years"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "27 yil (1986–2013)",
+          "ru": "27 лет (1986–2013)",
+          "en": "27 years (1986–2013)"
+        },
+        "isCorrect": true
+      }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Euro 2016 finalida Portugaliya qanday hisobda Fransiyani mag'lub etgan?",
+      "ru": "С каким счётом Португалия победила Францию в финале Евро 2016?",
+      "en": "What was the score when Portugal beat France in the Euro 2016 final?"
+    },
+    "options": [
+      {
+        "text": {
+          "uz": "2:1",
+          "ru": "2:1",
+          "en": "2-1"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "1:0 (qo'shimcha vaqtda)",
+          "ru": "1:0 (в доп. время)",
+          "en": "1-0 (in extra time)"
+        },
+        "isCorrect": true
+      },
+      {
+        "text": {
+          "uz": "Penaltilar seriyasida",
+          "ru": "По пенальти",
+          "en": "On penalties"
+        },
+        "isCorrect": false
+      },
+      {
+        "text": {
+          "uz": "2:0",
+          "ru": "2:0",
+          "en": "2-0"
+        },
+        "isCorrect": false
+      }
+    ],
+    "image": null
+  }
+]

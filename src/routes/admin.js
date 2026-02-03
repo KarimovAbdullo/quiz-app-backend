@@ -9,14 +9,10 @@ const User = require("../models/User");
 const { translateQuestion } = require("../utils/translate");
 const router = express.Router();
 
-// Map stored mode/status to English for API response
+// Map stored mode to English for API response
 const modeToEnglish = (m) => (m === "oddiy" || m === "premium" ? (m === "premium" ? "vip" : "free") : m);
-const statusToEnglish = (s) => {
-  const map = { "boshlang'ich": "beginner", "super daxo": "super_plus", "super": "super" };
-  return map[s] || s;
-};
 const VALID_MODES = ["free", "vip"];
-const VALID_STATUSES = ["active", "blocked", "premium", "beginner", "super", "super_plus"];
+const VALID_LEVELS = ["beginner", "smart", "very_smart", "genius"];
 
 // Configure multer for image uploads
 // Store images in 'uploads/questions' directory
@@ -501,7 +497,7 @@ router.delete("/questions/:id", adminMiddleware, async (req, res) => {
 
 /**
  * GET /admin/users
- * Get all users (Admin only). Returns list without passwords; mode and status in English.
+ * Get all users (Admin only). Returns list without passwords; mode and level.
  */
 router.get("/users", adminMiddleware, async (req, res) => {
   try {
@@ -514,7 +510,7 @@ router.get("/users", adminMiddleware, async (req, res) => {
         id: u._id,
         email: u.email,
         nickname: u.nickname,
-        status: statusToEnglish(u.status),
+        level: u.level || "beginner",
         mode: modeToEnglish(u.mode),
         correctAnswers: u.correctAnswers,
         solvedQuestionsCount: (u.solvedQuestions || []).length,
@@ -535,7 +531,7 @@ router.get("/users", adminMiddleware, async (req, res) => {
 
 /**
  * GET /admin/users/:id
- * Get user by ID with full details and categoryProgress (Admin only). Password not returned; mode and status in English.
+ * Get user by ID with full details and categoryProgress (Admin only). Password not returned; mode and level.
  */
 router.get("/users/:id", adminMiddleware, async (req, res) => {
   try {
@@ -571,7 +567,7 @@ router.get("/users/:id", adminMiddleware, async (req, res) => {
         id: user._id,
         email: user.email,
         nickname: user.nickname,
-        status: statusToEnglish(user.status),
+        level: user.level || "beginner",
         mode: modeToEnglish(user.mode),
         correctAnswers: user.correctAnswers,
         solvedQuestionsCount: (user.solvedQuestions || []).length,
@@ -593,12 +589,12 @@ router.get("/users/:id", adminMiddleware, async (req, res) => {
 
 /**
  * PUT /admin/users/:id
- * Update user mode and/or status (Admin only). Body: { mode?: "free" | "vip", status?: "active" | "blocked" | "premium" | "beginner" | "super" | "super_plus" }
+ * Update user mode and/or level (Admin only). Body: { mode?: "free" | "vip", level?: "beginner" | "smart" | "very_smart" | "genius" }
  */
 router.put("/users/:id", adminMiddleware, async (req, res) => {
   try {
     const { id } = req.params;
-    const { mode, status } = req.body;
+    const { mode, level } = req.body;
 
     const user = await User.findById(id);
     if (!user) {
@@ -617,14 +613,14 @@ router.put("/users/:id", adminMiddleware, async (req, res) => {
       }
       user.mode = mode;
     }
-    if (status !== undefined) {
-      if (!VALID_STATUSES.includes(status)) {
+    if (level !== undefined) {
+      if (!VALID_LEVELS.includes(level)) {
         return res.status(400).json({
           success: false,
-          message: `Status must be one of: ${VALID_STATUSES.join(", ")}`,
+          message: `Level must be one of: ${VALID_LEVELS.join(", ")}`,
         });
       }
-      user.status = status;
+      user.level = level;
     }
 
     await user.save();
@@ -636,7 +632,7 @@ router.put("/users/:id", adminMiddleware, async (req, res) => {
         id: user._id,
         email: user.email,
         nickname: user.nickname,
-        status: statusToEnglish(user.status),
+        level: user.level || "beginner",
         mode: modeToEnglish(user.mode),
         correctAnswers: user.correctAnswers,
         updatedAt: user.updatedAt,

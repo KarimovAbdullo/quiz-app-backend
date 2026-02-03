@@ -52,12 +52,15 @@ function toAvatarUrl(filename) {
     : `${base}/uploads/avatars/${path.basename(filename)}`;
 }
 
-// Map stored mode/status to English for API response
+// Map stored mode to English for API response
 const modeToEnglish = (m) => (m === "oddiy" || m === "premium" ? (m === "premium" ? "vip" : "free") : m);
-const statusToEnglish = (s) => {
-  const map = { "boshlang'ich": "beginner", "super daxo": "super_plus", "super": "super" };
-  return map[s] || s;
-};
+// Level by correctAnswers: <50 beginner, 50-99 smart, 100-199 very_smart, 200+ genius
+function getLevelFromCorrectAnswers(n) {
+  if (n >= 200) return "genius";
+  if (n >= 100) return "very_smart";
+  if (n >= 50) return "smart";
+  return "beginner";
+}
 
 /**
  * POST /auth/register
@@ -117,7 +120,7 @@ router.post("/register", async (req, res) => {
       nickname,
       language: normalizedLanguage, // Default to "uz" (Uzbek)
       solvedQuestions: [],
-      status: "boshlang'ich",
+      level: "beginner",
       mode: "oddiy",
       correctAnswers: 0,
     });
@@ -287,17 +290,10 @@ router.get("/profile", authMiddleware, async (req, res) => {
       });
     }
 
-    // Calculate status based on correctAnswers (store in English)
-    let calculatedStatus = user.status;
-    if (user.correctAnswers >= 51) {
-      calculatedStatus = "super_plus";
-    } else if (user.correctAnswers >= 11) {
-      calculatedStatus = "super";
-    } else {
-      calculatedStatus = "beginner";
-    }
-    if (!["beginner", "super", "super_plus", "active", "blocked", "premium"].includes(user.status)) {
-      user.status = calculatedStatus;
+    // Sync level from correctAnswers if needed (beginner / smart / very_smart / genius)
+    const expectedLevel = getLevelFromCorrectAnswers(user.correctAnswers || 0);
+    if (user.level !== expectedLevel) {
+      user.level = expectedLevel;
       await user.save();
     }
 
@@ -327,7 +323,7 @@ router.get("/profile", authMiddleware, async (req, res) => {
     };
     const userLanguage = languageMap[user.language] || user.language || "uz";
 
-    // Return profile data (mode and status in English)
+    // Return profile data (mode and level)
     res.status(200).json({
       success: true,
       profile: {
@@ -335,7 +331,7 @@ router.get("/profile", authMiddleware, async (req, res) => {
         email: user.email,
         nickname: user.nickname,
         avatar: toAvatarUrl(user.avatar),
-        status: statusToEnglish(user.status),
+        level: user.level || "beginner",
         mode: modeToEnglish(user.mode),
         allMode: user.allMode === true,
         correctAnswers: user.correctAnswers,
@@ -425,7 +421,7 @@ router.put(
           email: user.email,
           nickname: user.nickname,
           avatar: toAvatarUrl(user.avatar),
-          status: statusToEnglish(user.status),
+          level: user.level || "beginner",
           mode: modeToEnglish(user.mode),
           updatedAt: user.updatedAt,
         },

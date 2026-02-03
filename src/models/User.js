@@ -33,10 +33,11 @@ const userSchema = new mongoose.Schema(
       ref: "Question",
       default: [],
     },
-    status: {
+    // Level by correct answers: <50 beginner, 50-99 smart, 100-199 very_smart, 200+ genius
+    level: {
       type: String,
-      enum: ["active", "blocked", "premium", "beginner", "super", "super_plus", "boshlang'ich", "super daxo"],
-      default: "active",
+      enum: ["beginner", "smart", "very_smart", "genius"],
+      default: "beginner",
     },
     mode: {
       type: String,

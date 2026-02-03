@@ -68,7 +68,7 @@ router.post("/answer", authMiddleware, async (req, res) => {
         isCorrect: answerIsCorrect, // current attempt result (e.g. battle: wrong → false)
         solvedQuestions: user.solvedQuestions,
         correctAnswers: user.correctAnswers,
-        status: user.status,
+        level: user.level || "beginner",
       });
     }
 
@@ -88,14 +88,12 @@ router.post("/answer", authMiddleware, async (req, res) => {
         user.correctlySolvedQuestions.push(questionId);
         user.correctAnswers = (user.correctAnswers || 0) + 1;
 
-        // Update status based on correctAnswers count
-        if (user.correctAnswers >= 51) {
-          user.status = "super daxo";
-        } else if (user.correctAnswers >= 11) {
-          user.status = "super";
-        } else {
-          user.status = "boshlang'ich";
-        }
+        // Update level by correctAnswers: <50 beginner, 50-99 smart, 100-199 very_smart, 200+ genius
+        const n = user.correctAnswers;
+        if (n >= 200) user.level = "genius";
+        else if (n >= 100) user.level = "very_smart";
+        else if (n >= 50) user.level = "smart";
+        else user.level = "beginner";
       }
     }
 
@@ -107,7 +105,7 @@ router.post("/answer", authMiddleware, async (req, res) => {
       isCorrect: answerIsCorrect,
       solvedQuestions: user.solvedQuestions,
       correctAnswers: user.correctAnswers,
-      status: user.status,
+      level: user.level || "beginner",
     });
   } catch (error) {
     res.status(500).json({

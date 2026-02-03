@@ -115,7 +115,7 @@ app.get("/", (req, res) => {
         getQuestions: "GET /admin/questions",
         getUsers: "GET /admin/users",
         getUserById: "GET /admin/users/:id",
-        updateUser: "PUT /admin/users/:id (body: mode?, status?)",
+        updateUser: "PUT /admin/users/:id (body: mode?, level?)",
       },
     },
   });

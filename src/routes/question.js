@@ -4,6 +4,14 @@ const User = require("../models/User");
 const authMiddleware = require("../middleware/authMiddleware");
 const router = express.Router();
 
+async function getCorrectCountInCategory(user, categoryId) {
+  if (!user?.correctlySolvedQuestions?.length) return 0;
+  return await Question.countDocuments({
+    _id: { $in: user.correctlySolvedQuestions },
+    categoryId,
+  });
+}
+
 /**
  * POST /questions/answer
  * Mark a question as solved for the current user
@@ -69,6 +77,7 @@ router.post("/answer", authMiddleware, async (req, res) => {
         solvedQuestions: user.solvedQuestions,
         correctAnswers: user.correctAnswers,
         level: user.level || "beginner",
+        showAd: false,
       });
     }
 
@@ -82,6 +91,7 @@ router.post("/answer", authMiddleware, async (req, res) => {
     }
 
     // If answer is correct and wasn't correctly solved before, add to correctlySolvedQuestions
+    let showAd = false;
     if (answerIsCorrect && !isAlreadyCorrectlySolved) {
       // Only add if not already in the array (prevent duplicates)
       if (!user.correctlySolvedQuestions.includes(questionId)) {
@@ -99,6 +109,12 @@ router.post("/answer", authMiddleware, async (req, res) => {
 
     await user.save();
 
+    // Ads: showAd=true on each 10th NEW correct answer per category
+    if (answerIsCorrect) {
+      const correctInCategory = await getCorrectCountInCategory(user, question.categoryId);
+      showAd = correctInCategory > 0 && correctInCategory % 10 === 0;
+    }
+
     res.status(200).json({
       success: true,
       message: "Question marked as solved",
@@ -106,6 +122,7 @@ router.post("/answer", authMiddleware, async (req, res) => {
       solvedQuestions: user.solvedQuestions,
       correctAnswers: user.correctAnswers,
       level: user.level || "beginner",
+      showAd,
     });
   } catch (error) {
     res.status(500).json({

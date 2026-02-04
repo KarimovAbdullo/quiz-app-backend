@@ -7,8 +7,14 @@ const fs = require("fs");
 const User = require("../models/User");
 const Category = require("../models/Category");
 const Question = require("../models/Question");
+const AppConfig = require("../models/AppConfig");
 const authMiddleware = require("../middleware/authMiddleware");
 const router = express.Router();
+
+async function getAppVersion() {
+  const doc = await AppConfig.findOne({ key: "appVersion" });
+  return doc && doc.value ? doc.value : "1.0.0";
+}
 
 const uploadAvatarsDir = path.join(__dirname, "../../uploads/avatars");
 if (!fs.existsSync(uploadAvatarsDir)) {
@@ -100,12 +106,21 @@ router.post("/register", async (req, res) => {
       }
     }
 
-    // Check if user already exists
-    const existingUser = await User.findOne({ email });
+    // Normalize email: trim + lowercase so one email = one user
+    const normalizedEmail = (email || "").trim().toLowerCase();
+    if (!normalizedEmail) {
+      return res.status(400).json({
+        success: false,
+        message: "Please provide a valid email",
+      });
+    }
+
+    // Check if user already exists (email must be unique)
+    const existingUser = await User.findOne({ email: normalizedEmail });
     if (existingUser) {
       return res.status(400).json({
         success: false,
-        message: "User with this email already exists",
+        message: "This email is already registered.",
       });
     }
 
@@ -115,7 +130,7 @@ router.post("/register", async (req, res) => {
 
     // Create new user
     const user = new User({
-      email,
+      email: normalizedEmail,
       password: hashedPassword,
       nickname,
       language: normalizedLanguage, // Default to "uz" (Uzbek)
@@ -170,8 +185,9 @@ router.post("/login", async (req, res) => {
       });
     }
 
-    // Find user by email
-    const user = await User.findOne({ email });
+    // Find user by email (same normalization as register)
+    const normalizedEmail = (email || "").trim().toLowerCase();
+    const user = await User.findOne({ email: normalizedEmail });
     if (!user) {
       return res.status(401).json({
         success: false,
@@ -322,8 +338,9 @@ router.get("/profile", authMiddleware, async (req, res) => {
       "en": "en",
     };
     const userLanguage = languageMap[user.language] || user.language || "uz";
+    const version = await getAppVersion();
 
-    // Return profile data (mode and level)
+    // Return profile data (mode, level, version)
     res.status(200).json({
       success: true,
       profile: {
@@ -338,6 +355,7 @@ router.get("/profile", authMiddleware, async (req, res) => {
         solvedQuestionsCount: user.solvedQuestions.length,
         language: userLanguage,
         categoryProgress,
+        version,
         createdAt: user.createdAt,
         updatedAt: user.updatedAt,
       },

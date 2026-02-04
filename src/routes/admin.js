@@ -6,8 +6,17 @@ const adminMiddleware = require("../middleware/adminMiddleware");
 const Category = require("../models/Category");
 const Question = require("../models/Question");
 const User = require("../models/User");
+const AppConfig = require("../models/AppConfig");
 const { translateQuestion } = require("../utils/translate");
 const router = express.Router();
+
+const APP_VERSION_KEY = "appVersion";
+const DEFAULT_VERSION = "1.0.0";
+
+async function getAppVersion() {
+  const doc = await AppConfig.findOne({ key: APP_VERSION_KEY });
+  return doc && doc.value ? doc.value : DEFAULT_VERSION;
+}
 
 // Map stored mode to English for API response
 const modeToEnglish = (m) => (m === "oddiy" || m === "premium" ? (m === "premium" ? "vip" : "free") : m);
@@ -642,6 +651,60 @@ router.put("/users/:id", adminMiddleware, async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Error updating user",
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * GET /admin/version
+ * Get current app version (Admin only). Same value returned to all users in GET /auth/profile.
+ */
+router.get("/version", adminMiddleware, async (req, res) => {
+  try {
+    const version = await getAppVersion();
+    res.status(200).json({
+      success: true,
+      version,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error fetching version",
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * PUT /admin/version
+ * Update app version (Admin only). All users will see this version in GET /auth/profile.
+ * Body: { version: string }
+ */
+router.put("/version", adminMiddleware, async (req, res) => {
+  try {
+    const { version } = req.body;
+    if (version === undefined || version === null) {
+      return res.status(400).json({
+        success: false,
+        message: "Please provide version (string)",
+      });
+    }
+    const value = String(version).trim();
+    const doc = await AppConfig.findOneAndUpdate(
+      { key: APP_VERSION_KEY },
+      { value },
+      { new: true, upsert: true }
+    );
+    res.status(200).json({
+      success: true,
+      message: "Version updated successfully",
+      version: doc.value,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error updating version",
       error: error.message,
     });
   }

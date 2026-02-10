@@ -12,10 +12,25 @@ const router = express.Router();
 
 const APP_VERSION_KEY = "appVersion";
 const DEFAULT_VERSION = "1.0.0";
+const CASH_VALUE_KEY = "versionCashValue";
+const SHOW_ADDS_KEY = "showADDS";
 
 async function getAppVersion() {
   const doc = await AppConfig.findOne({ key: APP_VERSION_KEY });
   return doc && doc.value ? doc.value : DEFAULT_VERSION;
+}
+
+async function getCashConfig() {
+  const [cashDoc, showDoc] = await Promise.all([
+    AppConfig.findOne({ key: CASH_VALUE_KEY }),
+    AppConfig.findOne({ key: SHOW_ADDS_KEY }),
+  ]);
+  const versionCashValue = cashDoc && cashDoc.value ? cashDoc.value : "";
+  const showADDS =
+    showDoc && typeof showDoc.value === "string"
+      ? showDoc.value === "true"
+      : false;
+  return { versionCashValue, showADDS };
 }
 
 // Map stored mode to English for API response
@@ -705,6 +720,72 @@ router.put("/version", adminMiddleware, async (req, res) => {
     res.status(500).json({
       success: false,
       message: "Error updating version",
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * GET /admin/cash-config
+ * Get global cash/ad config for all apps (Admin only).
+ * Returns { versionCashValue, showADDS }.
+ */
+router.get("/cash-config", adminMiddleware, async (req, res) => {
+  try {
+    const config = await getCashConfig();
+    res.status(200).json({
+      success: true,
+      ...config,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error fetching cash config",
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * PUT /admin/cash-config
+ * Update global cash/ad config (Admin only).
+ * Body: { versionCashValue?: string|number, showADDS?: boolean }
+ */
+router.put("/cash-config", adminMiddleware, async (req, res) => {
+  try {
+    const { versionCashValue, showADDS } = req.body;
+
+    if (versionCashValue !== undefined) {
+      await AppConfig.findOneAndUpdate(
+        { key: CASH_VALUE_KEY },
+        { value: String(versionCashValue) },
+        { new: true, upsert: true }
+      );
+    }
+
+    if (showADDS !== undefined) {
+      const bool =
+        showADDS === true ||
+        showADDS === "true" ||
+        showADDS === "1" ||
+        showADDS === 1;
+      await AppConfig.findOneAndUpdate(
+        { key: SHOW_ADDS_KEY },
+        { value: bool ? "true" : "false" },
+        { new: true, upsert: true }
+      );
+    }
+
+    const config = await getCashConfig();
+    res.status(200).json({
+      success: true,
+      message: "Cash config updated successfully",
+      ...config,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error updating cash config",
       error: error.message,
     });
   }

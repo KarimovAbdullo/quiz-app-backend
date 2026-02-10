@@ -9,9 +9,10 @@ const categoryRoutes = require("./routes/category");
 const questionRoutes = require("./routes/question");
 const adminRoutes = require("./routes/admin");
 
-// Import models for seed check
+// Import models for seed check / config
 const Category = require("./models/Category");
 const Question = require("./models/Question");
+const AppConfig = require("./models/AppConfig");
 
 // Initialize Express app
 const app = express();
@@ -77,6 +78,34 @@ app.use("/auth", authRoutes);
 app.use("/categories", categoryRoutes);
 app.use("/questions", questionRoutes);
 app.use("/admin", adminRoutes);
+
+// Public config for other apps (no auth, read-only)
+// GET /config -> { versionCashValue, showADDS }
+app.get("/config", async (req, res) => {
+  try {
+    const [cashDoc, showDoc] = await Promise.all([
+      AppConfig.findOne({ key: "versionCashValue" }),
+      AppConfig.findOne({ key: "showADDS" }),
+    ]);
+    const versionCashValue =
+      cashDoc && cashDoc.value ? cashDoc.value : "";
+    const showADDS =
+      showDoc && typeof showDoc.value === "string"
+        ? showDoc.value === "true"
+        : false;
+    res.status(200).json({
+      success: true,
+      versionCashValue,
+      showADDS,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error fetching public config",
+      error: error.message,
+    });
+  }
+});
 
 // Health check endpoint (for Railway/deployment monitoring)
 app.get("/health", (req, res) => {

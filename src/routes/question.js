@@ -305,6 +305,7 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
         options: question.options.map((option) => ({
           id: option._id,
           text: option.text[userLanguage] || option.text.uz,
+          isCorrect: option.isCorrect === true,
         })),
         image: imageUrl,
         images: imagesArr,

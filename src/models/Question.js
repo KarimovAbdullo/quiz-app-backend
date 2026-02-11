@@ -40,6 +40,11 @@ const questionSchema = new mongoose.Schema(
       type: [String], // Array of image URLs (e.g. 3 actors for "which film") (optional)
       default: null,
     },
+    // Faqat VIP/premium foydalanuvchilarga ko'rsatiladigan savol
+    premiumOnly: {
+      type: Boolean,
+      default: false,
+    },
     options: {
       type: [optionSchema],
       required: true,

@@ -197,6 +197,7 @@ async function importQuestions() {
         }
 
         // Savolni yaratish (image yoki images: bitta rasm yoki bir nechta rasmlar)
+        // premiumOnly: true bo'lsa faqat VIP foydalanuvchilarga ko'rinadi
         const newQuestion = new Question({
           categoryId: categoryId,
           question: {
@@ -214,6 +215,7 @@ async function importQuestions() {
           })),
           image: questionData.images && questionData.images.length > 0 ? null : (questionData.image || null),
           images: questionData.images && questionData.images.length > 0 ? questionData.images : null,
+          premiumOnly: questionData.premiumOnly === true,
         });
 
         await newQuestion.save();

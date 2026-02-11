@@ -134,6 +134,96 @@ router.post("/answer", authMiddleware, async (req, res) => {
 });
 
 /**
+ * POST /questions/answers
+ * Batch: bir nechta javobni bir so'rovda yuborish (so'rovlarni kamaytirish uchun).
+ * Body: { answers: [ { questionId, selectedOptionIndex } ] }
+ * React Native lokal saqlab, keyin to'plab yuborishi mumkin.
+ */
+router.post("/answers", authMiddleware, async (req, res) => {
+  try {
+    const { answers } = req.body;
+    const userId = req.user._id;
+
+    if (!Array.isArray(answers) || answers.length === 0) {
+      return res.status(400).json({
+        success: false,
+        message: "Please provide answers array (at least one item)",
+      });
+    }
+
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: "User not found",
+      });
+    }
+
+    let newCorrectCount = 0;
+    const results = [];
+
+    for (const item of answers) {
+      const { questionId, selectedOptionIndex } = item;
+      if (!questionId || selectedOptionIndex === undefined || selectedOptionIndex === null) {
+        results.push({ questionId: questionId || null, isCorrect: false, skipped: true });
+        continue;
+      }
+
+      const question = await Question.findById(questionId);
+      if (!question) {
+        results.push({ questionId, isCorrect: false, skipped: true });
+        continue;
+      }
+
+      if (selectedOptionIndex < 0 || selectedOptionIndex >= question.options.length) {
+        results.push({ questionId, isCorrect: false, skipped: true });
+        continue;
+      }
+
+      const isCorrect = question.options[selectedOptionIndex].isCorrect === true;
+      const alreadyCorrect = user.correctlySolvedQuestions.some((id) => id.toString() === questionId.toString());
+
+      if (!user.solvedQuestions.some((id) => id.toString() === questionId.toString())) {
+        user.solvedQuestions.push(questionId);
+      }
+
+      if (isCorrect && !alreadyCorrect) {
+        if (!user.correctlySolvedQuestions.some((id) => id.toString() === questionId.toString())) {
+          user.correctlySolvedQuestions.push(questionId);
+          user.correctAnswers = (user.correctAnswers || 0) + 1;
+          const n = user.correctAnswers;
+          if (n >= 200) user.level = "genius";
+          else if (n >= 100) user.level = "very_smart";
+          else if (n >= 50) user.level = "smart";
+          else user.level = "beginner";
+          newCorrectCount++;
+        }
+      }
+
+      results.push({ questionId, isCorrect, skipped: false });
+    }
+
+    await user.save();
+
+    res.status(200).json({
+      success: true,
+      message: "Answers saved",
+      processed: results.length,
+      newCorrectCount,
+      correctAnswers: user.correctAnswers,
+      level: user.level || "beginner",
+      results,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error saving answers",
+      error: error.message,
+    });
+  }
+});
+
+/**
  * GET /questions/:categoryId
  * Get questions for a specific category.
  * Protected route (JWT required)
@@ -175,10 +265,17 @@ router.get("/:categoryId", authMiddleware, async (req, res) => {
       });
     }
 
+    // Faqat VIP (premium/vip) foydalanuvchilarga premiumOnly savollar ko'rsatiladi
+    const isVip = user.mode === "premium" || user.mode === "vip";
+    const baseFilter = { categoryId };
+    if (!isVip) {
+      baseFilter.premiumOnly = { $ne: true };
+    }
+
     // allMode (battle): return ALL questions; otherwise exclude correctly solved
     const questionFilter = allMode
-      ? { categoryId }
-      : { categoryId, _id: { $nin: correctlySolvedQuestionIds } };
+      ? baseFilter
+      : { ...baseFilter, _id: { $nin: correctlySolvedQuestionIds } };
     const questions = await Question.find(questionFilter);
 
     // Format questions for user's language (from database, NO translation here)

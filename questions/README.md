@@ -59,7 +59,8 @@ Har bir JSON fayl **array** formatida bo'lishi kerak. Har bir element bir savol.
         "isCorrect": false
       }
     ],
-    "image": null
+    "image": null,
+    "premiumOnly": false
   }
 ]
 ```
@@ -69,7 +70,12 @@ Har bir JSON fayl **array** formatida bo'lishi kerak. Har bir element bir savol.
 1. **Har bir savol aynan 4 ta variantga ega bo'lishi kerak**
 2. **Aynan bitta variant `isCorrect: true` bo'lishi kerak**
 3. **Barcha tillar (uz, ru, en) bo'lishi kerak**
-4. **`image` yoki `images` ixtiyoriy**: bitta rasm uchun `"image": "url"`, bir nechta rasm (masalan 3 ta aktyor) uchun `"images": ["url1", "url2", "url3"]`
+4. **`image` yoki `images` ixtiyoriy**: bitta rasm uchun `"image": "url"`, bir nechta rasm (masalan 3 ta aktyor) uchun `"images": ["url1", "url2", "url3"]**
+5. **`premiumOnly` ixtiyoriy**: `true` qilsangiz, savol **faqat VIP (premium) tarifidagi** foydalanuvchilarga ko'rinadi. Oddiy foydalanuvchilar bu savolni ko'rmaydi.
+
+## 👑 VIP (premiumOnly) savollar
+
+Yangi savollarni faqat VIP foydalanuvchilarga ko'rsatish uchun savolda `"premiumOnly": true` qo'shing. JSON dan import qilgandan so'ng bu savollar faqat `mode: "premium"` yoki `mode: "vip"` bo'lgan userlarga ko'rinadi.
 
 ## 🚀 Qanday ishlatish
 

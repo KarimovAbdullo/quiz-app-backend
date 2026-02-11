@@ -137,6 +137,7 @@ app.get("/", (req, res) => {
       questions: {
         getByCategory: "GET /questions/:categoryId?language=uzb|rus|eng&allMode=true|false (allMode=true = battle, all questions)",
         submitAnswer: "POST /questions/answer",
+        submitAnswersBatch: "POST /questions/answers (body: { answers: [{ questionId, selectedOptionIndex }] })",
       },
       admin: {
         getCategories: "GET /admin/categories",

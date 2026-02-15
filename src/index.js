@@ -173,7 +173,7 @@ app.get("/", (req, res) => {
     message: "Smart Quiz Backend API is running!",
     endpoints: {
       public: {
-        categories: "GET /categories?language=uz|ru|en (default en)",
+        categories: "GET /categories?language=uz|ru|en (barcha kategoriyalar, readyToWork har birida)",
         questions: "GET /questions/:categoryId?language=uz|ru|en (default en)",
         configAD: "GET /configAD → { showADDS }",
         appVersions: "GET /app-versions → { quizApp, CashValue, SafeZone }",

@@ -20,7 +20,8 @@ function getCategoryName(category, selectedLanguage) {
 
 /**
  * GET /categories
- * Public. Faqat readyToWork === true bo'lgan kategoriyalar.
+ * Public. Barcha kategoriyalar; har birida readyToWork (true/false) qaytariladi.
+ * Ilova kerak bo'lsa faqat readyToWork === true ni ko'rsatadi.
  * Query: ?language=eng (default en)
  */
 router.get("/", async (req, res) => {
@@ -29,7 +30,7 @@ router.get("/", async (req, res) => {
     let lang = languageMap[language] || language || "en";
     if (!["uz", "ru", "en"].includes(lang)) lang = "en";
 
-    const categories = await Category.find({ readyToWork: true }).sort({ order: 1 });
+    const categories = await Category.find().sort({ order: 1 });
 
     const list = await Promise.all(
       categories.map(async (cat) => {

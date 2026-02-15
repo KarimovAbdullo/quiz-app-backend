@@ -107,6 +107,54 @@ app.get("/config", async (req, res) => {
   }
 });
 
+// GET /configAD — reklama ko'rsatish yoki yo'q (barcha ilovalar uchun)
+app.get("/configAD", async (req, res) => {
+  try {
+    const doc = await AppConfig.findOne({ key: "showADDS" });
+    const showADDS =
+      doc && typeof doc.value === "string" ? doc.value === "true" : false;
+    res.status(200).json({
+      success: true,
+      showADDS,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error fetching configAD",
+      error: error.message,
+    });
+  }
+});
+
+// GET /app-versions — quizApp, CashValue, SafeZone versiyalari
+const APP_VERSION_KEYS = {
+  quizApp: "version_quizApp",
+  CashValue: "version_CashValue",
+  SafeZone: "version_SafeZone",
+};
+app.get("/app-versions", async (req, res) => {
+  try {
+    const keys = Object.values(APP_VERSION_KEYS);
+    const docs = await AppConfig.find({ key: { $in: keys } });
+    const map = {};
+    docs.forEach((d) => {
+      map[d.key] = d.value || "1.0.0";
+    });
+    res.status(200).json({
+      success: true,
+      quizApp: map[APP_VERSION_KEYS.quizApp] || "1.0.0",
+      CashValue: map[APP_VERSION_KEYS.CashValue] || "1.0.0",
+      SafeZone: map[APP_VERSION_KEYS.SafeZone] || "1.0.0",
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error fetching app versions",
+      error: error.message,
+    });
+  }
+});
+
 // Health check endpoint (for Railway/deployment monitoring)
 app.get("/health", (req, res) => {
   res.status(200).json({
@@ -124,32 +172,28 @@ app.get("/", (req, res) => {
     success: true,
     message: "Smart Quiz Backend API is running!",
     endpoints: {
+      public: {
+        categories: "GET /categories?language=uz|ru|en (default en)",
+        questions: "GET /questions/:categoryId?language=uz|ru|en (default en)",
+        configAD: "GET /configAD → { showADDS }",
+        appVersions: "GET /app-versions → { quizApp, CashValue, SafeZone }",
+      },
       auth: {
-        register: "POST /auth/register",
-        login: "POST /auth/login",
-        profile: "GET /auth/profile",
-        updateLanguage: "PATCH /auth/profile/language",
         adminLogin: "POST /auth/admin/login",
       },
-      categories: {
-        getAll: "GET /categories",
-      },
-      questions: {
-        getByCategory: "GET /questions/:categoryId?language=uzb|rus|eng&allMode=true|false (allMode=true = battle, all questions)",
-        submitAnswer: "POST /questions/answer",
-        submitAnswersBatch: "POST /questions/answers (body: { answers: [{ questionId, selectedOptionIndex }] })",
-      },
       admin: {
-        getCategories: "GET /admin/categories",
+        getCategories: "GET /admin/categories (barcha, readyToWork bilan)",
+        updateCategoryReadyToWork: "PATCH /admin/categories/:id (body: { readyToWork: true|false })",
         addQuestion: "POST /admin/questions (multipart/form-data)",
         getQuestions: "GET /admin/questions",
-        getUsers: "GET /admin/users",
-        getUserById: "GET /admin/users/:id",
-        updateUser: "PUT /admin/users/:id (body: mode?, level?)",
+        getConfigAD: "GET /admin/configAD",
+        updateConfigAD: "PUT /admin/configAD (body: { showADDS: boolean })",
+        getAppVersions: "GET /admin/app-versions",
+        updateAppVersions: "PUT /admin/app-versions (body: { quizApp?, CashValue?, SafeZone? })",
         getVersion: "GET /admin/version",
-        updateVersion: "PUT /admin/version (body: version)",
-        getCashConfig: "GET /admin/cash-config (returns versionCashValue, showADDS)",
-        updateCashConfig: "PUT /admin/cash-config (body: versionCashValue?, showADDS?)",
+        updateVersion: "PUT /admin/version",
+        getCashConfig: "GET /admin/cash-config",
+        updateCashConfig: "PUT /admin/cash-config",
       },
     },
   });

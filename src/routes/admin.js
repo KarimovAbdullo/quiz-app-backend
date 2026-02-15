@@ -5,7 +5,6 @@ const fs = require("fs");
 const adminMiddleware = require("../middleware/adminMiddleware");
 const Category = require("../models/Category");
 const Question = require("../models/Question");
-const User = require("../models/User");
 const AppConfig = require("../models/AppConfig");
 const { translateQuestion } = require("../utils/translate");
 const router = express.Router();
@@ -32,11 +31,6 @@ async function getCashConfig() {
       : false;
   return { versionCashValue, showADDS };
 }
-
-// Map stored mode to English for API response
-const modeToEnglish = (m) => (m === "oddiy" || m === "premium" ? (m === "premium" ? "vip" : "free") : m);
-const VALID_MODES = ["free", "vip"];
-const VALID_LEVELS = ["beginner", "smart", "very_smart", "genius"];
 
 // Configure multer for image uploads
 // Store images in 'uploads/questions' directory
@@ -89,12 +83,54 @@ router.get("/categories", adminMiddleware, async (req, res) => {
         id: cat._id,
         name: cat.name,
         order: cat.order,
+        readyToWork: cat.readyToWork === true,
       })),
     });
   } catch (error) {
     res.status(500).json({
       success: false,
       message: "Error fetching categories",
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * PATCH /admin/categories/:id
+ * Update category (Admin only). Body: { readyToWork?: boolean }
+ */
+router.patch("/categories/:id", adminMiddleware, async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { readyToWork } = req.body;
+
+    const category = await Category.findById(id);
+    if (!category) {
+      return res.status(404).json({
+        success: false,
+        message: "Category not found",
+      });
+    }
+
+    if (typeof readyToWork === "boolean") {
+      category.readyToWork = readyToWork;
+      await category.save();
+    }
+
+    res.status(200).json({
+      success: true,
+      message: "Category updated",
+      category: {
+        id: category._id,
+        name: category.name,
+        order: category.order,
+        readyToWork: category.readyToWork === true,
+      },
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error updating category",
       error: error.message,
     });
   }
@@ -520,152 +556,123 @@ router.delete("/questions/:id", adminMiddleware, async (req, res) => {
 });
 
 /**
- * GET /admin/users
- * Get all users (Admin only). Returns list without passwords; mode and level.
+ * GET /admin/configAD
+ * Reklama ko'rsatish yoki yo'q (Admin only). Returns { showADDS }.
  */
-router.get("/users", adminMiddleware, async (req, res) => {
+router.get("/configAD", adminMiddleware, async (req, res) => {
   try {
-    const users = await User.find().select("-password").sort({ createdAt: -1 });
-
+    const config = await getCashConfig();
     res.status(200).json({
       success: true,
-      count: users.length,
-      users: users.map((u) => ({
-        id: u._id,
-        email: u.email,
-        nickname: u.nickname,
-        level: u.level || "beginner",
-        mode: modeToEnglish(u.mode),
-        correctAnswers: u.correctAnswers,
-        solvedQuestionsCount: (u.solvedQuestions || []).length,
-        language: u.language,
-        allMode: u.allMode === true,
-        createdAt: u.createdAt,
-        updatedAt: u.updatedAt,
-      })),
+      showADDS: config.showADDS,
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Error fetching users",
+      message: "Error fetching configAD",
       error: error.message,
     });
   }
 });
 
 /**
- * GET /admin/users/:id
- * Get user by ID with full details and categoryProgress (Admin only). Password not returned; mode and level.
+ * PUT /admin/configAD
+ * Reklama ko'rsatish yoki yo'q (Admin only). Body: { showADDS: boolean }
  */
-router.get("/users/:id", adminMiddleware, async (req, res) => {
+router.put("/configAD", adminMiddleware, async (req, res) => {
   try {
-    const { id } = req.params;
-
-    const user = await User.findById(id).select("-password");
-    if (!user) {
-      return res.status(404).json({
-        success: false,
-        message: "User not found",
-      });
+    const { showADDS } = req.body;
+    if (showADDS !== undefined) {
+      const bool = showADDS === true || showADDS === "true" || showADDS === "1" || showADDS === 1;
+      await AppConfig.findOneAndUpdate(
+        { key: SHOW_ADDS_KEY },
+        { value: bool ? "true" : "false" },
+        { new: true, upsert: true }
+      );
     }
-
-    // Category progress: correct count per category
-    const categories = await Category.find().sort({ order: 1 });
-    const categoryProgress = [];
-    for (const cat of categories) {
-      const correctCount = await Question.countDocuments({
-        _id: { $in: user.correctlySolvedQuestions || [] },
-        categoryId: cat._id,
-      });
-      const categoryName = typeof cat.name === "object" && cat.name ? cat.name.en : cat.name;
-      categoryProgress.push({
-        categoryId: cat._id,
-        categoryName,
-        correctCount,
-      });
-    }
-
+    const config = await getCashConfig();
     res.status(200).json({
       success: true,
-      user: {
-        id: user._id,
-        email: user.email,
-        nickname: user.nickname,
-        level: user.level || "beginner",
-        mode: modeToEnglish(user.mode),
-        correctAnswers: user.correctAnswers,
-        solvedQuestionsCount: (user.solvedQuestions || []).length,
-        language: user.language,
-        allMode: user.allMode === true,
-        categoryProgress,
-        createdAt: user.createdAt,
-        updatedAt: user.updatedAt,
-      },
+      message: "ConfigAD updated",
+      showADDS: config.showADDS,
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Error fetching user",
+      message: "Error updating configAD",
+      error: error.message,
+    });
+  }
+});
+
+const APP_VERSION_KEYS = {
+  quizApp: "version_quizApp",
+  CashValue: "version_CashValue",
+  SafeZone: "version_SafeZone",
+};
+
+/**
+ * GET /admin/app-versions
+ * QuizApp, CashValue, SafeZone versiyalari (Admin only).
+ */
+router.get("/app-versions", adminMiddleware, async (req, res) => {
+  try {
+    const keys = Object.values(APP_VERSION_KEYS);
+    const docs = await AppConfig.find({ key: { $in: keys } });
+    const map = {};
+    docs.forEach((d) => { map[d.key] = d.value || "1.0.0"; });
+    res.status(200).json({
+      success: true,
+      quizApp: map[APP_VERSION_KEYS.quizApp] || "1.0.0",
+      CashValue: map[APP_VERSION_KEYS.CashValue] || "1.0.0",
+      SafeZone: map[APP_VERSION_KEYS.SafeZone] || "1.0.0",
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error fetching app versions",
       error: error.message,
     });
   }
 });
 
 /**
- * PUT /admin/users/:id
- * Update user mode and/or level (Admin only). Body: { mode?: "free" | "vip", level?: "beginner" | "smart" | "very_smart" | "genius" }
+ * PUT /admin/app-versions
+ * QuizApp, CashValue, SafeZone versiyalarni yangilash (Admin only).
+ * Body: { quizApp?: string, CashValue?: string, SafeZone?: string }
  */
-router.put("/users/:id", adminMiddleware, async (req, res) => {
+router.put("/app-versions", adminMiddleware, async (req, res) => {
   try {
-    const { id } = req.params;
-    const { mode, level } = req.body;
-
-    const user = await User.findById(id);
-    if (!user) {
-      return res.status(404).json({
-        success: false,
-        message: "User not found",
-      });
-    }
-
-    if (mode !== undefined) {
-      if (!VALID_MODES.includes(mode)) {
-        return res.status(400).json({
-          success: false,
-          message: `Mode must be one of: ${VALID_MODES.join(", ")}`,
-        });
+    const { quizApp, CashValue, SafeZone } = req.body;
+    const updates = [
+      [APP_VERSION_KEYS.quizApp, quizApp],
+      [APP_VERSION_KEYS.CashValue, CashValue],
+      [APP_VERSION_KEYS.SafeZone, SafeZone],
+    ];
+    for (const [key, value] of updates) {
+      if (value !== undefined && value !== null) {
+        await AppConfig.findOneAndUpdate(
+          { key },
+          { value: String(value).trim() },
+          { new: true, upsert: true }
+        );
       }
-      user.mode = mode;
     }
-    if (level !== undefined) {
-      if (!VALID_LEVELS.includes(level)) {
-        return res.status(400).json({
-          success: false,
-          message: `Level must be one of: ${VALID_LEVELS.join(", ")}`,
-        });
-      }
-      user.level = level;
-    }
-
-    await user.save();
-
+    const keys = Object.values(APP_VERSION_KEYS);
+    const docs = await AppConfig.find({ key: { $in: keys } });
+    const map = {};
+    docs.forEach((d) => { map[d.key] = d.value || "1.0.0"; });
     res.status(200).json({
       success: true,
-      message: "User updated successfully",
-      user: {
-        id: user._id,
-        email: user.email,
-        nickname: user.nickname,
-        level: user.level || "beginner",
-        mode: modeToEnglish(user.mode),
-        correctAnswers: user.correctAnswers,
-        updatedAt: user.updatedAt,
-      },
+      message: "App versions updated",
+      quizApp: map[APP_VERSION_KEYS.quizApp] || "1.0.0",
+      CashValue: map[APP_VERSION_KEYS.CashValue] || "1.0.0",
+      SafeZone: map[APP_VERSION_KEYS.SafeZone] || "1.0.0",
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Error updating user",
+      message: "Error updating app versions",
       error: error.message,
     });
   }

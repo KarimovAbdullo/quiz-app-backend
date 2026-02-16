@@ -107,15 +107,31 @@ app.get("/config", async (req, res) => {
   }
 });
 
-// GET /configAD — reklama ko'rsatish yoki yo'q (barcha ilovalar uchun)
+// Kalitlar: har bir ilova uchun alohida versiya va reklama (showADDS)
+const APP_VERSION_KEYS = {
+  quizApp: "version_quizApp",
+  CashValue: "version_CashValue",
+  SafeZone: "version_SafeZone",
+};
+const SHOW_ADDS_KEYS = {
+  quizApp: "showADDS_quizApp",
+  CashValue: "showADDS_CashValue",
+  SafeZone: "showADDS_SafeZone",
+};
+
+// GET /configAD — har bir ilova uchun reklama (showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone)
 app.get("/configAD", async (req, res) => {
   try {
-    const doc = await AppConfig.findOne({ key: "showADDS" });
-    const showADDS =
-      doc && typeof doc.value === "string" ? doc.value === "true" : false;
+    const keys = Object.values(SHOW_ADDS_KEYS);
+    const docs = await AppConfig.find({ key: { $in: keys } });
+    const map = {};
+    docs.forEach((d) => { map[d.key] = d.value; });
+    const toBool = (v) => v === "true" || v === true;
     res.status(200).json({
       success: true,
-      showADDS,
+      showADDS_quizApp: toBool(map[SHOW_ADDS_KEYS.quizApp]),
+      showADDS_CashValue: toBool(map[SHOW_ADDS_KEYS.CashValue]),
+      showADDS_SafeZone: toBool(map[SHOW_ADDS_KEYS.SafeZone]),
     });
   } catch (error) {
     res.status(500).json({
@@ -126,25 +142,22 @@ app.get("/configAD", async (req, res) => {
   }
 });
 
-// GET /app-versions — quizApp, CashValue, SafeZone versiyalari
-const APP_VERSION_KEYS = {
-  quizApp: "version_quizApp",
-  CashValue: "version_CashValue",
-  SafeZone: "version_SafeZone",
-};
+// GET /app-versions — versiyalar + har bir ilova uchun showADDS (bitta so'rovda)
 app.get("/app-versions", async (req, res) => {
   try {
-    const keys = Object.values(APP_VERSION_KEYS);
+    const keys = [...Object.values(APP_VERSION_KEYS), ...Object.values(SHOW_ADDS_KEYS)];
     const docs = await AppConfig.find({ key: { $in: keys } });
     const map = {};
-    docs.forEach((d) => {
-      map[d.key] = d.value || "1.0.0";
-    });
+    docs.forEach((d) => { map[d.key] = d.value; });
+    const toBool = (v) => v === "true" || v === true;
     res.status(200).json({
       success: true,
       quizApp: map[APP_VERSION_KEYS.quizApp] || "1.0.0",
       CashValue: map[APP_VERSION_KEYS.CashValue] || "1.0.0",
       SafeZone: map[APP_VERSION_KEYS.SafeZone] || "1.0.0",
+      showADDS_quizApp: toBool(map[SHOW_ADDS_KEYS.quizApp]),
+      showADDS_CashValue: toBool(map[SHOW_ADDS_KEYS.CashValue]),
+      showADDS_SafeZone: toBool(map[SHOW_ADDS_KEYS.SafeZone]),
     });
   } catch (error) {
     res.status(500).json({
@@ -175,8 +188,8 @@ app.get("/", (req, res) => {
       public: {
         categories: "GET /categories?language=uz|ru|en (barcha kategoriyalar, readyToWork har birida)",
         questions: "GET /questions/:categoryId?language=uz|ru|en (default en)",
-        configAD: "GET /configAD → { showADDS }",
-        appVersions: "GET /app-versions → { quizApp, CashValue, SafeZone }",
+        configAD: "GET /configAD → { showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone }",
+        appVersions: "GET /app-versions → versions + showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone",
       },
       auth: {
         adminLogin: "POST /auth/admin/login",
@@ -187,7 +200,7 @@ app.get("/", (req, res) => {
         addQuestion: "POST /admin/questions (multipart/form-data)",
         getQuestions: "GET /admin/questions",
         getConfigAD: "GET /admin/configAD",
-        updateConfigAD: "PUT /admin/configAD (body: { showADDS: boolean })",
+        updateConfigAD: "PUT /admin/configAD (body: { showADDS_quizApp?, showADDS_CashValue?, showADDS_SafeZone? })",
         getAppVersions: "GET /admin/app-versions",
         updateAppVersions: "PUT /admin/app-versions (body: { quizApp?, CashValue?, SafeZone? })",
         getVersion: "GET /admin/version",

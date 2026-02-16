@@ -13,6 +13,12 @@ const APP_VERSION_KEY = "appVersion";
 const DEFAULT_VERSION = "1.0.0";
 const CASH_VALUE_KEY = "versionCashValue";
 const SHOW_ADDS_KEY = "showADDS";
+// Har bir ilova uchun alohida reklama (adminka da 3 ta toggle)
+const SHOW_ADDS_KEYS = {
+  quizApp: "showADDS_quizApp",
+  CashValue: "showADDS_CashValue",
+  SafeZone: "showADDS_SafeZone",
+};
 
 async function getAppVersion() {
   const doc = await AppConfig.findOne({ key: APP_VERSION_KEY });
@@ -30,6 +36,19 @@ async function getCashConfig() {
       ? showDoc.value === "true"
       : false;
   return { versionCashValue, showADDS };
+}
+
+async function getConfigAD() {
+  const keys = Object.values(SHOW_ADDS_KEYS);
+  const docs = await AppConfig.find({ key: { $in: keys } });
+  const map = {};
+  docs.forEach((d) => { map[d.key] = d.value; });
+  const toBool = (v) => v === "true" || v === true;
+  return {
+    showADDS_quizApp: toBool(map[SHOW_ADDS_KEYS.quizApp]),
+    showADDS_CashValue: toBool(map[SHOW_ADDS_KEYS.CashValue]),
+    showADDS_SafeZone: toBool(map[SHOW_ADDS_KEYS.SafeZone]),
+  };
 }
 
 // Configure multer for image uploads
@@ -557,14 +576,14 @@ router.delete("/questions/:id", adminMiddleware, async (req, res) => {
 
 /**
  * GET /admin/configAD
- * Reklama ko'rsatish yoki yo'q (Admin only). Returns { showADDS }.
+ * Har bir ilova uchun reklama (Admin only). Returns { showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone }.
  */
 router.get("/configAD", adminMiddleware, async (req, res) => {
   try {
-    const config = await getCashConfig();
+    const config = await getConfigAD();
     res.status(200).json({
       success: true,
-      showADDS: config.showADDS,
+      ...config,
     });
   } catch (error) {
     res.status(500).json({
@@ -577,24 +596,31 @@ router.get("/configAD", adminMiddleware, async (req, res) => {
 
 /**
  * PUT /admin/configAD
- * Reklama ko'rsatish yoki yo'q (Admin only). Body: { showADDS: boolean }
+ * Har bir ilova uchun reklama (Admin only). Body: { showADDS_quizApp?: boolean, showADDS_CashValue?: boolean, showADDS_SafeZone?: boolean }
  */
 router.put("/configAD", adminMiddleware, async (req, res) => {
   try {
-    const { showADDS } = req.body;
-    if (showADDS !== undefined) {
-      const bool = showADDS === true || showADDS === "true" || showADDS === "1" || showADDS === 1;
-      await AppConfig.findOneAndUpdate(
-        { key: SHOW_ADDS_KEY },
-        { value: bool ? "true" : "false" },
-        { new: true, upsert: true }
-      );
+    const { showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone } = req.body;
+    const updates = [
+      [SHOW_ADDS_KEYS.quizApp, showADDS_quizApp],
+      [SHOW_ADDS_KEYS.CashValue, showADDS_CashValue],
+      [SHOW_ADDS_KEYS.SafeZone, showADDS_SafeZone],
+    ];
+    for (const [key, value] of updates) {
+      if (value !== undefined) {
+        const bool = value === true || value === "true" || value === "1" || value === 1;
+        await AppConfig.findOneAndUpdate(
+          { key },
+          { value: bool ? "true" : "false" },
+          { new: true, upsert: true }
+        );
+      }
     }
-    const config = await getCashConfig();
+    const config = await getConfigAD();
     res.status(200).json({
       success: true,
       message: "ConfigAD updated",
-      showADDS: config.showADDS,
+      ...config,
     });
   } catch (error) {
     res.status(500).json({

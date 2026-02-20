@@ -112,11 +112,13 @@ const APP_VERSION_KEYS = {
   quizApp: "version_quizApp",
   CashValue: "version_CashValue",
   SafeZone: "version_SafeZone",
+  prankApp: "version_prankApp",
 };
 const SHOW_ADDS_KEYS = {
   quizApp: "showADDS_quizApp",
   CashValue: "showADDS_CashValue",
   SafeZone: "showADDS_SafeZone",
+  prankApp: "showADDS_prankApp",
 };
 
 // GET /configAD — har bir ilova uchun reklama (showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone)
@@ -132,6 +134,7 @@ app.get("/configAD", async (req, res) => {
       showADDS_quizApp: toBool(map[SHOW_ADDS_KEYS.quizApp]),
       showADDS_CashValue: toBool(map[SHOW_ADDS_KEYS.CashValue]),
       showADDS_SafeZone: toBool(map[SHOW_ADDS_KEYS.SafeZone]),
+      showADDS_prankApp: toBool(map[SHOW_ADDS_KEYS.prankApp]),
     });
   } catch (error) {
     res.status(500).json({
@@ -155,9 +158,11 @@ app.get("/app-versions", async (req, res) => {
       quizApp: map[APP_VERSION_KEYS.quizApp] || "1.0.0",
       CashValue: map[APP_VERSION_KEYS.CashValue] || "1.0.0",
       SafeZone: map[APP_VERSION_KEYS.SafeZone] || "1.0.0",
+      prankApp: map[APP_VERSION_KEYS.prankApp] || "1.0.0",
       showADDS_quizApp: toBool(map[SHOW_ADDS_KEYS.quizApp]),
       showADDS_CashValue: toBool(map[SHOW_ADDS_KEYS.CashValue]),
       showADDS_SafeZone: toBool(map[SHOW_ADDS_KEYS.SafeZone]),
+      showADDS_prankApp: toBool(map[SHOW_ADDS_KEYS.prankApp]),
     });
   } catch (error) {
     res.status(500).json({
@@ -188,8 +193,8 @@ app.get("/", (req, res) => {
       public: {
         categories: "GET /categories?language=uz|ru|en (barcha kategoriyalar, readyToWork har birida)",
         questions: "GET /questions/:categoryId?language=uz|ru|en (default en)",
-        configAD: "GET /configAD → { showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone }",
-        appVersions: "GET /app-versions → versions + showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone",
+        configAD: "GET /configAD → showADDS_quizApp, CashValue, SafeZone, prankApp",
+        appVersions: "GET /app-versions → versions + showADDS (quizApp, CashValue, SafeZone, prankApp)",
       },
       auth: {
         adminLogin: "POST /auth/admin/login",
@@ -200,9 +205,9 @@ app.get("/", (req, res) => {
         addQuestion: "POST /admin/questions (multipart/form-data)",
         getQuestions: "GET /admin/questions",
         getConfigAD: "GET /admin/configAD",
-        updateConfigAD: "PUT /admin/configAD (body: { showADDS_quizApp?, showADDS_CashValue?, showADDS_SafeZone? })",
+        updateConfigAD: "PUT /admin/configAD (body: { showADDS_quizApp?, showADDS_CashValue?, showADDS_SafeZone?, showADDS_prankApp? })",
         getAppVersions: "GET /admin/app-versions",
-        updateAppVersions: "PUT /admin/app-versions (body: { quizApp?, CashValue?, SafeZone? })",
+        updateAppVersions: "PUT /admin/app-versions (body: { quizApp?, CashValue?, SafeZone?, prankApp? })",
         getVersion: "GET /admin/version",
         updateVersion: "PUT /admin/version",
         getCashConfig: "GET /admin/cash-config",

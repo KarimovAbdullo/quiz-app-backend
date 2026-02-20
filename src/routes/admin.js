@@ -18,6 +18,7 @@ const SHOW_ADDS_KEYS = {
   quizApp: "showADDS_quizApp",
   CashValue: "showADDS_CashValue",
   SafeZone: "showADDS_SafeZone",
+  prankApp: "showADDS_prankApp",
 };
 
 async function getAppVersion() {
@@ -48,6 +49,7 @@ async function getConfigAD() {
     showADDS_quizApp: toBool(map[SHOW_ADDS_KEYS.quizApp]),
     showADDS_CashValue: toBool(map[SHOW_ADDS_KEYS.CashValue]),
     showADDS_SafeZone: toBool(map[SHOW_ADDS_KEYS.SafeZone]),
+    showADDS_prankApp: toBool(map[SHOW_ADDS_KEYS.prankApp]),
   };
 }
 
@@ -576,7 +578,7 @@ router.delete("/questions/:id", adminMiddleware, async (req, res) => {
 
 /**
  * GET /admin/configAD
- * Har bir ilova uchun reklama (Admin only). Returns { showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone }.
+ * Har bir ilova uchun reklama (Admin only). Returns { showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone, showADDS_prankApp }.
  */
 router.get("/configAD", adminMiddleware, async (req, res) => {
   try {
@@ -596,15 +598,16 @@ router.get("/configAD", adminMiddleware, async (req, res) => {
 
 /**
  * PUT /admin/configAD
- * Har bir ilova uchun reklama (Admin only). Body: { showADDS_quizApp?: boolean, showADDS_CashValue?: boolean, showADDS_SafeZone?: boolean }
+ * Har bir ilova uchun reklama (Admin only). Body: { showADDS_quizApp?, showADDS_CashValue?, showADDS_SafeZone?, showADDS_prankApp? }
  */
 router.put("/configAD", adminMiddleware, async (req, res) => {
   try {
-    const { showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone } = req.body;
+    const { showADDS_quizApp, showADDS_CashValue, showADDS_SafeZone, showADDS_prankApp } = req.body;
     const updates = [
       [SHOW_ADDS_KEYS.quizApp, showADDS_quizApp],
       [SHOW_ADDS_KEYS.CashValue, showADDS_CashValue],
       [SHOW_ADDS_KEYS.SafeZone, showADDS_SafeZone],
+      [SHOW_ADDS_KEYS.prankApp, showADDS_prankApp],
     ];
     for (const [key, value] of updates) {
       if (value !== undefined) {
@@ -635,11 +638,12 @@ const APP_VERSION_KEYS = {
   quizApp: "version_quizApp",
   CashValue: "version_CashValue",
   SafeZone: "version_SafeZone",
+  prankApp: "version_prankApp",
 };
 
 /**
  * GET /admin/app-versions
- * QuizApp, CashValue, SafeZone versiyalari (Admin only).
+ * QuizApp, CashValue, SafeZone, prankApp versiyalari (Admin only).
  */
 router.get("/app-versions", adminMiddleware, async (req, res) => {
   try {
@@ -652,6 +656,7 @@ router.get("/app-versions", adminMiddleware, async (req, res) => {
       quizApp: map[APP_VERSION_KEYS.quizApp] || "1.0.0",
       CashValue: map[APP_VERSION_KEYS.CashValue] || "1.0.0",
       SafeZone: map[APP_VERSION_KEYS.SafeZone] || "1.0.0",
+      prankApp: map[APP_VERSION_KEYS.prankApp] || "1.0.0",
     });
   } catch (error) {
     res.status(500).json({
@@ -664,16 +669,17 @@ router.get("/app-versions", adminMiddleware, async (req, res) => {
 
 /**
  * PUT /admin/app-versions
- * QuizApp, CashValue, SafeZone versiyalarni yangilash (Admin only).
- * Body: { quizApp?: string, CashValue?: string, SafeZone?: string }
+ * QuizApp, CashValue, SafeZone, prankApp versiyalarni yangilash (Admin only).
+ * Body: { quizApp?, CashValue?, SafeZone?, prankApp? }
  */
 router.put("/app-versions", adminMiddleware, async (req, res) => {
   try {
-    const { quizApp, CashValue, SafeZone } = req.body;
+    const { quizApp, CashValue, SafeZone, prankApp } = req.body;
     const updates = [
       [APP_VERSION_KEYS.quizApp, quizApp],
       [APP_VERSION_KEYS.CashValue, CashValue],
       [APP_VERSION_KEYS.SafeZone, SafeZone],
+      [APP_VERSION_KEYS.prankApp, prankApp],
     ];
     for (const [key, value] of updates) {
       if (value !== undefined && value !== null) {
@@ -694,6 +700,7 @@ router.put("/app-versions", adminMiddleware, async (req, res) => {
       quizApp: map[APP_VERSION_KEYS.quizApp] || "1.0.0",
       CashValue: map[APP_VERSION_KEYS.CashValue] || "1.0.0",
       SafeZone: map[APP_VERSION_KEYS.SafeZone] || "1.0.0",
+      prankApp: map[APP_VERSION_KEYS.prankApp] || "1.0.0",
     });
   } catch (error) {
     res.status(500).json({

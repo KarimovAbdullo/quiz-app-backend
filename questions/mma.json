@@ -1,0 +1,142 @@
+[
+  {
+    "question": {
+      "uz": "UFC qachon tashkil etilgan?",
+      "ru": "Когда был основан UFC?",
+      "en": "When was the UFC founded?"
+    },
+    "options": [
+      { "text": { "uz": "1990", "ru": "1990", "en": "1990" }, "isCorrect": false },
+      { "text": { "uz": "1993", "ru": "1993", "en": "1993" }, "isCorrect": true },
+      { "text": { "uz": "1995", "ru": "1995", "en": "1995" }, "isCorrect": false },
+      { "text": { "uz": "1998", "ru": "1998", "en": "1998" }, "isCorrect": false }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi jangchi 'The Notorious' laqabi bilan tanilgan?",
+      "ru": "Какой боец известен под прозвищем «The Notorious»?",
+      "en": "Which fighter is known as 'The Notorious'?"
+    },
+    "options": [
+      { "text": { "uz": "Jon Jones", "ru": "Джон Джонс", "en": "Jon Jones" }, "isCorrect": false },
+      { "text": { "uz": "Conor McGregor", "ru": "Конор Макгрегор", "en": "Conor McGregor" }, "isCorrect": true },
+      { "text": { "uz": "Khabib Nurmagomedov", "ru": "Хабиб Нурмагомедов", "en": "Khabib Nurmagomedov" }, "isCorrect": false },
+      { "text": { "uz": "Anderson Silva", "ru": "Андерсон Силва", "en": "Anderson Silva" }, "isCorrect": false }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "MMA jangida nechta raund bo'ladi (odatda)?",
+      "ru": "Сколько раундов в обычном бою ММА?",
+      "en": "How many rounds are there in a standard MMA fight?"
+    },
+    "options": [
+      { "text": { "uz": "3 raund", "ru": "3 раунда", "en": "3 rounds" }, "isCorrect": true },
+      { "text": { "uz": "5 raund", "ru": "5 раундов", "en": "5 rounds" }, "isCorrect": false },
+      { "text": { "uz": "7 raund", "ru": "7 раундов", "en": "7 rounds" }, "isCorrect": false },
+      { "text": { "uz": "10 raund", "ru": "10 раундов", "en": "10 rounds" }, "isCorrect": false }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "UFC da qaysi vazn toifasi eng og'ir?",
+      "ru": "Какая весовая категория в UFC самая тяжёлая?",
+      "en": "Which is the heaviest weight class in the UFC?"
+    },
+    "options": [
+      { "text": { "uz": "Light Heavyweight", "ru": "Полутяжёлый вес", "en": "Light Heavyweight" }, "isCorrect": false },
+      { "text": { "uz": "Heavyweight", "ru": "Тяжёлый вес", "en": "Heavyweight" }, "isCorrect": true },
+      { "text": { "uz": "Middleweight", "ru": "Средний вес", "en": "Middleweight" }, "isCorrect": false },
+      { "text": { "uz": "Welterweight", "ru": "Полусредний вес", "en": "Welterweight" }, "isCorrect": false }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi jangchi eng ko'p UFC chempionlik unvoniga ega (erkaklar)?",
+      "ru": "У какого бойца больше всего титулов чемпиона UFC среди мужчин?",
+      "en": "Which fighter has held the most UFC championship titles (male)?"
+    },
+    "options": [
+      { "text": { "uz": "Jon Jones", "ru": "Джон Джонс", "en": "Jon Jones" }, "isCorrect": false },
+      { "text": { "uz": "Anderson Silva", "ru": "Андерсон Силва", "en": "Anderson Silva" }, "isCorrect": false },
+      { "text": { "uz": "Demetrious Johnson", "ru": "Деметриус Джонсон", "en": "Demetrious Johnson" }, "isCorrect": true },
+      { "text": { "uz": "Georges St-Pierre", "ru": "Жорж Сен-Пьер", "en": "Georges St-Pierre" }, "isCorrect": false }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "MMA da bir raund necha daqiqa davom etadi?",
+      "ru": "Сколько минут длится один раунд в ММА?",
+      "en": "How many minutes does one round last in MMA?"
+    },
+    "options": [
+      { "text": { "uz": "3 daqiqa", "ru": "3 минуты", "en": "3 minutes" }, "isCorrect": false },
+      { "text": { "uz": "4 daqiqa", "ru": "4 минуты", "en": "4 minutes" }, "isCorrect": false },
+      { "text": { "uz": "5 daqiqa", "ru": "5 минут", "en": "5 minutes" }, "isCorrect": true },
+      { "text": { "uz": "6 daqiqa", "ru": "6 минут", "en": "6 minutes" }, "isCorrect": false }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi jangchi 'The Eagle' laqabi bilan tanilgan?",
+      "ru": "Какой боец известен под прозвищем «Орёл»?",
+      "en": "Which fighter is known as 'The Eagle'?"
+    },
+    "options": [
+      { "text": { "uz": "Conor McGregor", "ru": "Конор Макгрегор", "en": "Conor McGregor" }, "isCorrect": false },
+      { "text": { "uz": "Khabib Nurmagomedov", "ru": "Хабиб Нурмагомедов", "en": "Khabib Nurmagomedov" }, "isCorrect": true },
+      { "text": { "uz": "Islam Makhachev", "ru": "Ислам Махачев", "en": "Islam Makhachev" }, "isCorrect": false },
+      { "text": { "uz": "Fedor Emelianenko", "ru": "Фёдор Емельяненко", "en": "Fedor Emelianenko" }, "isCorrect": false }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "UFC da eng yengil erkaklar vazn toifasi qaysi?",
+      "ru": "Какая самая лёгкая мужская весовая категория в UFC?",
+      "en": "What is the lightest male weight class in the UFC?"
+    },
+    "options": [
+      { "text": { "uz": "Bantamweight", "ru": "Наилегчайший вес", "en": "Bantamweight" }, "isCorrect": false },
+      { "text": { "uz": "Flyweight", "ru": "Легчайший вес", "en": "Flyweight" }, "isCorrect": true },
+      { "text": { "uz": "Featherweight", "ru": "Полулёгкий вес", "en": "Featherweight" }, "isCorrect": false },
+      { "text": { "uz": "Lightweight", "ru": "Лёгкий вес", "en": "Lightweight" }, "isCorrect": false }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "Qaysi yil UFC birinchi PPV (pay-per-view) o'tkazdi?",
+      "ru": "В каком году UFC провёл первый pay-per-view?",
+      "en": "In which year did the UFC hold its first pay-per-view?"
+    },
+    "options": [
+      { "text": { "uz": "1991", "ru": "1991", "en": "1991" }, "isCorrect": false },
+      { "text": { "uz": "1993", "ru": "1993", "en": "1993" }, "isCorrect": true },
+      { "text": { "uz": "1995", "ru": "1995", "en": "1995" }, "isCorrect": false },
+      { "text": { "uz": "1997", "ru": "1997", "en": "1997" }, "isCorrect": false }
+    ],
+    "image": null
+  },
+  {
+    "question": {
+      "uz": "MMA da qaysi usul jangni to'xtatishi mumkin?",
+      "ru": "Каким способом можно закончить бой в ММА?",
+      "en": "Which of these can finish an MMA fight?"
+    },
+    "options": [
+      { "text": { "uz": "Faqat nokaut", "ru": "Только нокаут", "en": "Only knockout" }, "isCorrect": false },
+      { "text": { "uz": "Faqat submission", "ru": "Только сабмишн", "en": "Only submission" }, "isCorrect": false },
+      { "text": { "uz": "KO, TKO, submission, hakam qarori", "ru": "Нокаут, ТКО, сабмишн, решение судей", "en": "KO, TKO, submission, or decision" }, "isCorrect": true },
+      { "text": { "uz": "Faqat hakam qarori", "ru": "Только решение судей", "en": "Only judge's decision" }, "isCorrect": false }
+    ],
+    "image": null
+  }
+]
